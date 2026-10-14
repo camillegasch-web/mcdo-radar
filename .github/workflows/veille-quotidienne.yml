@@ -36,7 +36,9 @@ jobs:
           git add docs/data
           if ! git diff --cached --quiet; then
             git commit -m "Actualisation automatique des articles"
-            git push
+            git fetch origin main
+            git rebase -X theirs origin/main
+            git push origin HEAD:main
           fi
       - name: Vérifier si GitHub Pages est activé
         id: pages
