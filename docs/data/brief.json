@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T08:48:52.351156+00:00",
+  "updated_at": "2026-10-14T10:04:19.920979+00:00",
   "sections": {
     "France": [
       {
@@ -10,405 +10,184 @@
         "section": "France",
         "query": "McDonald’s France actualité",
         "sections": [
-          "France"
+          "France",
+          "Local"
         ],
         "editorial": {
+          "score": 58,
           "tags": [
-            "impact",
-            "newsletter"
+            "impact"
           ],
-          "score": 73,
           "source_tier": 3,
-          "reason": "Sujet directement lié à McDonald's",
-          "angle": "Piste : quelles conséquences pour l'image ou la communication employeur ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
+          "reason": "Actualité McDo directement exploitable pour la veille",
+          "angle": "À creuser : quel impact sur l'image de McDo ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        },
+        "type": "article"
+      },
+      {
+        "title": "Le 35e McDonald’s ouvre en Ille-et-Vilaine et « il y a encore un petit peu de place pour en ouvrir d’autres » - Ouest-France",
+        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPNVdTcDZNaXZwa01iWlpSV1ZsUnowcTlIS2sxSUpKa0puazlNTzlrazVzMURXR1g0SllaY0hJVWtVeFN2Rk0xWVM2NUthY2xRN0lFa1NycUJnbEMteGJGanI5Xy1aVVRCcjh6bXJhMkZWM3lTV0dqTE5oZzBHamJNVlhWQTFVNlhrTUN5RVFfeGRDc3U1anROYWRabVkyXzJtNUxDUURMVUJnSFllY3hSYmxnaVFJeTRhdk1FVnhRcUNwYVU1ZmVPNW9yM2wzbDdfaHdLT1FLTHJKS0tTS0xXc1ZueU1pU2VNYVFaRjZiNmhKWDJlR1Z6WEl1Z21wb3lQTnJjZG9KS1lzWi1XZy1uZlZlOVZQMjFhaEE?oc=5",
+        "source": "Ouest-France",
+        "date": "2026-10-13T15:58:30+00:00",
+        "section": "Local",
+        "query": "McDonald’s recrutement restaurant ville France",
+        "sections": [
+          "France",
+          "Local"
+        ],
+        "editorial": {
+          "score": 58,
+          "tags": [
+            "impact"
+          ],
+          "source_tier": 3,
+          "reason": "Actualité McDo directement exploitable pour la veille",
+          "angle": "À creuser : quel impact sur l'image de McDo ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        },
+        "type": "article"
+      },
+      {
+        "title": "McDonald’s décline son porte-gobelets en sac aux allures de luxe en cuir vegan",
+        "url": "https://creapills.com/mcdonalds-sac-mccafe-cuir-vegan-luxe-20261013",
+        "source": "Creapills",
+        "date": "2026-10-13T12:01:49+00:00",
+        "section": "France",
+        "sections": [
+          "France"
+        ],
+        "query": "Flux Creapills",
+        "channel": "RSS direct",
+        "editorial": {
+          "score": 56,
+          "tags": [
+            "impact"
+          ],
+          "source_tier": 1,
+          "reason": "Actualité McDo directement exploitable pour la veille",
+          "angle": "À creuser : quel impact sur l'image de McDo ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        },
+        "type": "article"
       }
     ],
     "Local": [
       {
-        "title": "Titres-restaurant : ces salariés pourraient bientôt en bénéficier pendant certains congés - Actu.fr",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZkdqbUdWaHdtazM5M2EzLWhvY3RIZW00Z1dUbDNZQnlQcktNZGw2WnN5dm1kSk44NDRsdG0wUGQtQXF3WW9UMXRwNHRENGtiZTJmRGx4a0NQeG1Wb0NMMjFTbTE2YWNlMkRIdlRhZ1VOX2dvSGhPTUNENUJGWEx5ZWVta2pNUWVpNDZWYzRBcWFIN1NmcklDdmY3bzZYZFM3OWZkc0d5QWxXRjZMTFlOS3hmc242alg3RmZFZ2RDSExoSUk",
-        "source": "Actu.fr",
-        "date": "2026-10-14T07:00:23+00:00",
-        "section": "Local",
-        "sections": [
-          "Local"
-        ],
-        "query": "site:actu.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-        "channel": "Google Actualités",
-        "editorial": {
-          "tags": [
-            "impact",
-            "newsletter"
-          ],
-          "score": 76,
-          "source_tier": 1,
-          "reason": "Pratique RH ou marque employeur potentiellement transposable",
-          "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "Un bar près de Nantes fait rencontrer employeurs et demandeurs d'emploi : \"On privilégie le côté convivial et spontané\" - Actu.fr",
-        "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQUGdnRGZzdTRUT01sQ2dDVUdlMVNRTWdBNl9nNGRDVXRvTzNUZXpHZlo0Vlc4aG96dXg3YnJhUWI5YlhnT285T3R0RWw3M0JTb01wQVZyRENoWmlqWmZuajZHV09NNUR6dzFFMzN1cG9udTBmOFJpdGE3VFVoRTJLN1k2Qnk2Y0xjSXZsMTdwMWViUFRVdHFFT2xDLTR3YkNZQzVOdDBuX1NPMk5yWmMwcG5janVOWUM4Qm14V3VCS1AtTlI3Rm1xd0pqcU9JS01rZnMwOGVPNENONWtKVlU0WjNuY0FTZHBlajZ0RWZLajQ5WndkclVoZmozcXhEVlpaTXl2b1pMX2pZYUdaelJIQTNjdy1PZw",
-        "source": "Actu.fr",
-        "date": "2026-10-14T06:49:02+00:00",
-        "section": "Local",
-        "sections": [
-          "Local"
-        ],
-        "query": "site:actu.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-        "channel": "Google Actualités",
-        "editorial": {
-          "tags": [
-            "impact",
-            "newsletter"
-          ],
-          "score": 76,
-          "source_tier": 1,
-          "reason": "Pratique RH ou marque employeur potentiellement transposable",
-          "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "Appel à témoignages Plus de 4 % des retraités cumulent emploi et retraite pour boucler leurs fins de mois en France. Et vous ? - Actu.fr",
-        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNT295bUJjQmg0TlBFZjRQaWxJU2wxNVFGRkhvR1lEb1NNUVUyYUhqdHJVQy1lQjZDTlV1RmVidGZHRmkzT29qYkRZRncxWTNuMXRQVXNiSDRrUXZrcW14SHFtb19Pb0ZoLTZaMXdVNTlfMnprRmlCYjRZb1lFd2NXTkZiNE5RNU5OQk5tekNCdGNqT0k1dHJ3SFM5MGJ1VVFNaU5oWTlmSnVVUmhGWVFuOVA2bkdLdlNmVE54Y3B6a3BXSGJYV1Z5OGdJYzM2N3NEdGp1eGFhZXVWeU1uR0ZRWWl3STlMZDQ2a0NsYmZSeGY3TmFjY0pVUGlHWE44WGlucWFGbw",
-        "source": "Actu.fr",
-        "date": "2026-10-14T06:03:55+00:00",
-        "section": "Local",
-        "sections": [
-          "Local"
-        ],
-        "query": "site:actu.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-        "channel": "Google Actualités",
-        "editorial": {
-          "tags": [
-            "impact",
-            "newsletter"
-          ],
-          "score": 76,
-          "source_tier": 1,
-          "reason": "Pratique RH ou marque employeur potentiellement transposable",
-          "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "Sur le port de Nice, son restaurant a été privatisé par la production de Bradley Cooper : il raconte - Actu.fr",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPNnhNQUZIbVE4bzJWbTc4MzU2MHJ0ZWNycHFrM2VXazliNDVMZ1lGdnJVcTBKMmFKZWlMemFfUWs1ZHdneGJ1ZzdFUXR4RVRub2g1QWxSWGFWMk81dHY1WE8xNzRUc2s2V3d1cDhPcXkxU0hybzgtT1ZJX2w3MjBNdWFwcUxidlpveVM3NDc1U0dmZXVLdXE4TGp1bFRCSlV5MkZhSFNnZFEtRnY5TGlvQ3dLOGNqcG1SV3h0MFlqNFF1eG9WclF2UjRJNU42cFZVQkNMU1lkQUtSbThQTGVWa2JEZlRYVW9ZaHZDSUo0VGxEbmtoUnhsQg",
-        "source": "Actu.fr",
-        "date": "2026-10-14T05:14:01+00:00",
-        "section": "Local",
-        "sections": [
-          "Local"
-        ],
-        "query": "site:actu.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-        "channel": "Google Actualités",
-        "editorial": {
-          "tags": [
-            "impact"
-          ],
-          "score": 62,
-          "source_tier": 1,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "Santé, éducation, sécurité... 600 postes à pouvoir dans un forum de l'emploi dans l'Oise - Actu.fr",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNV0lINGhvbmZFWlVYSS1aTDZyVkRUdWZlUld0c2RyQTgwMEtJbkZtc21ZTUFmOVh5R3BlcDNkQUMwVWp1cWFCTDNockZoVFdWaHNKSUdNYTdsZnBvcFJkS2hLeHZ2SUozcktmVnZIZ3ptZnRLZi1TVEJzTmtiTTZYSXJNVUU4b1JxZ1ZaLVloNWpRYWYzRjNyckxqSTRCSFBQcWl5S1hNSjhWRDRhMEprQ3dydlJ4SEhmbFB2VEE4Tm9IZG9mdEFoMTd1NW1sMk9Ibkh3aUlZUzZ3MjRR",
-        "source": "Actu.fr",
-        "date": "2026-10-14T04:32:02+00:00",
-        "section": "Local",
-        "sections": [
-          "Local"
-        ],
-        "query": "site:actu.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-        "channel": "Google Actualités",
-        "editorial": {
-          "tags": [
-            "impact",
-            "newsletter"
-          ],
-          "score": 76,
-          "source_tier": 1,
-          "reason": "Pratique RH ou marque employeur potentiellement transposable",
-          "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "Une vingtaine d’entreprises proposeront leurs offres d’emploi lors de ce job-dating dans la Sarthe - Actu.fr",
-        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNN2xBaERGM3VNbmNVaHluS0c1TVlLOGNPcEtJZkp6X2RXc3RRekg1LTg2eUw3aG8yTjJ6Ml8ydm52Skh5Y1p6SGg1dWV6TjlzNWVBV0twVEhsOUtFejlRX1pnLU9uZWZQU01pQnlZUi1pUEVDRXpodW1LQmNNRS1EWE5zRXpPb1d3X3hHOWREUjl2cng2c09tQVpfWWhidFhISmdiZjAyY2w2Q181OFRrMzBPSE5IWGpZa2hVSWJxZFFXVE03RGlUNXFJVG4yZzgtY0JBNFpYd3hadU0za0Y4bEViamQtVEpjMUZQdUFGT0k",
-        "source": "Actu.fr",
-        "date": "2026-10-14T04:30:02+00:00",
-        "section": "Local",
-        "sections": [
-          "Local"
-        ],
-        "query": "site:actu.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-        "channel": "Google Actualités",
-        "editorial": {
-          "tags": [
-            "impact",
-            "newsletter"
-          ],
-          "score": 76,
-          "source_tier": 1,
-          "reason": "Pratique RH ou marque employeur potentiellement transposable",
-          "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "Franchises Salles de sport - Fitness : 4 enseignes belges en 2026 - L’Express Franchise",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObUVacjIwNUZpbXdQSGtqV0k5N21XVjZxWVpxWUNqVUhCTDNlc2VSUlFzU1VwXy1nSFBFdEZhcUplYWNxUnVEYjgwanJYckxPSGRwelpJNmxRWW1pOExVNXdGenoyOXJXN1pGSFJlRDFLMWpDQ0d1ZGlUcklOcjBpbmF1MGVSdw",
+        "title": "McDonald’s France confie trois de ses restaurants parisiens, Victor Hugo, Passy et Austerlitz, à des franchisés - L’Express Franchise",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcVdRR2FNbFZFMmdJZ251cnI2d2lVSTZ5bVRqRXQxTUNOQTZsaTRFUHkyandXaFRCVFJ1b2J5Wkt3RjdCOWF4dGk2a2tFVDVIUEVQbjdfX2x1ZldKSzhlQmo2a1AyVk8zQk94TEdUTVNBSmRlWk1VdUNjWmIxRVRieUJvVzhzcTl5WWxSM0x1VHdiRG8?oc=5",
         "source": "L’Express Franchise",
-        "date": "2026-10-13T20:57:50+00:00",
-        "section": "Local",
+        "date": "2026-10-13T19:24:12+00:00",
+        "section": "France",
+        "query": "McDonald’s France actualité",
         "sections": [
+          "France",
           "Local"
         ],
-        "query": "site:lexpress-franchise.com (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-        "channel": "Google Actualités",
         "editorial": {
+          "score": 58,
           "tags": [
             "impact"
           ],
-          "score": 50,
           "source_tier": 3,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
+          "reason": "Actualité McDo directement exploitable pour la veille",
+          "angle": "À creuser : quel impact sur l'image de McDo ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        },
+        "type": "article"
       },
       {
-        "title": "« Je ne suis pas passé par Christophe Béchu » Nicolas Leudière, ex-maire de Sablé-sur-Sarthe trouve un emploi à Angers - Actu.fr",
-        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNSVVUd0NDLVpGR0hXS2NUaEVfTnRQZzFWV0l0VzNGMlNLd0h2ZzZ2Zlh1MFpSRW9kdVN2OUVqMlF5MERrVjVZUWZHMVlXakRUWjFKdEVpaHlhcTlJQ2FJWHl5RUdpVkJZRWdMSFo1by15Mng5dUkybUtXa0o3N1I2N0VKOXJLeTVHSzZRejdPREpWS3owMTRCQ0xfYjN0S2NNN3cyeUI2OG5KN1dheW1xSjV1SVNPb0ZDS3ZFWWlYR3lJNVl2cFBRdGNYWjFQUzVyNVJ5XzI0ZDIwc3dfYXRTYUJsemFaLWZ3eWNucEYtMFNpS2t6SjRmZzA2UU5zRnJrY2w2dXZFdjRzVnlzZVZGbg",
-        "source": "Actu.fr",
-        "date": "2026-10-13T17:58:52+00:00",
+        "title": "Le 35e McDonald’s ouvre en Ille-et-Vilaine et « il y a encore un petit peu de place pour en ouvrir d’autres » - Ouest-France",
+        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPNVdTcDZNaXZwa01iWlpSV1ZsUnowcTlIS2sxSUpKa0puazlNTzlrazVzMURXR1g0SllaY0hJVWtVeFN2Rk0xWVM2NUthY2xRN0lFa1NycUJnbEMteGJGanI5Xy1aVVRCcjh6bXJhMkZWM3lTV0dqTE5oZzBHamJNVlhWQTFVNlhrTUN5RVFfeGRDc3U1anROYWRabVkyXzJtNUxDUURMVUJnSFllY3hSYmxnaVFJeTRhdk1FVnhRcUNwYVU1ZmVPNW9yM2wzbDdfaHdLT1FLTHJKS0tTS0xXc1ZueU1pU2VNYVFaRjZiNmhKWDJlR1Z6WEl1Z21wb3lQTnJjZG9KS1lzWi1XZy1uZlZlOVZQMjFhaEE?oc=5",
+        "source": "Ouest-France",
+        "date": "2026-10-13T15:58:30+00:00",
         "section": "Local",
+        "query": "McDonald’s recrutement restaurant ville France",
         "sections": [
+          "France",
           "Local"
         ],
-        "query": "site:actu.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-        "channel": "Google Actualités",
         "editorial": {
+          "score": 58,
           "tags": [
-            "impact",
-            "newsletter"
+            "impact"
           ],
-          "score": 76,
-          "source_tier": 1,
-          "reason": "Pratique RH ou marque employeur potentiellement transposable",
-          "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
+          "source_tier": 3,
+          "reason": "Actualité McDo directement exploitable pour la veille",
+          "angle": "À creuser : quel impact sur l'image de McDo ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        },
+        "type": "article"
       }
     ],
     "RH McDo": [],
-    "Concurrence": [
-      {
-        "title": "Innovation : Naturasens Laboratoire (Léa Nature) lance deux substituts de café aux promesses bien-être à moins de 10 euros - LSA conso",
-        "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOZjVKSm1rZWJVUC1aS2tIc21MdkV0bk45TDc0SVE2Zk5VOHQ3dl9VUDVZMk1kNlQwRjNOSkNnM0VjOWdOM2g1WXNwQ200em9jWF9EMEpIamVnRDhURllOTU5XVlZQTzJjdjdoMlVpOGRWbjdrWkZZSnpud3FXUnQ0WnYzbC1GTEFHRjlEMFRRcUwxVnVzdjFaZGNLc1N6aTBwLWk0U2ExMEpvbE1INzAtZExJaTRvM1dWbnU5MGozWnUzdmhETW9ZVVNpd0ZUX21NU0VUYndmcU9Yc2xvMndKRFNHQVc4by1MQUFTNnNqd1hjZC1qX3ZteXdGbzBOX1A4YUN6WDFLclF1emRFd0E5MnZqWE15QWRDWnF0TUw2WE5TaHY5dmc",
-        "source": "LSA conso",
-        "date": "2026-10-14T08:33:58+00:00",
-        "section": "Concurrence",
-        "sections": [
-          "Concurrence"
-        ],
-        "query": "site:lsa-conso.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-        "channel": "Google Actualités",
-        "editorial": {
-          "tags": [
-            "impact"
-          ],
-          "score": 48,
-          "source_tier": 2,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "Viandes bio : quelles solutions pour relancer les ventes en grande distribution - LSA conso",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPOGxBNVlBQldXdjJtc1pXUGlEVnlnaGhUMURpVFktM2tlUGN1bGNydmR1aGIyNGZVTkNJQ3JMbENVR0RvZW5HNnNSekpKTVhuejRaeHpTeE81TWo5NmNYNlAxbVB0bExONTFYeGpNZUxjZUpUY1NoZW1GOVYtdTZTNVhhamxkTFp5R2xCaUZucUNIbHNaYjlOT0hILW1uNmJ4U2J1WHRIbG9veWprMUQ2STlqM0xGVUp6NmVZVlV4TXZLNnFCOW51VlRONHpobmpzT05qa2RDM2Y4VmdtbW5Z",
-        "source": "LSA conso",
-        "date": "2026-10-13T17:00:00+00:00",
-        "section": "Concurrence",
-        "sections": [
-          "Concurrence"
-        ],
-        "query": "site:lsa-conso.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-        "channel": "Google Actualités",
-        "editorial": {
-          "tags": [
-            "impact"
-          ],
-          "score": 48,
-          "source_tier": 2,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "Dans la restauration, les défaillances se multiplient au troisième trimestre 2026 - LSA conso",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMGNadWo1V0VPRVFqZUlGSzk1dDYyaW5MQnZfVENDU1N6eDAtYjFRM1pleWZjdFE2QkZmNHk5RUJBN2h1Y25NMWVTVmtGUnFILTBVQ2EwRlZ0VW1rRFZUTlpaSGkwMzN6RGZObGVBaW5TZ3BuRko2TS1nOEpfdXhQdGN4VU55MW01LWQtanozMS0wTUtDX28zd1JTU1NMMzR1WWg5TFJSUjM3VVdRNmI3WlZyVXZwMVMwSGtzaFlTV3NqUXhBMjZjbUZOQndHOTVWUDEzM0h4by1BeTBfSGhWTmEzaTdRVnhfTXc",
-        "source": "LSA conso",
-        "date": "2026-10-13T16:43:36+00:00",
-        "section": "Concurrence",
-        "sections": [
-          "Concurrence"
-        ],
-        "query": "site:lsa-conso.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-        "channel": "Google Actualités",
-        "editorial": {
-          "tags": [
-            "impact"
-          ],
-          "score": 48,
-          "source_tier": 2,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "Tempêtes, canicules, incendies, inondations… Un guide pour aider le commerce à faire face au changement climatique - LSA conso",
-        "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOb3FZUlhJLS1TS01SUmpRRi0zVHZLTkxiRlN4cUNQU2t0UGM3TlBHRjliczlkU0c0RDU2dF9CdzktRGMwN0VCOUlkRFl1OFNRYkFvdHVvNVBLOHE2Ymx3R0hWZ09ibFlicnJFQzhvSnl0Y2VxY3M4UlpHbUtuelFNQl90eXdYbEhjWlU1MENsZFpQa09jMGJBMnJkbEQ2aC1sYlNmNXEwbTZTbHBHVjVaVXlFcFdwd0ZsTnRhMWxuV1NtaDlmRi1EcWpFZmFfSVcxRk13NDRQUWxsVlJTeDNHdlNtLUlNOFlsWDlXNTdBNjNhZXVKblhEd3hSZ2xVa0RtWEliVjFKeE1Pb0doM3h0Zy1OTEFSam11TTJNWGpuaFk3bGRBYTRaLXM5MzZzUQ",
-        "source": "LSA conso",
-        "date": "2026-10-13T15:18:02+00:00",
-        "section": "Concurrence",
-        "sections": [
-          "Concurrence"
-        ],
-        "query": "site:lsa-conso.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-        "channel": "Google Actualités",
-        "editorial": {
-          "tags": [
-            "impact"
-          ],
-          "score": 48,
-          "source_tier": 2,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "Franui, Ciao Kombucha, Feastables… Découvrez le Top 10 des meilleurs lancements de produits issus des réseaux sociaux entre 2022 et 2025 - LSA conso",
-        "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQLTJxVHFKbkVnMEp4dkRqd3Fvbkg5OXpCbWt6V3NWajVwaU1YYXRyRkZBMXNadlg4aXpSdGRiYmUyYWVnc0xTY0k0SE1uRmZjaTdNVzFYQ2ZpemtSREhFbGdqZmlzaGVSNXczT0FoMUdhOW8taThvY1NoNU9EdmFfRXdnajBxaFduZmtRLWtCSU8xNmtLSUVkdEJael90Qk1TYzBNVW1WLXVURThsbjhXTmNDdFdTeHpPX0RQc0dYZU5VcG5iMktnc1o3WkJvX3FwOWwwRTdRQWZkYTFLTVl4aEdISktSLVJManZldG1US3k2VjhadFh2S2pMU1BPeVJNdVE2UkRBa0Q4Nk5LOHRHcVdLaVA2dGVma2VOWTVwSG5Ea3U1YmZkOW5oR2x4VGc",
-        "source": "LSA conso",
-        "date": "2026-10-13T13:40:58+00:00",
-        "section": "Concurrence",
-        "sections": [
-          "Concurrence"
-        ],
-        "query": "site:lsa-conso.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-        "channel": "Google Actualités",
-        "editorial": {
-          "tags": [
-            "impact"
-          ],
-          "score": 48,
-          "source_tier": 2,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "Restauration : découvrez quelles sont les chaînes les mieux notées sur Google - LSA conso",
-        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQYklld1ZKeHZvV210SVRreTNudUQ4SG8wRVBRS0VpVTNWSHZUeE5DV21weWZHazl1OGVnTWlEdUhSRnc5dlBLeU8wU3cyR3llc1BkU3B1ZVJ2ZV9Ublg1Y2JQc3NqeDRhRXUzRm9yX1pjS01BZVBYQ1V0RldMYzdPZEhaRTBWU2VEVi1QdExIS1d2Ml9mSno5UWFqeWpCRW5wZ2JsSlVFMmdBaGc0R0MxeXhzX1ZMQlB5ZHdXMEloN3l3SXV2a2NPSlNPU2RkdW5CZDF2cVRJMzRHLXotMVNyVmh5eXRQVmQxWVRISTkydnFubmNrR0xjNmxTSDVVVGo4d1RfVA",
-        "source": "LSA conso",
-        "date": "2026-10-13T13:31:39+00:00",
-        "section": "Concurrence",
-        "sections": [
-          "Concurrence"
-        ],
-        "query": "site:lsa-conso.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-        "channel": "Google Actualités",
-        "editorial": {
-          "tags": [
-            "impact"
-          ],
-          "score": 48,
-          "source_tier": 2,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "Le Slip Français atteint l’équilibre dès le premier semestre en 2026 pour la première fois de son existence - LSA conso",
-        "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOQjg4N25JcU5PTlE2OHdKakhja2kxWXd0RE1zbnhXSEtJN194dFhwVEoyZlUteGpoWURHUDNUTnBxQW9tTGZHa3cxRVNIdW81bHlmcTBCMW1idmk4Q0R6bmJJeTljNXV3WTBVUU44ekpfZnlkMmRwVEh1V3c5U2JhSmpRZlJGb1docW9vcEVQeTk4ZTR3eHctb2lkY1dUcFFxQTZNcDZUb25QWV91algtcllkc3JOZ0lVeGcyeTVrbXBwR1FFdmljM1BTb2o2SXY2UV9SUnV4RzJSQWhfemlrbFRmX3VQR3JFTVVXcldpblNZTVV1Wl9KdVBvd05ucy1uOFFPNHZlSWNvS2N1eExEWGEzdzNQajZkR1oyQ1Vzd01ZRC1C",
-        "source": "LSA conso",
-        "date": "2026-10-13T12:25:23+00:00",
-        "section": "Concurrence",
-        "sections": [
-          "Concurrence"
-        ],
-        "query": "site:lsa-conso.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-        "channel": "Google Actualités",
-        "editorial": {
-          "tags": [
-            "impact"
-          ],
-          "score": 48,
-          "source_tier": 2,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "Franck Chaumès succède à Thierry Marx à la présidence de l’Umih - LSA conso",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZGdnbS1VRERIbk92TGE3SEU1dFZlZEdqcFBrRnpqYTQxSFd1SkpuZjc0Wm5wc1NZYWFCS3kwdmcwT0NGLTJRWjNOMUpwYlFtZ0R4X05DQWtPQWNUbXBRa3RuUTFKaVp4MFdRc2YxSnRlNDhKNUZVLXhMMThTNzlUQ3N1ZXJHVDBocEc2bEF5cmNDdWtPcEZCalFnMW5JeURYNzgwb2xac3BkbFhVeUVzTUY0c29NYWdoU0FBMEVrUVhWQW43Z01xRy1HMm41TzFfWHc",
-        "source": "LSA conso",
-        "date": "2026-10-13T12:20:57+00:00",
-        "section": "Concurrence",
-        "sections": [
-          "Concurrence"
-        ],
-        "query": "site:lsa-conso.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-        "channel": "Google Actualités",
-        "editorial": {
-          "tags": [
-            "impact"
-          ],
-          "score": 48,
-          "source_tier": 2,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      }
-    ],
+    "Concurrence": [],
     "Inspiration RH": [
       {
-        "title": "Partenariat RH et IT : un levier pour anticiper l’évolution de l’IA - Culture RH",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBjZjBtaXJyR3dDVnhiazFRbG9Ja3EyS3V4Q3lhS3F2MExrR1YwbllUcXFZZlVnbGJzRTd5S3VQRDdoUGhUSWxwLVI0aFRpX0dTMkppMGl1alM1TldvX3dEN2dMUi0",
-        "source": "Culture RH",
-        "date": "2026-10-14T08:05:34+00:00",
+        "title": "Les offres d'emploi à saisir sur le secteur de Gaillon, Gisors, dans l'Andelle et le Vexin - Actu.fr",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcER5LVVPcVM3ZnVfSEhseEllYUpaQzJVTW9JcXIzNGExcm8teHYyODVVYWJhMkg0OVVnNkFRbDFkSFRPcW90ckxORlA4UW9RY2N3cmwtck1pZzNzRkZmb2w5UlppR01UemdyQVRRaGItQ3EzajFOck5qU29WSWhoSVU0YlpHbnBmX1NvOXBVWmVlQ0tzdWM4OGVGUGc4WTJzNG4ybmZsSXl3UVhIaHN3a3VKTXR6TllhcG9EREI5N09EMGxEV3NB",
+        "source": "Actu.fr",
+        "date": "2026-10-14T09:46:01+00:00",
         "section": "Inspiration RH",
         "sections": [
           "Inspiration RH"
         ],
-        "query": "site:culture-rh.com (recrutement OR marque employeur OR RH OR carrière)",
+        "query": "site:actu.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
         "channel": "Google Actualités",
+        "type": "article",
         "editorial": {
-          "tags": [
-            "newsletter"
-          ],
-          "score": 73,
+          "score": 40,
+          "tags": [],
           "source_tier": 1,
+          "reason": "Actualité sectorielle ou RH à qualifier",
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
+        "title": "Emploi : l’IA freine déjà l’embauche des jeunes",
+        "url": "https://www.blogdumoderateur.com/ia-freine-embauche-jeunes/",
+        "source": "Blog du Modérateur",
+        "date": "2026-10-14T09:06:01+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "Flux Blog du Modérateur",
+        "channel": "RSS direct",
+        "type": "article",
+        "editorial": {
+          "score": 44,
+          "tags": [
+            "impact"
+          ],
+          "source_tier": 2,
           "reason": "Pratique RH ou marque employeur potentiellement transposable",
-          "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
+        "title": "Pourquoi confier son recrutement d’apprentis à une école qui agit comme un cabinet ? - Le Figaro",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS3p0T00ydjdxUjJtRTZoUmxEdjUtam5tTVhwOUVBajg5c3FWVFBDSG5pSFFIeUVUazZqbUJsSTFjSS1fZmpXTGhodzA0d3lVOS1hYTlqQ2RGVElQbW00ald4QXdhS1JTVGRobzZ6bGV3NlRFOERkalNBcG9Pa1ZCWUFRTTFIeE04SE1YQVJlYktLSFhZMXVuemgwTUZhOUlDT0duZjlBSU5rcmI5dE1tN29mUGdiR19fVFRpZGJJbkhLNHI0dU41NnhGSWI",
+        "source": "Le Figaro",
+        "date": "2026-10-14T08:56:03+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "baromètre emploi marque employeur jeunes 2026",
+        "channel": "Google Actualités",
+        "type": "article",
+        "editorial": {
+          "score": 41,
+          "tags": [
+            "impact"
+          ],
+          "source_tier": 3,
+          "reason": "Pratique RH ou marque employeur potentiellement transposable",
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
         }
       },
       {
@@ -423,33 +202,79 @@
         "query": "Flux myRHline",
         "channel": "RSS direct",
         "editorial": {
+          "score": 37,
           "tags": [],
-          "score": 53,
           "source_tier": 2,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
+          "reason": "Actualité sectorielle ou RH à qualifier",
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        },
+        "type": "article"
       },
       {
-        "title": "Écarts de salaire à poste équivalent : saurez-vous tous les justifier ? - Helloworkplace",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBTeUNKdXkwYXRnUGFvT2RxOG5vR2dDMnNUYk1LX29CcWR0Qi1VNkdBOXZKamtldDJhaERrZ3lyVzNfOHBMTklEUGJtblpaNklodUt1Vm9KUEFUb0N3cXZUamNXaDF1dw",
-        "source": "Helloworkplace",
-        "date": "2026-10-14T05:41:09+00:00",
+        "title": "Titres-restaurant : ces salariés pourraient bientôt en bénéficier pendant certains congés - Actu.fr",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZkdqbUdWaHdtazM5M2EzLWhvY3RIZW00Z1dUbDNZQnlQcktNZGw2WnN5dm1kSk44NDRsdG0wUGQtQXF3WW9UMXRwNHRENGtiZTJmRGx4a0NQeG1Wb0NMMjFTbTE2YWNlMkRIdlRhZ1VOX2dvSGhPTUNENUJGWEx5ZWVta2pNUWVpNDZWYzRBcWFIN1NmcklDdmY3bzZYZFM3OWZkc0d5QWxXRjZMTFlOS3hmc242alg3RmZFZ2RDSExoSUk",
+        "source": "Actu.fr",
+        "date": "2026-10-14T07:00:23+00:00",
         "section": "Inspiration RH",
         "sections": [
           "Inspiration RH"
         ],
-        "query": "site:helloworkplace.fr (recrutement OR marque employeur OR RH OR carrière)",
+        "query": "site:actu.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
         "channel": "Google Actualités",
         "editorial": {
-          "tags": [],
-          "score": 59,
+          "score": 55,
+          "tags": [
+            "impact"
+          ],
           "source_tier": 1,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
+          "reason": "Pratique RH ou marque employeur potentiellement transposable",
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        },
+        "type": "article"
+      },
+      {
+        "title": "Un bar près de Nantes fait rencontrer employeurs et demandeurs d'emploi : \"On privilégie le côté convivial et spontané\" - Actu.fr",
+        "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQUGdnRGZzdTRUT01sQ2dDVUdlMVNRTWdBNl9nNGRDVXRvTzNUZXpHZlo0Vlc4aG96dXg3YnJhUWI5YlhnT285T3R0RWw3M0JTb01wQVZyRENoWmlqWmZuajZHV09NNUR6dzFFMzN1cG9udTBmOFJpdGE3VFVoRTJLN1k2Qnk2Y0xjSXZsMTdwMWViUFRVdHFFT2xDLTR3YkNZQzVOdDBuX1NPMk5yWmMwcG5janVOWUM4Qm14V3VCS1AtTlI3Rm1xd0pqcU9JS01rZnMwOGVPNENONWtKVlU0WjNuY0FTZHBlajZ0RWZLajQ5WndkclVoZmozcXhEVlpaTXl2b1pMX2pZYUdaelJIQTNjdy1PZw",
+        "source": "Actu.fr",
+        "date": "2026-10-14T06:49:02+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "site:actu.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
+        "channel": "Google Actualités",
+        "editorial": {
+          "score": 40,
+          "tags": [],
+          "source_tier": 1,
+          "reason": "Actualité sectorielle ou RH à qualifier",
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        },
+        "type": "article"
+      },
+      {
+        "title": "Appel à témoignages Plus de 4 % des retraités cumulent emploi et retraite pour boucler leurs fins de mois en France. Et vous ? - Actu.fr",
+        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNT295bUJjQmg0TlBFZjRQaWxJU2wxNVFGRkhvR1lEb1NNUVUyYUhqdHJVQy1lQjZDTlV1RmVidGZHRmkzT29qYkRZRncxWTNuMXRQVXNiSDRrUXZrcW14SHFtb19Pb0ZoLTZaMXdVNTlfMnprRmlCYjRZb1lFd2NXTkZiNE5RNU5OQk5tekNCdGNqT0k1dHJ3SFM5MGJ1VVFNaU5oWTlmSnVVUmhGWVFuOVA2bkdLdlNmVE54Y3B6a3BXSGJYV1Z5OGdJYzM2N3NEdGp1eGFhZXVWeU1uR0ZRWWl3STlMZDQ2a0NsYmZSeGY3TmFjY0pVUGlHWE44WGlucWFGbw",
+        "source": "Actu.fr",
+        "date": "2026-10-14T06:03:55+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "site:actu.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
+        "channel": "Google Actualités",
+        "editorial": {
+          "score": 40,
+          "tags": [],
+          "source_tier": 1,
+          "reason": "Actualité sectorielle ou RH à qualifier",
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        },
+        "type": "article"
       },
       {
         "title": "Écarts de salaire à poste équivalent : saurez-vous tous les justifier ?",
@@ -463,98 +288,89 @@
         "query": "Flux HelloWorkplace / HelloWork",
         "channel": "RSS direct",
         "editorial": {
-          "tags": [],
-          "score": 59,
-          "source_tier": 1,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "Ces soft skills que l’IA rend d’autant plus précieuses en entreprise - Helloworkplace",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JZzRLVkl2S2pjaHZxbjZDQ3RGS2JvQkFJcTVQaEhjYWlWWkRKLWlUd1gyS2lHekxHek9FUXBOTC15NUVIeURFei1vbVhMLUl0ZTFva3YtTXBhNkpFYTFReUEyaUJNSDNnQkdVUTRsZ2NKN2VD",
-        "source": "Helloworkplace",
-        "date": "2026-10-14T05:24:24+00:00",
-        "section": "Inspiration RH",
-        "sections": [
-          "Inspiration RH"
-        ],
-        "query": "site:helloworkplace.fr (recrutement OR marque employeur OR RH OR carrière)",
-        "channel": "Google Actualités",
-        "editorial": {
-          "tags": [],
-          "score": 59,
-          "source_tier": 1,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "Ces soft skills que l’IA rend d’autant plus précieuses en entreprise",
-        "url": "https://www.helloworkplace.fr/soft-skills-ia-etude-morgan-philips/",
-        "source": "HelloWorkplace / HelloWork",
-        "date": "2026-10-14T05:24:24+00:00",
-        "section": "Inspiration RH",
-        "sections": [
-          "Inspiration RH"
-        ],
-        "query": "Flux HelloWorkplace / HelloWork",
-        "channel": "RSS direct",
-        "editorial": {
-          "tags": [],
-          "score": 59,
-          "source_tier": 1,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "« Ce n’est pas parce qu’un candidat ne répond pas qu’il n’est pas intéressé »",
-        "url": "https://www.helloworkplace.fr/candidat-relance-automatique/",
-        "source": "HelloWorkplace / HelloWork",
-        "date": "2026-10-14T05:12:44+00:00",
-        "section": "Inspiration RH",
-        "sections": [
-          "Inspiration RH"
-        ],
-        "query": "Flux HelloWorkplace / HelloWork",
-        "channel": "RSS direct",
-        "editorial": {
-          "tags": [],
-          "score": 59,
-          "source_tier": 1,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "Quand les RPS viennent des process eux-mêmes… - Culture RH",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1rVnR6OXd4R2pmaElCTkNUVXVaWk9HbmlQUjU1QzZpRG9EQ1ZOblVKNk9fcjV5RkNrNEFoQzRENjJZaFhfd0M1XzdIREtScUdxQldHZGM1RVl0T3Y2bjdBQkdDa1A",
-        "source": "Culture RH",
-        "date": "2026-10-14T05:01:39+00:00",
-        "section": "Inspiration RH",
-        "sections": [
-          "Inspiration RH"
-        ],
-        "query": "site:culture-rh.com (recrutement OR marque employeur OR RH OR carrière)",
-        "channel": "Google Actualités",
-        "editorial": {
+          "score": 47,
           "tags": [
-            "newsletter"
+            "impact"
           ],
-          "score": 73,
           "source_tier": 1,
           "reason": "Pratique RH ou marque employeur potentiellement transposable",
-          "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        },
+        "type": "article"
       }
     ],
     "Campagnes créatives": [
+      {
+        "title": "Campagne digitale - Loxam - Agence New Business - agence Publicité / communication / 360 - La Réclame",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5xSVU5emlBdXBkYzFXMkJHcnhKVHV0UmRUTDBhUGphUDRZdkk4Rko3cGNhd1BiU19ETTVFdWllQ2NzRXBVS00wLUdsV0VMNGhpQjJ0QnlyN2RTSXZIZ0MtSWFuQjZoX0Q2WGRjQ2JCRTJXYWM",
+        "source": "La Réclame",
+        "date": "2026-10-14T09:47:52+00:00",
+        "section": "Campagnes créatives",
+        "sections": [
+          "Campagnes créatives"
+        ],
+        "query": "site:lareclame.fr (campagne OR publicité OR marketing OR créativité)",
+        "channel": "Google Actualités",
+        "type": "article",
+        "editorial": {
+          "score": 46,
+          "tags": [
+            "campaign"
+          ],
+          "source_tier": 2,
+          "reason": "Idée de campagne ou dispositif créatif à explorer",
+          "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
+        "title": "Publicité : le groupement des Mousquetaires (Intermarché, Bricomarché, Netto...) lance sa première campagne de marque employeur - LSA conso",
+        "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQUjV6WDcxRFlFYkJ3TlJhTjJvcVdtS1AzQTNXUnNXQmRfR1I5X2pmZVBBNmlUb0FDa1ZQN21qeVNaMjNSMF9wM19WSTdpQlN2SG1Lcmc5a0ZHRGtfMW1MZ0dNWEw5YktPeXRDWlVCNVlCcWZILU96U2FXbkdQckI3a0lTZEx3eDZ6LTZRUjV3SzRwQUVhMzZhSDduYk00UDc1bnBMQmJXdUlMcUhNLUdVZG5FVk96ZF90NE5fMlRoTUNpb1ZqemM2QmJ3NEJMakk0TGtSa3FLTXBaT0RZaTdHNkV2aFJSV241ajMxQjZVanBTU1JEeG1mclh6Nkp4YUNYemtzVV9WUmhrazU5TjVzNWt3NmxkZnY4TE11OTJJc2dwRHRWTURIbm1WdkM1SWFxSWZlcWg2akpyNW9VdlQ1bzVB",
+        "source": "LSA conso",
+        "date": "2026-10-14T09:33:31+00:00",
+        "section": "Campagnes créatives",
+        "sections": [
+          "Campagnes créatives"
+        ],
+        "query": "site:lsa-conso.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
+        "channel": "Google Actualités",
+        "type": "article",
+        "editorial": {
+          "score": 61,
+          "tags": [
+            "campaign",
+            "impact"
+          ],
+          "source_tier": 2,
+          "reason": "Idée de campagne ou dispositif créatif à explorer",
+          "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
+        "title": "Simon Lamasa rejoint HOMERUN Creative Things comme directeur de la création - J'ai un pote dans la com",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdHZxTGtwQi1OX0JIT2tqQXViUVlidGs1OEw2c3JHbWlmcEdVZUpNY2ZKRW52TFJwYmVQY3g4WWVmcF9GbTBLNUQ3WnlDQ01oVWNkQXNHM2JyUFh5amg4Zm1oVVNOYlQ0ZWkyZHR3M0NPbXdfZUV4OXBNV3l2U0JqM3VYUUREb1BuUGxlNU5GREZXMHlqVUZoNnN6dlE",
+        "source": "J'ai un pote dans la com",
+        "date": "2026-10-14T09:24:02+00:00",
+        "section": "Campagnes créatives",
+        "sections": [
+          "Campagnes créatives"
+        ],
+        "query": "site:jai-un-pote-dans-la.com (campagne OR publicité OR marketing OR créativité)",
+        "channel": "Google Actualités",
+        "type": "article",
+        "editorial": {
+          "score": 46,
+          "tags": [
+            "campaign"
+          ],
+          "source_tier": 2,
+          "reason": "Idée de campagne ou dispositif créatif à explorer",
+          "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
       {
         "title": "Cyril Lignac face aux pires idées pour lancer sa box HelloFresh - Dans Ta Pub",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRnIybmdtYW9OY1oxN0dGTWtMMUFLV3VxcFVBNzAydEFxN0UzMTFPYzVlXzhCaGZtYWY5c00tdV9tTEdsYWlQM1NUT2NmSnl5Ym1NcThodUV2SDNua0ViZ0szMXQ5TUU1dXBEUE1ERWFDeVdhbFBYUFFWSzNuQjZHU1VR",
@@ -567,13 +383,16 @@
         "query": "site:danstapub.com (campagne OR publicité OR marketing OR créativité)",
         "channel": "Google Actualités",
         "editorial": {
-          "tags": [],
-          "score": 54,
+          "score": 49,
+          "tags": [
+            "campaign"
+          ],
           "source_tier": 1,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
+          "reason": "Idée de campagne ou dispositif créatif à explorer",
+          "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        },
+        "type": "article"
       },
       {
         "title": "Cyril Lignac assiste aux pires idées marketing de sa vie pour lancer sa box HelloFresh",
@@ -587,16 +406,16 @@
         "query": "Flux Dans Ta Pub",
         "channel": "RSS direct",
         "editorial": {
+          "score": 49,
           "tags": [
-            "campaign",
-            "newsletter"
+            "campaign"
           ],
-          "score": 65,
           "source_tier": 1,
-          "reason": "Format ou idée créative potentiellement inspirante",
-          "angle": "Piste : quelle mécanique créative serait transposable à McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
+          "reason": "Idée de campagne ou dispositif créatif à explorer",
+          "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        },
+        "type": "article"
       },
       {
         "title": "Retraite : la campagne choc qui affiche des mères en solde à -33% - Dans Ta Pub",
@@ -610,16 +429,16 @@
         "query": "site:danstapub.com (campagne OR publicité OR marketing OR créativité)",
         "channel": "Google Actualités",
         "editorial": {
+          "score": 49,
           "tags": [
-            "campaign",
-            "newsletter"
+            "campaign"
           ],
-          "score": 65,
           "source_tier": 1,
-          "reason": "Format ou idée créative potentiellement inspirante",
-          "angle": "Piste : quelle mécanique créative serait transposable à McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
+          "reason": "Idée de campagne ou dispositif créatif à explorer",
+          "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        },
+        "type": "article"
       },
       {
         "title": "Au Royaume-Uni, des mères affichées en solde pour dénoncer l’écart des retraites",
@@ -633,119 +452,42 @@
         "query": "Flux Dans Ta Pub",
         "channel": "RSS direct",
         "editorial": {
-          "tags": [],
-          "score": 54,
+          "score": 49,
+          "tags": [
+            "campaign"
+          ],
           "source_tier": 1,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
+          "reason": "Idée de campagne ou dispositif créatif à explorer",
+          "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        },
+        "type": "article"
       },
       {
-        "title": "321 ans à eux quatre : la plus vieille équipe de course devient l’égérie d’une marque de running - Creapills",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02d1VlcmRXUVNITkgtT3lpRGVJc3pfWmdRVjJpQ1BxMWtPWXlyZ0FhazVaMlkwM3ZucHJBNUtEU1EzYWZScVQtdUg1bDZjM2paaXBxYlhkN1RCemZUcFlON3J0aWNnUXBvVHd1MkliWVlDOVE",
-        "source": "Creapills",
-        "date": "2026-10-14T07:59:31+00:00",
+        "title": "La 2 CV électrique attendra 2028. Citroën lance déjà la campagne - Influencia",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOGIzekhSYi1seUxJS2FDa05jQ0tlc1AxUlVZaE1HWVl3NEN5UnJabGkyTkNnQ2taTS1Qc3RWNHNCRkNnQjl6VkRsTHVEamRkbDlrNWdjT3BBR21GVFE4Z202NkFwMWF1UXc3VVBMd0dUYmRwRjU1TkIzSjEzckc5Q1ZTWkZJd2tWT0RnbmdLeWtySHFDU0E",
+        "source": "Influencia",
+        "date": "2026-10-14T06:43:59+00:00",
         "section": "Campagnes créatives",
         "sections": [
           "Campagnes créatives"
         ],
-        "query": "site:creapills.com (campagne OR publicité OR marketing OR créativité)",
+        "query": "site:influencia.net (campagne OR publicité OR marketing OR créativité)",
         "channel": "Google Actualités",
         "editorial": {
-          "tags": [],
-          "score": 54,
-          "source_tier": 1,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "321 ans à eux quatre : la plus vieille équipe de course devient l’égérie d’une marque de running",
-        "url": "https://creapills.com/altra-coureurs-seniors-legacy-team-20261014",
-        "source": "Creapills",
-        "date": "2026-10-14T07:59:31+00:00",
-        "section": "Campagnes créatives",
-        "sections": [
-          "Campagnes créatives"
-        ],
-        "query": "Flux Creapills",
-        "channel": "RSS direct",
-        "editorial": {
-          "tags": [],
-          "score": 54,
-          "source_tier": 1,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "All Accor - La Réclame",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tZGFSWHk3bzdRY3Z3WmxXSzRBdU1QTTcyNkw2ZDYwbGdOcl9CcjkzdmhHUi1CYldNUVdDZ0xVMkY1U1U0aWxLNGJ4eFFwLXctYUExd0hpbjhqRE51cUpvNWQ2dlNwNklxM00tRlJiOA",
-        "source": "La Réclame",
-        "date": "2026-10-14T07:49:58+00:00",
-        "section": "Campagnes créatives",
-        "sections": [
-          "Campagnes créatives"
-        ],
-        "query": "site:lareclame.fr (campagne OR publicité OR marketing OR créativité)",
-        "channel": "Google Actualités",
-        "editorial": {
-          "tags": [],
-          "score": 48,
+          "score": 46,
+          "tags": [
+            "campaign"
+          ],
           "source_tier": 2,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      },
-      {
-        "title": "Étude Kolsquare : la transparence commerciale des créateurs de contenu favorise-t-elle la fidélité et la performance ? - J'ai un pote dans la com",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeDFvT2F0NUp5THRJQ1EtTkRVNm41V0dXdVVEX2ZaZXRRUUI5V2ZQR09KUmxGeG9sN2R5Y3dTYlVVbUM4ajRieWlzN0liUGFNRVh2X0xXT0VzRmp4cUtyem4zNXdIMEhDNVhUUnVQV05qMXlPRWtieWF0OTJpYkhEdDMtQklPZE9NVkh0Q1h4N3FJTFJrdGZZ",
-        "source": "J'ai un pote dans la com",
-        "date": "2026-10-14T07:48:24+00:00",
-        "section": "Campagnes créatives",
-        "sections": [
-          "Campagnes créatives"
-        ],
-        "query": "site:jai-un-pote-dans-la.com (campagne OR publicité OR marketing OR créativité)",
-        "channel": "Google Actualités",
-        "editorial": {
-          "tags": [],
-          "score": 60,
-          "source_tier": 2,
-          "reason": "Étude ou chiffres à vérifier pour un angle RH",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
+          "reason": "Idée de campagne ou dispositif créatif à explorer",
+          "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        },
+        "type": "article"
       }
     ],
     "Signaux sensibles": [],
-    "Podcasts & interviews": [
-      {
-        "title": "IA générative vs IA corrective : attention, les audiences ont leurs limites !",
-        "url": "https://shows.acast.com/lesuperdaily/episodes/6acf3731e53019e89098603c",
-        "source": "Le Super Daily",
-        "date": "2026-10-14T08:02:57+00:00",
-        "section": "Podcasts & interviews",
-        "sections": [
-          "Podcasts & interviews"
-        ],
-        "query": "Le Super Daily",
-        "channel": "Podcast RSS",
-        "type": "podcast",
-        "show": "Le Super Daily",
-        "editorial": {
-          "tags": [],
-          "score": 42,
-          "source_tier": 3,
-          "reason": "Signal de veille à qualifier",
-          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
-          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
-        }
-      }
-    ]
+    "Podcasts & interviews": []
   }
 }
