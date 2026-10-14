@@ -31,7 +31,7 @@ CREATIVE_MEDIA = [
     ("La Réclame", "lareclame.fr"),
     ("INfluencia", "influencia.net"),
     ("Marketing Magazine", "e-marketing.fr"),
-    ("Les Gens d'Internet", "lesgensdinternet.com"),
+    ("Les Gens d'Internet", "gensdinternet.fr"),
     ("Blog du Modérateur", "blogdumoderateur.com"),
     ("Siècle Digital", "siecledigital.fr"),
     ("The Drum", "thedrum.com"),
