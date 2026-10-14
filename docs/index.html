@@ -2,66 +2,49 @@
 <html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#123e2b">
 <title>McDo Radar — Veille éditoriale</title><style>
 :root{font-family:Inter,system-ui,-apple-system,Arial,sans-serif;color:#173b2c;background:#f8f7f1}*{box-sizing:border-box}body{margin:0}header{background:#123e2b;color:#fff;padding:27px max(20px,calc((100vw - 1180px)/2))}header small{color:#f8d45c;font-weight:700;letter-spacing:.14em}h1{font-size:clamp(30px,5vw,54px);margin:9px 0;letter-spacing:-.055em}header p{color:#d9e6dd;max-width:800px;line-height:1.5}main{max-width:1180px;margin:auto;padding:24px 18px 90px}nav{display:flex;gap:8px;flex-wrap:wrap;margin:15px 0}button{background:white;border:1px solid #cbd6cc;padding:12px 15px;border-radius:12px;color:#173b2c;font-weight:650;cursor:pointer}button.active{background:#f4cf47;border-color:#f4cf47}button:hover{border-color:#15633f}input,select{border:1px solid #cad6ca;padding:14px;border-radius:12px;font-size:15px;background:#fff;min-width:0}.controls{display:grid;grid-template-columns:minmax(200px,1fr) minmax(135px,190px) auto auto;gap:10px}#count,#status{font-size:13px;color:#607267}.box{background:white;border:1px solid #e4e7db;padding:18px 20px;border-radius:18px;margin:16px 0}.stats{display:flex;gap:16px;flex-wrap:wrap}.stat{padding:10px 14px;background:#f0f4e9;border-radius:10px}.stat b{display:block;font-size:22px}.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(295px,1fr));gap:15px}.card{background:#fff;border:1px solid #e1e6db;border-radius:17px;padding:20px;display:flex;flex-direction:column;gap:11px}.card h3{margin:0;font-size:18px;line-height:1.35}.meta{font-size:12px;color:#718173}.tag{display:inline-block;background:#e9f3e9;color:#245b3e;border-radius:20px;padding:5px 10px;font-size:12px;font-weight:700;align-self:start}.card a{color:#144e31;font-weight:750}.card footer{display:flex;align-items:center;justify-content:space-between;margin-top:auto;gap:8px}.card footer button{padding:8px 10px;font-size:12px}.muted{color:#657869}aside{background:#fff9db;border:1px solid #e7d485;padding:16px 20px;border-radius:15px;line-height:1.5}#selected{font-size:14px}.source-tags{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.source-tags a{color:#1d5035;text-decoration:none;background:#eef4e7;border:1px solid #dfecd9;border-radius:8px;padding:8px 11px;font-size:13px}.source-tags a:hover{text-decoration:underline}.sources-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px}.sources-grid h3{margin:0 0 7px;font-size:16px}.compact-note{font-size:12px;color:#66746c;line-height:1.5}.more[hidden]{display:none}.more{background:#174c34;color:white;margin:18px auto 2px;display:block}#selected a{color:#173b2c}#brief-list li{margin-bottom:9px}#brief-list a{color:#164d34}section[hidden]{display:none!important}@media(max-width:640px){.controls{grid-template-columns:1fr}button{padding:10px}header{padding:28px 19px}}
+.editorial-controls{background:#fbfbf5}.editorial-controls h2{margin:0 0 6px}
+.editorial-controls p{margin:0 0 12px}.editorial-filters{display:flex;flex-wrap:wrap;gap:9px}
+.editorial-filters button{border:1px solid #a6bdae;background:#f4f7f0;color:#163f2a}
+.editorial-filters button.active{background:#f5d64d;border-color:#e1c238;color:#1e351e}
+.controls{grid-template-columns:minmax(170px,1fr) minmax(135px,185px) minmax(140px,160px) minmax(125px,150px) auto}
+.chip-row{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.source-tier,.also{font-size:11px;color:#52735a;background:#f0f4ea;border-radius:6px;padding:5px 8px}
+.also{background:#faf4db;color:#6f602c}
+.editorial-summary{border-top:1px solid #e8eee5;padding-top:11px;font-size:13px;line-height:1.45}
+.editorial-summary strong{font-size:12px}.editorial-summary p{margin:5px 0 0;color:#5b715f}
+.editorial-summary .angle{color:#2e593d;font-weight:600}
+.mini-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:10px}
+.mini-tags span{font-size:11px;border:1px solid #e1e8d7;border-radius:5px;padding:3px 6px}
+.sources-tier{padding:14px;background:#fafbf7;border:1px solid #e2e7db;border-radius:12px}
+.sources-tier h3{margin:0 0 4px}.sources-tier p{font-size:12px;color:#657b69}
+.small-note{font-size:12px;color:#617367}
+nav{position:relative}nav button small{color:inherit;opacity:.64}
+@media(max-width:800px){.controls{grid-template-columns:1fr 1fr}.controls #search{grid-column:span 2}}
+@media(max-width:480px){.controls{grid-template-columns:1fr}.controls #search{grid-column:auto}.editorial-filters button{flex:1}}
+
 </style></head><body>
 <header><small>RADAR ÉDITORIAL · FRANCE</small><h1>McDo Radar <span style="color:#f4cd44">●</span></h1><p>Actualités McDo France et locales, concurrence, campagnes créatives, communication et RH : ta veille presse et inspiration pour les newsletters.</p></header>
 <main><div class="box"><div class="stats"><div class="stat"><b id="total">—</b>articles indexés</div><div class="stat"><b id="new">—</b>nouveaux articles (dernière collecte)</div><div class="stat"><b id="coverage">—</b>flux répondants</div></div><p id="status">Chargement des actualités…</p></div>
-<nav id="tabs" aria-label="Rubriques"></nav><div class="controls"><input id="search" placeholder="Rechercher une ville, une marque, un mot-clé…"><select id="source-filter" aria-label="Média"><option value="">Tous les médias</option></select><select id="period"><option value="7">7 derniers jours</option><option value="30" selected>30 derniers jours</option><option value="90">90 derniers jours</option><option value="180">6 derniers mois</option><option value="3650">Tout l’historique</option></select><button id="refresh">↻ Actualiser l’affichage</button></div>
+<nav id="tabs" aria-label="Rubriques"></nav><section class="box editorial-controls">
+<h2>Ta sélection éditoriale</h2>
+<p class="muted">Des suggestions calculées automatiquement à partir des titres, de l’actualité et des médias. Les angles proposés restent à vérifier avant publication.</p>
+<div id="editorial-filters" class="editorial-filters" role="group" aria-label="Sélection éditoriale"></div>
+</section>
+<div class="controls"><input id="search" placeholder="Rechercher une ville, une marque, un mot-clé…"><select id="source-filter" aria-label="Média"><option value="">Tous les médias</option></select><select id="sort" aria-label="Ordre des articles">
+<option value="relevance" selected>Par pertinence</option>
+<option value="recent">Plus récents</option>
+<option value="source">Priorité du média</option>
+</select><select id="period"><option value="7">7 derniers jours</option><option value="30" selected>30 derniers jours</option><option value="90">90 derniers jours</option><option value="180">6 derniers mois</option><option value="3650">Tout l’historique</option></select><button id="refresh">↻ Actualiser l’affichage</button></div>
 <section id="inspiration" class="box" hidden><h2>💡 Inspiration RH & campagnes de recrutement</h2><p>Campagnes de communication RH, marque employeur, image employeur, expérience candidat, tendances du travail, engagement et innovations RH de <b>tous secteurs</b>.</p><p class="muted">Astuce newsletter : ajoute les articles à ta sélection, puis copie leurs liens pour préparer les sujets de tes prochaines éditions.</p></section>
 <section id="creative" class="box" hidden><h2>🎨 Campagnes créatives</h2><p>Campagnes publicitaires, activations, films, affichage, social media, innovations marketing et campagnes de recrutement, tous secteurs confondus. Sources : Creapills, L’ADN, Dans Ta Pub, Stratégies, CB News et d’autres médias spécialisés.</p><p class="muted">Les campagnes RH créatives peuvent apparaître dans cet onglet et dans « Inspiration RH ».</p></section>
-<section id="sources-panel" class="box" hidden><h2>📰 Médias & sources suivis</h2><p>Sources interrogées quotidiennement par recherche ciblée ou flux RSS. Certains médias peuvent ne publier aucun article récent ou ne pas être indexés.</p><div id="source-catalogue" class="sources-grid"></div><p class="compact-note">LinkedIn : uniquement les publications publiques éventuellement indexées. Aucun accès garanti à l’ensemble des posts ou aux comptes privés.</p></section>
+<section id="podcasts-panel" class="box" hidden>
+<h2>🎧 Podcasts & interviews</h2>
+<p>Des épisodes repérés dans les flux publics de podcasts RH, communication, marketing, franchise et restauration.</p>
+<p class="muted">Sélectionne un épisode pour ta newsletter, ou ouvre le lien pour consulter son programme et son contenu. Tous les épisodes ne sont pas nécessairement pertinents pour McDo.</p>
+</section>
+<section id="sources-panel" class="box" hidden><h2>📰 Médias & sources suivis</h2><p>Sources classées selon leur intérêt <strong>estimé pour les sujets McDo, RH et communication</strong>, et non selon leur qualité journalistique. Priorité 1 : sources centrales ; 2 : inspiration complémentaire ; 3 : veille élargie.</p><div id="source-catalogue" class="sources-grid"></div><p class="compact-note">LinkedIn : uniquement les publications publiques éventuellement indexées. Aucun accès garanti à l’ensemble des posts ou aux comptes privés.</p></section>
 <section class="box"><h2>Ma sélection newsletter <span id="selected-count">0</span></h2><div id="selected"></div><button id="copy">Copier ma sélection</button><button id="clear">Vider la sélection</button></section>
-<section id="articles-panel" class="box"><h2 id="heading">Toute l’actualité</h2><p id="count"></p><div id="cards" class="cards"></div><button class="more" id="more" hidden>Afficher plus d’articles ↓</button></section><aside><b>À savoir</b> : les requêtes explorent Google Actualités chaque jour via GitHub Actions. La couverture peut être partielle et les dates sont celles des publications. Les signaux sensibles sont des alertes à contrôler humainement, pas un diagnostic de crise. Le bouton actualiser recharge les données disponibles, sans lancer une nouvelle collecte.</aside></main>
+<section id="articles-panel" class="box"><h2 id="heading">Toute l’actualité</h2><p id="count"></p><div id="cards" class="cards"></div><button class="more" id="more" hidden>Afficher plus d’articles ↓</button></section><aside><b>À savoir</b> : la sélection automatique ne lit pas le texte intégral des articles ; elle repère des signaux dans les titres, la date, les rubriques et les noms de médias. Les suggestions et scores doivent être vérifiés avant utilisation. Les requêtes explorent Google Actualités et des flux de podcasts chaque jour via GitHub Actions. La couverture peut être partielle et les dates sont celles des publications. Les signaux sensibles sont des alertes à contrôler humainement, pas un diagnostic de crise. Le bouton actualiser recharge les données disponibles, sans lancer une nouvelle collecte.</aside></main>
 <script src="data/news.js"></script>
-<script>
-(()=> {
-const data=window.RADAR_DATA||{articles:[]}, items=(data.articles||[]).filter(a=>a.title&&a.url);
-const tabs=['Tout','France','Local','RH McDo','Concurrence','Inspiration RH','Campagnes créatives','Signaux sensibles','Sources suivies'];
-const catalogue={
- 'Créativité & communication':[['Creapills','https://creapills.com/'],["L’ADN",'https://www.ladn.eu/'],['Dans Ta Pub','https://www.danstapub.com/'],['Stratégies','https://www.strategies.fr/'],['CB News','https://www.cbnews.fr/'],["J’ai un pote dans la com",'https://jai-un-pote-dans-la.com/'],['La Réclame','https://lareclame.fr/'],['INfluencia','https://www.influencia.net/'],['Marketing Magazine','https://www.e-marketing.fr/'],["Les Gens d’Internet",'https://gensdinternet.fr/'],['Blog du Modérateur','https://www.blogdumoderateur.com/'],['Siècle Digital','https://siecledigital.fr/'],['The Drum','https://www.thedrum.com/'],['Adweek','https://www.adweek.com/'],['Campaign','https://www.campaignlive.co.uk/']],
- 'RH, emploi & marque employeur':[['HelloWorkplace / HelloWork','https://www.helloworkplace.fr/'],['Culture RH','https://culture-rh.com/'],['Parlons RH','https://www.parlonsrh.com/'],['myRHline','https://myrhline.com/'],['Focus RH','https://www.focusrh.com/'],['RH Matin','https://www.rhmatin.com/'],['Welcome to the Jungle','https://www.welcometothejungle.com/fr'],['ANDRH','https://www.andrh.fr/'],['Apec','https://www.apec.fr/'],['Liaisons Sociales','https://www.liaisons-sociales.fr/'],['Courrier Cadres','https://www.courriercadres.com/']],
- 'LinkedIn (public seulement)':[['Gabriel Teisson','https://fr.linkedin.com/in/gabriel-teisson'],['Dans Ta Pub','https://fr.linkedin.com/company/danstapub']]
-};
-const $=id=>document.getElementById(id);
-const h=v=>String(v||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const date=v=>{const x=new Date(v);return isNaN(x)?'Date inconnue':x.toLocaleDateString('fr-FR',{day:'2-digit',month:'short',year:'numeric'});};
-const cats=a=>a.sections||[a.section];
-let tab='Tout',show=90,saved=new Set();
-try{saved=new Set(JSON.parse(localStorage.getItem('mcdo-selected')||'[]'))}catch(_){}
-function drawSelection(){
-  const f=items.filter(a=>saved.has(a.url));
-  $('selected-count').textContent=f.length;
-  $('selected').innerHTML=f.length?'<ol>'+f.map(a=>'<li><a href="'+h(a.url)+'" target="_blank" rel="noopener noreferrer">'+h(a.title)+'</a> — '+h(a.source||'Média')+'</li>').join('')+'</ol>':'<p class="muted">Ajoute les articles qui t’intéressent à ta sélection.</p>';
-  localStorage.setItem('mcdo-selected',JSON.stringify([...saved]));
-}
-function initSources(){
-  const all=[...new Set(items.map(a=>a.source).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'fr'));
-  $('source-filter').innerHTML='<option value="">Tous les médias ('+all.length+')</option>'+all.map(m=>'<option value="'+h(m)+'">'+h(m)+'</option>').join('');
-  $('source-catalogue').innerHTML=Object.entries(catalogue).map(([name,arr])=>'<div><h3>'+h(name)+'</h3><div class="source-tags">'+arr.map(([title,url])=>'<a target="_blank" rel="noopener noreferrer" href="'+h(url)+'">'+h(title)+' ↗</a>').join('')+'</div></div>').join('');
-}
-function view(){
-  $('tabs').innerHTML=tabs.map(t=>'<button data-tab="'+h(t)+'" class="'+(tab===t?'active':'')+'">'+h(t)+(t==='Sources suivies'?'': ' <span style="opacity:.62;font-size:11px">'+items.filter(a=>t==='Tout'||cats(a).includes(t)).length+'</span>')+'</button>').join('');
-  $('inspiration').hidden=tab!=='Inspiration RH';$('creative').hidden=tab!=='Campagnes créatives';
-  $('sources-panel').hidden=tab!=='Sources suivies';$('articles-panel').hidden=tab==='Sources suivies';
-  if(tab==='Sources suivies'){drawSelection();return;}
-  const q=$('search').value.toLocaleLowerCase('fr').trim(),d=Number($('period').value),m=$('source-filter').value;
-  const rows=items.filter(a=>(tab==='Tout'||cats(a).includes(tab))&&(!m||m===a.source)&&(!q||[a.title,a.source,a.query,a.section].join(' ').toLocaleLowerCase('fr').includes(q))&&((Date.now()-new Date(a.date).getTime())/86400000<=d));
-  $('heading').textContent=tab==='Tout'?'Toutes les actualités':tab;
-  $('count').textContent=rows.length+' article(s) · '+new Set(rows.map(a=>a.source)).size+' média(s) · les plus récents en premier';
-  $('cards').innerHTML=rows.length?rows.slice(0,show).map(a=>'<article class="card"><span class="tag">'+h(a.section)+'</span><div class="meta">'+date(a.date)+' · '+h(a.source||'Source')+'</div><h3>'+h(a.title)+'</h3><footer><a href="'+h(a.url)+'" target="_blank" rel="noopener noreferrer">Lire l’article ↗</a><button class="save" data-url="'+h(a.url)+'">'+(saved.has(a.url)?'✓ Retirer':'＋ Ajouter')+'</button></footer></article>').join(''):'<p>Aucun article pour ces filtres. Essaie les 6 derniers mois ou un autre média.</p>';
-  $('more').hidden=rows.length<=show;$('more').textContent='Afficher '+Math.min(90,rows.length-show)+' autres articles ↓';
-  drawSelection();
-}
-$('tabs').addEventListener('click',e=>{const b=e.target.closest('[data-tab]');if(b){tab=b.dataset.tab;show=90;view()}});
-$('cards').addEventListener('click',e=>{const b=e.target.closest('button.save');if(!b)return;saved.has(b.dataset.url)?saved.delete(b.dataset.url):saved.add(b.dataset.url);view()});
-['search','period','source-filter'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',()=>{show=90;view()}));
-$('more').addEventListener('click',()=>{show+=90;view()});
-$('clear').addEventListener('click',()=>{saved.clear();view()});
-$('copy').addEventListener('click',async()=>{const txt=items.filter(a=>saved.has(a.url)).map(a=>a.title+'\n'+a.source+' · '+date(a.date)+' · '+cats(a).join(' / ')+'\n'+a.url).join('\n\n');if(!txt)return;try{await navigator.clipboard.writeText(txt);$('copy').textContent='Copié ✓'}catch(e){prompt('Copier la sélection',txt)}});
-$('refresh').addEventListener('click',()=>location.reload());
-$('total').textContent=items.length;$('new').textContent=data.new_count??'—';$('coverage').textContent=(data.sources_ok??'—')+' / '+(data.sources_total??'—');
-$('status').textContent=data.updated_at?'Mise à jour du '+new Date(data.updated_at).toLocaleString('fr-FR',{timeZone:'Europe/Paris'})+' · '+new Set(items.map(a=>a.source)).size+' médias présents dans les résultats. Sources non exhaustives.':'En attente de la première collecte';
-initSources();view();
-})();
-</script><script>
-(()=>{const cats=['Tout','France','Local','RH McDo','Concurrence','Inspiration RH','Signaux sensibles'];let tab='Tout',data=window.RADAR_DATA||{articles:[],updated_at:null},items=data.articles||[];let saved=new Set();try{saved=new Set(JSON.parse(localStorage.getItem('mcdo-selected')||'[]'))}catch(e){}const $=x=>document.getElementById(x);function escape(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}function fmt(d){const t=new Date(d);return isNaN(t)?'Date inconnue':t.toLocaleDateString('fr-FR',{day:'2-digit',month:'short',year:'numeric'})}function renderSelected(){const a=items.filter(x=>saved.has(x.url));$('selected-count').textContent=a.length;$('selected').innerHTML=a.length?'<ol>'+a.map(x=>'<li><a href="'+escape(x.url)+'" target="_blank" rel="noopener">'+escape(x.title)+'</a> — '+escape(x.source)+'</li>').join('')+'</ol>':'<p class="muted">Sélectionne des articles en cliquant sur « Ajouter ».</p>';localStorage.setItem('mcdo-selected',JSON.stringify([...saved]))}function render(){const q=$('search').value.toLocaleLowerCase('fr').trim();const limit=Number($('period').value);const filtered=items.filter(a=>(tab==='Tout'||a.section===tab)&&(!q||[a.title,a.source,a.section,a.query].join(' ').toLocaleLowerCase('fr').includes(q))&&((Date.now()-new Date(a.date).getTime())/864e5 <=limit));$('heading').textContent=tab==='Tout'?'Toutes les actualités':tab;$('count').textContent=filtered.length+' article(s) · résultats classés par date';$('inspiration').hidden=tab!=='Inspiration RH';$('tabs').innerHTML=cats.map(c=>'<button data-tab="'+escape(c)+'" class="'+(tab===c?'active':'')+'">'+escape(c)+'</button>').join('');$('cards').innerHTML=filtered.length?filtered.slice(0,150).map(a=>'<article class="card"><span class="tag">'+escape(a.section)+'</span><div class="meta">'+fmt(a.date)+' · '+escape(a.source)+'</div><h3>'+escape(a.title)+'</h3><footer><a href="'+escape(a.url)+'" target="_blank" rel="noopener noreferrer">Lire l’article ↗</a><button class="save" data-url="'+escape(a.url)+'">'+(saved.has(a.url)?'✓ Retirer':'＋ Ajouter')+'</button></footer></article>').join(''):'<p>Aucune actualité trouvée pour ces filtres.</p>';renderSelected()}$('tabs').addEventListener('click',e=>{const b=e.target.closest('button[data-tab]');if(b){tab=b.dataset.tab;render()}});$('cards').addEventListener('click',e=>{const b=e.target.closest('button.save');if(!b)return;const k=b.dataset.url;saved.has(k)?saved.delete(k):saved.add(k);render()});$('search').addEventListener('input',render);$('period').addEventListener('change',render);$('clear').addEventListener('click',()=>{saved.clear();render()});$('copy').addEventListener('click',async()=>{const str=items.filter(x=>saved.has(x.url)).map(a=>a.title+'\n'+a.source+' · '+fmt(a.date)+' · '+a.section+'\n'+a.url).join('\n\n');if(!str)return;try{await navigator.clipboard.writeText(str);$('copy').textContent='Copié ✓'}catch(e){prompt('Copier la sélection :',str)}});$('refresh').addEventListener('click',()=>location.reload());$('total').textContent=items.length;$('new').textContent=data.new_count??'—';$('coverage').textContent=(data.sources_ok??'—')+' / '+(data.sources_total??'—');$('status').textContent=data.updated_at?'Dernière collecte : '+new Date(data.updated_at).toLocaleString('fr-FR',{timeZone:'Europe/Paris'})+' (Paris)':'Données initiales : la première collecte automatique n’a pas encore été exécutée.';render()})();
-</script></body></html>
+<script src="editorial.js"></script>
+</body></html>
