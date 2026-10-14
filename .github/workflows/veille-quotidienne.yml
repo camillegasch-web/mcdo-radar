@@ -64,6 +64,9 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs
+      - name: Laisser à GitHub le temps de rendre l'archive Pages disponible
+        if: steps.pages.outputs.enabled == 'true'
+        run: sleep 12
       - name: Publier le radar
         if: steps.pages.outputs.enabled == 'true'
         id: deployment
