@@ -290,7 +290,7 @@ def classify(article):
     study=match(title,STUDY)
     sensitive=match(title,SENSITIVE)
     job_ad=match(title,JOB_AD)
-    generic_creative=original=="Campagnes créatives" and match(source,CREATIVE_SOURCE_PATTERN) and match(title,r"lance|devoile|imagine|invente|detourne|creation|collaboration|collab|affiche|revisite|surprend|nouvelle identite|spot|publicit|campagne")
+    generic_creative=original in ("Campagnes créatives","Concurrence") and match(source,CREATIVE_SOURCE_PATTERN) and match(title,r"lance|devoile|imagine|invente|detourne|creation|collaboration|collab|affiche|revisite|surprend|nouvelle identite|spot|publicit|campagne|signe|fait devaler|transforme")
     # Ne pas traiter les offres individuelles comme des sujets d'actualité RH.
     if job_ad and not mcdo and not competitor:
         return None
@@ -415,7 +415,9 @@ def weekly_picks(articles):
     # Semaine glissante pour fournir des pépites aussi le lundi matin.
     cutoff=NOW-dt.timedelta(days=7)
     candidates=[a for a in articles if dt.datetime.fromisoformat(a["date"].replace("Z","+00:00"))>=cutoff
-        and a.get("editorial",{}).get("score",0)>=49 and a.get("type")!="podcast"]
+        and a.get("editorial",{}).get("score",0)>=48 and a.get("type")!="podcast"
+        and (match(a["title"],MCDO) or match(a["title"],COMP) or
+             any(tag in a.get("editorial",{}).get("tags",[]) for tag in ("newsletter","campaign","studies")))]
     # Privilégier un angle RH/créatif ou une info McDo/secteur, et limiter la répétition.
     candidates.sort(key=lambda a:(a["editorial"]["score"],a["date"]),reverse=True)
     picks=[];counts={};media={};section_limits={
