@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T08:48:18.529621+00:00",
+  "updated_at": "2026-10-14T08:48:52.351156+00:00",
   "sources_ok": 115,
   "sources_total": 116,
   "source_names": [
@@ -132,7 +132,7 @@
   ],
   "source_count": 126,
   "source_priority_policy": "Sélection éditoriale indicative : score déterminé par titre, source, rubrique et date. Aucun contenu intégral analysé.",
-  "new_count": 31,
+  "new_count": 1,
   "source_errors": [
     {
       "source": "La Réclame",
@@ -14444,6 +14444,28 @@
         "source_tier": 1,
         "reason": "Pratique RH ou marque employeur potentiellement transposable",
         "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "Brut fête ses 10 ans avec sa première grande campagne de marque - CB News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVVJYMFc2REoyazJ1S2Z4ckM3VzgzQVBqRlI2eWpUNEdxa1FUaHR2SWhyaVJFQXZVel9CbnNDcU5OWTRhVXV5azNzS0FYMENoOFAyLTVqTjFCeFd6NElURm12MXBwZUZPQXBlcFFDQlQ0Rl9ZRzhpblFjVUdQZVV5R3lNQXpmRDllS1g5UUlXTU05N04t",
+      "source": "CB News",
+      "date": "2026-09-15T07:00:00+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:cbnews.fr (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités",
+      "editorial": {
+        "tags": [
+          "campaign"
+        ],
+        "score": 57,
+        "source_tier": 1,
+        "reason": "Format ou idée créative potentiellement inspirante",
+        "angle": "Piste : quelle mécanique créative serait transposable à McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
       }
     },
