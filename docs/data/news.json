@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T10:04:19.920979+00:00",
+  "updated_at": "2026-10-14T10:05:33.971945+00:00",
   "sources_ok": 115,
   "sources_total": 116,
   "source_names": [
@@ -93,7 +93,6 @@
     "RH Matin",
     "RMC",
     "Ramsay Santé",
-    "Shopify",
     "Siècle Digital",
     "SoualigaPost.com",
     "StrasInfo.fr",
@@ -116,9 +115,9 @@
     "viuz.com",
     "Éditions Tissot"
   ],
-  "source_count": 112,
+  "source_count": 111,
   "source_priority_policy": "Sélection éditoriale indicative : score déterminé par titre, source, rubrique et date. Aucun contenu intégral analysé.",
-  "new_count": 13,
+  "new_count": 0,
   "source_errors": [
     {
       "source": "La Réclame",
@@ -177,6 +176,7 @@
       "date": "2026-10-14T09:33:31+00:00",
       "section": "Campagnes créatives",
       "sections": [
+        "Inspiration RH",
         "Campagnes créatives"
       ],
       "query": "site:lsa-conso.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
@@ -460,29 +460,6 @@
         "source_tier": 1,
         "reason": "Actualité sectorielle ou RH à qualifier",
         "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
-        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-      },
-      "type": "article"
-    },
-    {
-      "title": "Creator economy : « Les médias nés sur les réseaux sociaux occupent déjà une place plus qu’essentielle »",
-      "url": "https://www.blogdumoderateur.com/creator-economy-medias-reseaux-sociaux-place-essentielle/",
-      "source": "Blog du Modérateur",
-      "date": "2026-10-14T06:00:35+00:00",
-      "section": "Campagnes créatives",
-      "sections": [
-        "Campagnes créatives"
-      ],
-      "query": "Flux Blog du Modérateur",
-      "channel": "RSS direct",
-      "editorial": {
-        "score": 46,
-        "tags": [
-          "campaign"
-        ],
-        "source_tier": 2,
-        "reason": "Idée de campagne ou dispositif créatif à explorer",
-        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
       },
       "type": "article"
@@ -801,27 +778,6 @@
       "type": "article"
     },
     {
-      "title": "Plus de 1 000 offres d'emploi à pourvoir au centre commercial Les 4 temps à La Défense - Actu.fr",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOb3plN3NSTDJRVzdXSlplbjIwQmlYRFNDYmVBVC1UQ1lBRDVybkM5SnA0cTdEbU85OVYxWXVCN2h0WExKcjBiNjAyN0h1RThwSnpndDA4SU1ZNk1jRzBlajgxRV9pWVczZ1FBS3ljUUZHeWx4LVM3QTlKSmtDTWNDZ0x3SnlQNjNPX3c1OGVDRnp6eXB6N3NBZHhQS3NYUnlBMDJGXzQ1dUJrLTZyRUxMRV9QVTZRczR3MS1obHdjeFdsTGpCQjdERGdZamxrN3BFUHZsbFMyVHR2MHE5QWc",
-      "source": "Actu.fr",
-      "date": "2026-10-13T15:54:02+00:00",
-      "section": "Inspiration RH",
-      "sections": [
-        "Inspiration RH"
-      ],
-      "query": "site:actu.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-      "channel": "Google Actualités",
-      "editorial": {
-        "score": 40,
-        "tags": [],
-        "source_tier": 1,
-        "reason": "Actualité sectorielle ou RH à qualifier",
-        "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
-        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-      },
-      "type": "article"
-    },
-    {
       "title": "P(V)RE confie sa première campagne de communication à 87seconds Creative - J'ai un pote dans la com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYTMzdVQ1WGx0Yk9lQkVIWk5ubHROeXdlaDZoUTNVbUpCYjNWQWxPSjBFWGRmSlcydEZTT09FYlNyeUhsOVBrUXF6T0piZXBFUDJMb1ZidE9XN3dOM01xbndHZURDbmRrLXpXajlFNWZlQ0cwdEdDRjNlZ213eDc3Mm9mTkZ5X3htektadUNyX0h4b3NmWXp6Y2k5RQ",
       "source": "J'ai un pote dans la com",
@@ -863,29 +819,6 @@
         "source_tier": 1,
         "reason": "Idée de campagne ou dispositif créatif à explorer",
         "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
-        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-      },
-      "type": "article"
-    },
-    {
-      "title": "Restaurant Les Fontaines Blanches : RECRUTEMENT SAISON D’HIVER – - L'Hôtellerie Restauration",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN05vOVk5NVYyNF8zOGNkT1dsZkd0b3F0bHNvbUhNOW9xT0lxSEpGQm5iV2h5Yk5vWFBRUml2UFlScUZRcXVWaERLeTFWWFdkRU1kN2VCaDEyS2JqbnJNR1d4NlNtbmVoWndKUjEzUnB2dUV5dmdQVnpOOGxDb2prMm5ESHZDd09QX0hTeExuRldRT0lNdWdBZlFPOWVYUUtzR3VwdS1HcEY",
-      "source": "L'Hôtellerie Restauration",
-      "date": "2026-10-13T15:04:33+00:00",
-      "section": "Inspiration RH",
-      "sections": [
-        "Inspiration RH"
-      ],
-      "query": "site:lhotellerie-restauration.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-      "channel": "Google Actualités",
-      "editorial": {
-        "score": 55,
-        "tags": [
-          "impact"
-        ],
-        "source_tier": 1,
-        "reason": "Pratique RH ou marque employeur potentiellement transposable",
-        "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
       },
       "type": "article"
@@ -961,29 +894,6 @@
       "type": "article"
     },
     {
-      "title": "Franui, Ciao Kombucha, Feastables… Découvrez le Top 10 des meilleurs lancements de produits issus des réseaux sociaux entre 2022 et 2025 - LSA conso",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQLTJxVHFKbkVnMEp4dkRqd3Fvbkg5OXpCbWt6V3NWajVwaU1YYXRyRkZBMXNadlg4aXpSdGRiYmUyYWVnc0xTY0k0SE1uRmZjaTdNVzFYQ2ZpemtSREhFbGdqZmlzaGVSNXczT0FoMUdhOW8taThvY1NoNU9EdmFfRXdnajBxaFduZmtRLWtCSU8xNmtLSUVkdEJael90Qk1TYzBNVW1WLXVURThsbjhXTmNDdFdTeHpPX0RQc0dYZU5VcG5iMktnc1o3WkJvX3FwOWwwRTdRQWZkYTFLTVl4aEdISktSLVJManZldG1US3k2VjhadFh2S2pMU1BPeVJNdVE2UkRBa0Q4Nk5LOHRHcVdLaVA2dGVma2VOWTVwSG5Ea3U1YmZkOW5oR2x4VGc",
-      "source": "LSA conso",
-      "date": "2026-10-13T13:40:58+00:00",
-      "section": "Campagnes créatives",
-      "sections": [
-        "Campagnes créatives"
-      ],
-      "query": "site:lsa-conso.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-      "channel": "Google Actualités",
-      "editorial": {
-        "score": 46,
-        "tags": [
-          "campaign"
-        ],
-        "source_tier": 2,
-        "reason": "Idée de campagne ou dispositif créatif à explorer",
-        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
-        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-      },
-      "type": "article"
-    },
-    {
       "title": "Fougères : plus de 20 postes menacés à Fermetures Groom, un plan de sauvegarde de l’emploi annoncé - Actu.fr",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPak9QZVZHcUFqZVAtVC0tNG1rTEpwXzFxam5Qbl9mRUZOY19jRG5rQmJXMEFLUGYtSWlVamxkMk90d3BtWl82XzhFYUJzYXVVaGlldkRJUHFXc3RadHItOWNXOVRfanpvbmducFRnVEkwVXdab2FmVk9qd0RLVGExbkk4N2c3MXF3MVI5NmRKMERaSHJlS2pnVTMyenEwUGlRSkVnWjRyVmxyRlJGUTNjaWczUUFBb3hfWUN0NjI4ZjNuWHRtZFNHcXpOZHFPTmpudm1VeHNiZEZMTEJTNG13SEVR",
       "source": "Actu.fr",
@@ -1024,52 +934,6 @@
         "source_tier": 2,
         "reason": "Idée de campagne ou dispositif créatif à explorer",
         "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?",
-        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-      },
-      "type": "article"
-    },
-    {
-      "title": "Finances personnelles : l’influence des réseaux sociaux - L'ADN",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTzBpUWEyTFY0WUF0SDY4b1FELUV1MDdoQUF6WmNjaC1MNkVwZGhuM2t1eU1YM1p3bll3SnZxSHVtVURib0NYa2ZWaGstOUE5TkFnUnhYRG9HU2RFNkVGTWVvVUdtM2ZSa2pGRlRSVmxzek5zWXhXMUdOMHZUajVZLTFoWFBwZlB3OURRUA",
-      "source": "L'ADN",
-      "date": "2026-10-13T13:14:57+00:00",
-      "section": "Campagnes créatives",
-      "sections": [
-        "Campagnes créatives"
-      ],
-      "query": "site:ladn.eu (campagne OR publicité OR marketing OR créativité)",
-      "channel": "Google Actualités",
-      "editorial": {
-        "score": 49,
-        "tags": [
-          "campaign"
-        ],
-        "source_tier": 1,
-        "reason": "Idée de campagne ou dispositif créatif à explorer",
-        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
-        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-      },
-      "type": "article"
-    },
-    {
-      "title": "Argent sous influence : quand les réseaux sociaux deviennent nos conseillers financiers",
-      "url": "https://www.ladn.eu/nouveaux-usages/finances-personnelles-influence-reseaux-sociaux/?utm_source=rss&utm_medium=rss&utm_campaign=finances-personnelles-influence-reseaux-sociaux",
-      "source": "L'ADN",
-      "date": "2026-10-13T13:10:23+00:00",
-      "section": "Campagnes créatives",
-      "sections": [
-        "Campagnes créatives"
-      ],
-      "query": "Flux L'ADN",
-      "channel": "RSS direct",
-      "editorial": {
-        "score": 49,
-        "tags": [
-          "campaign"
-        ],
-        "source_tier": 1,
-        "reason": "Idée de campagne ou dispositif créatif à explorer",
-        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
       },
       "type": "article"
@@ -1273,29 +1137,6 @@
         "source_tier": 3,
         "reason": "Pratique RH ou marque employeur potentiellement transposable",
         "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
-        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-      },
-      "type": "article"
-    },
-    {
-      "title": "Réseaux sociaux en septembre : Action joue la transparence, Intermarché passe en mode Koh Lanta, la rentrée d’Auchan avec humour [Vidéos] - LSA conso",
-      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOTUplYmgzMWV0SlZKZVphYko2RTNNcjJwdUdHTElUZVd0cC02dlZLeTcxaEphN183YS1EajBkR1RZS2VVUzJFVktTREZ3cHB2S2ZtV09xTGlEMVJ5TmxkOS1ZSVdYNkpVYUFoTDd1cGZMbFNMUldlRllnTzZtZ2J0dlpGLThSUzBmLUg3bHFSM0Vpb2ZQM21lOHN4VzFNQWlEeVFfcVZwbUl1dmt5NklwcUhrUy00NXRDWDZndlhMc0c5cWh5RmZKVkNSRUdtMnU1UXR4ZEpNV1QxYmxVamlYMmVUZ2NSMUdhVkZYUm9WSmRPWWpiSzNNRDlNZHFjVnQ1YmFRS3RiOWRrcE5hbG5rSXZ2OUpOdzhFX3o4WDhvRzdHRjEtYW5CMVRIeHJqd0JFeDZVREd5TG1GSC1MUzZXenh5NEFMZw",
-      "source": "LSA conso",
-      "date": "2026-10-13T09:13:05+00:00",
-      "section": "Campagnes créatives",
-      "sections": [
-        "Campagnes créatives"
-      ],
-      "query": "site:lsa-conso.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-      "channel": "Google Actualités",
-      "editorial": {
-        "score": 46,
-        "tags": [
-          "campaign"
-        ],
-        "source_tier": 2,
-        "reason": "Idée de campagne ou dispositif créatif à explorer",
-        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
       },
       "type": "article"
@@ -2302,22 +2143,20 @@
       "url": "https://www.blogdumoderateur.com/reseaux-sociaux-preferes-community-managers-2026/",
       "source": "Blog du Modérateur",
       "date": "2026-10-12T07:24:48+00:00",
-      "section": "Campagnes créatives",
+      "section": "Inspiration RH",
       "sections": [
-        "Inspiration RH",
-        "Campagnes créatives"
+        "Inspiration RH"
       ],
       "query": "Flux Blog du Modérateur",
       "channel": "RSS direct",
       "editorial": {
-        "score": 61,
+        "score": 44,
         "tags": [
-          "campaign",
           "impact"
         ],
         "source_tier": 2,
-        "reason": "Idée de campagne ou dispositif créatif à explorer",
-        "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?",
+        "reason": "Pratique RH ou marque employeur potentiellement transposable",
+        "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
       },
       "type": "article"
@@ -2664,29 +2503,6 @@
       "type": "article"
     },
     {
-      "title": "LA CENDRÉE – MORZINE – RECRUTEMENT HIVER 2026/2027 La résidence - L'Hôtellerie Restauration",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRGw3bDk2dlhieVR6d3RsbjZPMkhzV2Y4Q1FIVFdTd1lGUWJBXy1rWXowZnF6cE5pNEFkenhfeFFra3d6VDExTXRMc1dJRU1ReVIyb0liQzkzOUJ3UFBQVDYydV9CODhQRlU1WWVmLUZ5dDE4d3pwNjF1ZUw4aExJdWJTeUx2Rm5Ba3BCWkpQUHJmSktTdk1waHlvV2tlZFF4cmdWUzZRUEY",
-      "source": "L'Hôtellerie Restauration",
-      "date": "2026-10-09T13:38:52+00:00",
-      "section": "Inspiration RH",
-      "sections": [
-        "Inspiration RH"
-      ],
-      "query": "site:lhotellerie-restauration.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-      "channel": "Google Actualités",
-      "editorial": {
-        "score": 55,
-        "tags": [
-          "impact"
-        ],
-        "source_tier": 1,
-        "reason": "Pratique RH ou marque employeur potentiellement transposable",
-        "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
-        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-      },
-      "type": "article"
-    },
-    {
       "title": "Gemini ne se contente plus de répondre à vos questions, il peut désormais travailler pour vous - Siècle Digital",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSXJQQ3NfVEdlYkFmb1lSRVlTYWtYOVNpWFhqcDJlRmFXZXNxdG5ya0J3RXFvckU5b1RyMVExdDZCRkxUQ1Bkc2JoQXNSQTVuUFJlV3QwaGZxZnBnUHdYMDVSQV9PUU9EdUJUcHhacGxEdG9WeVdPbXRBVlJ3VFI5TkdTdDZSc19feFNTSFVHZ2ZyNmk3UnpQdEN6SE9rRVZ1RzhTTGtTOUhxcTlEMVJ6bDdVLUpBcWhOUFRJcWJ3cVhpUjlqWWVvOWdn",
       "source": "Siècle Digital",
@@ -3007,12 +2823,13 @@
       "date": "2026-10-09T08:00:00+00:00",
       "section": "Inspiration RH",
       "sections": [
+        "Podcasts & interviews",
         "Inspiration RH"
       ],
       "query": "Flux Parlons RH",
       "channel": "RSS direct",
       "editorial": {
-        "score": 47,
+        "score": 52,
         "tags": [
           "impact"
         ],
@@ -3021,7 +2838,7 @@
         "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
       },
-      "type": "article"
+      "type": "podcast"
     },
     {
       "title": "La Normandie enlève le superflu dans sa dernière campagne et tacle les Bretons au passage",
@@ -3331,29 +3148,6 @@
           "campaign"
         ],
         "source_tier": 1,
-        "reason": "Idée de campagne ou dispositif créatif à explorer",
-        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
-        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-      },
-      "type": "article"
-    },
-    {
-      "title": "Actualité des réseaux sociaux de LinkedIn à TikTok - Siècle Digital",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zY2pZdkhYcUlLYXc5UzRRY3ZYeTBIQmhxRW1wNGU2dThlMXlIMHg2aUlld3FDdXhYVGVvSVlFd3N3eExfQ2pRNjZfMDJMVFFzbmFfMjFJLUpyVEFYM3pOOUJ0WVBUMDdhdGQ4",
-      "source": "Siècle Digital",
-      "date": "2026-10-08T13:07:28+00:00",
-      "section": "Campagnes créatives",
-      "sections": [
-        "Campagnes créatives"
-      ],
-      "query": "site:siecledigital.fr (campagne OR publicité OR marketing OR créativité)",
-      "channel": "Google Actualités",
-      "editorial": {
-        "score": 46,
-        "tags": [
-          "campaign"
-        ],
-        "source_tier": 2,
         "reason": "Idée de campagne ou dispositif créatif à explorer",
         "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
@@ -7057,29 +6851,6 @@
       "type": "article"
     },
     {
-      "title": "Comment gagner de l’argent sur les réseaux sociaux en 2026 ? - Shopify",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQzFKczZTdTJCcWRpTG1FZVdyOEFmQWktUEhVdGoyX0dYY2pNb3BBRFpiNVg0WDM0QXZNTlNUeWpQcF90VVNuVVBOU1JoWmIxWDNwUmNhMGl5UTNZNndqTXVTYmRlUDVLcGE2b3ZnNl9keExaakNnR2JHYk8wV2RJdjU5SFZac2h4ZVE",
-      "source": "Shopify",
-      "date": "2026-08-14T07:00:00+00:00",
-      "section": "Campagnes créatives",
-      "sections": [
-        "Campagnes créatives"
-      ],
-      "query": "publicité activation création TikTok France 2026",
-      "channel": "Google Actualités",
-      "editorial": {
-        "score": 31,
-        "tags": [
-          "campaign"
-        ],
-        "source_tier": 3,
-        "reason": "Idée de campagne ou dispositif créatif à explorer",
-        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
-        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-      },
-      "type": "article"
-    },
-    {
       "title": "Métiers qui recrutent en 2026 : le top 10 selon France Travail - mesinfos",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMGhBTUtMemRudi1fSlZESFVtYzNFeE1pb2xUdTZ4VzJmWE1XLUVDYTNaYXViVVR4SUlWRGdXNU1XLWJpN0VfZHU1SmFwWkw5Z1BIYmhaNnRmZUFmZU1NbVYwZzZJemxWNU5wSGtKT3VybkhxZWRUVkRpWGtrU2RMa2tVVUZybWNQc3BFTlo5QzJ0YXA5NDRR",
       "source": "mesinfos",
@@ -8168,29 +7939,6 @@
           "campaign"
         ],
         "source_tier": 3,
-        "reason": "Idée de campagne ou dispositif créatif à explorer",
-        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
-        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-      },
-      "type": "article"
-    },
-    {
-      "title": "Social media et créateurs, nouveaux socles de l'efficacité média pour Candy'Up, Shark Ninja et la Fnac - Influencia",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdFAwTWhtNy1jQXBiN1M2ejFlVm5FeWdIOS15TkJZNk93ZVhiOFlDSUk0dkE0cWV1TXZRMFd5Skc4Z3Z3NHdGaWNmWGZndkp6MkdMR2lETnJubEN3bnpVNWpXMkZLVjhzejEzNkdfUFNWSTJPRllhalZiMXVGQVp0U2V5WGhybGtFWWh6VWNIRHcyWEpPOTNGWmg3a3JueU5LQVFSdE1WQTF1UDlWYjZpak5Xbk5uUVA5Ul9UMjdRbzFEek9n",
-      "source": "Influencia",
-      "date": "2026-07-02T07:00:00+00:00",
-      "section": "Campagnes créatives",
-      "sections": [
-        "Campagnes créatives"
-      ],
-      "query": "influence TikTok campagne marque nouveau format",
-      "channel": "Google Actualités",
-      "editorial": {
-        "score": 34,
-        "tags": [
-          "campaign"
-        ],
-        "source_tier": 2,
         "reason": "Idée de campagne ou dispositif créatif à explorer",
         "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."

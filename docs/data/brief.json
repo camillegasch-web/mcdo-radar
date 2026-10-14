@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T10:04:19.920979+00:00",
+  "updated_at": "2026-10-14T10:05:33.971945+00:00",
   "sections": {
     "France": [
       {
@@ -145,6 +145,31 @@
         }
       },
       {
+        "title": "Publicité : le groupement des Mousquetaires (Intermarché, Bricomarché, Netto...) lance sa première campagne de marque employeur - LSA conso",
+        "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQUjV6WDcxRFlFYkJ3TlJhTjJvcVdtS1AzQTNXUnNXQmRfR1I5X2pmZVBBNmlUb0FDa1ZQN21qeVNaMjNSMF9wM19WSTdpQlN2SG1Lcmc5a0ZHRGtfMW1MZ0dNWEw5YktPeXRDWlVCNVlCcWZILU96U2FXbkdQckI3a0lTZEx3eDZ6LTZRUjV3SzRwQUVhMzZhSDduYk00UDc1bnBMQmJXdUlMcUhNLUdVZG5FVk96ZF90NE5fMlRoTUNpb1ZqemM2QmJ3NEJMakk0TGtSa3FLTXBaT0RZaTdHNkV2aFJSV241ajMxQjZVanBTU1JEeG1mclh6Nkp4YUNYemtzVV9WUmhrazU5TjVzNWt3NmxkZnY4TE11OTJJc2dwRHRWTURIbm1WdkM1SWFxSWZlcWg2akpyNW9VdlQ1bzVB",
+        "source": "LSA conso",
+        "date": "2026-10-14T09:33:31+00:00",
+        "section": "Campagnes créatives",
+        "sections": [
+          "Inspiration RH",
+          "Campagnes créatives"
+        ],
+        "query": "site:lsa-conso.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
+        "channel": "Google Actualités",
+        "type": "article",
+        "editorial": {
+          "score": 61,
+          "tags": [
+            "campaign",
+            "impact"
+          ],
+          "source_tier": 2,
+          "reason": "Idée de campagne ou dispositif créatif à explorer",
+          "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
         "title": "Emploi : l’IA freine déjà l’embauche des jeunes",
         "url": "https://www.blogdumoderateur.com/ia-freine-embauche-jeunes/",
         "source": "Blog du Modérateur",
@@ -275,29 +300,6 @@
           "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
         },
         "type": "article"
-      },
-      {
-        "title": "Écarts de salaire à poste équivalent : saurez-vous tous les justifier ?",
-        "url": "https://www.helloworkplace.fr/ecarts-salaire-justifier/",
-        "source": "HelloWorkplace / HelloWork",
-        "date": "2026-10-14T05:41:09+00:00",
-        "section": "Inspiration RH",
-        "sections": [
-          "Inspiration RH"
-        ],
-        "query": "Flux HelloWorkplace / HelloWork",
-        "channel": "RSS direct",
-        "editorial": {
-          "score": 47,
-          "tags": [
-            "impact"
-          ],
-          "source_tier": 1,
-          "reason": "Pratique RH ou marque employeur potentiellement transposable",
-          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
-          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-        },
-        "type": "article"
       }
     ],
     "Campagnes créatives": [
@@ -331,6 +333,7 @@
         "date": "2026-10-14T09:33:31+00:00",
         "section": "Campagnes créatives",
         "sections": [
+          "Inspiration RH",
           "Campagnes créatives"
         ],
         "query": "site:lsa-conso.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
