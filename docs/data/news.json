@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T08:45:48.396767+00:00",
+  "updated_at": "2026-10-14T08:47:13.876736+00:00",
   "sources_ok": 112,
   "sources_total": 116,
   "source_names": [
@@ -130,7 +130,7 @@
   ],
   "source_count": 124,
   "source_priority_policy": "Sélection éditoriale indicative : score déterminé par titre, source, rubrique et date. Aucun contenu intégral analysé.",
-  "new_count": 14,
+  "new_count": 0,
   "source_errors": [
     {
       "source": "La Réclame",
