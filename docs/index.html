@@ -1,50 +1,166 @@
 <!doctype html>
-<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#123e2b">
-<title>McDo Radar — Veille éditoriale</title><style>
-:root{font-family:Inter,system-ui,-apple-system,Arial,sans-serif;color:#173b2c;background:#f8f7f1}*{box-sizing:border-box}body{margin:0}header{background:#123e2b;color:#fff;padding:27px max(20px,calc((100vw - 1180px)/2))}header small{color:#f8d45c;font-weight:700;letter-spacing:.14em}h1{font-size:clamp(30px,5vw,54px);margin:9px 0;letter-spacing:-.055em}header p{color:#d9e6dd;max-width:800px;line-height:1.5}main{max-width:1180px;margin:auto;padding:24px 18px 90px}nav{display:flex;gap:8px;flex-wrap:wrap;margin:15px 0}button{background:white;border:1px solid #cbd6cc;padding:12px 15px;border-radius:12px;color:#173b2c;font-weight:650;cursor:pointer}button.active{background:#f4cf47;border-color:#f4cf47}button:hover{border-color:#15633f}input,select{border:1px solid #cad6ca;padding:14px;border-radius:12px;font-size:15px;background:#fff;min-width:0}.controls{display:grid;grid-template-columns:minmax(200px,1fr) minmax(135px,190px) auto auto;gap:10px}#count,#status{font-size:13px;color:#607267}.box{background:white;border:1px solid #e4e7db;padding:18px 20px;border-radius:18px;margin:16px 0}.stats{display:flex;gap:16px;flex-wrap:wrap}.stat{padding:10px 14px;background:#f0f4e9;border-radius:10px}.stat b{display:block;font-size:22px}.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(295px,1fr));gap:15px}.card{background:#fff;border:1px solid #e1e6db;border-radius:17px;padding:20px;display:flex;flex-direction:column;gap:11px}.card h3{margin:0;font-size:18px;line-height:1.35}.meta{font-size:12px;color:#718173}.tag{display:inline-block;background:#e9f3e9;color:#245b3e;border-radius:20px;padding:5px 10px;font-size:12px;font-weight:700;align-self:start}.card a{color:#144e31;font-weight:750}.card footer{display:flex;align-items:center;justify-content:space-between;margin-top:auto;gap:8px}.card footer button{padding:8px 10px;font-size:12px}.muted{color:#657869}aside{background:#fff9db;border:1px solid #e7d485;padding:16px 20px;border-radius:15px;line-height:1.5}#selected{font-size:14px}.source-tags{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.source-tags a{color:#1d5035;text-decoration:none;background:#eef4e7;border:1px solid #dfecd9;border-radius:8px;padding:8px 11px;font-size:13px}.source-tags a:hover{text-decoration:underline}.sources-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px}.sources-grid h3{margin:0 0 7px;font-size:16px}.compact-note{font-size:12px;color:#66746c;line-height:1.5}.more[hidden]{display:none}.more{background:#174c34;color:white;margin:18px auto 2px;display:block}#selected a{color:#173b2c}#brief-list li{margin-bottom:9px}#brief-list a{color:#164d34}section[hidden]{display:none!important}@media(max-width:640px){.controls{grid-template-columns:1fr}button{padding:10px}header{padding:28px 19px}}
-.editorial-controls{background:#fbfbf5}.editorial-controls h2{margin:0 0 6px}
-.editorial-controls p{margin:0 0 12px}.editorial-filters{display:flex;flex-wrap:wrap;gap:9px}
-.editorial-filters button{border:1px solid #a6bdae;background:#f4f7f0;color:#163f2a}
-.editorial-filters button.active{background:#f5d64d;border-color:#e1c238;color:#1e351e}
-.controls{grid-template-columns:minmax(170px,1fr) minmax(135px,185px) minmax(140px,160px) minmax(125px,150px) auto}
-.chip-row{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
-.source-tier,.also{font-size:11px;color:#52735a;background:#f0f4ea;border-radius:6px;padding:5px 8px}
-.also{background:#faf4db;color:#6f602c}
-.editorial-summary{border-top:1px solid #e8eee5;padding-top:11px;font-size:13px;line-height:1.45}
-.editorial-summary strong{font-size:12px}.editorial-summary p{margin:5px 0 0;color:#5b715f}
-.editorial-summary .angle{color:#2e593d;font-weight:600}
-.mini-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:10px}
-.mini-tags span{font-size:11px;border:1px solid #e1e8d7;border-radius:5px;padding:3px 6px}
-.sources-tier{padding:14px;background:#fafbf7;border:1px solid #e2e7db;border-radius:12px}
-.sources-tier h3{margin:0 0 4px}.sources-tier p{font-size:12px;color:#657b69}
-.small-note{font-size:12px;color:#617367}
-nav{position:relative}nav button small{color:inherit;opacity:.64}
-@media(max-width:800px){.controls{grid-template-columns:1fr 1fr}.controls #search{grid-column:span 2}}
-@media(max-width:480px){.controls{grid-template-columns:1fr}.controls #search{grid-column:auto}.editorial-filters button{flex:1}}
-
-</style></head><body>
-<header><small>RADAR ÉDITORIAL · FRANCE</small><h1>McDo Radar <span style="color:#f4cd44">●</span></h1><p>Actualités McDo France et locales, concurrence, campagnes créatives, communication et RH : ta veille presse et inspiration pour les newsletters.</p></header>
-<main><div class="box"><div class="stats"><div class="stat"><b id="total">—</b>articles indexés</div><div class="stat"><b id="new">—</b>nouveaux articles (dernière collecte)</div><div class="stat"><b id="coverage">—</b>flux répondants</div></div><p id="status">Chargement des actualités…</p></div>
-<nav id="tabs" aria-label="Rubriques"></nav><section class="box editorial-controls">
-<h2>Ta sélection éditoriale</h2>
-<p class="muted">Des suggestions calculées automatiquement à partir des titres, de l’actualité et des médias. Les angles proposés restent à vérifier avant publication.</p>
-<div id="editorial-filters" class="editorial-filters" role="group" aria-label="Sélection éditoriale"></div>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#103d2e">
+<meta name="description" content="McDo Radar : veille des actualités, campagnes créatives, marque employeur et podcasts.">
+<title>McDo Radar · La veille qui inspire</title>
+<style>
+:root{--green:#123f30;--deep:#102e25;--leaf:#2c7655;--yellow:#f9d84a;--cream:#f9f8f2;--white:#fff;--ink:#183529;--muted:#697b70;--line:#dfe8dc;--soft:#f0f5ed;--shadow:0 11px 32px rgba(21,61,41,.055)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+a{color:var(--green)}
+button,input,select{font:inherit}
+button{cursor:pointer}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #ecb72c;outline-offset:3px}
+.site-top{background:var(--green);color:white;position:relative;overflow:hidden}
+.site-top:after{content:"";position:absolute;right:-140px;top:-170px;width:510px;height:510px;border:2px solid rgba(249,216,74,.15);border-radius:50%;box-shadow:0 0 0 75px rgba(249,216,74,.045),0 0 0 155px rgba(249,216,74,.025);pointer-events:none}
+.wrap{max-width:1240px;margin:0 auto;padding-left:28px;padding-right:28px}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding-top:25px;padding-bottom:24px;position:relative;z-index:1}
+.logo{display:flex;align-items:center;gap:13px;font-size:16px;letter-spacing:-.02em;font-weight:800}
+.logo-mark{display:grid;place-items:center;background:var(--yellow);color:var(--deep);border-radius:12px;width:44px;height:44px;font-weight:900;font-size:22px;letter-spacing:-.14em;padding-right:3px}
+.logo-sub{font-size:11px;font-weight:600;color:#cee1d1;display:block;letter-spacing:.1em;margin-top:3px}
+.live{display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.1);color:#e2eee4;border:1px solid rgba(255,255,255,.19);border-radius:50px;padding:9px 13px;font-size:12px;font-weight:650}
+.live i{width:7px;height:7px;border-radius:50%;background:var(--yellow)}
+.hero{padding-top:21px;padding-bottom:41px;position:relative;z-index:1;display:flex;justify-content:space-between;gap:36px;align-items:flex-end}
+.hero-copy{max-width:760px}.eyebrow{letter-spacing:.16em;font-size:11px;font-weight:800;text-transform:uppercase;color:var(--yellow)}
+h1{font-size:clamp(40px,6.2vw,78px);font-weight:830;letter-spacing:-.065em;line-height:1.03;margin:15px 0 16px}
+.hero p{font-size:16px;line-height:1.6;color:#d5e6db;max-width:690px;margin:0}
+.hero-sign{font-size:112px;line-height:.8;color:var(--yellow);font-weight:800;opacity:.96;transform:rotate(-12deg);padding-right:24px}
+.stats{display:flex;align-items:center;gap:0;border-top:1px solid rgba(255,255,255,.16);padding-top:19px;padding-bottom:18px;position:relative;z-index:1;flex-wrap:wrap}
+.stat{padding:8px 27px 8px 0;margin-right:27px;border-right:1px solid rgba(255,255,255,.19)}
+.stat:last-of-type{border-right:0}
+.stat strong{font-size:22px;letter-spacing:-.03em;display:block}
+.stat span{font-size:11px;color:#d0e3d7}
+.status{margin-left:auto;color:#d4e8d8;font-size:11px;max-width:290px;line-height:1.45;text-align:right}
+.shell{padding-top:22px;padding-bottom:80px}
+.tab-container{background:var(--white);border:1px solid var(--line);border-radius:18px;padding:8px;box-shadow:var(--shadow)}
+.tabs{display:flex;overflow-x:auto;gap:5px;scrollbar-width:thin;padding:2px}
+.tabs button{white-space:nowrap;border:0;background:transparent;border-radius:11px;color:#536c5c;font-size:13px;padding:12px 14px;font-weight:700}
+.tabs button.active{background:var(--green);color:#fff}
+.tabs button:hover:not(.active){background:#edf4ed}
+.tabs small{font-size:10px;opacity:.73;margin-left:5px}
+.section-heading{display:flex;justify-content:space-between;gap:20px;align-items:end;margin:29px 0 18px}
+.kicker{color:var(--leaf);font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:850}
+h2{font-size:clamp(22px,3vw,32px);letter-spacing:-.045em;line-height:1.15;margin:7px 0}
+.section-heading p{font-size:13px;line-height:1.55;color:var(--muted);margin:8px 0 0;max-width:660px}
+.week-tag{background:#faf0ba;color:#776518;padding:8px 12px;border-radius:8px;font-size:12px;font-weight:800;white-space:nowrap}
+.week-note{font-size:12px;color:#68796c;margin:9px 0 20px}
+.weekly-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.week-card{display:grid;grid-template-columns:54px 1fr;gap:15px;background:#fff;border:1px solid var(--line);border-radius:17px;padding:19px;box-shadow:var(--shadow)}
+.week-num{border-radius:13px;background:#fbe18b;color:var(--green);font-size:22px;font-weight:850;width:48px;height:48px;display:flex;align-items:center;justify-content:center}
+.week-card:first-child{background:#173e2e;color:#fff;border-color:#173e2e}
+.week-card:first-child .week-num{background:var(--yellow)}
+.week-card:first-child .meta,.week-card:first-child .article-note,.week-card:first-child .angle{color:#d4e6d7}
+.week-card:first-child .week-actions a{color:#ffe17d}
+.week-card h3{margin:8px 0;font-size:17px;line-height:1.33;letter-spacing:-.017em}
+.meta{font-size:11px;color:var(--muted);font-weight:600;line-height:1.5}
+.article-note{font-size:12px;color:#58715e;line-height:1.45;margin:8px 0}
+.angle{font-size:12px;line-height:1.45;color:#325c42;font-weight:650;margin:8px 0}
+.week-actions,.card-actions{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:14px}
+.week-actions a,.card-actions a{font-size:12px;font-weight:780;text-decoration:none}
+.week-actions a:hover,.card-actions a:hover{text-decoration:underline}
+.mini-btn{border:1px solid #cddbd0;background:transparent;border-radius:9px;color:inherit;font-size:11px;font-weight:750;padding:8px 11px}
+.mini-btn:hover{background:#e9f3e8;color:var(--green)}
+.week-card:first-child .mini-btn{border-color:rgba(255,255,255,.4)}
+.week-card:first-child .mini-btn:hover{color:#163e2d}
+.filters-wrap{background:#fff;border:1px solid var(--line);border-radius:17px;padding:22px;margin:22px 0 18px;box-shadow:var(--shadow)}
+.filters-wrap h3{font-size:16px;letter-spacing:-.02em;margin:0 0 6px}
+.help{font-size:12px;color:var(--muted);line-height:1.5;margin:0}
+.editorial-filters{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;padding-bottom:17px;border-bottom:1px solid var(--line)}
+.editorial-filters button{padding:9px 13px;border-radius:99px;background:#f2f5ee;border:1px solid #d8e5d9;color:#31533d;font-size:12px;font-weight:700}
+.editorial-filters button.active{background:var(--yellow);border-color:var(--yellow);color:var(--deep)}
+.fields{display:grid;grid-template-columns:minmax(165px,1.45fr) repeat(3,minmax(110px,1fr));gap:13px;margin-top:18px}
+.field label{display:block;font-size:11px;color:#657b6a;font-weight:780;margin:0 0 7px}
+.field input,.field select{height:42px;width:100%;background:#fbfcf9;border:1px solid #d8e3d7;border-radius:9px;color:var(--ink);padding:0 12px;font-size:12px;min-width:0}
+.filter-footer{display:flex;justify-content:space-between;align-items:center;margin-top:16px;flex-wrap:wrap;gap:12px}
+.filter-footer p{margin:0;font-size:12px;color:var(--muted)}
+.secondary-btn{background:white;border:1px solid #cbd9ce;color:#315c43;padding:10px 13px;border-radius:9px;font-size:12px;font-weight:730}
+.secondary-btn:hover{background:#eff6ed}
+.primary-btn{background:var(--green);color:#fff;border:none;border-radius:9px;padding:10px 14px;font-size:12px;font-weight:770}
+.primary-btn:hover{background:#205840}
+.feed-header{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;margin:22px 0 16px;flex-wrap:wrap}
+.feed-header h2{margin:0 0 4px}.feed-header p{margin:0;font-size:12px;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:var(--shadow);display:flex;flex-direction:column;min-width:0;min-height:245px}
+.card h3{font-size:16px;line-height:1.38;letter-spacing:-.012em;margin:10px 0 0}
+.chip-row{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:11px}
+.tag{font-size:10px;font-weight:780;background:#e5f1e4;border-radius:6px;color:#23613e;padding:6px 8px}
+.tag.soft{background:#f7f1dc;color:#706126}
+.card .reason{font-size:12px;color:#607365;line-height:1.5;margin-top:11px}
+.card .angle{font-size:12px;line-height:1.55;margin:8px 0 0}
+.card-actions{margin-top:auto;padding-top:15px}
+.p-score{font-size:11px;color:#607566;background:#f3f6ee;border-radius:7px;padding:6px 8px}
+.score{font-weight:800}
+.empty{background:#fff;border:1px dashed #c9d8ce;padding:25px;border-radius:12px;color:#617468}
+.load-more{display:block;background:#e7efe5;color:var(--green);font-size:12px;font-weight:750;border:0;border-radius:10px;padding:13px 19px;margin:20px auto}
+.source-catalogue{display:grid;grid-template-columns:1fr 1fr;gap:17px}
+.source-tier{border:1px solid var(--line);border-radius:16px;background:white;padding:20px}
+.source-tier h3{font-size:18px;margin:0 0 8px}
+.source-tier p{font-size:12px;color:var(--muted)}
+.source-tags{display:flex;flex-wrap:wrap;gap:7px}
+.source-tags a{font-size:11px;color:#285a3f;background:#f0f5ed;border:1px solid #e1ebdf;padding:8px 10px;text-decoration:none;border-radius:7px}
+.source-tags a:hover{text-decoration:underline}
+.newsletter-box{background:#fff;border:1px solid var(--line);border-radius:17px;padding:23px;margin-top:28px}
+.newsletter-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.newsletter-head h2{font-size:19px;margin:0}.newsletter-head span{background:var(--yellow);border-radius:20px;padding:4px 9px;font-size:13px}
+.newsletter-actions{display:flex;gap:8px;margin:14px 0}
+#selected-list ol{margin:14px 0;padding-left:22px;font-size:12px;line-height:1.8;color:#5b7160}
+#selected-list li{margin-bottom:5px}#selected-list a{font-weight:730;color:#204c34}
+#selected-list p{font-size:12px;color:var(--muted)}
+.footnote{font-size:11px;color:#687d6d;line-height:1.6;margin-top:17px}
+[data-hidden="true"],[hidden]{display:none!important}
+@media(min-width:760px){.week-card:first-child{grid-column:1;grid-row:1 / span 2;align-self:stretch}.week-card:first-child h3{font-size:25px;margin:15px 0}.week-card:first-child{grid-template-columns:1fr;align-content:center;padding:25px}.week-card:first-child .week-num{width:55px;height:55px}}
+@media(max-width:1040px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.fields{grid-template-columns:repeat(3,minmax(0,1fr))}.field.search-field{grid-column:span 3}}
+@media(max-width:760px){.wrap{padding-left:16px;padding-right:16px}.hero{padding-top:5px;padding-bottom:28px}.hero-sign{display:none}.hero p{font-size:14px}.hero h1{font-size:44px}.stats{gap:12px}.stat{margin-right:0;padding-right:14px}.status{margin-left:0;text-align:left;max-width:100%}.weekly-grid,.source-catalogue,.cards{grid-template-columns:1fr}.fields{grid-template-columns:repeat(2,minmax(0,1fr))}.field.search-field{grid-column:span 2}.section-heading{align-items:start;flex-direction:column}.week-card:first-child h3{font-size:22px}}
+@media(max-width:420px){.fields{grid-template-columns:1fr}.field.search-field{grid-column:auto}.logo{font-size:14px}.live{padding:8px;font-size:10px}.hero h1{font-size:38px}.stat strong{font-size:19px}.week-card{grid-template-columns:40px 1fr;padding:15px;gap:10px}.week-num{width:37px;height:37px;font-size:18px}}
+</style>
+</head>
+<body>
+<header class="site-top">
+<div class="wrap topbar"><div class="logo"><div class="logo-mark">M</div><div>McDo Radar<span class="logo-sub">VEILLE & INSPIRATION</span></div></div><div class="live"><i></i> Actualisation quotidienne</div></div>
+<div class="wrap hero"><div class="hero-copy"><div class="eyebrow">La veille qui nourrit les idées</div><h1>Un œil sur l'actu.<br>Deux sur les idées.</h1><p>Actualités McDo, marque employeur, campagnes créatives et podcasts. Une veille structurée pour repérer ce qui compte et préparer tes prochaines newsletters.</p></div><div class="hero-sign">✳</div></div>
+<div class="wrap stats"><div class="stat"><strong id="total">—</strong><span>contenus récents</span></div><div class="stat"><strong id="new">—</strong><span>nouveaux contenus</span></div><div class="stat"><strong id="coverage">—</strong><span>sources / recherches</span></div><div id="status" class="status">Chargement des actualités…</div></div>
+</header>
+<main class="wrap shell">
+<div class="tab-container"><nav id="tabs" class="tabs" aria-label="Rubriques du radar"></nav></div>
+<section id="weekly-panel" hidden>
+<div class="section-heading"><div><div class="kicker">La sélection de la semaine</div><h2>Les 10 pépites à ne pas manquer <span aria-hidden="true">✦</span></h2><p>Une sélection de sujets marquants pour alimenter tes réflexions, ta newsletter et tes recommandations McDo.</p></div><div class="week-tag" id="weekly-range">7 derniers jours</div></div>
+<p class="week-note">Sélection automatique basée sur les titres, dates et sources. Les articles et angles proposés doivent être vérifiés avant diffusion.</p>
+<div id="weekly-cards" class="weekly-grid"></div>
 </section>
-<div class="controls"><input id="search" placeholder="Rechercher une ville, une marque, un mot-clé…"><select id="source-filter" aria-label="Média"><option value="">Tous les médias</option></select><select id="sort" aria-label="Ordre des articles">
-<option value="relevance" selected>Par pertinence</option>
-<option value="recent">Plus récents</option>
-<option value="source">Priorité du média</option>
-</select><select id="period"><option value="7">7 derniers jours</option><option value="30" selected>30 derniers jours</option><option value="90">90 derniers jours</option><option value="180">6 derniers mois</option><option value="3650">Tout l’historique</option></select><button id="refresh">↻ Actualiser l’affichage</button></div>
-<section id="inspiration" class="box" hidden><h2>💡 Inspiration RH & campagnes de recrutement</h2><p>Campagnes de communication RH, marque employeur, image employeur, expérience candidat, tendances du travail, engagement et innovations RH de <b>tous secteurs</b>.</p><p class="muted">Astuce newsletter : ajoute les articles à ta sélection, puis copie leurs liens pour préparer les sujets de tes prochaines éditions.</p></section>
-<section id="creative" class="box" hidden><h2>🎨 Campagnes créatives</h2><p>Campagnes publicitaires, activations, films, affichage, social media, innovations marketing et campagnes de recrutement, tous secteurs confondus. Sources : Creapills, L’ADN, Dans Ta Pub, Stratégies, CB News et d’autres médias spécialisés.</p><p class="muted">Les campagnes RH créatives peuvent apparaître dans cet onglet et dans « Inspiration RH ».</p></section>
-<section id="podcasts-panel" class="box" hidden>
-<h2>🎧 Podcasts & interviews</h2>
-<p>Des épisodes repérés dans les flux publics de podcasts RH, communication, marketing, franchise et restauration.</p>
-<p class="muted">Sélectionne un épisode pour ta newsletter, ou ouvre le lien pour consulter son programme et son contenu. Tous les épisodes ne sont pas nécessairement pertinents pour McDo.</p>
+<section id="sources-panel" hidden>
+<div class="section-heading"><div><div class="kicker">Méthodologie</div><h2>Nos sources, par priorité</h2><p>La priorité mesure l'intérêt potentiel pour une veille McDo / RH / communication, pas la fiabilité ou la qualité journalistique. Une source ciblée ne publie pas nécessairement chaque jour.</p></div></div>
+<div id="source-catalogue" class="source-catalogue"></div>
 </section>
-<section id="sources-panel" class="box" hidden><h2>📰 Médias & sources suivis</h2><p>Sources classées selon leur intérêt <strong>estimé pour les sujets McDo, RH et communication</strong>, et non selon leur qualité journalistique. Priorité 1 : sources centrales ; 2 : inspiration complémentaire ; 3 : veille élargie.</p><div id="source-catalogue" class="sources-grid"></div><p class="compact-note">LinkedIn : uniquement les publications publiques éventuellement indexées. Aucun accès garanti à l’ensemble des posts ou aux comptes privés.</p></section>
-<section class="box"><h2>Ma sélection newsletter <span id="selected-count">0</span></h2><div id="selected"></div><button id="copy">Copier ma sélection</button><button id="clear">Vider la sélection</button></section>
-<section id="articles-panel" class="box"><h2 id="heading">Toute l’actualité</h2><p id="count"></p><div id="cards" class="cards"></div><button class="more" id="more" hidden>Afficher plus d’articles ↓</button></section><aside><b>À savoir</b> : la sélection automatique ne lit pas le texte intégral des articles ; elle repère des signaux dans les titres, la date, les rubriques et les noms de médias. Les suggestions et scores doivent être vérifiés avant utilisation. Les requêtes explorent Google Actualités et des flux de podcasts chaque jour via GitHub Actions. La couverture peut être partielle et les dates sont celles des publications. Les signaux sensibles sont des alertes à contrôler humainement, pas un diagnostic de crise. Le bouton actualiser recharge les données disponibles, sans lancer une nouvelle collecte.</aside></main>
+<section id="browser-panel" hidden>
+<div class="filters-wrap">
+<h3>Affine ta veille <span aria-hidden="true">↘</span></h3>
+<p class="help">Les filtres se combinent. Une actualité locale doit réellement concerner McDo ; les études RH doivent mentionner une étude ou des chiffres dans leur titre.</p>
+<div id="editorial-filters" class="editorial-filters" role="group" aria-label="Filtres éditoriaux"></div>
+<div class="fields">
+<div class="field search-field"><label for="search">Rechercher un sujet</label><input id="search" type="search" autocomplete="off" placeholder="Ex. recrutement jeunes, TikTok, Burger King…"></div>
+<div class="field"><label for="brand-filter">Marque</label><select id="brand-filter"><option value="">Toutes les marques</option><option value="mcdo">McDonald’s uniquement</option><option value="burger king">Burger King</option><option value="kfc">KFC</option><option value="quick">Quick</option><option value="five guys">Five Guys</option><option value="other">Autres marques</option></select></div>
+<div class="field"><label for="source-filter">Média</label><select id="source-filter"><option value="">Tous les médias</option></select></div>
+<div class="field"><label for="period">Période</label><select id="period"><option value="7">7 derniers jours</option><option value="30" selected>30 derniers jours</option><option value="90">3 derniers mois</option><option value="180">6 derniers mois</option></select></div>
+<div class="field"><label for="type-filter">Format</label><select id="type-filter"><option value="">Articles + podcasts</option><option value="article">Articles seulement</option><option value="podcast">Podcasts seulement</option></select></div>
+<div class="field"><label for="sort">Trier par</label><select id="sort"><option value="date" selected>Les plus récents</option><option value="relevance">Pertinence éditoriale</option><option value="source">Priorité du média</option></select></div>
+</div>
+<div class="filter-footer"><p id="filter-count">0 résultat</p><button class="secondary-btn" type="button" id="reset">Réinitialiser les filtres</button></div>
+</div>
+<div class="feed-header"><div><div class="kicker" id="feed-kicker">Le fil d'actualité</div><h2 id="heading">Toutes les actualités</h2><p id="count"></p></div></div>
+<div id="cards" class="cards"></div>
+<button class="load-more" id="more" type="button" hidden>Afficher plus d'articles</button>
+</section>
+<section class="newsletter-box" id="newsletter">
+<div class="newsletter-head"><h2>✳ Ma sélection newsletter <span id="selected-count">0</span></h2><div class="newsletter-actions"><button class="primary-btn" type="button" id="copy">Copier ma sélection</button><button class="secondary-btn" type="button" id="clear">Tout retirer</button></div></div>
+<div id="selected-list"><p>Aucun article sélectionné pour le moment.</p></div>
+</section>
+<p class="footnote"><strong>Transparence :</strong> cet outil agrège des titres et métadonnées issus de flux accessibles publiquement. Les scores, les classifications et les idées d’angles sont automatiques et non vérifiés. Les publications LinkedIn privées, la presse non indexée et certains podcasts ne sont pas couverts. Les signaux sensibles ne constituent pas des faits établis sans lecture de la source.</p>
+</main>
 <script src="data/news.js"></script>
+<script src="data/weekly.js"></script>
 <script src="editorial.js"></script>
-</body></html>
+</body>
+</html>
