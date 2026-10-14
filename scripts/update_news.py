@@ -37,6 +37,13 @@ CREATIVE_MEDIA = [
     ("The Drum", "thedrum.com"),
     ("Adweek", "adweek.com"),
     ("Campaign", "campaignlive.co.uk"),
+    ("Little Black Book", "lbbonline.com"),
+    ("Marketing Dive", "marketingdive.com"),
+    ("Creative Boom", "creativeboom.com"),
+    ("Digiday", "digiday.com"),
+    ("Social Media Today", "socialmediatoday.com"),
+    ("Ads of the World", "adsoftheworld.com"),
+    ("Cannes Lions", "canneslions.com"),
 ]
 RH_MEDIA = [
     ("HelloWorkplace / HelloWork", "helloworkplace.fr"),
@@ -50,6 +57,22 @@ RH_MEDIA = [
     ("Apec", "apec.fr"),
     ("Liaisons Sociales", "liaisons-sociales.fr"),
     ("Courrier Cadres", "courriercadres.com"),
+    ("Maddyness", "maddyness.com"),
+    ("LinkedIn Talent Solutions", "business.linkedin.com"),
+    ("DARES", "dares.travail-emploi.gouv.fr"),
+    ("France Travail", "francetravail.org"),
+    ("Great Place To Work", "greatplacetowork.fr"),
+    ("ChooseMyCompany", "choosemycompany.com"),
+    ("France Travail Statistiques", "statistiques.francetravail.org"),
+]
+SECTOR_MEDIA = [
+    ("France Snacking", "snacking.fr", "Concurrence"),
+    ("L'Express Franchise", "lexpress-franchise.com", "Local"),
+    ("L'Hôtellerie Restauration", "lhotellerie-restauration.fr", "Inspiration RH"),
+    ("Le Journal des Entreprises", "lejournaldesentreprises.com", "Local"),
+    ("actu.fr", "actu.fr", "Local"),
+    ("ici", "ici.fr", "Local"),
+    ("LSA", "lsa-conso.fr", "Concurrence"),
 ]
 DIRECT_FEEDS = [
     ("Creapills", "https://creapills.com/feed/", "Campagnes créatives"),
@@ -83,6 +106,9 @@ BASE_QUERIES = {
         "Five Guys France emploi communication", "restauration rapide marque employeur campagne",
     ],
     "Inspiration RH": [
+        "baromètre emploi marque employeur jeunes 2026",
+        "étude Dares recrutement attractivité métiers restauration",
+        "France Travail intentions embauche restauration 2026",
         "campagne recrutement originale entreprise marque employeur",
         "campagne communication RH métiers talents candidats",
         "campagne marque employeur film employés publicité",
@@ -95,6 +121,8 @@ BASE_QUERIES = {
         "campagne RH creative recrutement affichage réseaux sociaux",
     ],
     "Campagnes créatives": [
+        "campagne créative récompensée Cannes Lions communication marque",
+        "publicité activation création TikTok France 2026",
         "campagne publicité créative France marque activation",
         "opération marketing créative insolite campagne 2026",
         "meilleures campagnes de publicité 2026 France",
@@ -189,9 +217,87 @@ def jobs():
         results.append(("Campagnes créatives",f"site:{domain} (campagne OR publicité OR marketing OR créativit\u00e9)",source,False,None))
     for source,domain in RH_MEDIA:
         results.append(("Inspiration RH",f"site:{domain} (recrutement OR marque employeur OR RH OR carrière)",source,False,None))
+    for source, domain, cat in SECTOR_MEDIA:
+        results.append((cat, f"site:{domain} (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)", source, False, None))
     results += [(cat,q,"LinkedIn",False,None) for cat,q in LINKEDIN_QUERIES]
     results += [(cat,f"Flux {name}",name,True,url) for name,url,cat in DIRECT_FEEDS]
     return results
+
+# Tri éditorial indicatif fondé sur les titres, les rubriques, les dates et les sources.
+# Ne prétend PAS avoir lu les articles. Les étiquettes sont à valider humainement.
+SOURCE_PRIORITY = {
+  1: ["france snacking","snacking.fr","l'express franchise","l’hôtellerie restauration",
+      "l'hôtellerie restauration","creapills","dans ta pub","l'adn","stratégies",
+      "cb news","hellowork","culture rh","parlons rh","mcdonald","apec",
+      "dares","france travail","linkedin talent","le journal des entreprises",
+      "actu.fr","great place to work","choosemycompany"],
+  2: ["j'ai un pote","la réclame","influencia","marketing magazine","les gens d'internet",
+      "blog du modérateur","rh matin","myrhline","focus rh","maddyness",
+      "welcome to the jungle","little black book","marketing dive",
+      "creative boom","digiday","social media today","ads of the world",
+      "cannes lions","the drum","adweek","campaign","andrh","courrier cadres",
+      "lsa","siècle digital","ici","france 3"]
+}
+def source_rank(article):
+    name=(article.get("source") or "").casefold()
+    for level in (1, 2):
+        if any(tag in name for tag in SOURCE_PRIORITY[level]):
+            return level
+    return 3
+
+def editorial_metadata(article):
+    title=(article.get("title") or "").casefold()
+    secs=set(article.get("sections") or [article.get("section", "")])
+    has=lambda pattern: bool(re.search(pattern, title, flags=re.I))
+    mcdo=has(r"mcdonald|mcdo|mcjob")
+    quick=has(r"burger king|quick\b|kfc\b|five guys|restauration rapide|fast.food|snacking")
+    rh=has(r"recrut|emploi|salari|équipier|collaborat|management|manager|formation|alternance|marque employeur|expérience candidat|carrière|qvct|ressources humaines|rh\b|métier|professionnel")
+    creative=has(r"campagne|publicit|activation|affichage|spot\b|créati|communication|film|social media|tiktok|influence|marketing|brand content")
+    study=has(r"étude|baromètre|sondage|enquête|chiffres?|statistique|rapport|observatoire|marché du travail|tendance|résultat|panorama|classement|indice|données")
+    sector=("Concurrence" in secs or "Local" in secs or "RH McDo" in secs)
+    tags=[]
+    if creative and ("Campagnes créatives" in secs or "Inspiration RH" in secs or mcdo or quick):
+        tags.append("campaign")
+    if study and (rh or "Inspiration RH" in secs or sector or mcdo):
+        tags.append("studies")
+    if mcdo or quick or sector or (rh and has(r"jeunes?|alternance|formation|restauration|manag|recrut|salair|attractivit")):
+        tags.append("impact")
+    tier=source_rank(article)
+    score=24+(4-tier)*6
+    if mcdo: score+=31
+    elif quick: score+=20
+    if rh: score+=14
+    if creative: score+=11
+    if study: score+=12
+    if "Signaux sensibles" in secs: score+=13
+    if "Local" in secs: score+=8
+    if "Inspiration RH" in secs: score+=5
+    days=max(0,(NOW-dt.datetime.fromisoformat(article["date"].replace("Z","+00:00"))).total_seconds()/86400)
+    score+=12 if days<=7 else 8 if days<=21 else 4 if days<=45 else 0
+    score=min(100,score)
+    if score>=61 and (mcdo or quick or rh or creative or study):
+        tags.append("newsletter")
+    if mcdo: reason="Sujet directement lié à McDonald's"
+    elif quick: reason="Concurrence ou restauration rapide : signal sectoriel"
+    elif study: reason="Étude ou chiffres à vérifier pour un angle RH"
+    elif rh: reason="Pratique RH ou marque employeur potentiellement transposable"
+    elif creative: reason="Format ou idée créative potentiellement inspirante"
+    else: reason="Signal de veille à qualifier"
+    if "Signaux sensibles" in secs: reason="Signal sensible : vérifier la source et le contexte"
+    if study and rh: angle="Piste : que dit cette étude des attentes des candidats ?"
+    elif creative and rh: angle="Piste : quel format de recrutement pourrait inspirer McDo ?"
+    elif creative: angle="Piste : quelle mécanique créative serait transposable à McDo ?"
+    elif mcdo: angle="Piste : quelles conséquences pour l'image ou la communication employeur ?"
+    elif quick: angle="Piste : quel enseignement tirer de cette initiative concurrente ?"
+    elif rh: angle="Piste : quelle pratique RH serait transposable en restaurant ?"
+    else: angle="Piste : quel intérêt concret pour la newsletter McDo ?"
+    article["editorial"]={
+       "tags":tags,"score":score,"source_tier":tier,
+       "reason":reason,"angle":angle,
+       "method":"Suggestion automatique fondée sur le titre et la source. À vérifier."
+    }
+    return article
+
 def main():
     path=ROOT/"news.json"
     try: old=json.loads(path.read_text(encoding="utf-8"))
@@ -236,6 +342,8 @@ def main():
         except (ValueError,TypeError): pass
     articles.sort(key=lambda x:x["date"],reverse=True)
     articles=articles[:MAX_ITEMS]
+    for article in articles:
+        editorial_metadata(article)
     new_count=sum(key(a) not in previous for a in articles)
     info={"updated_at":NOW.isoformat(), "sources_ok":successes,
           "sources_total":len(full), "source_names":sorted(set(a["source"] for a in articles)),
