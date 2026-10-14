@@ -2,6 +2,16 @@
 
 **Site public :** https://camillegasch-web.github.io/mcdo-radar/
 
+## Nouveautés : sélection éditoriale et Top 10 hebdomadaire
+
+- **✦ Les 10 pépites** : page d'accueil avec une sélection automatique renouvelée chaque jour sur les **7 derniers jours**, dans la limite de 10 sujets pertinents. Limites de diversité par rubrique et média ; si l'actualité ne contient pas 10 sujets pertinents, le nombre affiché peut être inférieur.
+- **Filtres précis** dans la veille : rubrique, sélection éditoriale (toutes, newsletter, campagnes, chiffres/études RH, impact McDo), marque, média, période, format article/podcast et ordre de tri.
+- **Classement à la source** : les actualités locales et RH McDo doivent nommer l'enseigne ; la concurrence doit nommer une enseigne suivie ; les annonces individuelles sont exclues des inspirations RH ; une actualité générale de social media n'est pas une campagne créative.
+- **Anti-doublons** : regroupement des titres de presse répétés entre agrégateurs et flux directs quand c'est possible.
+- **Contrôle automatique** : `python scripts/test_editorial.py` teste la pertinence avant chaque nouvelle collecte.
+- La collecte publie `docs/data/weekly.json` et `docs/data/weekly.js`, ainsi que `docs/data/news.json` et `docs/data/news.js`.
+- Les scores et angles éditoriaux sont indicatifs. L'outil travaille sur les titres et métadonnées, **pas sur la lecture du texte intégral**.
+
 ## Contenu
 
 - **France** — actualités de McDonald's France et de sa communication.
