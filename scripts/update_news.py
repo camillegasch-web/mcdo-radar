@@ -242,134 +242,200 @@ def jobs():
     results += [(cat,f"Flux {name}",name,True,url) for name,url,cat in DIRECT_FEEDS]
     return results
 
-# Tri éditorial indicatif fondé sur les titres, les rubriques, les dates et les sources.
-# Ne prétend PAS avoir lu les articles. Les étiquettes sont à valider humainement.
+# Catégorisation plus stricte : uniquement titre, source et métadonnées disponibles.
+# Aucune analyse prétendue du texte intégral.
 SOURCE_PRIORITY = {
-  1: ["france snacking","snacking.fr","l'express franchise","l’hôtellerie restauration",
-      "l'hôtellerie restauration","creapills","dans ta pub","l'adn","stratégies",
+  1: ["france snacking","snacking.fr","l'express franchise","l’hotellerie restauration",
+      "l'hotellerie restauration","creapills","dans ta pub","l'adn","strategies",
       "cb news","hellowork","culture rh","parlons rh","mcdonald","apec",
       "dares","france travail","linkedin talent","le journal des entreprises",
       "actu.fr","great place to work","choosemycompany"],
-  2: ["j'ai un pote","la réclame","influencia","marketing magazine","les gens d'internet",
-      "blog du modérateur","rh matin","myrhline","focus rh","maddyness",
-      "welcome to the jungle","little black book","marketing dive",
-      "creative boom","digiday","social media today","ads of the world",
-      "cannes lions","the drum","adweek","campaign","andrh","courrier cadres",
-      "lsa","siècle digital","ici","france 3"]
+  2: ["j'ai un pote","la reclame","influencia","marketing magazine","les gens d'internet",
+      "blog du moderateur","rh matin","myrhline","focus rh","maddyness",
+      "welcome to the jungle","little black book","marketing dive","creative boom",
+      "digiday","social media today","ads of the world","cannes lions",
+      "the drum","adweek","campaign","andrh","courrier cadres","lsa","siecle digital","ici"],
 }
+def normal(s):
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFKD", str(s or "").casefold()) if not unicodedata.combining(c))
+def match(text, pattern):
+    return bool(re.search(pattern, normal(text)))
 def source_rank(article):
-    name=(article.get("source") or "").casefold()
-    for level in (1, 2):
+    name=normal(article.get("source"))
+    for level in (1,2):
         if any(tag in name for tag in SOURCE_PRIORITY[level]):
             return level
     return 3
-
-def editorial_metadata(article):
-    title=(article.get("title") or "").casefold()
-    secs=set(article.get("sections") or [article.get("section", "")])
-    has=lambda pattern: bool(re.search(pattern, title, flags=re.I))
-    mcdo=has(r"mcdonald|mcdo|mcjob")
-    quick=has(r"burger king|quick\b|kfc\b|five guys|restauration rapide|fast.food|snacking")
-    rh=has(r"recrut|emploi|salari|équipier|collaborat|management|manager|formation|alternance|marque employeur|expérience candidat|carrière|qvct|ressources humaines|rh\b|métier|professionnel")
-    creative=has(r"campagne|publicit|activation|affichage|spot\b|créati|communication|film|social media|tiktok|influence|marketing|brand content")
-    study=has(r"étude|baromètre|sondage|enquête|chiffres?|statistique|rapport|observatoire|marché du travail|tendance|résultat|panorama|classement|indice|données")
-    sector=("Concurrence" in secs or "Local" in secs or "RH McDo" in secs)
-    tags=[]
-    if creative and ("Campagnes créatives" in secs or "Inspiration RH" in secs or mcdo or quick):
-        tags.append("campaign")
-    if study and (rh or "Inspiration RH" in secs or sector or mcdo):
-        tags.append("studies")
-    if mcdo or quick or sector or (rh and has(r"jeunes?|alternance|formation|restauration|manag|recrut|salair|attractivit")):
-        tags.append("impact")
-    tier=source_rank(article)
-    score=24+(4-tier)*6
-    if mcdo: score+=31
-    elif quick: score+=20
-    if rh: score+=14
-    if creative: score+=11
-    if study: score+=12
-    if "Signaux sensibles" in secs: score+=13
-    if "Local" in secs: score+=8
-    if "Inspiration RH" in secs: score+=5
-    days=max(0,(NOW-dt.datetime.fromisoformat(article["date"].replace("Z","+00:00"))).total_seconds()/86400)
-    score+=12 if days<=7 else 8 if days<=21 else 4 if days<=45 else 0
-    score=min(100,score)
-    if score>=61 and (mcdo or quick or rh or creative or study):
-        tags.append("newsletter")
-    if mcdo: reason="Sujet directement lié à McDonald's"
-    elif quick: reason="Concurrence ou restauration rapide : signal sectoriel"
-    elif study: reason="Étude ou chiffres à vérifier pour un angle RH"
-    elif rh: reason="Pratique RH ou marque employeur potentiellement transposable"
-    elif creative: reason="Format ou idée créative potentiellement inspirante"
-    else: reason="Signal de veille à qualifier"
-    if "Signaux sensibles" in secs: reason="Signal sensible : vérifier la source et le contexte"
-    if study and rh: angle="Piste : que dit cette étude des attentes des candidats ?"
-    elif creative and rh: angle="Piste : quel format de recrutement pourrait inspirer McDo ?"
-    elif creative: angle="Piste : quelle mécanique créative serait transposable à McDo ?"
-    elif mcdo: angle="Piste : quelles conséquences pour l'image ou la communication employeur ?"
-    elif quick: angle="Piste : quel enseignement tirer de cette initiative concurrente ?"
-    elif rh: angle="Piste : quelle pratique RH serait transposable en restaurant ?"
-    else: angle="Piste : quel intérêt concret pour la newsletter McDo ?"
-    article["editorial"]={
-       "tags":tags,"score":score,"source_tier":tier,
-       "reason":reason,"angle":angle,
-       "method":"Suggestion automatique fondée sur le titre et la source. À vérifier."
+MCDO = r"mcdonald|mcdo\b|mcjobs"
+COMP = r"burger king|\bquick\b|\bkfc\b|five guys"
+SECTOR = r"restaurant|restaurat|snacking|fast.food|franchise|hotellerie|foodservice"
+RH_STRICT = r"recrut|emploi|embauch|salari|equipier|collaborat|manag|formation|alternan|apprent|candidat|carriere|talent|metier|marque employeur|experience candidat|rh\b|ressources humaines|qvct|travail|remuneration|salaire|mobilite interne|people review|soft skill|risques psychosociaux|\brps\b"
+RH_PRIORITY = r"recrut|embauch|marque employeur|experience candidat|alternan|formation|manag|salari|equipier|candidat|engagement collaborat|carriere|attractivit|qvct|remuneration|salaire"
+CREATIVE = r"campagne|publicit|activation|affichag|film publicitaire|\bspot\b|concept creati|brand content|operation marketing|communication creati|advertising|ads of the world|\bcreati|social media|reseaux sociaux|lance une campagne|partenariat publicitaire"
+STUDY = r"etude|barometre|sondage|enquete|chiffres?|statistique|rapport|observatoire|tendance|indice|classement|donnees|resultats? de l.etude"
+SENSITIVE = r"greve|justice|condamn|plainte|polemique|scandale|boycott|harcelement|accus|contamin|fermeture administrative|mobilisation syndical|casse sociale|inquietude|conflit social"
+JOB_AD = r"\(?h/f\)?|\(?f/h\)?|offre d.emploi|postuler a l.offre|cdi a |cdd a |f/h\b|rejoignez notre equipe|hiring now|fiche metier"
+CREATIVE_MEDIA = r"creapills|dans ta pub|l.adn|strategies|cb news|j.ai un pote|la reclame|lbb|influencia|marketing dive|creative boom|adweek|the drum|campaign uk"
+def classify(article):
+    title=normal(article.get("title")); source=normal(article.get("source"))
+    original=article.get("section","")
+    is_podcast=article.get("type")=="podcast" or original=="Podcasts & interviews"
+    mcdo=match(title,MCDO)
+    competitor=match(title,COMP)
+    industry=match(title,SECTOR)
+    hr=match(title,RH_STRICT)
+    hr_priority=match(title,RH_PRIORITY)
+    creative=match(title,CREATIVE)
+    study=match(title,STUDY)
+    sensitive=match(title,SENSITIVE)
+    job_ad=match(title,JOB_AD)
+    generic_creative=original=="Campagnes créatives" and match(source,CREATIVE_MEDIA) and match(title,r"lance|devoile|imagine|invente|detourne|creation|collaboration|collab|affiche|revisite|surprend|nouvelle identite|spot|publicit|campagne")
+    # Ne pas traiter les offres individuelles comme des sujets d'actualité RH.
+    if job_ad and not mcdo and not competitor:
+        return None
+    sections=[]
+    if is_podcast:
+        if not (hr or creative or industry or mcdo or competitor or match(title,r"tiktok|instagram|linkedin|gen z|reseaux|influence|marketing|communication")):
+            return None
+        sections=["Podcasts & interviews"]
+    else:
+        if mcdo:
+            sections.append("France")
+            if original=="Local" or match(title,r"ouvre|ouverture|inaugur|ville de|restaurants? de |local|franchise|equipier|commune|recrute a |implant"):
+                sections.append("Local")
+            if hr: sections.append("RH McDo")
+            if sensitive: sections.append("Signaux sensibles")
+        if competitor:
+            sections.append("Concurrence")
+            if sensitive: sections.append("Signaux sensibles")
+        # La rubrique Local concerne les restaurants McDonald's, pas l'actualité locale généraliste.
+        # Les études RH et campagnes publicitaires sont ouvertes à tous les secteurs.
+        if hr and not mcdo and not competitor and original in ("Inspiration RH","RH McDo","Local","France","Campagnes créatives"):
+            sections.append("Inspiration RH")
+        if (creative or generic_creative) and original in ("Campagnes créatives","Inspiration RH","France","Concurrence"):
+            sections.append("Campagnes créatives")
+        if study and hr and not mcdo and not competitor:
+            sections.append("Inspiration RH")
+        if not sections:
+            return None
+    # Une requête source dédiée McDo peut parfois servir une actualité non McDo;
+    # ne conserver ces résultats que s'ils ont un intérêt explicite dans le titre.
+    sections=list(dict.fromkeys(sections))
+    if is_podcast: primary="Podcasts & interviews"
+    elif "Signaux sensibles" in sections and original=="Signaux sensibles": primary="Signaux sensibles"
+    elif "RH McDo" in sections and original=="RH McDo": primary="RH McDo"
+    elif "Local" in sections and original=="Local": primary="Local"
+    elif original in sections: primary=original
+    else: primary=sections[0]
+    article["sections"]=sections
+    article["section"]=primary
+    article["type"]="podcast" if is_podcast else "article"
+    article["_signals"]={
+        "mcdo":mcdo,"competitor":competitor,"industry":industry,"hr":hr,
+        "rh_priority":hr_priority,"creative":creative or generic_creative,
+        "study":study,"sensitive":sensitive,
     }
     return article
-
-
-# Podcasts : indexation des épisodes publics via le répertoire iTunes puis flux RSS
-# des émissions (sans accès à Spotify privé ni téléchargement des fichiers audio).
-PODCAST_SHOWS = [
-    ("Passion DRH", "Passion DRH", True),
-    ("Bougeons les lignes", "Bougeons les lignes Parlons RH", True),
-    ("Le Super Daily", "Le Super Daily", True),
-    ("Le Talk Franchise", "Le Talk Franchise", True),
-    ("En toute franchise", "En toute franchise LE POST PODCAST", True),
-    ("Génération Do It Yourself", "Génération Do It Yourself", False),
-    ("Marketing Mania", "Marketing Mania", True),
-]
-PODCAST_RELEVANCE = re.compile(
-    r"recrut|ressources humaines|marque employeur|salari|collaborat|travail|"
-    r"carrière|alternance|manager|management|emploi|publicit|campagne|créati|"
-    r"marketing|communication|social media|influence|marque|franchise|"
-    r"restaur|snacking|consommation|burger|mcdonald|kfc|tiktok|linkedin",
-    re.I
-)
-def podcast_work(item):
-    label, term, specialised = item
-    try:
-        q=urllib.parse.urlencode({"term":term,"entity":"podcast","media":"podcast",
-                                  "country":"fr","limit":"16"})
-        found=json.loads(get("https://itunes.apple.com/search?"+q))
-        collections=found.get("results", [])
-        best=None
-        for one in collections:
-            name=(one.get("collectionName") or "").casefold()
-            expected=label.casefold()
-            # correspondance explicite : ne pas agréger des émissions homonymes
-            if name==expected or name.startswith(expected+" -") or name.startswith(expected+" :") or name.startswith(expected+" !"):
-                best=one
-                break
-        if best is None:
-            return label, [], "Émission non trouvée dans le répertoire public"
-        feed=best.get("feedUrl")
-        if not feed: return label, [], "Flux public non communiqué par le répertoire"
-        items=parse_rss(get(feed),"Podcasts & interviews",label,preferred_source=label,direct=True)
-        output=[]
-        for a in items[:24]:
-            if not specialised and not PODCAST_RELEVANCE.search(a["title"]):
-                continue
-            a["type"]="podcast"
-            a["show"]=label
-            a["channel"]="Podcast RSS"
-            a["sections"]=["Podcasts & interviews"]
-            # À défaut de lien d'épisode, on conserve le lien produit par l'éditeur,
-            # pas le lien direct vers un fichier audio hébergé.
-            output.append(a)
-        return label, output, None
-    except Exception as e:
-        return label, [], str(e)[:170]
+def editorial_metadata(article):
+    s=article.pop("_signals",None)
+    if s is None:
+        # Historique enregistré : reclassifier chaque jour, ne pas conserver
+        # des étiquettes issues d'une précédente version.
+        reclassified=classify(article)
+        if reclassified is None:return None
+        s=article.pop("_signals")
+    title=normal(article["title"])
+    sections=article.get("sections",[])
+    tier=source_rank(article)
+    mcdo=s["mcdo"];competitor=s["competitor"];rh=s["hr"];creative=s["creative"];study=s["study"]
+    days=max(0,(NOW-dt.datetime.fromisoformat(article["date"].replace("Z","+00:00"))).total_seconds()/86400)
+    # L'intérêt du sujet pèse plus lourd que le prestige du média.
+    score=14
+    score+=24 if mcdo else 16 if competitor else 0
+    score+=22 if rh and mcdo else 15 if s["rh_priority"] else 8 if rh else 0
+    score+=17 if creative else 0
+    score+=16 if study and rh else 5 if study else 0
+    score+=10 if s["sensitive"] and (mcdo or competitor) else 0
+    score+=8 if "Local" in sections and mcdo else 0
+    score+=8 if s["industry"] and not (mcdo or competitor) else 0
+    score+=6 if tier==1 else 3 if tier==2 else 0
+    score+=12 if days<=7 else 8 if days<=21 else 4 if days<=45 else 0
+    if article.get("type")=="podcast":score+=5
+    score=min(100,score)
+    tags=[]
+    if creative and ("Campagnes créatives" in sections or mcdo or competitor):tags.append("campaign")
+    if study and rh:tags.append("studies")
+    if mcdo or competitor or (rh and (s["rh_priority"] or s["industry"])):tags.append("impact")
+    if score>=62 and (mcdo or competitor or s["rh_priority"] or creative or study):
+        tags.append("newsletter")
+    if s["sensitive"] and (mcdo or competitor):reason="Signal sensible relatif à l'enseigne : vérification indispensable"
+    elif mcdo:reason="Actualité McDo directement exploitable pour la veille"
+    elif competitor:reason="Signal concurrentiel à comparer à McDo"
+    elif study and rh:reason="Chiffres ou étude RH à vérifier avant publication"
+    elif creative:reason="Idée de campagne ou dispositif créatif à explorer"
+    elif s["rh_priority"]:reason="Pratique RH ou marque employeur potentiellement transposable"
+    else:reason="Actualité sectorielle ou RH à qualifier"
+    if s["sensitive"]:angle="À analyser : quels faits sont confirmés et quel est le contexte ?"
+    elif study and rh:angle="À creuser : que révèle cette étude pour l'attractivité des métiers ?"
+    elif creative and rh:angle="À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
+    elif creative:angle="À creuser : quel format ou dispositif inspirant pour McDo ?"
+    elif mcdo and rh:angle="À creuser : quelle preuve d'expérience collaborateur en tirer ?"
+    elif mcdo:angle="À creuser : quel impact sur l'image de McDo ?"
+    elif competitor:angle="À creuser : que fait différemment cette enseigne ?"
+    elif rh:angle="À creuser : en quoi cette pratique est-elle utile aux managers ?"
+    else:angle="À creuser : quel enseignement concret pour la communication ?"
+    article["editorial"]={"score":score,"tags":tags,"source_tier":tier,
+        "reason":reason,"angle":angle,
+        "method":"Score automatique : titre, rubrique, date et source, sans lecture de l'article."}
+    return article
+def deduplicate(articles):
+    # Déduplication des articles avec titre identique publié sur Google Actualités
+    # et RSS direct. Préférer l'URL originale de l'éditeur.
+    result={}
+    for a in articles:
+        base=normal(a.get("title",""))
+        source=normal(a.get("source",""))
+        # Fin de titre suffixée par le média : HelloWorkplace - HelloWorkplace
+        parts=re.split(r"\s+[-–]\s+",base)
+        if len(parts)>1 and (parts[-1] in source or source in parts[-1] or len(parts[-1])<15):
+            base=" - ".join(parts[:-1])
+        base=re.sub(r"[^a-z0-9]+","",base)
+        if len(base)<24:base=re.sub(r"[^a-z0-9]+","",normal(a["title"]))
+        current=result.get(base)
+        if not current:
+            result[base]=a;continue
+        # Fusionner rubriques, conserver lien direct et classement de la meilleure version.
+        best=a if a.get("channel")=="RSS direct" and current.get("channel")!="RSS direct" else current
+        best["sections"]=list(dict.fromkeys(a.get("sections",[])+current.get("sections",[])))
+        if "Podcasts & interviews" in best["sections"]:best["type"]="podcast"
+        result[base]=best
+    return list(result.values())
+def weekly_picks(articles):
+    # Semaine glissante pour fournir des pépites aussi le lundi matin.
+    cutoff=NOW-dt.timedelta(days=7)
+    candidates=[a for a in articles if dt.datetime.fromisoformat(a["date"].replace("Z","+00:00"))>=cutoff
+        and a.get("editorial",{}).get("score",0)>=56 and a.get("type")!="podcast"]
+    # Privilégier un angle RH/créatif ou une info McDo/secteur, et limiter la répétition.
+    candidates.sort(key=lambda a:(a["editorial"]["score"],a["date"]),reverse=True)
+    picks=[];counts={};media={};section_limits={
+       "France":3,"Local":2,"RH McDo":3,"Concurrence":2,
+       "Inspiration RH":4,"Campagnes créatives":4,"Signaux sensibles":2,
+    }
+    for a in candidates:
+        key=a["section"];brand=normal(a["source"])
+        if counts.get(key,0)>=section_limits.get(key,2) or media.get(brand,0)>=2:continue
+        # Une seule entrée par sujet très proche.
+        if any(len(set(normal(a["title"]).split())&set(normal(p["title"]).split())) >= min(6,len(normal(a["title"]).split())) for p in picks):
+            continue
+        picks.append({"title":a["title"],"url":a["url"],"source":a["source"],
+          "date":a["date"],"section":a["section"],"score":a["editorial"]["score"],
+          "reason":a["editorial"]["reason"],"angle":a["editorial"]["angle"]})
+        counts[key]=counts.get(key,0)+1;media[brand]=media.get(brand,0)+1
+        if len(picks)>=10:break
+    return {"updated_at":NOW.isoformat(),"period_days":7,"count":len(picks),
+        "method":"Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
+        "items":picks}
 
 def main():
     path=ROOT/"news.json"
