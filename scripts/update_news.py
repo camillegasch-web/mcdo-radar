@@ -311,7 +311,7 @@ def classify(article):
             if sensitive: sections.append("Signaux sensibles")
         # La rubrique Local concerne les restaurants McDonald's, pas l'actualité locale généraliste.
         # Les études RH et campagnes publicitaires sont ouvertes à tous les secteurs.
-        if hr and not mcdo and not competitor and original in ("Inspiration RH","RH McDo","Local","France","Campagnes créatives"):
+        if hr and not mcdo and not competitor and original in ("Inspiration RH","Campagnes créatives"):
             sections.append("Inspiration RH")
         if (creative or generic_creative) and original in ("Campagnes créatives","Inspiration RH","France","Concurrence"):
             sections.append("Campagnes créatives")
