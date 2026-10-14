@@ -6,6 +6,7 @@ import concurrent.futures as cf
 import datetime as dt
 import email.utils
 import html
+import io
 import json
 import re
 import time
@@ -166,10 +167,23 @@ def search_feed(query):
     p=urllib.parse.urlencode({"q":query, "hl":"fr", "gl":"FR", "ceid":"FR:fr"})
     return get("https://news.google.com/rss/search?"+p)
 def parse_rss(raw, section, query, preferred_source=None, direct=False):
-    root = ET.fromstring(raw)
-    nodes = root.findall("./channel/item")
-    if not nodes:
-        nodes = root.findall(".//{http://www.w3.org/2005/Atom}entry")
+    # Les feeds de podcasts peuvent dépasser la taille lue et finir au milieu
+    # d'une CDATA : récupérer les items complets avant la coupure.
+    try:
+        root = ET.fromstring(raw)
+        nodes = root.findall("./channel/item")
+        if not nodes:
+            nodes = root.findall(".//{http://www.w3.org/2005/Atom}entry")
+    except ET.ParseError as error:
+        nodes=[]
+        try:
+            for _, el in ET.iterparse(io.BytesIO(raw), events=("end",)):
+                if el.tag in ("item","{http://www.w3.org/2005/Atom}entry"):
+                    nodes.append(el)
+        except ET.ParseError:
+            pass
+        if not nodes:
+            raise error
     out=[]
     for node in nodes[:24]:
         title = clean(node.findtext("title") or node.findtext("{http://www.w3.org/2005/Atom}title"))
@@ -194,9 +208,14 @@ def parse_rss(raw, section, query, preferred_source=None, direct=False):
             tags.append("Inspiration RH")
         if section == "Inspiration RH" and re.search(r"campagne|publicit|activation|affichag|film |vidéo|tiktok|créati",hay):
             tags.append("Campagnes créatives")
-        out.append({"title":title,"url":link,"source":source,"date":date,
-                    "section":section,"sections":tags,"query":query,
-                    "channel":("RSS direct" if direct else "Google Actualités")})
+        entry={"title":title,"url":link,"source":source,"date":date,
+               "section":section,"sections":tags,"query":query,
+               "channel":("RSS direct" if direct else "Google Actualités")}
+        if "podcast" in title.casefold() and (source.casefold().startswith("parlons rh") or "parlonsrh.com" in link):
+            entry["type"]="podcast"
+            entry["show"]="Parlons RH"
+            entry["sections"]=list(dict.fromkeys(tags+["Podcasts & interviews"]))
+        out.append(entry)
     return out
 def key(article):
     # Regrouper URL identiques. Les libellés de source restent préservés.
@@ -329,7 +348,7 @@ def podcast_work(item):
             name=(one.get("collectionName") or "").casefold()
             expected=label.casefold()
             # correspondance explicite : ne pas agréger des émissions homonymes
-            if name==expected or name.startswith(expected+" -") or name.startswith(expected+" :"):
+            if name==expected or name.startswith(expected+" -") or name.startswith(expected+" :") or name.startswith(expected+" !"):
                 best=one
                 break
         if best is None:
