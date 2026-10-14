@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T08:36:24.309627+00:00",
+  "updated_at": "2026-10-14T08:37:50.044669+00:00",
   "sources_ok": 82,
   "sources_total": 83,
   "source_names": [
@@ -90,13 +90,14 @@
     "info.gouv.fr",
     "ladepeche.fr",
     "le-littoral.com",
+    "martinique.franceantilles.fr",
     "myRHline",
     "viuz.com",
     "welcometothejungle.com",
     "Éditions Tissot"
   ],
-  "source_count": 91,
-  "new_count": 578,
+  "source_count": 92,
+  "new_count": 3,
   "source_errors": [
     {
       "source": "La Réclame",
@@ -2537,6 +2538,18 @@
         "Campagnes créatives"
       ],
       "query": "site:danstapub.com (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités"
+    },
+    {
+      "title": "Offre d’Emploi Stage en Communication et Marketing H/F en Stage - Stratégies",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSThnOUxDTHphWHdXRWhacVFNX0NJTUVSRnNETmpybm5LeGVDQzNjOVdjYWJDczl1VVB4SU9za29nT2dTRGN1Q25HQXdWcERUWEgxeWhhbjNrYTQ0S0NYb3o3MXdhTHZXdFNtWnJmOW1jS3cta2dPb0dOb1hXanlwajV1YldibkE",
+      "source": "Stratégies",
+      "date": "2026-10-09T18:19:26+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:strategies.fr (campagne OR publicité OR marketing OR créativité)",
       "channel": "Google Actualités"
     },
     {
@@ -6631,6 +6644,18 @@
       "channel": "Google Actualités"
     },
     {
+      "title": "Les Cannes Lions 2026 pour les Nuls - La Réclame",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0tNW9WQmdUSUJ1enpXdDFwQzVENmdiWmZpbDZJNU8wSnBZUE16VDVNZHZtRWxKa1UxZU1CcmpkTkVCTGtYUlowSGxQcjh6NDREQW9UOW5ORFhSLUdhNWJkMW5wY09FMmE1T0lR",
+      "source": "La Réclame",
+      "date": "2026-06-22T09:15:15+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "meilleures campagnes de publicité 2026 France",
+      "channel": "Google Actualités"
+    },
+    {
       "title": "Jade, 8 ans, a failli mourir après avoir mangé un burger chez McDonald’s - Actu.fr",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeERQc1FmenFXQUl3QmZjN0tXNzJuTk5NcTJ3OGlpbnlEZ3pKaUw2YXg4a0N2NGpXdzhXN0dRaWsxbmNoclJTQW1KSm5HV3BQTHVrN3pjZXp0N1g3djEyczJJNVROOXJlUXJDcjdYS055cjVuUmhWeTkxdkpYWjg1RzVZN3FENnZoMnkxRElCMnNJb0FFTC1BN0xLQllGam9LaWQ3Tmh6bm5hVzRhdFk5WGNSeTNnUDVCN0xkZ1V3R24yYjNoWE5LeGhVZTJoSk1QUFZvZU9CS1paOWc",
       "source": "Actu.fr",
@@ -7073,6 +7098,18 @@
         "Concurrence"
       ],
       "query": "KFC France publicité campagne",
+      "channel": "Google Actualités"
+    },
+    {
+      "title": "McDonald's Dillon rouvre complètement ses portes ce jeudi - martinique.franceantilles.fr",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQR1Z2bTVibzFHb1l4MHIwUUJXc3NFS0NXT0FJa1l2cm91VXdsWElzY3FPeVFDd1hwemhGdWZUU1c1OEtmWmJkNlBWcjZUTkFIX0RXQUlyck1hM0dEbGFNVkprSmIxa2RkLTZEMjVNYmpFSWhyNm5oejREZkNwOE9XY2h3NUtpQ3lVZjU3b2RFeEhTMFlkWEVKcnF6dEc0MGdoMVpVVlpCQ1ZLVE9pMmlmQlp4aVZwVVpheXFON2xYU2VOY09KSVE4",
+      "source": "martinique.franceantilles.fr",
+      "date": "2026-05-21T07:00:00+00:00",
+      "section": "Local",
+      "sections": [
+        "Local"
+      ],
+      "query": "McDonald's ouverture restaurant France",
       "channel": "Google Actualités"
     },
     {
