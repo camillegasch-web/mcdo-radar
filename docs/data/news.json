@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-14T08:27:34.142004+00:00",
+  "updated_at": "2026-10-14T08:29:33.970488+00:00",
   "sources_ok": 26,
   "sources_total": 26,
-  "new_count": 348,
+  "new_count": 1,
   "articles": [
     {
       "title": "McDonald’s France confie trois de ses restaurants parisiens, Victor Hugo, Passy et Austerlitz, à des franchisés - L’Express Franchise",
@@ -147,6 +147,14 @@
       "date": "2026-09-18T07:00:00+00:00",
       "section": "Inspiration RH",
       "query": "insertion formation alternance recrutement"
+    },
+    {
+      "title": "McDonald's France et TBWA\\Paris donnent vie au rituel de l'histoire du soir avec \"L'École des raconteurs\" - viuz.com",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPS3pBT2tjUEZoMFl4TUk1c1ZYM2NUZE10M0k5ZFJZQ25acVFDOW5QNnN6MFgzZnJIUi00ZGloQkZDUWQ4dmVxaHlQVzNXTmY0T04tWTVvOW1sV3o3SFI3cjJGZ2ktSURISG1xRDFrM1pXa0Mzd1p4VzktcVFfX2p6Vnl4U09WQ3oyaThNcDlKOHhaWTBvb0pFT1dfN1hjMERFLU4xTVRYZEpsQTVyLU4tWThKRV9COUFrUFc3elF1UDY1Nlk?oc=5",
+      "source": "viuz.com",
+      "date": "2026-09-18T07:00:00+00:00",
+      "section": "France",
+      "query": "McDonald’s France actualité"
     },
     {
       "title": "Quick ouvre un nouveau fast-food dans l'Oise : il recrute sans diplôme ni expérience - Actu.fr",
