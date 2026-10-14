@@ -276,7 +276,7 @@ CREATIVE = r"campagne|publicit|activation|affichag|film publicitaire|\bspot\b|co
 STUDY = r"etude|barometre|sondage|enquete|chiffres?|statistique|rapport|observatoire|tendance|indice|classement|donnees|resultats? de l.etude"
 SENSITIVE = r"greve|justice|condamn|plainte|polemique|scandale|boycott|harcelement|accus|contamin|fermeture administrative|mobilisation syndical|casse sociale|inquietude|conflit social"
 JOB_AD = r"\(?h/f\)?|\(?f/h\)?|offre d.emploi|postuler a l.offre|cdi a |cdd a |f/h\b|rejoignez notre equipe|hiring now|fiche metier"
-CREATIVE_MEDIA = r"creapills|dans ta pub|l.adn|strategies|cb news|j.ai un pote|la reclame|lbb|influencia|marketing dive|creative boom|adweek|the drum|campaign uk"
+CREATIVE_SOURCE_PATTERN = r"creapills|dans ta pub|l.adn|strategies|cb news|j.ai un pote|la reclame|lbb|influencia|marketing dive|creative boom|adweek|the drum|campaign uk"
 def classify(article):
     title=normal(article.get("title")); source=normal(article.get("source"))
     original=article.get("section","")
@@ -290,7 +290,7 @@ def classify(article):
     study=match(title,STUDY)
     sensitive=match(title,SENSITIVE)
     job_ad=match(title,JOB_AD)
-    generic_creative=original=="Campagnes créatives" and match(source,CREATIVE_MEDIA) and match(title,r"lance|devoile|imagine|invente|detourne|creation|collaboration|collab|affiche|revisite|surprend|nouvelle identite|spot|publicit|campagne")
+    generic_creative=original=="Campagnes créatives" and match(source,CREATIVE_SOURCE_PATTERN) and match(title,r"lance|devoile|imagine|invente|detourne|creation|collaboration|collab|affiche|revisite|surprend|nouvelle identite|spot|publicit|campagne")
     # Ne pas traiter les offres individuelles comme des sujets d'actualité RH.
     if job_ad and not mcdo and not competitor:
         return None
