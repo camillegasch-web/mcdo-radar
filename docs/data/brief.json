@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T08:29:33.970488+00:00",
+  "updated_at": "2026-10-14T08:36:24.309627+00:00",
   "sections": {
     "France": [
       {
@@ -8,7 +8,10 @@
         "source": "L’Express Franchise",
         "date": "2026-10-13T19:24:12+00:00",
         "section": "France",
-        "query": "McDonald’s France actualité"
+        "query": "McDonald’s France actualité",
+        "sections": [
+          "France"
+        ]
       }
     ],
     "Local": [
@@ -18,12 +21,210 @@
         "source": "Ouest-France",
         "date": "2026-10-13T15:58:30+00:00",
         "section": "Local",
-        "query": "McDonald’s recrutement restaurant ville France"
+        "query": "McDonald’s recrutement restaurant ville France",
+        "sections": [
+          "Local"
+        ]
       }
     ],
     "RH McDo": [],
     "Concurrence": [],
-    "Inspiration RH": [],
+    "Inspiration RH": [
+      {
+        "title": "Partenariat RH et IT : un levier pour anticiper l’évolution de l’IA - Culture RH",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBjZjBtaXJyR3dDVnhiazFRbG9Ja3EyS3V4Q3lhS3F2MExrR1YwbllUcXFZZlVnbGJzRTd5S3VQRDdoUGhUSWxwLVI0aFRpX0dTMkppMGl1alM1TldvX3dEN2dMUi0",
+        "source": "Culture RH",
+        "date": "2026-10-14T08:05:34+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "site:culture-rh.com (recrutement OR marque employeur OR RH OR carrière)",
+        "channel": "Google Actualités"
+      },
+      {
+        "title": "Guide pour réussir votre People review",
+        "url": "https://myrhline.com/livre-blanc-rh/https-myrhline-com-livre-blanc-rh-guide-pour-reussir-votre-people-review-utm_sourcemyrhlineutm_mediummediatisationutm_termlivre_blanc_rhutm_contentcsd_guide_people_reviewutm_campaignmktfrsuite_talen/",
+        "source": "myRHline",
+        "date": "2026-10-14T07:00:58+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "Flux myRHline",
+        "channel": "RSS direct"
+      },
+      {
+        "title": "Écarts de salaire à poste équivalent : saurez-vous tous les justifier ? - Helloworkplace",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBTeUNKdXkwYXRnUGFvT2RxOG5vR2dDMnNUYk1LX29CcWR0Qi1VNkdBOXZKamtldDJhaERrZ3lyVzNfOHBMTklEUGJtblpaNklodUt1Vm9KUEFUb0N3cXZUamNXaDF1dw",
+        "source": "Helloworkplace",
+        "date": "2026-10-14T05:41:09+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "site:helloworkplace.fr (recrutement OR marque employeur OR RH OR carrière)",
+        "channel": "Google Actualités"
+      },
+      {
+        "title": "Écarts de salaire à poste équivalent : saurez-vous tous les justifier ?",
+        "url": "https://www.helloworkplace.fr/ecarts-salaire-justifier/",
+        "source": "HelloWorkplace / HelloWork",
+        "date": "2026-10-14T05:41:09+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "Flux HelloWorkplace / HelloWork",
+        "channel": "RSS direct"
+      },
+      {
+        "title": "Ces soft skills que l’IA rend d’autant plus précieuses en entreprise - Helloworkplace",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JZzRLVkl2S2pjaHZxbjZDQ3RGS2JvQkFJcTVQaEhjYWlWWkRKLWlUd1gyS2lHekxHek9FUXBOTC15NUVIeURFei1vbVhMLUl0ZTFva3YtTXBhNkpFYTFReUEyaUJNSDNnQkdVUTRsZ2NKN2VD",
+        "source": "Helloworkplace",
+        "date": "2026-10-14T05:24:24+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "site:helloworkplace.fr (recrutement OR marque employeur OR RH OR carrière)",
+        "channel": "Google Actualités"
+      },
+      {
+        "title": "Ces soft skills que l’IA rend d’autant plus précieuses en entreprise",
+        "url": "https://www.helloworkplace.fr/soft-skills-ia-etude-morgan-philips/",
+        "source": "HelloWorkplace / HelloWork",
+        "date": "2026-10-14T05:24:24+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "Flux HelloWorkplace / HelloWork",
+        "channel": "RSS direct"
+      },
+      {
+        "title": "« Ce n’est pas parce qu’un candidat ne répond pas qu’il n’est pas intéressé »",
+        "url": "https://www.helloworkplace.fr/candidat-relance-automatique/",
+        "source": "HelloWorkplace / HelloWork",
+        "date": "2026-10-14T05:12:44+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "Flux HelloWorkplace / HelloWork",
+        "channel": "RSS direct"
+      },
+      {
+        "title": "Quand les RPS viennent des process eux-mêmes… - Culture RH",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1rVnR6OXd4R2pmaElCTkNUVXVaWk9HbmlQUjU1QzZpRG9EQ1ZOblVKNk9fcjV5RkNrNEFoQzRENjJZaFhfd0M1XzdIREtScUdxQldHZGM1RVl0T3Y2bjdBQkdDa1A",
+        "source": "Culture RH",
+        "date": "2026-10-14T05:01:39+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "site:culture-rh.com (recrutement OR marque employeur OR RH OR carrière)",
+        "channel": "Google Actualités"
+      }
+    ],
+    "Campagnes créatives": [
+      {
+        "title": "Cyril Lignac assiste aux pires idées marketing de sa vie pour lancer sa box HelloFresh",
+        "url": "https://www.danstapub.com/hellofresh-cyril-lignac-campagne-customer-service/",
+        "source": "Dans Ta Pub",
+        "date": "2026-10-14T08:36:00+00:00",
+        "section": "Campagnes créatives",
+        "sections": [
+          "Campagnes créatives"
+        ],
+        "query": "Flux Dans Ta Pub",
+        "channel": "RSS direct"
+      },
+      {
+        "title": "Retraite : la campagne choc qui affiche des mères en solde à -33% - Dans Ta Pub",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ubVJLaXZ3dnh3VnNZVnpieEtXUFVYRjJHenhISE1tZkF6cHc3b0hOU0ZsNXlLTEJtb1ZMbEsxTXB3YjJyT3Y1X01uczlHZndXUm1aZURZSTdNMEVmWXFTdWRzS3MzbWtjdUs2ZGxXR0hKSXNsRnZTLUJfZw",
+        "source": "Dans Ta Pub",
+        "date": "2026-10-14T08:24:58+00:00",
+        "section": "Campagnes créatives",
+        "sections": [
+          "Campagnes créatives"
+        ],
+        "query": "site:danstapub.com (campagne OR publicité OR marketing OR créativité)",
+        "channel": "Google Actualités"
+      },
+      {
+        "title": "Au Royaume-Uni, des mères affichées en solde pour dénoncer l’écart des retraites",
+        "url": "https://www.danstapub.com/pregnant-then-screwed-33-off-retraite-femmes/",
+        "source": "Dans Ta Pub",
+        "date": "2026-10-14T08:24:17+00:00",
+        "section": "Campagnes créatives",
+        "sections": [
+          "Campagnes créatives"
+        ],
+        "query": "Flux Dans Ta Pub",
+        "channel": "RSS direct"
+      },
+      {
+        "title": "321 ans à eux quatre : la plus vieille équipe de course devient l’égérie d’une marque de running - Creapills",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02d1VlcmRXUVNITkgtT3lpRGVJc3pfWmdRVjJpQ1BxMWtPWXlyZ0FhazVaMlkwM3ZucHJBNUtEU1EzYWZScVQtdUg1bDZjM2paaXBxYlhkN1RCemZUcFlON3J0aWNnUXBvVHd1MkliWVlDOVE",
+        "source": "Creapills",
+        "date": "2026-10-14T07:59:31+00:00",
+        "section": "Campagnes créatives",
+        "sections": [
+          "Campagnes créatives"
+        ],
+        "query": "site:creapills.com (campagne OR publicité OR marketing OR créativité)",
+        "channel": "Google Actualités"
+      },
+      {
+        "title": "321 ans à eux quatre : la plus vieille équipe de course devient l’égérie d’une marque de running",
+        "url": "https://creapills.com/altra-coureurs-seniors-legacy-team-20261014",
+        "source": "Creapills",
+        "date": "2026-10-14T07:59:31+00:00",
+        "section": "Campagnes créatives",
+        "sections": [
+          "Campagnes créatives"
+        ],
+        "query": "Flux Creapills",
+        "channel": "RSS direct"
+      },
+      {
+        "title": "All Accor - La Réclame",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tZGFSWHk3bzdRY3Z3WmxXSzRBdU1QTTcyNkw2ZDYwbGdOcl9CcjkzdmhHUi1CYldNUVdDZ0xVMkY1U1U0aWxLNGJ4eFFwLXctYUExd0hpbjhqRE51cUpvNWQ2dlNwNklxM00tRlJiOA",
+        "source": "La Réclame",
+        "date": "2026-10-14T07:49:58+00:00",
+        "section": "Campagnes créatives",
+        "sections": [
+          "Campagnes créatives"
+        ],
+        "query": "site:lareclame.fr (campagne OR publicité OR marketing OR créativité)",
+        "channel": "Google Actualités"
+      },
+      {
+        "title": "Étude Kolsquare : la transparence commerciale des créateurs de contenu favorise-t-elle la fidélité et la performance ? - J'ai un pote dans la com",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeDFvT2F0NUp5THRJQ1EtTkRVNm41V0dXdVVEX2ZaZXRRUUI5V2ZQR09KUmxGeG9sN2R5Y3dTYlVVbUM4ajRieWlzN0liUGFNRVh2X0xXT0VzRmp4cUtyem4zNXdIMEhDNVhUUnVQV05qMXlPRWtieWF0OTJpYkhEdDMtQklPZE9NVkh0Q1h4N3FJTFJrdGZZ",
+        "source": "J'ai un pote dans la com",
+        "date": "2026-10-14T07:48:24+00:00",
+        "section": "Campagnes créatives",
+        "sections": [
+          "Campagnes créatives"
+        ],
+        "query": "site:jai-un-pote-dans-la.com (campagne OR publicité OR marketing OR créativité)",
+        "channel": "Google Actualités"
+      },
+      {
+        "title": "La 2 CV électrique attendra 2028. Citroën lance déjà la campagne - Influencia",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOGIzekhSYi1seUxJS2FDa05jQ0tlc1AxUlVZaE1HWVl3NEN5UnJabGkyTkNnQ2taTS1Qc3RWNHNCRkNnQjl6VkRsTHVEamRkbDlrNWdjT3BBR21GVFE4Z202NkFwMWF1UXc3VVBMd0dUYmRwRjU1TkIzSjEzckc5Q1ZTWkZJd2tWT0RnbmdLeWtySHFDU0E",
+        "source": "Influencia",
+        "date": "2026-10-14T06:43:59+00:00",
+        "section": "Campagnes créatives",
+        "sections": [
+          "Campagnes créatives"
+        ],
+        "query": "site:influencia.net (campagne OR publicité OR marketing OR créativité)",
+        "channel": "Google Actualités"
+      }
+    ],
     "Signaux sensibles": []
   }
 }
