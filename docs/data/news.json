@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T10:05:33.971945+00:00",
+  "updated_at": "2026-10-14T10:07:18.379519+00:00",
   "sources_ok": 115,
   "sources_total": 116,
   "source_names": [
@@ -117,7 +117,7 @@
   ],
   "source_count": 111,
   "source_priority_policy": "Sélection éditoriale indicative : score déterminé par titre, source, rubrique et date. Aucun contenu intégral analysé.",
-  "new_count": 0,
+  "new_count": 8,
   "source_errors": [
     {
       "source": "La Réclame",
@@ -125,6 +125,29 @@
     }
   ],
   "articles": [
+    {
+      "title": "Cette bouteille de vodka transforme son packaging en partie de pêche sous la glace",
+      "url": "https://creapills.com/packaging-vodka-bouteille-ice-auger-peche-glace-poisson-20261014",
+      "source": "Creapills",
+      "date": "2026-10-14T09:57:50+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "Flux Creapills",
+      "channel": "RSS direct",
+      "type": "article",
+      "editorial": {
+        "score": 49,
+        "tags": [
+          "campaign"
+        ],
+        "source_tier": 1,
+        "reason": "Idée de campagne ou dispositif créatif à explorer",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
+    },
     {
       "title": "Campagne digitale - Loxam - Agence New Business - agence Publicité / communication / 360 - La Réclame",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5xSVU5emlBdXBkYzFXMkJHcnhKVHV0UmRUTDBhUGphUDRZdkk4Rko3cGNhd1BiU19ETTVFdWllQ2NzRXBVS00wLUdsV0VMNGhpQjJ0QnlyN2RTSXZIZ0MtSWFuQjZoX0Q2WGRjQ2JCRTJXYWM",
@@ -237,6 +260,29 @@
         "source_tier": 2,
         "reason": "Pratique RH ou marque employeur potentiellement transposable",
         "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
+    },
+    {
+      "title": "adidas transforme les crampons en barre Snickers pour Halloween",
+      "url": "https://creapills.com/crampons-snickers-adidas-halloween-football-20261014",
+      "source": "Creapills",
+      "date": "2026-10-14T08:59:21+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "Flux Creapills",
+      "channel": "RSS direct",
+      "type": "article",
+      "editorial": {
+        "score": 49,
+        "tags": [
+          "campaign"
+        ],
+        "source_tier": 1,
+        "reason": "Idée de campagne ou dispositif créatif à explorer",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
       }
     },
@@ -1050,6 +1096,29 @@
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
       },
       "type": "article"
+    },
+    {
+      "title": "L’Orchestre de Montréal transforme la signature sonore du métro en symphonie",
+      "url": "https://creapills.com/osm-orchestre-metro-montreal-symphonie-20261013",
+      "source": "Creapills",
+      "date": "2026-10-13T10:35:23+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "Flux Creapills",
+      "channel": "RSS direct",
+      "type": "article",
+      "editorial": {
+        "score": 49,
+        "tags": [
+          "campaign"
+        ],
+        "source_tier": 1,
+        "reason": "Idée de campagne ou dispositif créatif à explorer",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
     },
     {
       "title": "Un stage payé 50 000 dollars : le signal que le monde du travail a déjà (beaucoup) changé",
@@ -2027,6 +2096,29 @@
       "type": "article"
     },
     {
+      "title": "Pour les 20 ans du film Dikkenek, le Manneken-Pis se transforme en Claudy Focan",
+      "url": "https://creapills.com/manneken-pis-claudy-focan-dikkenek-20261012",
+      "source": "Creapills",
+      "date": "2026-10-12T09:18:54+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "Flux Creapills",
+      "channel": "RSS direct",
+      "type": "article",
+      "editorial": {
+        "score": 49,
+        "tags": [
+          "campaign"
+        ],
+        "source_tier": 1,
+        "reason": "Idée de campagne ou dispositif créatif à explorer",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
+    },
+    {
       "title": "McDonald’s France nomme Ségolène Defline à la direction marketing - Zepros Restauration",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWkkzb3ozUURhOGlURlUwcWlOMlo2ZUFNYjJOWUkxMkZTTDBjekdoSGZGWDRPZnltN1lPdGw0aW81cGtYWHdEZkhsQzdyTkdlajRsYk9uQTlGWnZMc0hHTE95emRFRDV2QnlTb0NQTzBZYVEtY2Jnemh6Rlh3XzNFT2sxb0JTWVQzQllqOVdWTG42VEhxUHhqdmQzYVozMTV5WkptLTJiREQ1a3lKMUE?oc=5",
       "source": "Zepros Restauration",
@@ -2047,6 +2139,29 @@
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
       },
       "type": "article"
+    },
+    {
+      "title": "Orange et Publicis Conseil transforment les arnaques numériques en symphonie",
+      "url": "https://www.danstapub.com/orange-cybersecure-scamcophonie-publicis-conseil/",
+      "source": "Dans Ta Pub",
+      "date": "2026-10-12T08:34:04+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "Flux Dans Ta Pub",
+      "channel": "RSS direct",
+      "type": "article",
+      "editorial": {
+        "score": 49,
+        "tags": [
+          "campaign"
+        ],
+        "source_tier": 1,
+        "reason": "Idée de campagne ou dispositif créatif à explorer",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
     },
     {
       "title": "Archives des CAMPAGNE - Page 102 of 122 - Influencia",
@@ -2821,10 +2936,9 @@
       "url": "https://www.parlonsrh.com/podcast-alice-kodyra-recrutement-faut-il-en-faire-moins-pour-attirer-les-bons-candidats-ep24/",
       "source": "Parlons RH",
       "date": "2026-10-09T08:00:00+00:00",
-      "section": "Inspiration RH",
+      "section": "Podcasts & interviews",
       "sections": [
-        "Podcasts & interviews",
-        "Inspiration RH"
+        "Podcasts & interviews"
       ],
       "query": "Flux Parlons RH",
       "channel": "RSS direct",
@@ -3115,18 +3229,21 @@
       "date": "2026-10-08T14:59:54+00:00",
       "section": "Concurrence",
       "sections": [
-        "Concurrence"
+        "Concurrence",
+        "Campagnes créatives"
       ],
       "query": "site:lareclame.fr (campagne OR publicité OR marketing OR créativité)",
       "channel": "Google Actualités",
       "editorial": {
-        "score": 45,
+        "score": 62,
         "tags": [
-          "impact"
+          "campaign",
+          "impact",
+          "newsletter"
         ],
         "source_tier": 2,
         "reason": "Signal concurrentiel à comparer à McDo",
-        "angle": "À creuser : que fait différemment cette enseigne ?",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
       },
       "type": "article"
@@ -3452,18 +3569,21 @@
       "date": "2026-10-07T15:52:31+00:00",
       "section": "Concurrence",
       "sections": [
-        "Concurrence"
+        "Concurrence",
+        "Campagnes créatives"
       ],
       "query": "Burger King France publicité activation",
       "channel": "Google Actualités",
       "editorial": {
-        "score": 48,
+        "score": 65,
         "tags": [
-          "impact"
+          "campaign",
+          "impact",
+          "newsletter"
         ],
         "source_tier": 1,
         "reason": "Signal concurrentiel à comparer à McDo",
-        "angle": "À creuser : que fait différemment cette enseigne ?",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
       },
       "type": "article"
@@ -6202,6 +6322,29 @@
       "type": "article"
     },
     {
+      "title": "Une première campagne de notoriété pour Actu.fr - CB News",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zVGtGanNnTFB1TXV5cmJETVlTX2N5OFhvZkJYcTVKSGRLNHVLOXR1UFpZeFU5UFBRN1BudXB5bXhnVmZzTHVnRTltbnMyczBhNVg0dE5hS1hkRVduRTFnUWcyNHNqb1A5WFhwRFpaSjU",
+      "source": "CB News",
+      "date": "2026-09-14T07:00:00+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:cbnews.fr (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités",
+      "type": "article",
+      "editorial": {
+        "score": 41,
+        "tags": [
+          "campaign"
+        ],
+        "source_tier": 1,
+        "reason": "Idée de campagne ou dispositif créatif à explorer",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
+    },
+    {
       "title": "KFC propose de se faire tatouer son logo en échange de poulet frit à vie : la promo fait un carton, mais suscite la controverse - ladepeche.fr",
       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPd2tRVUo2dm9WNkJndFBZa1prbU5SbmRiaC1ZLVM2aGR2UnpBNVA3a29xT1BCWmZGMmlfS0h6ZjNNRTlBX3J4eEpnMmJvazY1QVRjOEtLNWdKR29QUk5qOFNlNmlHaGVERWhmTHNqNGFDUHdqVmNHazRnRTNCNTRZN2s3TnRVanFUMDhybWo3Tm9CVmlXRFRpM1BObTB5T1pvVzRsUDNYR2U4WjZJbmotQzlaeVV5RXpZODZtQW40aVNEc21hakhSQjN3cHphMWhaNjA2Znh1MWxONHNrNnVYeU1xNFJWM1k1OElicm10TjRsb2F0czJUR2FXMk4wMGRDa25N?oc=5",
       "source": "ladepeche.fr",
@@ -7288,18 +7431,20 @@
       "date": "2026-07-24T07:00:00+00:00",
       "section": "Concurrence",
       "sections": [
-        "Concurrence"
+        "Concurrence",
+        "Campagnes créatives"
       ],
       "query": "Burger King France publicité activation",
       "channel": "Google Actualités",
       "editorial": {
-        "score": 36,
+        "score": 53,
         "tags": [
+          "campaign",
           "impact"
         ],
         "source_tier": 1,
         "reason": "Signal concurrentiel à comparer à McDo",
-        "angle": "À creuser : que fait différemment cette enseigne ?",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
       },
       "type": "article"
@@ -7770,18 +7915,20 @@
       "date": "2026-07-08T07:00:00+00:00",
       "section": "Concurrence",
       "sections": [
-        "Concurrence"
+        "Concurrence",
+        "Campagnes créatives"
       ],
       "query": "Burger King France publicité activation",
       "channel": "Google Actualités",
       "editorial": {
-        "score": 36,
+        "score": 53,
         "tags": [
+          "campaign",
           "impact"
         ],
         "source_tier": 1,
         "reason": "Signal concurrentiel à comparer à McDo",
-        "angle": "À creuser : que fait différemment cette enseigne ?",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
       },
       "type": "article"
@@ -7944,6 +8091,29 @@
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
       },
       "type": "article"
+    },
+    {
+      "title": "SNCF signe un film d’été sur les Français qui roulent ensemble chaque jour - Dans Ta Pub",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1WU2xGbTFwSUhWaHIxLWRKVFF3WW54SklNckxNckp6N3FTYlRGVEhtb043cEUwVUpyUGFfaW10WlFDV2dfMGdaX0dxdXZVV0VOWEdsenI4THNWNEFiT2FQMm9YZ1hRX0UyQUc0ck5RM0Q",
+      "source": "Dans Ta Pub",
+      "date": "2026-07-02T07:00:00+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "meilleures campagnes de publicité 2026 France",
+      "channel": "Google Actualités",
+      "type": "article",
+      "editorial": {
+        "score": 37,
+        "tags": [
+          "campaign"
+        ],
+        "source_tier": 1,
+        "reason": "Idée de campagne ou dispositif créatif à explorer",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
     },
     {
       "title": "Le Grand Prix du Brand Content 2026 nous offre un palmarès chaud brillant, créatif et audacieux, entre deux canicules - Influencia",
@@ -8513,18 +8683,20 @@
       "date": "2026-06-12T07:00:00+00:00",
       "section": "Concurrence",
       "sections": [
-        "Concurrence"
+        "Concurrence",
+        "Campagnes créatives"
       ],
       "query": "KFC France publicité campagne",
       "channel": "Google Actualités",
       "editorial": {
-        "score": 36,
+        "score": 53,
         "tags": [
+          "campaign",
           "impact"
         ],
         "source_tier": 1,
         "reason": "Signal concurrentiel à comparer à McDo",
-        "angle": "À creuser : que fait différemment cette enseigne ?",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
       },
       "type": "article"
@@ -8736,6 +8908,29 @@
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
       },
       "type": "article"
+    },
+    {
+      "title": "AG2R signe avec Havas Paris son film de marque le plus humain et touchant - Dans Ta Pub",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93Q2U2SndWMXhabm5sd2JyYTZvcWJzODBseHk3SUNaeUtrek1ac05pUlNrMlFsWmVxNHVqSmZnQWhlNF9JUHgyQ2lodHRIeUhsN1N3TXcwNkZ1dzZCQW0wWUpsOXp0U21kUHc",
+      "source": "Dans Ta Pub",
+      "date": "2026-06-09T07:00:00+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "meilleures campagnes de publicité 2026 France",
+      "channel": "Google Actualités",
+      "type": "article",
+      "editorial": {
+        "score": 37,
+        "tags": [
+          "campaign"
+        ],
+        "source_tier": 1,
+        "reason": "Idée de campagne ou dispositif créatif à explorer",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
     },
     {
       "title": "Gen Z et millennials : la fin de la carrière traditionnelle ? - Deloitte",

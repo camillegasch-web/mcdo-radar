@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T10:05:33.971945+00:00",
+  "updated_at": "2026-10-14T10:07:18.379519+00:00",
   "sections": {
     "France": [
       {
@@ -304,6 +304,29 @@
     ],
     "Campagnes créatives": [
       {
+        "title": "Cette bouteille de vodka transforme son packaging en partie de pêche sous la glace",
+        "url": "https://creapills.com/packaging-vodka-bouteille-ice-auger-peche-glace-poisson-20261014",
+        "source": "Creapills",
+        "date": "2026-10-14T09:57:50+00:00",
+        "section": "Campagnes créatives",
+        "sections": [
+          "Campagnes créatives"
+        ],
+        "query": "Flux Creapills",
+        "channel": "RSS direct",
+        "type": "article",
+        "editorial": {
+          "score": 49,
+          "tags": [
+            "campaign"
+          ],
+          "source_tier": 1,
+          "reason": "Idée de campagne ou dispositif créatif à explorer",
+          "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
         "title": "Campagne digitale - Loxam - Agence New Business - agence Publicité / communication / 360 - La Réclame",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5xSVU5emlBdXBkYzFXMkJHcnhKVHV0UmRUTDBhUGphUDRZdkk4Rko3cGNhd1BiU19ETTVFdWllQ2NzRXBVS00wLUdsV0VMNGhpQjJ0QnlyN2RTSXZIZ0MtSWFuQjZoX0Q2WGRjQ2JCRTJXYWM",
         "source": "La Réclame",
@@ -375,6 +398,29 @@
         }
       },
       {
+        "title": "adidas transforme les crampons en barre Snickers pour Halloween",
+        "url": "https://creapills.com/crampons-snickers-adidas-halloween-football-20261014",
+        "source": "Creapills",
+        "date": "2026-10-14T08:59:21+00:00",
+        "section": "Campagnes créatives",
+        "sections": [
+          "Campagnes créatives"
+        ],
+        "query": "Flux Creapills",
+        "channel": "RSS direct",
+        "type": "article",
+        "editorial": {
+          "score": 49,
+          "tags": [
+            "campaign"
+          ],
+          "source_tier": 1,
+          "reason": "Idée de campagne ou dispositif créatif à explorer",
+          "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
         "title": "Cyril Lignac face aux pires idées pour lancer sa box HelloFresh - Dans Ta Pub",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRnIybmdtYW9OY1oxN0dGTWtMMUFLV3VxcFVBNzAydEFxN0UzMTFPYzVlXzhCaGZtYWY5c00tdV9tTEdsYWlQM1NUT2NmSnl5Ym1NcThodUV2SDNua0ViZ0szMXQ5TUU1dXBEUE1ERWFDeVdhbFBYUFFWSzNuQjZHU1VR",
         "source": "Dans Ta Pub",
@@ -437,52 +483,6 @@
             "campaign"
           ],
           "source_tier": 1,
-          "reason": "Idée de campagne ou dispositif créatif à explorer",
-          "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
-          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-        },
-        "type": "article"
-      },
-      {
-        "title": "Au Royaume-Uni, des mères affichées en solde pour dénoncer l’écart des retraites",
-        "url": "https://www.danstapub.com/pregnant-then-screwed-33-off-retraite-femmes/",
-        "source": "Dans Ta Pub",
-        "date": "2026-10-14T08:24:17+00:00",
-        "section": "Campagnes créatives",
-        "sections": [
-          "Campagnes créatives"
-        ],
-        "query": "Flux Dans Ta Pub",
-        "channel": "RSS direct",
-        "editorial": {
-          "score": 49,
-          "tags": [
-            "campaign"
-          ],
-          "source_tier": 1,
-          "reason": "Idée de campagne ou dispositif créatif à explorer",
-          "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
-          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-        },
-        "type": "article"
-      },
-      {
-        "title": "La 2 CV électrique attendra 2028. Citroën lance déjà la campagne - Influencia",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOGIzekhSYi1seUxJS2FDa05jQ0tlc1AxUlVZaE1HWVl3NEN5UnJabGkyTkNnQ2taTS1Qc3RWNHNCRkNnQjl6VkRsTHVEamRkbDlrNWdjT3BBR21GVFE4Z202NkFwMWF1UXc3VVBMd0dUYmRwRjU1TkIzSjEzckc5Q1ZTWkZJd2tWT0RnbmdLeWtySHFDU0E",
-        "source": "Influencia",
-        "date": "2026-10-14T06:43:59+00:00",
-        "section": "Campagnes créatives",
-        "sections": [
-          "Campagnes créatives"
-        ],
-        "query": "site:influencia.net (campagne OR publicité OR marketing OR créativité)",
-        "channel": "Google Actualités",
-        "editorial": {
-          "score": 46,
-          "tags": [
-            "campaign"
-          ],
-          "source_tier": 2,
           "reason": "Idée de campagne ou dispositif créatif à explorer",
           "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
           "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."

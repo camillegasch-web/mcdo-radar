@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T10:05:33.971945+00:00",
+  "updated_at": "2026-10-14T10:07:18.379519+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -15,6 +15,16 @@
       "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
     },
     {
+      "title": "Burger King fait dévaler un fromage pour ses nouveaux Masters - Dans Ta Pub",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9QNmxqZ0lnNVNtR3Zmb1lmR3hOMGI5X3hhazk2ZlZwYlBJNUhBM0VZY1VkekFOSWFsRjBuLWhYT0xlNTBZNEpOVjdIMmE4OWI5bmhudFItUFNYZXFGU3hkcEtLUTRXNGhUYTFHSHZfOUdNWnJudF9V",
+      "source": "Dans Ta Pub",
+      "date": "2026-10-07T15:52:31+00:00",
+      "section": "Concurrence",
+      "score": 65,
+      "reason": "Signal concurrentiel à comparer à McDo",
+      "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
+    },
+    {
       "title": "Publicité dans l’IA : l’information est la clé de l’acceptation des utilisateurs selon Kantar - CB News",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRFlvX0xidWp0LVZHR2U5S1VVb3BpRWx1TTRidF9OSmp2S0RMZE90bVRpNlJmMGhFSFp4NWgwOFMwOVVBQzZxY20wWE9nUkdpU0hSNVpscnV4Qlc3M3M4OU4wYWd5bS1VVHJ1Tk9QaHAwRVBxWFBtTzRfamg5bk1HNEVMdS1NNHZnaGhxdUkzLXNCLWlpbl9zTA",
       "source": "CB News",
@@ -23,6 +33,16 @@
       "score": 64,
       "reason": "Idée de campagne ou dispositif créatif à explorer",
       "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
+    },
+    {
+      "title": "Chez Quick, la sauce Giant signe le transfert de l’année - La Réclame",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE43WkRFdzhNRlp4OU9kNmd4MnJla2VTV2ZIR0V0cUhSUkNNdlhPWUhILXF2V3EwRUNmamVGV3M4ZkZiVWNkVlR4SDMyYXgxMmxPaThr",
+      "source": "La Réclame",
+      "date": "2026-10-08T14:59:54+00:00",
+      "section": "Concurrence",
+      "score": 62,
+      "reason": "Signal concurrentiel à comparer à McDo",
+      "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
     },
     {
       "title": "Publicité : le groupement des Mousquetaires (Intermarché, Bricomarché, Netto...) lance sa première campagne de marque employeur - LSA conso",
@@ -83,26 +103,6 @@
       "score": 58,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quel impact sur l'image de McDo ?"
-    },
-    {
-      "title": "Titres-restaurant : ces salariés pourraient bientôt en bénéficier pendant certains congés - Actu.fr",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZkdqbUdWaHdtazM5M2EzLWhvY3RIZW00Z1dUbDNZQnlQcktNZGw2WnN5dm1kSk44NDRsdG0wUGQtQXF3WW9UMXRwNHRENGtiZTJmRGx4a0NQeG1Wb0NMMjFTbTE2YWNlMkRIdlRhZ1VOX2dvSGhPTUNENUJGWEx5ZWVta2pNUWVpNDZWYzRBcWFIN1NmcklDdmY3bzZYZFM3OWZkc0d5QWxXRjZMTFlOS3hmc242alg3RmZFZ2RDSExoSUk",
-      "source": "Actu.fr",
-      "date": "2026-10-14T07:00:23+00:00",
-      "section": "Inspiration RH",
-      "score": 55,
-      "reason": "Pratique RH ou marque employeur potentiellement transposable",
-      "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?"
-    },
-    {
-      "title": "Du salaire en plus mais... Est-il vraiment rentable de refuser les titres-restaurant proposés par votre entreprise ? - Actu.fr",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQcVl3VmdqLXNHa0VvZHlvem1GcWZhUkp2RUNDRGFPT3IxVW9OcHlKNkNwRDdldUhZTWxWNzlaSEYxUTJGTHpvbUdWNDFNbF9fQzI1eWduemIySUxBem1GUVdWZVFabWxqeExIYUxWc3N3M0hJWTM4UWpBcDdVU04wSUpFSjRaVUNoTlN1WXMtYkdHcUZGLTVtMFBlWHAyWVBobk1CVm5tZW1aQmlSTWF5RnN3Zm1UbERzbkoydnZIVXg3YndPUGp4Zk1qdTFuU0pIeHVfdjFHNmRudkpqNVl0UTlyMA",
-      "source": "Actu.fr",
-      "date": "2026-10-13T17:41:42+00:00",
-      "section": "Inspiration RH",
-      "score": 55,
-      "reason": "Pratique RH ou marque employeur potentiellement transposable",
-      "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?"
     }
   ]
 }
