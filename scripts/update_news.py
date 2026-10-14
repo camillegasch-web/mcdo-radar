@@ -437,6 +437,58 @@ def weekly_picks(articles):
         "method":"Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
         "items":picks}
 
+PODCAST_SHOWS = [
+    ("Passion DRH", "Passion DRH", True),
+    ("Bougeons les lignes", "Bougeons les lignes Parlons RH", True),
+    ("Le Super Daily", "Le Super Daily", True),
+    ("Le Talk Franchise", "Le Talk Franchise", True),
+    ("En toute franchise", "En toute franchise LE POST PODCAST", True),
+    ("Génération Do It Yourself", "Génération Do It Yourself", False),
+    ("Marketing Mania", "Marketing Mania", True),
+]
+PODCAST_RELEVANCE = re.compile(
+    r"recrut|ressources humaines|marque employeur|salari|collaborat|travail|"
+    r"carrière|alternance|manager|management|emploi|publicit|campagne|créati|"
+    r"marketing|communication|social media|influence|marque|franchise|"
+    r"restaur|snacking|consommation|burger|mcdonald|kfc|tiktok|linkedin",
+    re.I
+)
+def podcast_work(item):
+    label, term, specialised = item
+    try:
+        q=urllib.parse.urlencode({"term":term,"entity":"podcast","media":"podcast",
+                                  "country":"fr","limit":"16"})
+        found=json.loads(get("https://itunes.apple.com/search?"+q))
+        collections=found.get("results", [])
+        best=None
+        for one in collections:
+            name=(one.get("collectionName") or "").casefold()
+            expected=label.casefold()
+            # correspondance explicite : ne pas agréger des émissions homonymes
+            if name==expected or name.startswith(expected+" -") or name.startswith(expected+" :") or name.startswith(expected+" !"):
+                best=one
+                break
+        if best is None:
+            return label, [], "Émission non trouvée dans le répertoire public"
+        feed=best.get("feedUrl")
+        if not feed: return label, [], "Flux public non communiqué par le répertoire"
+        items=parse_rss(get(feed),"Podcasts & interviews",label,preferred_source=label,direct=True)
+        output=[]
+        for a in items[:24]:
+            if not specialised and not PODCAST_RELEVANCE.search(a["title"]):
+                continue
+            a["type"]="podcast"
+            a["show"]=label
+            a["channel"]="Podcast RSS"
+            a["sections"]=["Podcasts & interviews"]
+            # À défaut de lien d'épisode, on conserve le lien produit par l'éditeur,
+            # pas le lien direct vers un fichier audio hébergé.
+            output.append(a)
+        return label, output, None
+    except Exception as e:
+        return label, [], str(e)[:170]
+
+
 def main():
     path=ROOT/"news.json"
     try: old=json.loads(path.read_text(encoding="utf-8"))
