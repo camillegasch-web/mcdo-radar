@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-14T08:24:08.581008+00:00",
+  "updated_at": "2026-10-14T08:27:34.142004+00:00",
   "sources_ok": 26,
   "sources_total": 26,
-  "new_count": 393,
+  "new_count": 348,
   "articles": [
     {
       "title": "McDonald’s France confie trois de ses restaurants parisiens, Victor Hugo, Passy et Austerlitz, à des franchisés - L’Express Franchise",
@@ -315,6 +315,14 @@
       "date": "2026-07-27T07:00:00+00:00",
       "section": "Local",
       "query": "McDonald’s ouverture restaurant France"
+    },
+    {
+      "title": "Un nouveau Quick va ouvrir ses portes au Crès - Echo des Tribunes",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQWtiU09uQjlEMzFZeTAyWTBNb2liVmN0aG9qZllKWE5nRVlTVzJLcXNnSUtvbGtnbkRteU1nOXNjdkRJcGRFLXFFY0IyaUEwUFRfUHpiWU9ldkdNZEJUOElJQVYzT2ZUN192MXpYV1hDWldrWjJleW4xMUhDRk1WMmpvTmJ6d2JVdEdTUDQ2WmtFcmd2d3hGZXlJMmEzQWxSVUE?oc=5",
+      "source": "Echo des Tribunes",
+      "date": "2026-07-25T07:00:00+00:00",
+      "section": "Concurrence",
+      "query": "Quick France recrutement"
     },
     {
       "title": "Le taux d'insertion en emploi des apprentis de premiers niveaux de qualification en légère baisse (Dares) - AEF info",
