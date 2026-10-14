@@ -298,6 +298,60 @@ def editorial_metadata(article):
     }
     return article
 
+
+# Podcasts : indexation des épisodes publics via le répertoire iTunes puis flux RSS
+# des émissions (sans accès à Spotify privé ni téléchargement des fichiers audio).
+PODCAST_SHOWS = [
+    ("Passion DRH", "Passion DRH", True),
+    ("Bougeons les lignes", "Bougeons les lignes Parlons RH", True),
+    ("Le Super Daily", "Le Super Daily", True),
+    ("Le Talk Franchise", "Le Talk Franchise", True),
+    ("En toute franchise", "En toute franchise LE POST PODCAST", True),
+    ("Génération Do It Yourself", "Génération Do It Yourself", False),
+    ("Marketing Mania", "Marketing Mania", True),
+]
+PODCAST_RELEVANCE = re.compile(
+    r"recrut|ressources humaines|marque employeur|salari|collaborat|travail|"
+    r"carrière|alternance|manager|management|emploi|publicit|campagne|créati|"
+    r"marketing|communication|social media|influence|marque|franchise|"
+    r"restaur|snacking|consommation|burger|mcdonald|kfc|tiktok|linkedin",
+    re.I
+)
+def podcast_work(item):
+    label, term, specialised = item
+    try:
+        q=urllib.parse.urlencode({"term":term,"entity":"podcast","media":"podcast",
+                                  "country":"fr","limit":"16"})
+        found=json.loads(get("https://itunes.apple.com/search?"+q))
+        collections=found.get("results", [])
+        best=None
+        for one in collections:
+            name=(one.get("collectionName") or "").casefold()
+            expected=label.casefold()
+            # correspondance explicite : ne pas agréger des émissions homonymes
+            if name==expected or name.startswith(expected+" -") or name.startswith(expected+" :"):
+                best=one
+                break
+        if best is None:
+            return label, [], "Émission non trouvée dans le répertoire public"
+        feed=best.get("feedUrl")
+        if not feed: return label, [], "Flux public non communiqué par le répertoire"
+        items=parse_rss(get(feed),"Podcasts & interviews",label,preferred_source=label,direct=True)
+        output=[]
+        for a in items[:24]:
+            if not specialised and not PODCAST_RELEVANCE.search(a["title"]):
+                continue
+            a["type"]="podcast"
+            a["show"]=label
+            a["channel"]="Podcast RSS"
+            a["sections"]=["Podcasts & interviews"]
+            # À défaut de lien d'épisode, on conserve le lien produit par l'éditeur,
+            # pas le lien direct vers un fichier audio hébergé.
+            output.append(a)
+        return label, output, None
+    except Exception as e:
+        return label, [], str(e)[:170]
+
 def main():
     path=ROOT/"news.json"
     try: old=json.loads(path.read_text(encoding="utf-8"))
@@ -330,6 +384,23 @@ def main():
                         old_item["channel"]=a["channel"]
                 else: merged[k]=a
                 domains.add(a["source"])
+    # Collecte indépendante des émissions : un échec podcast n'interrompt pas la veille presse.
+    with cf.ThreadPoolExecutor(max_workers=4) as podcast_pool:
+        for label, episodes, err in podcast_pool.map(podcast_work, PODCAST_SHOWS):
+            if err:
+                errors.append({"source":"Podcast : "+label,"error":err})
+                continue
+            successes+=1
+            stats["Podcasts & interviews"]=stats.get("Podcasts & interviews",0)+1
+            for a in episodes:
+                k=key(a)
+                if k in merged:
+                    existing=merged[k]
+                    existing["sections"]=list(dict.fromkeys(existing.get("sections",[existing.get("section","")])+["Podcasts & interviews"]))
+                    existing["type"]="podcast"
+                    existing["show"]=label
+                else:
+                    merged[k]=a
     if successes==0:
         raise RuntimeError("Aucun flux disponible. Historique conservé. Erreurs: "+str(errors[:3]))
     cutoff=NOW-dt.timedelta(days=MAX_DAYS)
@@ -346,15 +417,16 @@ def main():
         editorial_metadata(article)
     new_count=sum(key(a) not in previous for a in articles)
     info={"updated_at":NOW.isoformat(), "sources_ok":successes,
-          "sources_total":len(full), "source_names":sorted(set(a["source"] for a in articles)),
+          "sources_total":len(full)+len(PODCAST_SHOWS), "source_names":sorted(set(a["source"] for a in articles)),
           "source_count":len(set(a["source"] for a in articles)),
+          "source_priority_policy":"Sélection éditoriale indicative : score déterminé par titre, source, rubrique et date. Aucun contenu intégral analysé.",
           "new_count":new_count, "source_errors":errors[:18],
           "articles":articles}
     path.write_text(json.dumps(info,ensure_ascii=False,indent=2),encoding="utf-8")
     (ROOT/"news.js").write_text("window.RADAR_DATA = "+json.dumps(info,ensure_ascii=False,separators=(",",":"))+";",encoding="utf-8")
     recent=NOW-dt.timedelta(hours=36)
     fresh=[a for a in articles if dt.datetime.fromisoformat(a["date"].replace("Z","+00:00"))>=recent]
-    sections=list(BASE_QUERIES)
+    sections=list(BASE_QUERIES)+["Podcasts & interviews"]
     (ROOT/"brief.json").write_text(json.dumps({"updated_at":NOW.isoformat(),
        "sections":{c:[a for a in fresh if c in a.get("sections",[a["section"]])][:8] for c in sections}},
        ensure_ascii=False,indent=2),encoding="utf-8")
