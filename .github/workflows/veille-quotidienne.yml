@@ -6,7 +6,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'docs/**'
+      - 'docs/index.html'
       - 'scripts/**'
       - '.github/workflows/veille-quotidienne.yml'
 permissions:
@@ -14,14 +14,12 @@ permissions:
   pages: write
   id-token: write
 concurrency:
-  group: mcdo-pages
+  group: mcdo-radar
   cancel-in-progress: false
 jobs:
   refresh:
+    name: Collecte et actualisation des données
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -31,17 +29,37 @@ jobs:
           python-version: '3.12'
       - name: Récupérer les actualités françaises et RH
         run: python scripts/update_news.py
-      - name: Sauvegarder les données
+      - name: Sauvegarder les données actualisées
         run: |
           git config user.name "McDo Radar"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/data
           if ! git diff --cached --quiet; then
-            git commit -m "Actualisation de la veille" && git push
+            git commit -m "Actualisation automatique des articles"
+            git push
           fi
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - name: Vérifier si GitHub Pages est activé
+        id: pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          status=$(curl -sS -o /dev/null -w '%{http_code}' -H "Authorization: Bearer $GITHUB_TOKEN" -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" "https://api.github.com/repos/$GITHUB_REPOSITORY/pages")
+          if [ "$status" = "200" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+            echo "GitHub Pages est activé."
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::La collecte a réussi, mais GitHub Pages n'est pas activé (HTTP $status). Pour publier le site : Settings > Pages > Source : GitHub Actions."
+          fi
+      - name: Préparer GitHub Pages
+        if: steps.pages.outputs.enabled == 'true'
+        uses: actions/configure-pages@v5
+      - name: Préparer le site public
+        if: steps.pages.outputs.enabled == 'true'
+        uses: actions/upload-pages-artifact@v3
         with:
           path: docs
-      - uses: actions/deploy-pages@v4
+      - name: Publier le radar
+        if: steps.pages.outputs.enabled == 'true'
         id: deployment
+        uses: actions/deploy-pages@v4
