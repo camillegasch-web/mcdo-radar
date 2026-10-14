@@ -272,10 +272,10 @@ COMP = r"burger king|\bquick\b|\bkfc\b|five guys"
 SECTOR = r"restaurant|restaurat|snacking|fast.food|franchise|hotellerie|foodservice"
 RH_STRICT = r"recrut|emploi|embauch|salari|equipier|collaborat|manag|formation|alternan|apprent|candidat|carriere|talent|metier|marque employeur|experience candidat|rh\b|ressources humaines|qvct|travail|remuneration|salaire|mobilite interne|people review|soft skill|risques psychosociaux|\brps\b"
 RH_PRIORITY = r"recrut|embauch|marque employeur|experience candidat|alternan|formation|manag|salari|equipier|candidat|engagement collaborat|carriere|attractivit|qvct|remuneration|salaire"
-CREATIVE = r"campagne|publicit|activation|affichag|film publicitaire|\bspot\b|concept creati|brand content|operation marketing|communication creati|advertising|ads of the world|\bcreati|social media|reseaux sociaux|lance une campagne|partenariat publicitaire"
+CREATIVE = r"campagne|publicit|activation|affichag|film publicitaire|\bspot\b|concept creati|brand content|operation marketing|communication creati|advertising|ads of the world|\bcreati|lance une campagne|partenariat publicitaire"
 STUDY = r"etude|barometre|sondage|enquete|chiffres?|statistique|rapport|observatoire|tendance|indice|classement|donnees|resultats? de l.etude"
 SENSITIVE = r"greve|justice|condamn|plainte|polemique|scandale|boycott|harcelement|accus|contamin|fermeture administrative|mobilisation syndical|casse sociale|inquietude|conflit social"
-JOB_AD = r"\(?h/f\)?|\(?f/h\)?|offre d.emploi|postuler a l.offre|cdi a |cdd a |f/h\b|rejoignez notre equipe|hiring now|fiche metier"
+JOB_AD = r"\(?h/f\)?|\(?f/h\)?|offre d.emploi|postuler a l.offre|cdi a |cdd a |f/h\b|rejoignez notre equipe|hiring now|fiche metier|recrutement saison|recrutement hiver|recrute pour la saison|nous recrutons|offres? d.emploi a pourvoir"
 CREATIVE_SOURCE_PATTERN = r"creapills|dans ta pub|l.adn|strategies|cb news|j.ai un pote|la reclame|lbb|influencia|marketing dive|creative boom|adweek|the drum|campaign uk"
 def classify(article):
     title=normal(article.get("title")); source=normal(article.get("source"))
@@ -415,7 +415,7 @@ def weekly_picks(articles):
     # Semaine glissante pour fournir des pépites aussi le lundi matin.
     cutoff=NOW-dt.timedelta(days=7)
     candidates=[a for a in articles if dt.datetime.fromisoformat(a["date"].replace("Z","+00:00"))>=cutoff
-        and a.get("editorial",{}).get("score",0)>=56 and a.get("type")!="podcast"]
+        and a.get("editorial",{}).get("score",0)>=49 and a.get("type")!="podcast"]
     # Privilégier un angle RH/créatif ou une info McDo/secteur, et limiter la répétition.
     candidates.sort(key=lambda a:(a["editorial"]["score"],a["date"]),reverse=True)
     picks=[];counts={};media={};section_limits={
