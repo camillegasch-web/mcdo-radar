@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-14T08:44:52.519124+00:00",
-  "sources_ok": 108,
-  "sources_total": 109,
+  "updated_at": "2026-10-14T08:45:48.396767+00:00",
+  "sources_ok": 112,
+  "sources_total": 116,
   "source_names": [
     "01net.com",
     "AEF info",
@@ -31,6 +31,7 @@
     "E-marketing.fr",
     "EWAG",
     "Echo des Tribunes",
+    "En toute franchise",
     "Euronews.com",
     "Focus RH",
     "Force Ouvrière",
@@ -69,6 +70,7 @@
     "Le Populaire du Centre",
     "Le Progrès",
     "Le Soir",
+    "Le Talk Franchise",
     "Le Télégramme",
     "Les Gens d'Internet",
     "LesEco.ma",
@@ -90,6 +92,7 @@
     "PME Magazine",
     "Packshotmag",
     "Parlons RH",
+    "Passion DRH",
     "Planète Grandes Écoles",
     "Presse Agence",
     "RATP",
@@ -125,12 +128,25 @@
     "welcometothejungle.com",
     "Éditions Tissot"
   ],
-  "source_count": 121,
-  "new_count": 236,
+  "source_count": 124,
+  "source_priority_policy": "Sélection éditoriale indicative : score déterminé par titre, source, rubrique et date. Aucun contenu intégral analysé.",
+  "new_count": 14,
   "source_errors": [
     {
       "source": "La Réclame",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Podcast : Bougeons les lignes",
+      "error": "Émission non trouvée dans le répertoire public"
+    },
+    {
+      "source": "Podcast : Le Super Daily",
+      "error": "unclosed CDATA section: line 4387, column 1333"
+    },
+    {
+      "source": "Podcast : Génération Do It Yourself",
+      "error": "unclosed CDATA section: line 4725, column 5195"
     }
   ],
   "articles": [
@@ -776,6 +792,28 @@
       }
     },
     {
+      "title": "Partenariat RH et IT : un levier pour anticiper l’évolution de l’IA",
+      "url": "https://culture-rh.com/partenariat-rh-it-evolution-ia/",
+      "source": "Culture RH",
+      "date": "2026-10-14T04:00:00+00:00",
+      "section": "Inspiration RH",
+      "sections": [
+        "Inspiration RH"
+      ],
+      "query": "Flux Culture RH",
+      "channel": "RSS direct",
+      "editorial": {
+        "tags": [
+          "newsletter"
+        ],
+        "score": 73,
+        "source_tier": 1,
+        "reason": "Pratique RH ou marque employeur potentiellement transposable",
+        "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Bienvenue à Paris: How BETC is transforming a graffiti cathedral and its community - Campaign UK",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMU9qcVEwRjM4c2Z5eWxFNk9waGZXRWpxem9zR1hBZTdNUm1ESVlXV0c0aHRnVTZGcGlOR21YVlFRQ0t2eFoteGFZUWdKWXRWbTBndW9zNVRxU2ZWdnhSVERXS25fa1F5MHlsYkNLdDNZOG9RRXA1RGFnTEoyRWpQZEFrRXdTdmlWTjVlS1p1aVhTM1Z6aXNrQVNLeU50eE5tMjlhbVlEcTBKWDNRTzdDaG5ILTduYjZDdjFDNU80a2xiekR5bUpuYWw5SEtUbk85cm5ISkRZOXJySzhiem84NA",
       "source": "Campaign UK",
@@ -790,6 +828,26 @@
         "tags": [],
         "score": 48,
         "source_tier": 2,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "Quand les RPS viennent des process eux-mêmes…",
+      "url": "https://culture-rh.com/rps-process-conditions-travail/",
+      "source": "Culture RH",
+      "date": "2026-10-14T03:00:00+00:00",
+      "section": "Inspiration RH",
+      "sections": [
+        "Inspiration RH"
+      ],
+      "query": "Flux Culture RH",
+      "channel": "RSS direct",
+      "editorial": {
+        "tags": [],
+        "score": 59,
+        "source_tier": 1,
         "reason": "Signal de veille à qualifier",
         "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
@@ -11715,6 +11773,29 @@
       }
     },
     {
+      "title": "Responsable de Compte - Chargé de Recrutement et RH sur Site Industriel F/H - Apec",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOb25JbmdUYkcxYXJIc2JNQWtScVhrcVJBUnhmYW44RVFzVzkzNTlTZGRrMnlmbEVQMF9lZk5ZQTZtNDFoN2NIQlJsY24yZmdQcFQ4R1ZFaWdHbzRlMEtuZW9mMzBpN0lIb2s0cGw1TFpTemtRTkFseENwYXp0bkJxdHl6MTBaLVl1RURlUmdSU2FnR19KOG9MaThHdThaWWhJZ0M5X0ZMQ1daZHlpT1JpTzJRWHFBbFZ1SEZxMFN0UkFscUlCOE9RSXJsOEtWY1dVcVNCb0dZRHBmS1NxWE9yYklWcnhmY1UxcEI3Y0VEaDY",
+      "source": "Apec",
+      "date": "2026-10-01T07:00:00+00:00",
+      "section": "Inspiration RH",
+      "sections": [
+        "Inspiration RH"
+      ],
+      "query": "site:apec.fr (recrutement OR marque employeur OR RH OR carrière)",
+      "channel": "Google Actualités",
+      "editorial": {
+        "tags": [
+          "impact",
+          "newsletter"
+        ],
+        "score": 69,
+        "source_tier": 1,
+        "reason": "Pratique RH ou marque employeur potentiellement transposable",
+        "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Ce que les jeunes candidats attendent de votre site carrière - Helloworkplace",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0wSmEwTkxIekZxczhBa1Q4Q0V5WENUWmpSRGt5YzlfdE04amQtVGRpck9qNGVJM1ZyVFJzb3VlUzdvWjBzRWlPblVEa0w2U0JjRXpfbi1FSXFlMF9TQzhtTEtyc2VuU2s",
       "source": "Helloworkplace",
@@ -13674,6 +13755,28 @@
       }
     },
     {
+      "title": "Le Talk Franchise : l'actualité du monde de la franchise - septembre 2026",
+      "url": "https://cdipodcast.com/main/pub/podcast/2760685",
+      "source": "Le Talk Franchise",
+      "date": "2026-09-18T08:58:35+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Talk Franchise",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Talk Franchise",
+      "editorial": {
+        "tags": [],
+        "score": 34,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Mont-de-Marsan : la Passerelle de la formation vers l’emploi s’installe aux Halles de la Madeleine - Sud Ouest",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbkp0Rko5c1hOSzFCVHl0dEFvaUZlLUVqNG04WVJEQjZzLVdRYU1HWXp1aUFYdVc1LWdneTQ3cmFSMEE2OVNkQ3dIRzN3VVlaS1ZOTHBJMFRCdTRSU2lDVjlEZm1MaURfQ251Z25FVFBZM2g2cC1qVFV0MlZmSjBzeU0ydzZBY05EM1g4eHZKZ3BZSUx0NjJoN2F6ejE3YnFTY3FWTXM3RFBvOW1BWnNmcXpxQi1CM3IxNmlZY0k0SmVzNW9vQm9kNENRaVI3dDZlb2pRR1M4TQ?oc=5",
       "source": "Sud Ouest",
@@ -14064,6 +14167,29 @@
       }
     },
     {
+      "title": "Ce qui manque aux managers pour être un bon appui RH - Helloworkplace",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WX1ljQXM4UlJHbGMwVjMzZVF6b1RpOFJBd3B0SFA2Z3lhUEpldXV3bGpMcXY2WV9JVXJsV1V2Qm5lZmQzRWpyQ0R2dW1HbGM1b0FjWkJfc21WalJuekJEVWI3Y2c1UQ",
+      "source": "Helloworkplace",
+      "date": "2026-09-15T07:00:00+00:00",
+      "section": "Inspiration RH",
+      "sections": [
+        "Inspiration RH"
+      ],
+      "query": "site:helloworkplace.fr (recrutement OR marque employeur OR RH OR carrière)",
+      "channel": "Google Actualités",
+      "editorial": {
+        "tags": [
+          "impact",
+          "newsletter"
+        ],
+        "score": 65,
+        "source_tier": 1,
+        "reason": "Pratique RH ou marque employeur potentiellement transposable",
+        "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Pain-beurre, lait-matcha... les Produits Laitiers reprennent leur slogan culte « Nos amis pour la vie » dans une campagne de duos culinaires - Influencia",
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQUkZiQlNOVFFLSXN4c0xUc0YxUS1NNFpFTHNQR2NOMFpvX0VTbWFfSjFTMnc4eEZ3OWtsYU9lTTdoRXNISWZsVzB2aktiaThxY3NzbGIxOVNJZldVV1VCclJ1THVGbl8tMEZXZ0g5OU5kSlhYWWJneVhIR3hFVUMxZ1NsWjdrR3RkU3JtRUVCdGUybkRraURZWHE5bUhjRGZua0YzYUxmQ3hwaU9OVldRdWVnMFdxMFZOZU5DNkNOazNEMTBWWkswakpOb1ZKamFSeXlQVUQ3b24tRnR3UTNtblRGYVVTaHVnbTZHMWhWQ2dHdw",
       "source": "Influencia",
@@ -14404,6 +14530,29 @@
         "source_tier": 2,
         "reason": "Format ou idée créative potentiellement inspirante",
         "angle": "Piste : quelle mécanique créative serait transposable à McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "Offres de stage Chargé.e de communication Interne & Marque employeur de fi... - Apec",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPVGEwVWVRQWlLYmZDRkxZaGpqUEFXQk90ZWJzZnNiRXJZSmlCem1pck1KcnFFVUxYMURnWVR6VlJsZm15Z0c3cVllS1Fra1V6T0diVnlnQUtabW9YYnMyN0VscUJhMDRjWE1makY0ZDVaU2VaT2NJaDE2RXBsQjJ5c0NPVk1TZU5jWnRTeU9mMjJ6X3FGX1N3SERpM0Y4M0FWZ2pIR0tZQW1zbnE3Z241R2VfN1o0LWdGSUc5aUdhaFBQRHNQTlhubFRsM2I5MHZsamF3bmNlcVZrSWc5b29va083bXZwRDFSV0o5NG8zM0lEblZZdUE",
+      "source": "Apec",
+      "date": "2026-09-07T07:00:00+00:00",
+      "section": "Inspiration RH",
+      "sections": [
+        "Inspiration RH"
+      ],
+      "query": "site:apec.fr (recrutement OR marque employeur OR RH OR carrière)",
+      "channel": "Google Actualités",
+      "editorial": {
+        "tags": [
+          "campaign",
+          "newsletter"
+        ],
+        "score": 76,
+        "source_tier": 1,
+        "reason": "Pratique RH ou marque employeur potentiellement transposable",
+        "angle": "Piste : quel format de recrutement pourrait inspirer McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
       }
     },
@@ -14983,6 +15132,28 @@
       }
     },
     {
+      "title": "Pierre Aronoff-Bourgeot, DRH de l'activité Parfums, Beauté & Création chez Chanel",
+      "url": "https://podcast.ausha.co/passion-drh/pierre-aronoff-bourgeot-drh-de-l-activite-parfums-beaute-creation-chez-chanel",
+      "source": "Passion DRH",
+      "date": "2026-07-31T05:00:00+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Passion DRH",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Passion DRH",
+      "editorial": {
+        "tags": [],
+        "score": 55,
+        "source_tier": 3,
+        "reason": "Pratique RH ou marque employeur potentiellement transposable",
+        "angle": "Piste : quel format de recrutement pourrait inspirer McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Strasbourg : Une ouverture confirmée pour le Quick de la gare - StrasInfo.fr",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObW94VDVTQ1FIVGdmY2hkbU5ERzBGMUVGcW9WcElTaERRWFRMSUx2WjlocGFWQW9VLWowZDZfdW85VTQwaVgwcGVLZGhNdHVoYUl4VU9ua1B6UWZBR1V1RUQyNC14OWU0akVURExuMVltOGlpQXI0X01CMlBCQ2F2ajVWTkYyODdHNkt5Vl85MmlSQ3hfYVNV",
       "source": "StrasInfo.fr",
@@ -15135,6 +15306,28 @@
         "source_tier": 2,
         "reason": "Format ou idée créative potentiellement inspirante",
         "angle": "Piste : quelle mécanique créative serait transposable à McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "Le Talk Franchise : l'actualité du monde de la franchise - juillet-août 2026",
+      "url": "https://cdipodcast.com/main/pub/podcast/2661658",
+      "source": "Le Talk Franchise",
+      "date": "2026-07-28T05:00:00+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Talk Franchise",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Talk Franchise",
+      "editorial": {
+        "tags": [],
+        "score": 30,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
       }
     },
@@ -16417,6 +16610,26 @@
       }
     },
     {
+      "title": "Cannes Lions 2026 : un Grand Prix Entertainment à trois bandes pour Original Forever d’adidas - CB News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVTVuU18tb0FyamF4dzVaOHB0dWtZOXlJVU81LWhwV3FfRFNOeGlTUVhLWUJndU5qY1RBZFRZUzRrQ2xoVmRjdFh4LVF6SFJ2STFTeVVLSHk4clJRZF9XZ1I3ZnNKRDNyYnd6N3pSWWhmc0xtU1ZlUXRsWEJMS3VURFNPOVNFR2hiSXJzb052OHVFSkZhaFJweFhNSlFxZUZTWTJRRzJHTU42QzhaSFdj",
+      "source": "CB News",
+      "date": "2026-06-23T07:00:00+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "campagne créative récompensée Cannes Lions communication marque",
+      "channel": "Google Actualités",
+      "editorial": {
+        "tags": [],
+        "score": 42,
+        "source_tier": 1,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Les Cannes Lions 2026 pour les Nuls - La Réclame",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0tNW9WQmdUSUJ1enpXdDFwQzVENmdiWmZpbDZJNU8wSnBZUE16VDVNZHZtRWxKa1UxZU1CcmpkTkVCTGtYUlowSGxQcjh6NDREQW9UOW5ORFhSLUdhNWJkMW5wY09FMmE1T0lR",
       "source": "La Réclame",
@@ -16520,6 +16733,28 @@
         "tags": [],
         "score": 36,
         "source_tier": 2,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "Le Talk Franchise : l'actualité du monde de la franchise - juin 2026",
+      "url": "https://cdipodcast.com/main/pub/podcast/2580581",
+      "source": "Le Talk Franchise",
+      "date": "2026-06-22T05:00:00+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Talk Franchise",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Talk Franchise",
+      "editorial": {
+        "tags": [],
+        "score": 30,
+        "source_tier": 3,
         "reason": "Signal de veille à qualifier",
         "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
@@ -17282,6 +17517,28 @@
       }
     },
     {
+      "title": "Caroline Gonin, DRH et directrice RSE de Transdev",
+      "url": "https://podcast.ausha.co/passion-drh/caroline-gonin-drh-et-directrice-rse-de-transdev",
+      "source": "Passion DRH",
+      "date": "2026-05-29T07:00:00+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Passion DRH",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Passion DRH",
+      "editorial": {
+        "tags": [],
+        "score": 44,
+        "source_tier": 3,
+        "reason": "Pratique RH ou marque employeur potentiellement transposable",
+        "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Jamel Debbouze, Loris Giuliano... Les campagnes qui les ont mis en scène ont dopé les ventes de Burger King. Buzzman nous donne les clés de son succès - Influencia",
       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQQzRWSERNZ0F3Vk9GRTVieUMzTmFNWk51ZlQ1Y0JhNGpsb1FTcG9taFFvd0VscEo3amJ3U3d1a1A4UlN4YVhRT2VzNHY4Y2N6b3EtUzEtNnJjWmpkRXVIaHRWR3JLaHVPamN6TUlNUjdsWHd4TFZ0Tk15MjY1ME8ySUZ0Z3FLT0I2Rm0wUHhIS0xRd3haV3VNZGRwMVBPMGlnSEFRZE1XVTBzemFlWVlab0JYUktPN0FBME81ai1ULWpZN216ODcxVko1bktKSGdHR1hoYTkxSm9EWmduZ0tURldNZ29VNXllMlEzTm9EeDIyUm1pQnlzVDJxcFZuSVpjelZR",
       "source": "Influencia",
@@ -17389,6 +17646,28 @@
         "source_tier": 2,
         "reason": "Format ou idée créative potentiellement inspirante",
         "angle": "Piste : quelle mécanique créative serait transposable à McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "Le Talk Franchise : l'actualité du monde de la franchise - mai 2026",
+      "url": "https://cdipodcast.com/main/pub/podcast/2522562",
+      "source": "Le Talk Franchise",
+      "date": "2026-05-22T08:22:16+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Talk Franchise",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Talk Franchise",
+      "editorial": {
+        "tags": [],
+        "score": 30,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
       }
     },
@@ -18009,6 +18288,28 @@
         "source_tier": 3,
         "reason": "Pratique RH ou marque employeur potentiellement transposable",
         "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "CHARLA, LE BUSINESS DE L'EMBALLAGE PERSONNALISÉ",
+      "url": "https://podcast.ausha.co/en-toute-franchise-3/charla-le-business-de-l-emballage-personnalise",
+      "source": "En toute franchise",
+      "date": "2026-05-09T17:00:00+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "En toute franchise",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "En toute franchise",
+      "editorial": {
+        "tags": [],
+        "score": 30,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
       }
     },
@@ -18883,6 +19184,28 @@
         "source_tier": 1,
         "reason": "Concurrence ou restauration rapide : signal sectoriel",
         "angle": "Piste : quel enseignement tirer de cette initiative concurrente ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "Dossier Marque employeur 2026 - Great Place To Work France",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1OaC12QWhXYUhYNGVWZ0tIZ1M1dndsa2ItZkYwZ0dXWkZJazVSX3dnYmZ1VVlZZkRObnB5Yk5jNjFObFBwZHg1dllXT2NlQjdLMFlwTGstbFZma3haY21lS0lTSUlmMlZieGR5dEhB",
+      "source": "Great Place To Work France",
+      "date": "2026-04-22T20:25:21+00:00",
+      "section": "Inspiration RH",
+      "sections": [
+        "Inspiration RH"
+      ],
+      "query": "site:greatplacetowork.fr (recrutement OR marque employeur OR RH OR carrière)",
+      "channel": "Google Actualités",
+      "editorial": {
+        "tags": [
+          "newsletter"
+        ],
+        "score": 61,
+        "source_tier": 1,
+        "reason": "Pratique RH ou marque employeur potentiellement transposable",
+        "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
       }
     },
