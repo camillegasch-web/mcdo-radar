@@ -496,10 +496,13 @@ def main():
             if when.tzinfo and cutoff <= when <= NOW+dt.timedelta(hours=6):
                 articles.append(a)
         except (ValueError,TypeError): pass
-    articles.sort(key=lambda x:x["date"],reverse=True)
-    articles=articles[:MAX_ITEMS]
+    # Reclasser l'ensemble de l'historique selon les critères stricts actuels.
+    articles=[v for a in articles if (v:=classify(a)) is not None]
+    articles=deduplicate(articles)
     for article in articles:
         editorial_metadata(article)
+    articles.sort(key=lambda x:x["date"],reverse=True)
+    articles=articles[:MAX_ITEMS]
     new_count=sum(key(a) not in previous for a in articles)
     info={"updated_at":NOW.isoformat(), "sources_ok":successes,
           "sources_total":len(full)+len(PODCAST_SHOWS), "source_names":sorted(set(a["source"] for a in articles)),
@@ -507,6 +510,9 @@ def main():
           "source_priority_policy":"Sélection éditoriale indicative : score déterminé par titre, source, rubrique et date. Aucun contenu intégral analysé.",
           "new_count":new_count, "source_errors":errors[:18],
           "articles":articles}
+    week=weekly_picks(articles)
+    (ROOT/"weekly.json").write_text(json.dumps(week,ensure_ascii=False,indent=2),encoding="utf-8")
+    (ROOT/"weekly.js").write_text("window.RADAR_WEEKLY = "+json.dumps(week,ensure_ascii=False,separators=(",",":"))+";",encoding="utf-8")
     path.write_text(json.dumps(info,ensure_ascii=False,indent=2),encoding="utf-8")
     (ROOT/"news.js").write_text("window.RADAR_DATA = "+json.dumps(info,ensure_ascii=False,separators=(",",":"))+";",encoding="utf-8")
     recent=NOW-dt.timedelta(hours=36)
