@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T08:37:50.044669+00:00",
+  "updated_at": "2026-10-14T08:38:19.643026+00:00",
   "sources_ok": 82,
   "sources_total": 83,
   "source_names": [
@@ -97,7 +97,7 @@
     "Éditions Tissot"
   ],
   "source_count": 92,
-  "new_count": 3,
+  "new_count": 5,
   "source_errors": [
     {
       "source": "La Réclame",
@@ -1242,6 +1242,18 @@
         "Inspiration RH"
       ],
       "query": "site:courriercadres.com (recrutement OR marque employeur OR RH OR carrière)",
+      "channel": "Google Actualités"
+    },
+    {
+      "title": "Offre d`emploi Responsable RH F/H Saint-Denis - 93 - Apec",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPbjhPcGhCaTFzenBDR0pFNlA5bldjdDlaSzNicXl2VFg2czMwNDdXb1QtcUZ0WVZHV3RSQTdDUWpCOEhnSFRmdEFpM254Q1IyMjBUbUlUNXNkSkpBMGFZYlZrNlFwRmp6eENXaE4tUTFaeThDZ3lqZlpiVHptYy1RSlV1anNJYmZBU1FmX2Q4d3diOVRWUk5pUEV1YWxhUzdFdFhLODVXRkdudTlFeXRlbkVvdnVXVWFqNTFIaUx5dDRpb1M3bnE0RWFEUFZzX252el9JVXVCT2ZzYkZqR3dFZUlRVXE1TUl6Ym45TGV3LWV0Nm9xdVE",
+      "source": "Apec",
+      "date": "2026-10-13T07:25:45+00:00",
+      "section": "Inspiration RH",
+      "sections": [
+        "Inspiration RH"
+      ],
+      "query": "site:apec.fr (recrutement OR marque employeur OR RH OR carrière)",
       "channel": "Google Actualités"
     },
     {
@@ -5300,6 +5312,18 @@
       "channel": "Google Actualités"
     },
     {
+      "title": "Attaché Commercial et Recrutement (H/F) - Domino RH - CDI à Martigues - welcometothejungle.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLS1yWV9laGtWb3hjVklyYTkyQml1czh5SjYyOE1HNXdrMS1GR2R3TEg1dFVrejE4UC1PcVFnVkVXU2ZRX1JnSmhZOWNYRU80M2U2ZlM2NS1uN2FycklJSFluYnhmQVJMOHpXSXVjMmxmMEtKMjdib2V1Umo5cDVTSjNRaFUzZVVCbjg3dG1NT09Ud3RMZTVGcDBXbnpxMTdJaFZJQXFtSUlMbWNtRlRjdzZWd0xxUkJXT05Ra2s4R0RwR3hhZ3RV",
+      "source": "welcometothejungle.com",
+      "date": "2026-09-24T07:00:00+00:00",
+      "section": "Inspiration RH",
+      "sections": [
+        "Inspiration RH"
+      ],
+      "query": "site:welcometothejungle.com (recrutement OR marque employeur OR RH OR carrière)",
+      "channel": "Google Actualités"
+    },
+    {
       "title": "LCP et Public Sénat reconduisent FranceTV Publicité - CB News",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWTBONTg1eDVJQk9zcWZqbzhMYTlUR2RxM1RWUXZuQTZoYlRZc2VNWmcxekdHeUdHQ0RiNXNIMnZCWUMzNi16Y2Zmd0ZsdkxMemJVOUVXUGlncmJidFFXbHRBWlVWT1Z1dzUwLXJVQmp2Qm1Sb0lsSlRERDVUb1J3UWlFYw",
       "source": "CB News",
@@ -5626,6 +5650,18 @@
         "Campagnes créatives"
       ],
       "query": "opération marketing créative insolite campagne 2026",
+      "channel": "Google Actualités"
+    },
+    {
+      "title": "KFC ET HAVAS PARIS METTENT UN PEU TROP DE SAUCE POUR LA NOUVELLE GAMME SAUCY - KFC FRANCE - Havas Paris - agence Publicité / communication / 360 - La Réclame",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPN0k2anE3dFNVRHlaSnVQUGhoVVdubVhpeWhzU3ZMZXJFZkQ3SUN4WnZhcmw2M2pockRET3RYem9kUkU3OWRiSUtBczc0Z2NxQnI2Zk04REVGRS1senZnZXVCVm03cTBHY0Jsb0ZFZmIwYmRReHQwOExSQjBiNklfd2N5Q3FlT0dZX3RTNWcyZEM0cno4azhWejhtbXpoc2NkREdDbmZMMHEwUWdQV1oySDRQN0NsYUc0dFRWcmZn",
+      "source": "La Réclame",
+      "date": "2026-09-16T07:00:00+00:00",
+      "section": "Concurrence",
+      "sections": [
+        "Concurrence"
+      ],
+      "query": "KFC France publicité campagne",
       "channel": "Google Actualités"
     },
     {
@@ -7016,6 +7052,18 @@
       "channel": "Google Actualités"
     },
     {
+      "title": "Cette campagne choc détourne la peur de l’IA pour dénoncer le travail des enfants - Creapills",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1JdF9UTWNYWTV3cjdxX3JnRTJ3c0EtTll4eHR5V0pha2pHTThPQVFaVzEtWGZ4TnVaUHRQZ3NmY2xxblFHdzRDTzV0aVB3WlZwelF4N193TEIzZFBLUEFtNS1hZEVXRXpPaXFOYTFxMU9iTVk",
+      "source": "Creapills",
+      "date": "2026-05-26T07:00:00+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:creapills.com (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités"
+    },
+    {
       "title": "Tim Hortons à la recherche de 10 000 employés au Canada - TVA Nouvelles",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNY2lQT0VNT1lVaWVFU3dudnAwVjF0eEVfQW84d19rRjQ0Zm9wa0NVNm5TU0hrbGU4MFBOWHg3SmpPMVpSbUNiWXJaaktPWWZsWm5SY2F6Uy1YWXlrRnJxQVliZklCamJDaWFSM2RlZi1RQU5JZUdQNktUTnQ2Zmk4Y3BNMnVGc1V0Q3ctckx2NFFoRnp5YXFvSDV3",
       "source": "TVA Nouvelles",
@@ -7183,6 +7231,18 @@
         "Campagnes créatives"
       ],
       "query": "campagne publicité créative France marque activation",
+      "channel": "Google Actualités"
+    },
+    {
+      "title": "Cette pub pour un magasin de bricolage est une leçon de créativité - Creapills",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9HNDVhaDdKcXlQa2MtU1JzNHlyX0xJQVBvT1cya2VIanhSSjMwdU9lZnJJS3c0a1o0cE96OTlFQ3AtM0oxMnpQdTlnU0UwZk1BcWhaSllkZGtSbEpGaTRZVXYxN0hYSVB4TVFObTZNaHVraG8",
+      "source": "Creapills",
+      "date": "2026-05-18T07:00:00+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:creapills.com (campagne OR publicité OR marketing OR créativité)",
       "channel": "Google Actualités"
     },
     {
