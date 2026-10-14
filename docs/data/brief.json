@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T08:47:13.876736+00:00",
+  "updated_at": "2026-10-14T08:48:18.529621+00:00",
   "sections": {
     "France": [
       {
@@ -723,6 +723,29 @@
       }
     ],
     "Signaux sensibles": [],
-    "Podcasts & interviews": []
+    "Podcasts & interviews": [
+      {
+        "title": "IA générative vs IA corrective : attention, les audiences ont leurs limites !",
+        "url": "https://shows.acast.com/lesuperdaily/episodes/6acf3731e53019e89098603c",
+        "source": "Le Super Daily",
+        "date": "2026-10-14T08:02:57+00:00",
+        "section": "Podcasts & interviews",
+        "sections": [
+          "Podcasts & interviews"
+        ],
+        "query": "Le Super Daily",
+        "channel": "Podcast RSS",
+        "type": "podcast",
+        "show": "Le Super Daily",
+        "editorial": {
+          "tags": [],
+          "score": 42,
+          "source_tier": 3,
+          "reason": "Signal de veille à qualifier",
+          "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+          "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+        }
+      }
+    ]
   }
 }

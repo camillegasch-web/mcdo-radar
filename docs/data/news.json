@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14T08:47:13.876736+00:00",
-  "sources_ok": 112,
+  "updated_at": "2026-10-14T08:48:18.529621+00:00",
+  "sources_ok": 115,
   "sources_total": 116,
   "source_names": [
     "01net.com",
@@ -14,6 +14,7 @@
     "BDM",
     "BFM",
     "Blog du Modérateur",
+    "Bougeons les lignes",
     "Bpifrance",
     "CB News",
     "CNews",
@@ -70,6 +71,7 @@
     "Le Populaire du Centre",
     "Le Progrès",
     "Le Soir",
+    "Le Super Daily",
     "Le Talk Franchise",
     "Le Télégramme",
     "Les Gens d'Internet",
@@ -128,25 +130,13 @@
     "welcometothejungle.com",
     "Éditions Tissot"
   ],
-  "source_count": 124,
+  "source_count": 126,
   "source_priority_policy": "Sélection éditoriale indicative : score déterminé par titre, source, rubrique et date. Aucun contenu intégral analysé.",
-  "new_count": 0,
+  "new_count": 31,
   "source_errors": [
     {
       "source": "La Réclame",
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "Podcast : Bougeons les lignes",
-      "error": "Émission non trouvée dans le répertoire public"
-    },
-    {
-      "source": "Podcast : Le Super Daily",
-      "error": "unclosed CDATA section: line 4387, column 1333"
-    },
-    {
-      "source": "Podcast : Génération Do It Yourself",
-      "error": "unclosed CDATA section: line 4725, column 5195"
     }
   ],
   "articles": [
@@ -277,6 +267,28 @@
         "source_tier": 1,
         "reason": "Pratique RH ou marque employeur potentiellement transposable",
         "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "IA générative vs IA corrective : attention, les audiences ont leurs limites !",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6acf3731e53019e89098603c",
+      "source": "Le Super Daily",
+      "date": "2026-10-14T08:02:57+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 42,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
       }
     },
@@ -4547,6 +4559,28 @@
       }
     },
     {
+      "title": "[Actus] Google lance SynthID Detector et Edit d'Instagram accélère",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6accfb923dc1c1be4a981a02",
+      "source": "Le Super Daily",
+      "date": "2026-10-12T15:24:02+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 42,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Annoncé depuis 2022, ce Burger King de Charente-Maritime ouvrira enfin le 20 octobre 2026 : voici où - L’Express Franchise",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYl9rWUZEX003azdZMThEaGFnSk1FVkkzZGlGUHp1TGJPLWJCTk5IWkxadGdwdWdsOFBxcU9PTml6VVo2WmpnMHYtQ1BMSE03c2ZKM0FHQmRTel9vNDBwekhLal9LWWxrS3FlaEoxMlZzekdzZ3MtNHVXWHN2elpiLWxocUJIZ1NqZHMwcmxqbkQ",
       "source": "L’Express Franchise",
@@ -7322,7 +7356,8 @@
       "date": "2026-10-09T09:15:49+00:00",
       "section": "Inspiration RH",
       "sections": [
-        "Inspiration RH"
+        "Inspiration RH",
+        "Podcasts & interviews"
       ],
       "query": "site:parlonsrh.com (recrutement OR marque employeur OR RH OR carrière)",
       "channel": "Google Actualités",
@@ -7500,7 +7535,8 @@
       "date": "2026-10-09T08:00:00+00:00",
       "section": "Inspiration RH",
       "sections": [
-        "Inspiration RH"
+        "Inspiration RH",
+        "Podcasts & interviews"
       ],
       "query": "Flux Parlons RH",
       "channel": "RSS direct",
@@ -7711,6 +7747,30 @@
         "source_tier": 1,
         "reason": "Signal de veille à qualifier",
         "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "Recrutement : faut-il en faire moins pour attirer les bons candidats ?",
+      "url": "https://podcast.ausha.co/bougeons-les-lignes/recrutement-faut-il-en-faire-moins-pour-attirer-les-bons-candidats",
+      "source": "Bougeons les lignes",
+      "date": "2026-10-09T07:00:00+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Bougeons les lignes",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Bougeons les lignes",
+      "editorial": {
+        "tags": [
+          "impact"
+        ],
+        "score": 56,
+        "source_tier": 3,
+        "reason": "Pratique RH ou marque employeur potentiellement transposable",
+        "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
       }
     },
@@ -9761,6 +9821,28 @@
       }
     },
     {
+      "title": "Le temps de parole arrive-t-il sur YouTube ?",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6ac61ee729b9fbfbe241ad77",
+      "source": "Le Super Daily",
+      "date": "2026-10-07T10:28:55+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 42,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Chargé(e) de développement RH - Beaumarly - CDI à Paris - welcometothejungle.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObGVFUVF5MGNIbHZyUFltMWkyeGJPcG1jMzR1LUpjcHF1SzVRUGtlN3JaSmZsY053NlpIZHpQMTZuS2EwVnotT1hhdDhIVnlnYVQ3bUwyUEtsZ1lOU3NueXc2eVdEWlZaMGRXMV92T0NDaDVDZHI4T1loS25wTXkwRFhyX2U1bUlWRVM4RnNvdmZ6RC1faklUVnB0RQ",
       "source": "welcometothejungle.com",
@@ -10900,6 +10982,28 @@
       }
     },
     {
+      "title": "[Actus] Meta est la plateforme publicitaire la plus forte Et Tiktok mise fort sur la culture",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6ac3532eab90e256c3299560",
+      "source": "Le Super Daily",
+      "date": "2026-10-05T07:35:09+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 49,
+        "source_tier": 3,
+        "reason": "Format ou idée créative potentiellement inspirante",
+        "angle": "Piste : quelle mécanique créative serait transposable à McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Découvrez les clichés finalistes du Comedy Wildlife Photography Awards 2026 - Creapills",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0taGVpcU5NSjV4dVd5T2JZejBRUzJJWG1WTGFKVkZlOHJ5eXFPYjZiZ19jY2c3SnBqV2pQTHVMOERfRlIwYklpblhVNFJjNWRudFpSc2NUXzRPd1lTUzlFUDRGUWZYTVRpR2htaE44TXo4ZXdiYWtBUg",
       "source": "Creapills",
@@ -11546,6 +11650,28 @@
       }
     },
     {
+      "title": "Pourquoi la Gen Z aimait mieux l'internet d'avant !",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6abe12bbfa77186ceb3eee55",
+      "source": "Le Super Daily",
+      "date": "2026-10-02T06:00:00+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 38,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Work — Page 32 - LBB - Little Black Book",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0tLWlhQ2NWZXZOSzdwVm8tbDYzaEo0T0ZvREtkZkdiOVpaWktrYTlfWWdfWDhzNFVkT1ZUcFQwNDUyMTBXbUo3N2Y3T1Y2ZDRXTkUwNTNnUXZwdHMzVnM2ODI0WlpVNGZlM1F0VFB3",
       "source": "LBB - Little Black Book",
@@ -11915,6 +12041,28 @@
         "tags": [],
         "score": 55,
         "source_tier": 1,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "Trend Colors et mèmes IA : le vrai talent, c'est d'avoir la réf",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6abcbb8806846f55a30f2c86",
+      "source": "Le Super Daily",
+      "date": "2026-09-30T09:09:11+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 38,
+        "source_tier": 3,
         "reason": "Signal de veille à qualifier",
         "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
@@ -12578,6 +12726,28 @@
         "source_tier": 2,
         "reason": "Pratique RH ou marque employeur potentiellement transposable",
         "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "[Actus] Meta se lance dans la lunetterie et Youtube annonce des dingueries sur Studio",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6aba1ea2864264ef3e57e7e1",
+      "source": "Le Super Daily",
+      "date": "2026-09-28T08:00:33+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 38,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
       }
     },
@@ -13334,6 +13504,28 @@
       }
     },
     {
+      "title": "On enregistre sur les toits de Lyon ! Attention, vertige !",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6ab29d77b8c4cddd755ddef5",
+      "source": "Le Super Daily",
+      "date": "2026-09-23T07:00:00+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 34,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Le New York Times retrace 175 ans de publicité dans une campagne de 9 pages - Dans Ta Pub",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xREFCdFl1Ujc4UXNzN0RodFRjbFNkNUpGRGROUTVrYnJaMEtfOEpfZzhXT29JeUNQVE5tNFhfM2Fmcm5hb3ZiVTVxQm5sUVlZX2tXdHFlTFFIeVU4cEdvOVNJZXd2NFRPemxV",
       "source": "Dans Ta Pub",
@@ -13531,6 +13723,28 @@
         "source_tier": 1,
         "reason": "Format ou idée créative potentiellement inspirante",
         "angle": "Piste : quelle mécanique créative serait transposable à McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "[Actus] Meta one : le super abonnement débarque et les posts collabs nous dévoilent tous leur secrets",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6ab0dfc0ba9b1fc06f30dd1b",
+      "source": "Le Super Daily",
+      "date": "2026-09-21T08:47:38+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 34,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
       }
     },
@@ -13883,6 +14097,28 @@
       }
     },
     {
+      "title": "Le haul, format-totem de la Gen Alpha",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6aaba5994cef87591d758f8a",
+      "source": "Le Super Daily",
+      "date": "2026-09-18T06:00:00+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 34,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "OMHU et son canapé dupe : ce que cette campagne nous apprend de la communication sur les réseaux sociaux - Les Gens d'Internet",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdXNURG84TEVrb3NMdURGTlgyc00xSW5jQ0I4X194d0pCelZGY0tzNlE0cmMxckgwVDdTNzA5ZDd5SHlCd3pNRXhudmttX2UwRWFsU18xMXFUeXBPZkdwMXU3STV2RkotZnh2MnFZaGxZeWotbUJMeVUwdEkzbHJVaEpIdEsyelZHMGMxNTJQUnNYc0dKMjNXTTRZNWNKd3ZjSVhQNUNzOXQtX3R2TU9JMC1VeTZodTVvbHhmVUJQb3oyblNPdVU0Rmg3VmJ2ZllLRlpjbldB0gHbAUFVX3lxTFBtREgzU053T0NFa2oxb3hqUEp1NjlQWUdFY0Z5VmVwOUtXaXdMX0VQSFp6SW9XajU0ekNLc2w4SzFWbnpSbEJ4R1VhQnNETFlqWWxxYllneTJORzBSWl9EbWZTb0FhWDhRNDN2UDJUVi1VVHRvVXJWd2JpYlo1YkN4cHdFa1NiMFZ4OTJOVV90ajJjZy1JTXh2QTJKVWZfZkRxblE3UzBjMVZNWGNvQVFLRTg1d2w3SzA2V1ljaVNmNUhqYnVicFBoMF9qOUthaXBLdjFXQlpfRW01MA",
       "source": "Les Gens d'Internet",
@@ -13923,6 +14159,28 @@
         "source_tier": 1,
         "reason": "Pratique RH ou marque employeur potentiellement transposable",
         "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "Ca vaut quoi une vue en fait ? Et ben, ça dépend chez qui…",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6aaa4bb48a1508074d4f2e9f",
+      "source": "Le Super Daily",
+      "date": "2026-09-16T07:56:36+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 34,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
       }
     },
@@ -14234,6 +14492,28 @@
       }
     },
     {
+      "title": "[Actus] Repost sur Instagram, Fact ckecking sur Meta et tout le monde déteste Zuckerberg.",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6aa7ad47a6e9aef4cc9ee5e5",
+      "source": "Le Super Daily",
+      "date": "2026-09-14T08:16:07+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 34,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Sydney Sweeney se met à nu pour Novig et sa campagne « Just Sports » - Creapills",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yMHVhQUtxNE1lbDIzVlRqd0xOTTVKczYwSHg1X2xhVzVzX1plMHlzQ0k3RFdjbHNxZkQyWU1XcWpzeVNXTnZmaUFfNm9HNkxPdGxtWl9HZjZBXzh0VFdndDJBQUR4ZjkxLThsVHZDTGU",
       "source": "Creapills",
@@ -14301,6 +14581,28 @@
       }
     },
     {
+      "title": "Aura farming : la foule ne ment jamais",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6aa25f35c939da27952cd11e",
+      "source": "Le Super Daily",
+      "date": "2026-09-11T06:25:33+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 34,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "KFC propose de se faire tatouer son logo en échange de poulet frit à vie : la promo fait un carton, mais suscite la controverse - ladepeche.fr",
       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPd2tRVUo2dm9WNkJndFBZa1prbU5SbmRiaC1ZLVM2aGR2UnpBNVA3a29xT1BCWmZGMmlfS0h6ZjNNRTlBX3J4eEpnMmJvazY1QVRjOEtLNWdKR29QUk5qOFNlNmlHaGVERWhmTHNqNGFDUHdqVmNHazRnRTNCNTRZN2s3TnRVanFUMDhybWo3Tm9CVmlXRFRpM1BObTB5T1pvVzRsUDNYR2U4WjZJbmotQzlaeVV5RXpZODZtQW40aVNEc21hakhSQjN3cHphMWhaNjA2Znh1MWxONHNrNnVYeU1xNFJWM1k1OElicm10TjRsb2F0czJUR2FXMk4wMGRDa25N?oc=5",
       "source": "ladepeche.fr",
@@ -14339,6 +14641,28 @@
         "source_tier": 3,
         "reason": "Pratique RH ou marque employeur potentiellement transposable",
         "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "ZEvent 2026, Vlogs d'Août : le pouvoir du dernier tour",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6aa12ad54fa142971f002709",
+      "source": "Le Super Daily",
+      "date": "2026-09-09T09:45:56+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 34,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
       }
     },
@@ -14491,6 +14815,28 @@
       }
     },
     {
+      "title": "Youpi, c'est lundi : Tiktok mise gros sur le communautaire et Youtube sur la TV connectée",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6a9e6aa9ffe0e2749129ed40",
+      "source": "Le Super Daily",
+      "date": "2026-09-07T08:56:56+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 45,
+        "source_tier": 3,
+        "reason": "Format ou idée créative potentiellement inspirante",
+        "angle": "Piste : quelle mécanique créative serait transposable à McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Télécharger KFC France pour Web, iOS, Android - Telecharger.com - 01net.com",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWEp0bEpodmliRGNSbVlZM2o5SFVsaFJKOVpRcGc3UUlULUpaSGhRS25wSXJtZ2UtN1NhbTdoc0FlQ3dLUEdyVmloc2oteEFEcGdrTVFpeEVWVm9LWDNjX0VSb2NPaHM3RFBscm9jdXVaTXNxOENuc1R1SXUxdkhQbEpn?oc=5",
       "source": "01net.com",
@@ -14594,6 +14940,28 @@
         "source_tier": 2,
         "reason": "Pratique RH ou marque employeur potentiellement transposable",
         "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "Les actus que vous avez ratées cet été",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6a97d75f1d1d1a8a9d872963",
+      "source": "Le Super Daily",
+      "date": "2026-09-02T08:15:33+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 34,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
       }
     },
@@ -14810,6 +15178,28 @@
       }
     },
     {
+      "title": "Pourquoi intégrer le repost à votre stratégie Instagram ? [Rediff]",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6a6ba8998effb6fbbe02fc2c",
+      "source": "Le Super Daily",
+      "date": "2026-08-27T07:00:00+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 30,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Les 3 pratiques RH de Muriel Socheleau, DRH de Saveol - ANDRH",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObVluWDZPVzlTODdROGM5eFNMSDNPQWY3OXNycTJiRTNVZFRVYndIdlNXb21NN0Vfb1UtMTJMMnVTcVQ0Rms2VkQ0bkJqUjlBakZ0VndocHA0UElzb0FyTDQ0WVk2YW54NFlzb1U4dTRXLUNKSkd0bmtaeUhWRWstUzFrNWRHX3FE",
       "source": "ANDRH",
@@ -14874,6 +15264,28 @@
       }
     },
     {
+      "title": "[Social Stories] L'histoire d'un seau d’eau glacé qui a récolté 300 millions d’euros",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6a6ba6238effb6fbbe02200e",
+      "source": "Le Super Daily",
+      "date": "2026-08-25T07:00:00+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 30,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Aux Etats-Unis, ce candidat anti-immigration rattrapé par les pratiques de son entreprise - L'Express",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOR21IeXFhdVhhTGgwcHZ3U2hVTlp3UWkyTk9uRUZMVjMxRkx3LTlwaWd2UG9rTFhURVZVdldQd3dmWGFFYTBGTldVYTJHc05Lc2lDQVNfb0xmZlJha3NaWkFOVmllNUZaell6S2Z6d3lpVDBHUTRlWFRSMVNDMnJXLVVJVXpjUnhPcFdGdVFxMFlGTjBaQ3hNNHhNYldqSThUYlRZemNtZFhzdGFJdjQxd2RidE9JSWxMMEVad1JoYUZ4V2JaZVB3US14TXIwN3hGOWc2OW1yM3ZXTDhXRkE0SG5iVTYyU2ZNLW44?oc=5",
       "source": "L'Express",
@@ -14912,6 +15324,28 @@
         "source_tier": 1,
         "reason": "Pratique RH ou marque employeur potentiellement transposable",
         "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "Ego marketing : attention, vous n'êtes pas votre audience ! [Rediff]",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6a6ba7198effb6fbbe0284e9",
+      "source": "Le Super Daily",
+      "date": "2026-08-20T07:00:00+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 41,
+        "source_tier": 3,
+        "reason": "Format ou idée créative potentiellement inspirante",
+        "angle": "Piste : quelle mécanique créative serait transposable à McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
       }
     },
@@ -14960,6 +15394,28 @@
       }
     },
     {
+      "title": "[Social Stories] Comment les filtres ont volé nos visages  L’histoire de Snapchat",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6a6ba539248de9b0b270e712",
+      "source": "Le Super Daily",
+      "date": "2026-08-18T07:00:00+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 30,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Les collaborateurs, nouveaux ambassadeurs des entreprises : pourquoi l'employee advocacy s'impose comme un levier stratégique ? - Nadine Haddad - ConseilsMarketing",
       "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOMG00aW5VZFlJNkZ3OGVxZWU4VDRVYmFBV2lNcWNZSmRtcWh6dl9TdW1fMndPY01pMFlFTjNnZnZxVnd2UXB4WDlrYnFxNlJHaFJjZFB5VDBUZGZMSFVmeENvaER4THotdjlqWkZvRXItNTNvY3lEZXV6bzN6Yzh1SXY4ZzZBTmdLYnVTQmpkalI0ZmVSRUxJQW1KVWxaQVhJNW5MN2ZSaUg5RllZQ3o4Y0pGMG9uSVZOVS1lZ3RZbi00SWlGbDFDd1gtSWtLMk05eWNFVFd6ZkkxWnVWZFRGT29GTEtVRXBCOEhjQUd2Vl9QLU1pVHE2YW5Lb29lNE56SThPT0llazFjTG5JVFE?oc=5",
       "source": "ConseilsMarketing",
@@ -15001,6 +15457,50 @@
       }
     },
     {
+      "title": "On reconnaît vos posts IA à 10 km : 7 signaux qui trahissent un contenu automatisé [Rediff]",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6a6ba41387f5f77b025111c4",
+      "source": "Le Super Daily",
+      "date": "2026-08-13T07:00:00+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 30,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "[Social Stories]  Il a perdu 300 millions d'amis - L'histoire de Tom de MySpace",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6a6ba226248de9b0b26ffb33",
+      "source": "Le Super Daily",
+      "date": "2026-08-11T07:00:00+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 30,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Métiers qui recrutent en 2026 : le top 10 selon France Travail - mesinfos",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMGhBTUtMemRudi1fSlZESFVtYzNFeE1pb2xUdTZ4VzJmWE1XLUVDYTNaYXViVVR4SUlWRGdXNU1XLWJpN0VfZHU1SmFwWkw5Z1BIYmhaNnRmZUFmZU1NbVYwZzZJemxWNU5wSGtKT3VybkhxZWRUVkRpWGtrU2RMa2tVVUZybWNQc3BFTlo5QzJ0YXA5NDRR",
       "source": "mesinfos",
@@ -15019,6 +15519,28 @@
         "source_tier": 3,
         "reason": "Pratique RH ou marque employeur potentiellement transposable",
         "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "Le compteur d'abonnés sert-il encore à quelque chose ? [Rediff]",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6a6ba2e487f5f77b0250a798",
+      "source": "Le Super Daily",
+      "date": "2026-08-06T07:00:00+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 30,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
       }
     },
@@ -15108,6 +15630,28 @@
         "source_tier": 3,
         "reason": "Étude ou chiffres à vérifier pour un angle RH",
         "angle": "Piste : que dit cette étude des attentes des candidats ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "[Social Stories] 140 caractères pour faire tomber des dictatures - l’histoire du Printemps Arabe et les Réseaux..",
+      "url": "https://shows.acast.com/lesuperdaily/episodes/6a6ba0f2248de9b0b26f7681",
+      "source": "Le Super Daily",
+      "date": "2026-08-04T07:00:00+00:00",
+      "section": "Podcasts & interviews",
+      "sections": [
+        "Podcasts & interviews"
+      ],
+      "query": "Le Super Daily",
+      "channel": "Podcast RSS",
+      "type": "podcast",
+      "show": "Le Super Daily",
+      "editorial": {
+        "tags": [],
+        "score": 30,
+        "source_tier": 3,
+        "reason": "Signal de veille à qualifier",
+        "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
       }
     },
@@ -15882,6 +16426,28 @@
       }
     },
     {
+      "title": "Les Mlle Pitch Awards dévoilent leur palmarès 2026. Une campagne a bouleversé le jury - Influencia",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNzI1cWpmLUVHMHdJT09iczNqdnpiZklQNU94ZEJkbldVYkRKMXI0d0xVNHVIQ2JzaWw5Z0d0MGtCWFdFSnAtOHczNWN1NDI2dHVENXprUmxUMURvdlFvWXQ0dzlHeEowMEsxNFBBOWlpaHpSemVyVDFZSDd1UXNSX3dCcDROSGMzQlUzd1YxSl9CTzlVbTIybEcxRDNzNFA4aXFiMzk0LTdVZ2tqbGxxZ2Fn",
+      "source": "Influencia",
+      "date": "2026-07-09T04:00:40+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:influencia.net (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités",
+      "editorial": {
+        "tags": [
+          "campaign"
+        ],
+        "score": 47,
+        "source_tier": 2,
+        "reason": "Format ou idée créative potentiellement inspirante",
+        "angle": "Piste : quelle mécanique créative serait transposable à McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Aux Pieux, les travaux du McDonald’s ont commencé, une ouverture en fin d’année est espérée - Ouest-France",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxORVdVY1l6Z2JOTS16RmxOMXI4TGtHY0NYMU9xQ0djMlBEXzFhWnVuWF8xS0tiaXlIZ0lTVWwzc3kyUFI2YUZJT0psa2RrdzhmV01iS3ZiaDhNS1JaWnctMERkTHVfR2xFUm11QVRqbkRJY2xzOEo3dmhoYTF3LS1oZmJaTjBNOUYteDI0c3VoY0JGOWhmNWxKbDV4TkV2UkZxVXM0WWlzSkJHOUNmc1gtZlF1WlM4bXBkMEZKVUFRSHZxVGxaWnlSc05yajRwR3BZSVhOak0tX3ZKVlJ0WjRIV3ExT3pRYVZC",
       "source": "Ouest-France",
@@ -16036,6 +16602,28 @@
         "source_tier": 3,
         "reason": "Pratique RH ou marque employeur potentiellement transposable",
         "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "Le Gouvernement frappe fort avec une campagne choc contre les drogues - Influencia",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVjFuZ2JTMW96VW9kMUJ3blFiVXl0WlRmNWhuRXFZT3E4bjMwUDlMWUd2QkJPUGwtUk5XeU9idWlTZ2tHMHZ0eTVDR3N4VHMxbmZnV0JtU0c0RENlSFdfNGlLTTljV2RuRGVpanJTNHpnMjJJa1A5VG1QOVB2SlFucnpfTVFhY2dDQngwYldPN3RYUUFncUZrSlh5bkFnUQ",
+      "source": "Influencia",
+      "date": "2026-07-06T03:49:39+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:influencia.net (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités",
+      "editorial": {
+        "tags": [
+          "campaign"
+        ],
+        "score": 47,
+        "source_tier": 2,
+        "reason": "Format ou idée créative potentiellement inspirante",
+        "angle": "Piste : quelle mécanique créative serait transposable à McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
       }
     },
@@ -16630,6 +17218,28 @@
       }
     },
     {
+      "title": "FranceTV Publicité et Altmann+Partners vous présentent les seuls prix que personne ne rêve de gagner - Influencia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeDFMbmROQVlldTlqeVRHc3lSZThfeFY0S01YUFljZ3JQam1vdkNueVRkbnp1QTBSREZiOWRHOUtuQTVVMVR2NG5Pd212bDFaNl9xeXdFU2UtS014Zlg2R3pzY3M1aERoSFBfWjdKT09hSVpyYWpTTU03ZEMwVjZoUWtWcnNocnhhSjl3ZUdReTlfTkNjam1pSWd5TUZEeGMwM3ZTUXdxbWJUUjN0OU1laXdoLXpzTnFnclJUbkxjWmdOc0dXUUE",
+      "source": "Influencia",
+      "date": "2026-06-23T05:12:27+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:influencia.net (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités",
+      "editorial": {
+        "tags": [
+          "campaign"
+        ],
+        "score": 47,
+        "source_tier": 2,
+        "reason": "Format ou idée créative potentiellement inspirante",
+        "angle": "Piste : quelle mécanique créative serait transposable à McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "Les Cannes Lions 2026 pour les Nuls - La Réclame",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0tNW9WQmdUSUJ1enpXdDFwQzVENmdiWmZpbDZJNU8wSnBZUE16VDVNZHZtRWxKa1UxZU1CcmpkTkVCTGtYUlowSGxQcjh6NDREQW9UOW5ORFhSLUdhNWJkMW5wY09FMmE1T0lR",
       "source": "La Réclame",
@@ -16757,6 +17367,28 @@
         "source_tier": 3,
         "reason": "Signal de veille à qualifier",
         "angle": "Piste : quel intérêt concret pour la newsletter McDo ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "Une campagne signée Babel pour Innocence en Danger qui fait froid dans le dos. - Influencia",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSldFbDc4c3J1TzJNZV9kNHloTnJMeTZhYjYzSlpZYi0zMW13YXpYbm1YZzlSckNtNHA4OGd4dm9mVkxHRnpRUnBCUlFoRU9ISFRWOXNxeUdQeHN2LW1ydTZDc2lUQi1FaUtpbEhLZUpfYU5vRWtJTmtXSWVBNDFjUlJJaElJOXBrbzRMSHJyMW9RdGl2TjhNUHJpY1VNN2U1QVVrdjhRTHRoZzRJYm1Tdl9pMFhGdFdoUUtZbjB3",
+      "source": "Influencia",
+      "date": "2026-06-22T04:04:20+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:influencia.net (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités",
+      "editorial": {
+        "tags": [
+          "campaign"
+        ],
+        "score": 47,
+        "source_tier": 2,
+        "reason": "Format ou idée créative potentiellement inspirante",
+        "angle": "Piste : quelle mécanique créative serait transposable à McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
       }
     },
@@ -18585,6 +19217,28 @@
       }
     },
     {
+      "title": "Yvelines : France Travail livre les intentions de recrutement pour 2026 - mesinfos",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMlZORG1wMFY5Q3c1VjBPbDRkVHZvQUozU1pGbnpiU2prWklPZTlLcnc4ckZiR2NKTDBkU05NLTE1VzRqTE5zbm5XTHhqc3lPQXNzcnNMQktDeHN4Q2FiSENaOS0wZFVDVE1HX3hNMDcwblZIQjZsQ0d3U09NcUJDb2p1b3B5YzFsODBWR1N2NHpCWVpkZ0daeHpLMXQyNmZVSGx5eFpQX3h3TlFKV2w5TXBjT3RJUQ",
+      "source": "mesinfos",
+      "date": "2026-05-05T07:00:00+00:00",
+      "section": "Inspiration RH",
+      "sections": [
+        "Inspiration RH"
+      ],
+      "query": "France Travail intentions embauche restauration 2026",
+      "channel": "Google Actualités",
+      "editorial": {
+        "tags": [
+          "impact"
+        ],
+        "score": 49,
+        "source_tier": 3,
+        "reason": "Pratique RH ou marque employeur potentiellement transposable",
+        "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
       "title": "McDonald’s France prend plusieurs engagements en faveur du pouvoir d’achat des Français - McDonald's France",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPN0NrejVGdnVTYlBDdU4zNm1lbk5mLVdvekgwek5ZQnBSZGxJNURLMkM0d2pVTllCaHprYktGVnRMcEFmQkJ4TkVFMFJrVEdYX09JQjVoenJEZ2o2bngycXhQQVgzdzZ3OEg0Slc3SjBPQU9GVGlmeldNQkExaWF1SDB4YV96TlEwSERUckxiRlJBUHJIZHJ3aU1ET2V4V2EtdzB3YS0yYTVRdU1reHpsQ00tSGZLaEFUM3dPdmdCVXU0OWpQUW9jX1VpaFBSWV9hVDlBcUk4Ql9TWXk4UEt1aUxR",
       "source": "McDonald's France",
@@ -19206,6 +19860,28 @@
         "source_tier": 1,
         "reason": "Pratique RH ou marque employeur potentiellement transposable",
         "angle": "Piste : quelle pratique RH serait transposable en restaurant ?",
+        "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
+      }
+    },
+    {
+      "title": "Archives des CAMPAGNE - Influencia",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1DOTU2NFpFTm5wUU9TUUVKQjJnVEZqMW5QUmxfcnNVSk93Z3JtVjNXQVB3VHRhR1ZLSXpGOS1Ga3JYWmx6bk5tWWJOeGJsV2pkWkxoZw",
+      "source": "Influencia",
+      "date": "2026-04-22T09:23:41+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:influencia.net (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités",
+      "editorial": {
+        "tags": [
+          "campaign"
+        ],
+        "score": 47,
+        "source_tier": 2,
+        "reason": "Format ou idée créative potentiellement inspirante",
+        "angle": "Piste : quelle mécanique créative serait transposable à McDo ?",
         "method": "Suggestion automatique fondée sur le titre et la source. À vérifier."
       }
     },
