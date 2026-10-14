@@ -1,0 +1,1 @@
+window.RADAR_DATA = {"articles":[],"updated_at":null,"sources_ok":0,"sources_total":0,"new_count":0};
