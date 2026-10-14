@@ -40,6 +40,7 @@ def main():
  success=0
  errors=[]
  found=0
+ new_urls=set()
  for section, queries in QUERIES.items():
   for q in queries:
    try:
@@ -53,6 +54,7 @@ def main():
      if not title or link in prev: continue
      prev[link]={"title":title,"url":link,"source":source,"date":parsedate(el.findtext("pubDate") or ""),"section":section,"query":q}
      found+=1
+     new_urls.add(link)
    except Exception as e: errors.append(q+": "+str(e)[:130])
    time.sleep(.12)
  if success==0:
@@ -63,7 +65,7 @@ def main():
   except: return False
  articles=sorted(filter(recent,prev.values()),key=lambda x:x["date"],reverse=True)[:750]
  now=dt.datetime.now(dt.timezone.utc).isoformat()
- payload={"updated_at":now,"sources_ok":success,"sources_total":sum(map(len,QUERIES.values())),"new_count":found,"articles":articles}
+ payload={"updated_at":now,"sources_ok":success,"sources_total":sum(map(len,QUERIES.values())),"new_count":sum(1 for a in articles if a["url"] in new_urls),"articles":articles}
  path.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
  (ROOT/"news.js").write_text("window.RADAR_DATA = "+json.dumps(payload,ensure_ascii=False)+";",encoding="utf-8")
  fresh=[a for a in articles if (dt.datetime.now(dt.timezone.utc)-dt.datetime.fromisoformat(a["date"].replace("Z","+00:00"))).total_seconds()<36*3600]
