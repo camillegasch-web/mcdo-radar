@@ -41,7 +41,7 @@ class EditorialTests(unittest.TestCase):
         for kind,n in [("France",3),("Inspiration RH",4),("Campagnes créatives",4),("Concurrence",2)]:
             for i in range(n):
                 a=article("McDonald's opération locale "+kind+str(i),kind,"Média numéro "+str(i)+" "+kind)
-                a["editorial"]={"score":79-i}
+                a["editorial"]={"score":79-i,"reason":"Sujet prioritaire","angle":"Quelle implication McDo ?","tags":["newsletter"]}
                 entries.append(a)
         picks=radar.weekly_picks(entries)
         self.assertEqual(10,len(picks["items"]))
