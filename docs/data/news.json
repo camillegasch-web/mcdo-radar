@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T08:38:19.643026+00:00",
+  "updated_at": "2026-10-14T08:38:42.868035+00:00",
   "sources_ok": 82,
   "sources_total": 83,
   "source_names": [
@@ -52,6 +52,7 @@
     "Le Populaire du Centre",
     "Le Progrès",
     "Le Soir",
+    "Les Gens d'Internet",
     "LesEco.ma",
     "Liaisons sociales",
     "LinkedIn",
@@ -96,8 +97,8 @@
     "welcometothejungle.com",
     "Éditions Tissot"
   ],
-  "source_count": 92,
-  "new_count": 5,
+  "source_count": 93,
+  "new_count": 10,
   "source_errors": [
     {
       "source": "La Réclame",
@@ -3336,6 +3337,18 @@
       "channel": "Google Actualités"
     },
     {
+      "title": "Innocent imagine sa première campagne d’ads sur BeReal - Les Gens d'Internet",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSGVFYVM4a0NLMGpKTlpmdHRRV3JlU0EtUGRqbzRpRjFlLXVUN0l6OW5ETFRPSzdnRkd6eTNidF9zaDNqTjhXRGlaVm1QWFNHeXpfNnlUX3RwSTZEUzBkejlYalM1REZ2RHgxV09WSWxVdFZEd091ZWlzZ0tldTJQTEE5QTZ6ZHhUTENPdzQ0OHBfM2Vt0gGaAUFVX3lxTFAwV21nRTJfN2tqb0F0OVlHQWRVUVg0VWdyVFE4U1ItWDR4NnFxRWNkTnZHYXp3SkIzb0V0UWxYXzFuRWtfRHhKRUVaVEZMOU8xS0RuN0hWZTNRck9UMWd3bXI2UTgxeXdDOThMdHNMS0kyTmZic1BGdEF0a1N0R1BjWENlYzl5cG1pZkZWTFhaZDgzMUlpTkkzd3c",
+      "source": "Les Gens d'Internet",
+      "date": "2026-10-08T09:31:24+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:gensdinternet.fr (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités"
+    },
+    {
       "title": "Claude Team offert pendant un an aux startups : conditions, avantages et marche à suivre",
       "url": "https://www.blogdumoderateur.com/claude-team-offert-startups/",
       "source": "Blog du Modérateur",
@@ -4790,6 +4803,18 @@
       "channel": "Google Actualités"
     },
     {
+      "title": "Responsable Recrutement & RH – Implant client F/H - Apec",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQmliS0U2YVJXZF9JcGRROHdrdmhmamdaUm9JeWIwQ3phN1dJOFhobWlDTjF4WjM4UTBZWTBPc1B0ZXNJcG50eEJTY3ZocGhlVUt1c0Z4ZnlHaWVMZUo0NWJ5NDgwOXltRmxhWDAzemFkTXZJUlZDUkw2NVh4UDBaVkU3MFNrakh1",
+      "source": "Apec",
+      "date": "2026-09-30T07:00:00+00:00",
+      "section": "Inspiration RH",
+      "sections": [
+        "Inspiration RH"
+      ],
+      "query": "site:apec.fr (recrutement OR marque employeur OR RH OR carrière)",
+      "channel": "Google Actualités"
+    },
+    {
       "title": "Soumission chimique : avec Gisèle Pelicot, une campagne montre pourquoi les victimes peinent à témoigner - Influencia",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQnpOenJYd05NSVlZYV9aaUw4SVJrQ1lXX3EwSVRwNHZoZzFEeklzdk4tck1QQklybDhqZTlPN0xRcEtwdWJ0RVYyUjJ6ZlIyMlRlYnVLODVxaExHRjJnemozLUZmSTNuWE55MFViNGRxMWVHNzZXWS1JQjZhUU9sckc2bFF2cVVtZk9QWmo3VEpyZVlaMlZaNThPemc2X0RBMFQwY2lDOTRhRnNObXJYeUJsUzUtYno2czNZd3U0dWVlRVFvN2wwSg",
       "source": "Influencia",
@@ -4847,6 +4872,18 @@
       ],
       "query": "Flux Parlons RH",
       "channel": "RSS direct"
+    },
+    {
+      "title": "Snapchat souhaite toucher des marques B2B - Les Gens d'Internet",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdU1MbEFnOTd4UnFrNnRtd0hPeTM5aGotNVUxb2JyazJMMnM3NW9VVXFucUYtVWJpcFZZaEtBUDFvNXE0Y2JkVDE5Sm5vV1ozVURTYWhidHBTb2llTS1QdDlpUjZmZk5CbUcxZnNNTVo1Y1hiU2lZS0tJam5nZWFWUEdubkPSAYoBQVVfeXFMTlU2LUw2ajA0eWpMSWF6SVgwOHR3VldBYndBY1g2TGN3cnhLSEcyem1hVGlPa3NYdUlVYkFXSEhXaEo0Y3piU3o5YU0yUGRxalNDVVViemEzN3A2MzQxQWFjQVBWeFFoRE9wSVQ5aTFPXzVKWFhtY1JpYzJFRjFLNDVFbDFSUy1UR0R3",
+      "source": "Les Gens d'Internet",
+      "date": "2026-09-29T10:13:33+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:gensdinternet.fr (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités"
     },
     {
       "title": "CFA du Groupe RATP, alternance et stages - RATP",
@@ -5241,6 +5278,18 @@
       "channel": "Google Actualités"
     },
     {
+      "title": "91% des marques font uniquement de la publicité sur Meta en 2026, d’après Metricool - Les Gens d'Internet",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdEJmNjA4TW9KN2MzbHRvQU1XLUJmRk5zaEdUTWQ2R3JSMDNsQ1dXWS1KWGhYamVMTU1lVXlfMFIyMW5lVXpoZC1WVWt0eGYxLXJqdEY1MkVURURpNG10N1MySjFVUGE2YTUxNVBWcWowYTc5SkJ2S2ZkT2dhMk82bXlrSF8xQnltMTk3c1I2ZXJ4djliQ1pFX2hpNE9DUTZOZkp4UGpYSjVNT01zZG91c2JnX1BNR1da0gG-AUFVX3lxTE9ONU83aGlsYml0X2xfMFNsMW9aeWFtb25xZ191dXBzTHdRaWgwOFFDMmxkMWNPSkoxSVhObkNYRVZaZHVEQlduTVB3Z1Q0ekpNYVgtbFZKVm93THNMZEVJQXJCZWVOU3kyYkxubWJoTTJrWk41MFJ2UnJ5b1plOUo3NXhOWm50SHBuakRGM1BWYmpld2RWd1JQeGdjOUZYUzBJbWFJNXlWVlYxbUpzdThOalhsU3BNTXl5N0U1Y0E",
+      "source": "Les Gens d'Internet",
+      "date": "2026-09-24T18:00:57+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:gensdinternet.fr (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités"
+    },
+    {
       "title": "Baromètre de l’engagement 2026 : ce qui fait vraiment la différence - myRHline",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaVJXTkd4cDRmYUdiZmJ3VWc5akpMOVdpUWhpMEd1ZGk4N2ROT0l5ZTFtSGFQSmEyeWtWOXhCcTh5MDFVRlBrOUN0V1VBX19qcjFfcWozR1RYV0tmbThudG5wOU5NMG9ieGpkOXhKaDJSYm5RTVlJTnBSalFsTGp0ZnY5dEttRUtibGRCblVveV9VWnB3cVVoUA",
       "source": "myRHline",
@@ -5629,6 +5678,30 @@
       "channel": "Google Actualités"
     },
     {
+      "title": "ALTERNANCE ASSISTANT DEVELOPPEMENT RH F/H Saint-Denis - 93 - Apec",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQN2RhQkpDU0UxQVRoV0Y2YkNPRGhuT25tTlZPODBSck8wN1IzUm9ybFhWZjhILUN3VVk2eXFnNDJFb3BFel9qU1M0Q2pJbXZ5aTNHRFBTYnBib2x6WFNSVW9GNnhobDdmbTRFMTRFMUVqVnZBSmcwWUdQV19SZ0JLRDg1XzlSd201ZTAyc0QxYV9yQlFfd1l3ZXBmZUdDTW1Xc0ZqX0NNS0JXc1NNdEljMGhwXzM0cERZV3dWZ3dWOThtWFAxNEJtaFBwLUZNQ3VobHlidkE4NUtNSWRtamdZX3hnOFZnYlBteEw3dXZ3",
+      "source": "Apec",
+      "date": "2026-09-18T07:00:00+00:00",
+      "section": "Inspiration RH",
+      "sections": [
+        "Inspiration RH"
+      ],
+      "query": "site:apec.fr (recrutement OR marque employeur OR RH OR carrière)",
+      "channel": "Google Actualités"
+    },
+    {
+      "title": "OMHU et son canapé dupe : ce que cette campagne nous apprend de la communication sur les réseaux sociaux - Les Gens d'Internet",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdXNURG84TEVrb3NMdURGTlgyc00xSW5jQ0I4X194d0pCelZGY0tzNlE0cmMxckgwVDdTNzA5ZDd5SHlCd3pNRXhudmttX2UwRWFsU18xMXFUeXBPZkdwMXU3STV2RkotZnh2MnFZaGxZeWotbUJMeVUwdEkzbHJVaEpIdEsyelZHMGMxNTJQUnNYc0dKMjNXTTRZNWNKd3ZjSVhQNUNzOXQtX3R2TU9JMC1VeTZodTVvbHhmVUJQb3oyblNPdVU0Rmg3VmJ2ZllLRlpjbldB0gHbAUFVX3lxTFBtREgzU053T0NFa2oxb3hqUEp1NjlQWUdFY0Z5VmVwOUtXaXdMX0VQSFp6SW9XajU0ekNLc2w4SzFWbnpSbEJ4R1VhQnNETFlqWWxxYllneTJORzBSWl9EbWZTb0FhWDhRNDN2UDJUVi1VVHRvVXJWd2JpYlo1YkN4cHdFa1NiMFZ4OTJOVV90ajJjZy1JTXh2QTJKVWZfZkRxblE3UzBjMVZNWGNvQVFLRTg1d2w3SzA2V1ljaVNmNUhqYnVicFBoMF9qOUthaXBLdjFXQlpfRW01MA",
+      "source": "Les Gens d'Internet",
+      "date": "2026-09-17T09:23:07+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:gensdinternet.fr (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités"
+    },
+    {
       "title": "Chargé(e) de Développement RH F/H Boulogne-Billancourt - 92 - Apec",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPLXdZZDlNZmZwTHdaVUppRk5NLTY3RXV5MmQ2U3pKTURYTXNTaDl6a0V5X3N4akdEekZUcThZQXQ5R0JFelc1bXJFalFYZUozbHphamc5LUxCbHl0b1k0WWhZU2RaV3RfNXZzamsyeDYtdk04NXNBQ2h6bWxsTFNldWFJaUVuaXkyWERNNWIyZTN3Y1dXVi1rUzlSM21MNVowN2RWV3MybTNOQm02YjJyckxDM0x2WkpmbkhTY1gwSTg1ek5IeV9Yb1lrZw",
       "source": "Apec",
@@ -5745,6 +5818,18 @@
         "Inspiration RH"
       ],
       "query": "site:linkedin.com/posts marque employeur campagne recrutement",
+      "channel": "Google Actualités"
+    },
+    {
+      "title": "Radio France Publicité : Jennifer Cuillandre nommée directrice commerciale - CB News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdGhiaktSQ0Z3YXplUU0tSGtqTXFVVFhzdzZDUU96WFg5QWk4SkhEcXotNGlMZjR3dkhlUUFiVi01VXZJakZFempNbFBOUHlkZ3ZyMmpaektybTZnd0RqNUhSUTE1ZUtSUzVqNVdWNFMxeHJtWjRtcERVeXNWV0NxZG9WUEhUNUdsZl9FellpZlMtVlZpYndfbjlmSXFTUWNEb3owTi0yYWs",
+      "source": "CB News",
+      "date": "2026-09-15T07:00:00+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:cbnews.fr (campagne OR publicité OR marketing OR créativité)",
       "channel": "Google Actualités"
     },
     {
@@ -6353,7 +6438,8 @@
       "section": "RH McDo",
       "query": "McDonald’s France recrutement emploi",
       "sections": [
-        "RH McDo"
+        "RH McDo",
+        "France"
       ]
     },
     {
@@ -6992,6 +7078,18 @@
       "channel": "Google Actualités"
     },
     {
+      "title": "Yop s’associe à Kameto pour une campagne d’influence estivale sur Roblox - Les Gens d'Internet",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRThmMWxRQWhJd2Zua0tSUWdHZlpGVW90LVBtT0NIOUM3R1R2VWlueHpfTjl5WndFaWVQZHduNDNMVkpDek8zVlRBX3YwSlFNcUJLWGVYUXJJWFNGUWtZNEx6YUttVlJjb1h5T0FYSnRiQ2NtNVh1Qk5XRElzS3pSNVI0S3BvYTVpTzdJbHR2a05EdVo2MXRTdHVOenJ1WGdJOHFvX1l3UEtNSnfSAbABQVVfeXFMTjRxZDV6eVk3Z0Z1TVpZVnBXOXdMQWJ0eExBWmZIN0lBYktHQXBWSDVTVExGQW9fcE1PZGt1NHJNQ09aQk9mdTFxOXlFYU5qbzJ1dHp1WVV5SnpqdXN4Z2VUUFNGNFpNcnZZZG1hZTZ5c3JISnBNZ2ZrcWJ4Q0lyQ2pGZVoycFEyQTFtU0JaRFZzdmk4RTM2cmNIb2tSTE5PMFBvMGRJeldnWGRFcUlQVkk",
+      "source": "Les Gens d'Internet",
+      "date": "2026-06-04T07:00:00+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:gensdinternet.fr (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités"
+    },
+    {
       "title": "Farges-Allichamps. McDo du Centre de la France recrute jobs d'été - echoduberry.fr",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOV1ZCNDZuc3ZKUmJtOVBIN2k0NWVlV1pSNnRiaEFoc1cxRXlXOFQ5M21VU0QzaHBNWU45SW10N1RKRDBHS255QzlKWXpFQUI4QVRVcko2NVJocGpwbkVBa3JsajVQU2p3Nk9uYUQ2eW5QNnZCa1BfUTFDWXZaQmZsUVVMOUZ3bkRnVzc3MHgxOHE3UGtrQVpYNXpTZkNpVm5id3lFeDJGWk1wSUk",
       "source": "echoduberry.fr",
@@ -7052,15 +7150,15 @@
       "channel": "Google Actualités"
     },
     {
-      "title": "Cette campagne choc détourne la peur de l’IA pour dénoncer le travail des enfants - Creapills",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1JdF9UTWNYWTV3cjdxX3JnRTJ3c0EtTll4eHR5V0pha2pHTThPQVFaVzEtWGZ4TnVaUHRQZ3NmY2xxblFHdzRDTzV0aVB3WlZwelF4N193TEIzZFBLUEFtNS1hZEVXRXpPaXFOYTFxMU9iTVk",
-      "source": "Creapills",
+      "title": "AlloVoisins détourne les panneaux immobiliers « vendus » pour mettre en avant leur plateforme - Les Gens d'Internet",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWFBvMG1sa2FIbHJhRmdVN3J5UHg2YWhGT0JNRll0cTU1dzRnX3lES21oZFJCY0FJRDBILUs0V0tPOEg1V1oyTGxVdmJ0d3I0MUt0czRIQ3FKeXJSUHNRamZLbEZ4MHoxZU1yMkpFY2EtakhhVHhFRjJNd0VTMHdidW15WnFqMUN4UlhTSndXM1BIbjBIQXA5Q0luU2NUS1VIV215ZnI4MXcxMmxONGlPaC1PTDJmcmd5OWJGdXkzcnNxREHSAcgBQVVfeXFMT1J3azhVTzJDZ2lQb1ZHS1lJU2ZENHB4bWhaeldSOTd4RW1TMDd4YjBUek54d2hfLWY0bVF1bUl6MlBlemlIN3oxSVlOUlpGRHBpUEEzT3FZY1FHd1dSM09NbjNCNF9xcXhNRUQ4ZlM1LTV1NC1fNU5tWjVYcWNkMlJZeFEzdUNmR1dqdEFDekFuVDVOLXlzbEhZOXpqV0Y0elFzNENXNkJEZGlMbHJrNVA2QmRxdHRIdEQyQ0hZMEhqR1I5UmtVSGg",
+      "source": "Les Gens d'Internet",
       "date": "2026-05-26T07:00:00+00:00",
       "section": "Campagnes créatives",
       "sections": [
         "Campagnes créatives"
       ],
-      "query": "site:creapills.com (campagne OR publicité OR marketing OR créativité)",
+      "query": "site:gensdinternet.fr (campagne OR publicité OR marketing OR créativité)",
       "channel": "Google Actualités"
     },
     {
@@ -7279,6 +7377,18 @@
         "Inspiration RH"
       ],
       "query": "site:courriercadres.com (recrutement OR marque employeur OR RH OR carrière)",
+      "channel": "Google Actualités"
+    },
+    {
+      "title": "La préfecture de la Loire fait appel à un influenceur local pour une campagne de sensibilisation - Les Gens d'Internet",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQjlFcUdPaklFQkJybHFDWmhNTXVlVkNYbVhObTRxYVhJQV9MbGJnT1BOLUlxdk93QlI1eWtBak1MZFVzc0w5ZC1ka05oQy1SaEFNMlhDRGhPUWVSaU5QRW5DVHU5YVdnSnVjd3lSUFJNYWJHNkhZU2dlVUVPVlhtcGtNNVQxa2s4d3ZQVnI1QzVQalRORW9OUmtCRmdpaU9iNXhlSm9hYnFMUGVrNTdpUVRHQ0hsWmdZSmpEby16WTJxWVBPMVlaV0VDR000QdIB0wFBVV95cUxPSkJqdVJtd2FuTGFZcVh4SkRjY3NGZ2VPZ3NHSGhSdzR6cTgyRXh6UkJBSzl1M3YtenlmajVlZWFkSDFCdW9UQXZ1RmZsX0JfaktvODRlNEQxcWZkdTVQUVlMeU0xTFZ2Q3NfQngwMkJndk16WGxVZHBDVUhFYXBxeG1UT0RvdVZlNGlGdWpCRml2aGdmOWVLSV82UzZjTWpkUUxHWEx2M2FLQ2N0bXFNWjlTczNhLXRacW5DN19LNEVZbk1SdVUtcGt5SHBMUEdoYi1v",
+      "source": "Les Gens d'Internet",
+      "date": "2026-05-13T07:00:00+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:gensdinternet.fr (campagne OR publicité OR marketing OR créativité)",
       "channel": "Google Actualités"
     },
     {
