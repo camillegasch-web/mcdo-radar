@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T07:51:31.532412+00:00",
+  "updated_at": "2026-10-16T07:49:29.630705+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -35,14 +35,14 @@
       "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
     },
     {
-      "title": "Chez Quick, la sauce Giant signe le transfert de l’année - La Réclame",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE43WkRFdzhNRlp4OU9kNmd4MnJla2VTV2ZIR0V0cUhSUkNNdlhPWUhILXF2V3EwRUNmamVGV3M4ZkZiVWNkVlR4SDMyYXgxMmxPaThr",
-      "source": "La Réclame",
-      "date": "2026-10-08T14:59:54+00:00",
-      "section": "Concurrence",
-      "score": 62,
-      "reason": "Signal concurrentiel à comparer à McDo",
-      "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
+      "title": "Recruter dans la santé en 2026 : ce que disent les chiffres",
+      "url": "https://www.helloworkplace.fr/etude-sectorielle-2026-sante/",
+      "source": "HelloWorkplace / HelloWork",
+      "date": "2026-10-16T05:14:09+00:00",
+      "section": "Inspiration RH",
+      "score": 63,
+      "reason": "Chiffres ou étude RH à vérifier avant publication",
+      "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
     },
     {
       "title": "Publicité : le groupement des Mousquetaires (Intermarché, Bricomarché, Netto...) lance sa première campagne de marque employeur - LSA conso",
@@ -85,14 +85,14 @@
       "angle": "À creuser : quel impact sur l'image de McDo ?"
     },
     {
-      "title": "Ce film viral imagine le quotidien des Australiens sans travailleurs migrants",
-      "url": "https://creapills.com/campagne-travailleurs-migrants-australie-20261014",
-      "source": "Creapills",
-      "date": "2026-10-14T15:31:36+00:00",
+      "title": "Création d’entreprise : recherche associé(e) chef de cuisine - L'Hôtellerie Restauration",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV3FxUHNWOFROQ0pEeUtSUnJXbmNwNTFkd210bTFLMm5UTnZFaDFEdGU1ZjdaQ1dFWllNcDFabDdaUkVncmpKc0NGT0dPUjVlQW1oUV9Mb1Z2ZGNDSWtPVkpWcW5pVTJaYTRqT3lyVEtCLVpZMkhvSU9BVmtwbDRhd182RnhPbjVpU0RHeTBORm9XQVR4Q1BaQ01SZmpJY00wTWtzTWNycHA",
+      "source": "L'Hôtellerie Restauration",
+      "date": "2026-10-15T11:36:34+00:00",
       "section": "Campagnes créatives",
       "score": 57,
       "reason": "Idée de campagne ou dispositif créatif à explorer",
-      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
+      "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
     },
     {
       "title": "Ce que les DRH auraient à gagner à mieux exploiter leurs données",
