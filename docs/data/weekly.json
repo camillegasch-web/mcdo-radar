@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T07:42:55.228504+00:00",
+  "updated_at": "2026-10-18T07:42:45.797718+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -23,6 +23,16 @@
       "score": 70,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
+    },
+    {
+      "title": "17 octobre à Lille : le McDonald's de la Grand'Place détruit par les flammes, la Fnac totalement pillée - Actu.fr",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQUVPQ0l0dGNCV1JMSU9ZcjlwY1FZWV9fOEN4ZWlvNHVNTHd6bllHRld5Nmxscm1VQktPQkplNy1PQS1JbGhGeEprYkJZYU0tU0tQX2t0aWJkVGJoRWc2VEFaVTlnWUVhenBtZkk1UzUzUTZfUXI0RVdmeUtLZzUxb2hGT1dtYTV1b0gxVDNWeXJURER5MEZZMUpBVi15am1IT2JNalh2VjFyUzFqeEpwY3Nuc2d1VWx0LUtUNHk4TnI1ZlBpQ0tWRGN4RTB6UncyYzFIRTU0cEgwLUp1VE9TVzFLQUdIUzdJMEUzUw",
+      "source": "Actu.fr",
+      "date": "2026-10-17T20:29:17+00:00",
+      "section": "Local",
+      "score": 64,
+      "reason": "Actualité McDo directement exploitable pour la veille",
+      "angle": "À creuser : quel impact sur l'image de McDo ?"
     },
     {
       "title": "Publicité dans l’IA : l’information est la clé de l’acceptation des utilisateurs selon Kantar - CB News",
@@ -93,16 +103,6 @@
       "score": 57,
       "reason": "Idée de campagne ou dispositif créatif à explorer",
       "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
-    },
-    {
-      "title": "Ce que les DRH auraient à gagner à mieux exploiter leurs données",
-      "url": "https://www.helloworkplace.fr/donnees-rh-drh-etude-skillup-ifop/",
-      "source": "HelloWorkplace / HelloWork",
-      "date": "2026-10-15T05:29:12+00:00",
-      "section": "Inspiration RH",
-      "score": 56,
-      "reason": "Chiffres ou étude RH à vérifier avant publication",
-      "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
     }
   ]
 }
