@@ -1,7 +1,30 @@
 {
-  "updated_at": "2026-10-18T07:42:45.797718+00:00",
+  "updated_at": "2026-10-19T07:59:43.659885+00:00",
   "sections": {
     "France": [
+      {
+        "title": "« On est prêts #tesla » : McDonald’s France installe un drive sur son toit pour le Roadster volant - Tesla Mag",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NeEFOcTZxeENNR194LUlsUFZBR3NKQ1hLSzhuYk00ZktZd1c4WkJwdW55djQtV1JjQW1tdG51SEV3Vk1nMDAzQ1dtcGpOaHFmejF0U25nLTRyeVZKMEZOMWlFbldKN0VXNnBOZ0dQbDQ0aFZ1eWl6Zg",
+        "source": "Tesla Mag",
+        "date": "2026-10-18T10:00:00+00:00",
+        "section": "France",
+        "sections": [
+          "France"
+        ],
+        "query": "McDonald's France actualité",
+        "channel": "Google Actualités",
+        "type": "article",
+        "editorial": {
+          "score": 50,
+          "tags": [
+            "impact"
+          ],
+          "source_tier": 3,
+          "reason": "Actualité McDo directement exploitable pour la veille",
+          "angle": "À creuser : quel impact sur l'image de McDo ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
       {
         "title": "17 octobre à Lille : le McDonald's de la Grand'Place détruit par les flammes, la Fnac totalement pillée - Actu.fr",
         "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQUVPQ0l0dGNCV1JMSU9ZcjlwY1FZWV9fOEN4ZWlvNHVNTHd6bllHRld5Nmxscm1VQktPQkplNy1PQS1JbGhGeEprYkJZYU0tU0tQX2t0aWJkVGJoRWc2VEFaVTlnWUVhenBtZkk1UzUzUTZfUXI0RVdmeUtLZzUxb2hGT1dtYTV1b0gxVDNWeXJURER5MEZZMUpBVi15am1IT2JNalh2VjFyUzFqeEpwY3Nuc2d1VWx0LUtUNHk4TnI1ZlBpQ0tWRGN4RTB6UncyYzFIRTU0cEgwLUp1VE9TVzFLQUdIUzdJMEUzUw",
@@ -22,30 +45,6 @@
             "newsletter"
           ],
           "source_tier": 1,
-          "reason": "Actualité McDo directement exploitable pour la veille",
-          "angle": "À creuser : quel impact sur l'image de McDo ?",
-          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-        }
-      },
-      {
-        "title": "Mobilisation du 17 octobre : le McDonald's incendié sur la Grand'Place, un autre feu en cours près du Majestic - ici.fr",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdFFxWDVHOFAxSDBYQnFPYXJISFk4NHVJeEt0RW1mSHBCUUpKeXVsdUJnaV85OUIwdG5mTjMxeEJEd2hNUjBueW92SjM2b0wzUFN1Y21hcHhFdmktTmUzdnhIUW51UEQ2a3hKMUc3LWFqeTQ2TGR2LTIwcVo0U29XdzhpWEpaXzh4RkhqVURyMzhUOHJ1X0lBcnVJTEJnejk2dmdrSGZhajNZWWtBTmdZWGlHQklpR2pHTVpBM1RScmpnQzh3MW9DRlFGQkJVcHo2NmhKMlBuY3FMRUh5QWpHVEUzZFJPdWZsdXc",
-        "source": "ici.fr",
-        "date": "2026-10-17T12:29:43+00:00",
-        "section": "Local",
-        "sections": [
-          "France",
-          "Local"
-        ],
-        "query": "site:ici.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-        "channel": "Google Actualités",
-        "type": "article",
-        "editorial": {
-          "score": 61,
-          "tags": [
-            "impact"
-          ],
-          "source_tier": 2,
           "reason": "Actualité McDo directement exploitable pour la veille",
           "angle": "À creuser : quel impact sur l'image de McDo ?",
           "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
@@ -77,35 +76,122 @@
           "angle": "À creuser : quel impact sur l'image de McDo ?",
           "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
         }
-      },
-      {
-        "title": "Mobilisation du 17 octobre : le McDonald's incendié sur la Grand'Place, un autre feu en cours près du Majestic - ici.fr",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdFFxWDVHOFAxSDBYQnFPYXJISFk4NHVJeEt0RW1mSHBCUUpKeXVsdUJnaV85OUIwdG5mTjMxeEJEd2hNUjBueW92SjM2b0wzUFN1Y21hcHhFdmktTmUzdnhIUW51UEQ2a3hKMUc3LWFqeTQ2TGR2LTIwcVo0U29XdzhpWEpaXzh4RkhqVURyMzhUOHJ1X0lBcnVJTEJnejk2dmdrSGZhajNZWWtBTmdZWGlHQklpR2pHTVpBM1RScmpnQzh3MW9DRlFGQkJVcHo2NmhKMlBuY3FMRUh5QWpHVEUzZFJPdWZsdXc",
-        "source": "ici.fr",
-        "date": "2026-10-17T12:29:43+00:00",
-        "section": "Local",
-        "sections": [
-          "France",
-          "Local"
-        ],
-        "query": "site:ici.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
-        "channel": "Google Actualités",
-        "type": "article",
-        "editorial": {
-          "score": 61,
-          "tags": [
-            "impact"
-          ],
-          "source_tier": 2,
-          "reason": "Actualité McDo directement exploitable pour la veille",
-          "angle": "À creuser : quel impact sur l'image de McDo ?",
-          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-        }
       }
     ],
     "RH McDo": [],
     "Concurrence": [],
     "Inspiration RH": [
+      {
+        "title": "5 formations pour devenir DevOps",
+        "url": "https://www.blogdumoderateur.com/selection-formation-devops-322/",
+        "source": "Blog du Modérateur",
+        "date": "2026-10-19T06:00:25+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "Flux Blog du Modérateur",
+        "channel": "RSS direct",
+        "type": "article",
+        "editorial": {
+          "score": 44,
+          "tags": [
+            "impact"
+          ],
+          "source_tier": 2,
+          "reason": "Pratique RH ou marque employeur potentiellement transposable",
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
+        "title": "Entretien de parcours professionnel : le mode d’emploi",
+        "url": "https://www.helloworkplace.fr/entretien-parcours-professionnel-trame-convocation/",
+        "source": "HelloWorkplace / HelloWork",
+        "date": "2026-10-19T05:26:18+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "Flux HelloWorkplace / HelloWork",
+        "channel": "RSS direct",
+        "type": "article",
+        "editorial": {
+          "score": 40,
+          "tags": [],
+          "source_tier": 1,
+          "reason": "Actualité sectorielle ou RH à qualifier",
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
+        "title": "Parentalité, rémunération, flexibilité : 5 leviers pour garantir l’égalité professionnelle",
+        "url": "https://www.helloworkplace.fr/jaberson-egalite-professionnelle/",
+        "source": "HelloWorkplace / HelloWork",
+        "date": "2026-10-19T05:24:35+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "Flux HelloWorkplace / HelloWork",
+        "channel": "RSS direct",
+        "type": "article",
+        "editorial": {
+          "score": 47,
+          "tags": [
+            "impact"
+          ],
+          "source_tier": 1,
+          "reason": "Pratique RH ou marque employeur potentiellement transposable",
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
+        "title": "Comment l’IA de Hellowork vous aide à trouver le bon candidat parmi des millions",
+        "url": "https://www.helloworkplace.fr/ia-hellowork-livre-blanc/",
+        "source": "HelloWorkplace / HelloWork",
+        "date": "2026-10-19T05:12:31+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "Flux HelloWorkplace / HelloWork",
+        "channel": "RSS direct",
+        "type": "article",
+        "editorial": {
+          "score": 47,
+          "tags": [
+            "impact"
+          ],
+          "source_tier": 1,
+          "reason": "Pratique RH ou marque employeur potentiellement transposable",
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
+        "title": "Diagnostic RH dans les TPE : savoir détecter les risques sociaux - Culture RH",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GY2pfbUktdDVEYUZmek15NVVtWWZUc25JRTl6RUZxY0JpRUxfUlRsS0N1M3MwTVYtZXNjX1A3cUVhUm85c2p2cmtqakdiRnVhdlJUTXNnSmtzc1BqVFJYNTFVaVdWY3dU",
+        "source": "Culture RH",
+        "date": "2026-10-19T03:00:32+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "site:culture-rh.com (recrutement OR marque employeur OR RH OR carrière)",
+        "channel": "Google Actualités",
+        "type": "article",
+        "editorial": {
+          "score": 40,
+          "tags": [],
+          "source_tier": 1,
+          "reason": "Actualité sectorielle ou RH à qualifier",
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
       {
         "title": "test schedule - Culture RH",
         "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5tTXhCXzZPd3F2bHJ2cF8yZUFUMm5PQWtVNUV6Y1BPQkxIWVJnVEpNd1VEWkxLdkx3R1pwOV9RMkh0V2ZCVlpjc29QSzZHQQ",
@@ -130,15 +216,15 @@
     ],
     "Campagnes créatives": [
       {
-        "title": "Enedis lance « Corridors de vie », une campagne pour protéger les oiseaux migrateurs - J'ai un pote dans la com",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS3FhRFNnb0pGNXBQT3BrcUV0d19JVjB5OVpZclQ1ZXJCT2NhcjJ2blZGYkZJNnNwbjB1bmpYSnlfajlXTUtjc3RLbGNXTHBES0xXT2hoT2w2eFMwUFoyMWE0eUVDMEVLUVp5X1B2T1lDbjNMdl9Tb0c2Y0gzbVN0MFBORm1hR3NaUE5Dag",
-        "source": "J'ai un pote dans la com",
-        "date": "2026-10-17T10:00:36+00:00",
+        "title": "ChatGPT Voix nous joue la comédie pour la première campagne publicitaire d'OpenAI en France - Influencia",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTnlVYThCZDNKT2IyTUtlREdwVW5iWDRoSkhsYTBWaVV5UkdVMG1uWDFTb1JXUzlDckoyTmNwZmlyTmE4ekl1ME15ZVVOXzdRT1AtcHRFR1JVVFF4MG1uSmhYLXF5UHdnWWo3NldMbFl5eWZyMWxsd0Z4TVpxZ2FBU2RnWndrRXM1N3YweVBQaXVZdjlxT002dEFodlNsT2pnOWxlQVI5ZENUNEJSLUMyaTBNeS1mc0RoNmc",
+        "source": "Influencia",
+        "date": "2026-10-19T06:55:45+00:00",
         "section": "Campagnes créatives",
         "sections": [
           "Campagnes créatives"
         ],
-        "query": "site:jai-un-pote-dans-la.com (campagne OR publicité OR marketing OR créativité)",
+        "query": "site:influencia.net (campagne OR publicité OR marketing OR créativité)",
         "channel": "Google Actualités",
         "type": "article",
         "editorial": {
@@ -153,23 +239,46 @@
         }
       },
       {
-        "title": "Tediber mise sur l’impertinence et provoque Emma avec sa nouvelle campagne - J'ai un pote dans la com",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYkY2RV9KcXJ6ek1ZN25zY1IwQWNUSUVDU0t1eWQ0d0s4djdNR2FmR01JcjI3N3JUYjUyUENqaGxTOG1DREZ6VDFXREEyVVpFQXo5N1VyNm1pSE9rbW1qeXR2Rm9ISnZzNXYxM3FKRWZYRmRjaWYxa3hlOGlRRTF5UXNuamNwQ1ZZODJEODJnR0llTEZpbEREN0NiSlNpeUd0TFlUcWVHWS1Mdw",
-        "source": "J'ai un pote dans la com",
-        "date": "2026-10-17T09:07:47+00:00",
+        "title": "OpenAI donne la parole aux grands-mères pour sa première campagne en France - CB News",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNEtESW5mcHRXRXFmbHlKVDAwdkN1Y1NDekNVLXczUzVDUGhIQjhTNVJNRlhtd0JQQXlPUVVrRzZfYUJ0QUFrUVlCZVlqSjBPSFR5cmt6aEQxdHBBcUVlYUZlZlhScXBnZWdGLXVaalBkblVaX0k3SHRuNnVXaDAwcXhvMTVrSEJjZkZwUFRQVkZ1V3MzdVRCXzJR",
+        "source": "CB News",
+        "date": "2026-10-19T03:50:03+00:00",
         "section": "Campagnes créatives",
         "sections": [
           "Campagnes créatives"
         ],
-        "query": "site:jai-un-pote-dans-la.com (campagne OR publicité OR marketing OR créativité)",
+        "query": "meilleures campagnes de publicité 2026 France",
         "channel": "Google Actualités",
         "type": "article",
         "editorial": {
-          "score": 46,
+          "score": 49,
           "tags": [
             "campaign"
           ],
-          "source_tier": 2,
+          "source_tier": 1,
+          "reason": "Idée de campagne ou dispositif créatif à explorer",
+          "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
+        "title": "Publicité : les 25 plus grands annonceurs investissent proportionnellement moins au fil des ans - Stratégies",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNbGx6Y211Q0ZOdGdsOFo0MkVzSVVQTlQ4Znc5VmRSVGNhMHZfSFVjQkdZV05HRVhSOExiRUQyTkZQWFp2aTd6N3IxN2NJa1JITTNiU1RTVkRPVEV3Uk5YYjgwRjV2NkQxU1drQnRnRE10UU1LVTBxZ2IyTFI5OEZJWGlEOE1LZmtFcHZZVW9mbE5JalNLSG1NR3lESUVpb0IzdGcxVjBpeTJUOHVBa3pUTFFGT0kxQjJXUXREblZ5MUxMWEV3TDRaS2ZwdnlJUEIxaDNDYWY3MExpTkowdzdHTFgwYUFFcUR5SVE",
+        "source": "Stratégies",
+        "date": "2026-10-19T03:30:00+00:00",
+        "section": "Campagnes créatives",
+        "sections": [
+          "Campagnes créatives"
+        ],
+        "query": "site:strategies.fr (campagne OR publicité OR marketing OR créativité)",
+        "channel": "Google Actualités",
+        "type": "article",
+        "editorial": {
+          "score": 49,
+          "tags": [
+            "campaign"
+          ],
+          "source_tier": 1,
           "reason": "Idée de campagne ou dispositif créatif à explorer",
           "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
           "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."

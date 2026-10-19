@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T07:42:45.797718+00:00",
+  "updated_at": "2026-10-19T07:59:43.659885+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -55,6 +55,16 @@
       "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
     },
     {
+      "title": "LIBRE et le Groupe Rouge Vif recrutent Evelyne Bourdonné et Jérôme Diez pour piloter la stratégie et la création - La Réclame",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQU0haNVNiWndHMmxUVjFHX3pkVndzRHFwcDI5Wk9hRzk0YktkeEFYeUdmU2tuQl9mT0VNbEJsUENMaHBMMDZFb0RLdWJoUm5pM2MwT3MxSnpDSjhHSlZkN09LUjIzcGxzWlp4bW1YZF9GYmhVaGFTNlNpOHdJRFpxS01ZcVlmNS1ORGh3S3FGTkpYampVbENmUG5XWERIcTZJYkNLSERpZG43cnhQY1puWDhzOF9xVEdJWjJ3Wm9xNkJHaEZTMjAyUldhX1FMZXQ0NzN1ZmkwOUwya0Z3cmNjXzVUYkpoVUxLZ2c",
+      "source": "La Réclame",
+      "date": "2026-10-15T07:00:00+00:00",
+      "section": "Campagnes créatives",
+      "score": 61,
+      "reason": "Idée de campagne ou dispositif créatif à explorer",
+      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
+    },
+    {
       "title": "Publicité : le groupement des Mousquetaires (Intermarché, Bricomarché, Netto...) lance sa première campagne de marque employeur - LSA conso",
       "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQUjV6WDcxRFlFYkJ3TlJhTjJvcVdtS1AzQTNXUnNXQmRfR1I5X2pmZVBBNmlUb0FDa1ZQN21qeVNaMjNSMF9wM19WSTdpQlN2SG1Lcmc5a0ZHRGtfMW1MZ0dNWEw5YktPeXRDWlVCNVlCcWZILU96U2FXbkdQckI3a0lTZEx3eDZ6LTZRUjV3SzRwQUVhMzZhSDduYk00UDc1bnBMQmJXdUlMcUhNLUdVZG5FVk96ZF90NE5fMlRoTUNpb1ZqemM2QmJ3NEJMakk0TGtSa3FLTXBaT0RZaTdHNkV2aFJSV241ajMxQjZVanBTU1JEeG1mclh6Nkp4YUNYemtzVV9WUmhrazU5TjVzNWt3NmxkZnY4TE11OTJJc2dwRHRWTURIbm1WdkM1SWFxSWZlcWg2akpyNW9VdlQ1bzVB",
       "source": "LSA conso",
@@ -93,16 +103,6 @@
       "score": 58,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quel impact sur l'image de McDo ?"
-    },
-    {
-      "title": "Création d’entreprise : recherche associé(e) chef de cuisine - L'Hôtellerie Restauration",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV3FxUHNWOFROQ0pEeUtSUnJXbmNwNTFkd210bTFLMm5UTnZFaDFEdGU1ZjdaQ1dFWllNcDFabDdaUkVncmpKc0NGT0dPUjVlQW1oUV9Mb1Z2ZGNDSWtPVkpWcW5pVTJaYTRqT3lyVEtCLVpZMkhvSU9BVmtwbDRhd182RnhPbjVpU0RHeTBORm9XQVR4Q1BaQ01SZmpJY00wTWtzTWNycHA",
-      "source": "L'Hôtellerie Restauration",
-      "date": "2026-10-15T11:36:34+00:00",
-      "section": "Campagnes créatives",
-      "score": 57,
-      "reason": "Idée de campagne ou dispositif créatif à explorer",
-      "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
     }
   ]
 }
