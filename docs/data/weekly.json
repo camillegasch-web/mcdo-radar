@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T07:59:43.659885+00:00",
+  "updated_at": "2026-10-20T07:52:29.838523+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -13,16 +13,6 @@
       "score": 80,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quelle preuve d'expérience collaborateur en tirer ?"
-    },
-    {
-      "title": "McDONALD'S FRANCE DONNE VIE AU RITUEL DE L'HISTOIRE DU SOIR AVEC « L'ÉCOLE DES RACONTEURS » - McDonald's - TBWA\\ - agence Publicité / communication / 360 - La Réclame",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNm5NdE10bmJDTFlnY1VXbV90bkx5ZlNEVXgwdzFybmhPclBRanhsTUFPMVVSNkxkenlDVjNrak5OT3hISmZiUVhuaGx4UTVjZXdDVmYxZS1KZWJZYm92UWxvSW5Dd2RZRVJJOW9PREF6bWt0SURvaUhzWEJSZ3NxWHVIQndtY254Z1VTYUNWeGpmOVJVQVc5VDFTVmhNSTZhOW9MVlhnQktiYlJuaTF2b1NyR1FabEVvRHl5Yi12cDN1VzhyS0VR",
-      "source": "La Réclame",
-      "date": "2026-10-12T09:34:26+00:00",
-      "section": "Campagnes créatives",
-      "score": 70,
-      "reason": "Actualité McDo directement exploitable pour la veille",
-      "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
     },
     {
       "title": "17 octobre à Lille : le McDonald's de la Grand'Place détruit par les flammes, la Fnac totalement pillée - Actu.fr",
@@ -103,6 +93,16 @@
       "score": 58,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quel impact sur l'image de McDo ?"
+    },
+    {
+      "title": "Création d’entreprise : recherche associé(e) chef de cuisine - L'Hôtellerie Restauration",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV3FxUHNWOFROQ0pEeUtSUnJXbmNwNTFkd210bTFLMm5UTnZFaDFEdGU1ZjdaQ1dFWllNcDFabDdaUkVncmpKc0NGT0dPUjVlQW1oUV9Mb1Z2ZGNDSWtPVkpWcW5pVTJaYTRqT3lyVEtCLVpZMkhvSU9BVmtwbDRhd182RnhPbjVpU0RHeTBORm9XQVR4Q1BaQ01SZmpJY00wTWtzTWNycHA",
+      "source": "L'Hôtellerie Restauration",
+      "date": "2026-10-15T11:36:34+00:00",
+      "section": "Campagnes créatives",
+      "score": 57,
+      "reason": "Idée de campagne ou dispositif créatif à explorer",
+      "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
     }
   ]
 }
