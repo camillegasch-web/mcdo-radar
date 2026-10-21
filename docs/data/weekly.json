@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T07:52:29.838523+00:00",
+  "updated_at": "2026-10-21T07:55:00.023938+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -15,24 +15,14 @@
       "angle": "À creuser : quelle preuve d'expérience collaborateur en tirer ?"
     },
     {
-      "title": "17 octobre à Lille : le McDonald's de la Grand'Place détruit par les flammes, la Fnac totalement pillée - Actu.fr",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQUVPQ0l0dGNCV1JMSU9ZcjlwY1FZWV9fOEN4ZWlvNHVNTHd6bllHRld5Nmxscm1VQktPQkplNy1PQS1JbGhGeEprYkJZYU0tU0tQX2t0aWJkVGJoRWc2VEFaVTlnWUVhenBtZkk1UzUzUTZfUXI0RVdmeUtLZzUxb2hGT1dtYTV1b0gxVDNWeXJURER5MEZZMUpBVi15am1IT2JNalh2VjFyUzFqeEpwY3Nuc2d1VWx0LUtUNHk4TnI1ZlBpQ0tWRGN4RTB6UncyYzFIRTU0cEgwLUp1VE9TVzFLQUdIUzdJMEUzUw",
+      "title": "Une violente dispute éclate au McDonald's de la gare de Grenoble : un homme entre la vie et la mort - Actu.fr",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOMkRHTkZHeDVUM2sxSjBYcnJ0NFc1TzlEdnJiaUJLZWF4ZWJDZlZOU2JuWjhla3NuX1dhNi0xMThUOVRoYTRQcVZ3WnNWXzNnbFh2d2JtMGdJcGxwVlRuU0tRaXZTaGpaMkdFWmtjd1p5c3Nta2Vobm9mTkNCbEtFWDdTdFdqekFGcUtXd0RuTi1lZ0V5czVYNXZ5VEl0RDVpX3VjNnQzdVM3eTBHM2o4TUhFRHU5MERUT1dLUW9qUzh3NXE0bXk4dzAwcTVRZ1hxbWVScEZPYXR2dFZlWUNTeFFBMUdOdkZkUXdjRjQwcko3OVFLZ2c",
       "source": "Actu.fr",
-      "date": "2026-10-17T20:29:17+00:00",
+      "date": "2026-10-20T07:56:21+00:00",
       "section": "Local",
       "score": 64,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quel impact sur l'image de McDo ?"
-    },
-    {
-      "title": "Publicité dans l’IA : l’information est la clé de l’acceptation des utilisateurs selon Kantar - CB News",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRFlvX0xidWp0LVZHR2U5S1VVb3BpRWx1TTRidF9OSmp2S0RMZE90bVRpNlJmMGhFSFp4NWgwOFMwOVVBQzZxY20wWE9nUkdpU0hSNVpscnV4Qlc3M3M4OU4wYWd5bS1VVHJ1Tk9QaHAwRVBxWFBtTzRfamg5bk1HNEVMdS1NNHZnaGhxdUkzLXNCLWlpbl9zTA",
-      "source": "CB News",
-      "date": "2026-10-13T17:01:32+00:00",
-      "section": "Campagnes créatives",
-      "score": 64,
-      "reason": "Idée de campagne ou dispositif créatif à explorer",
-      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
     },
     {
       "title": "Recruter dans la santé en 2026 : ce que disent les chiffres",
@@ -43,6 +33,16 @@
       "score": 63,
       "reason": "Chiffres ou étude RH à vérifier avant publication",
       "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
+    },
+    {
+      "title": "Mobilisation du 17 octobre : le McDonald's incendié sur la Grand'Place, un autre feu en cours près du Majestic - ici.fr",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdFFxWDVHOFAxSDBYQnFPYXJISFk4NHVJeEt0RW1mSHBCUUpKeXVsdUJnaV85OUIwdG5mTjMxeEJEd2hNUjBueW92SjM2b0wzUFN1Y21hcHhFdmktTmUzdnhIUW51UEQ2a3hKMUc3LWFqeTQ2TGR2LTIwcVo0U29XdzhpWEpaXzh4RkhqVURyMzhUOHJ1X0lBcnVJTEJnejk2dmdrSGZhajNZWWtBTmdZWGlHQklpR2pHTVpBM1RScmpnQzh3MW9DRlFGQkJVcHo2NmhKMlBuY3FMRUh5QWpHVEUzZFJPdWZsdXc",
+      "source": "ici.fr",
+      "date": "2026-10-17T12:29:43+00:00",
+      "section": "Local",
+      "score": 61,
+      "reason": "Actualité McDo directement exploitable pour la veille",
+      "angle": "À creuser : quel impact sur l'image de McDo ?"
     },
     {
       "title": "LIBRE et le Groupe Rouge Vif recrutent Evelyne Bourdonné et Jérôme Diez pour piloter la stratégie et la création - La Réclame",
@@ -65,30 +65,10 @@
       "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
     },
     {
-      "title": "L'IA bouleverse l'emploi des jeunes en France, avec 75 000 embauches en CDI de moins par an selon une étude - Siècle Digital",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVFRTOVZsQUdqaDJlLThmcjJ3bEFZWndBTmY3ZTNYU0huRUZNR3NoQUQ5Z3FYTGJ4cWF2Zzc0SmxPZm84WTBqTUZKekVZajlRbkFFWnIwaEl6WGk3OTh3NVU0cXBjM0VhNzk1b01Vbk95Vk13aTcxYVB1d29kdFM4UlptODN4UWJXQy1HQ242RE1NVTNKeWdZdmkzXzNXWVBrN0FvLTBPTVAySVdWUVNMeWF0VEtXU05SUzlmU2plVXU0Ql90M21DMW9mZTk5UFFhRWxNcUJoS1k",
-      "source": "Siècle Digital",
-      "date": "2026-10-13T14:51:12+00:00",
-      "section": "Inspiration RH",
-      "score": 60,
-      "reason": "Chiffres ou étude RH à vérifier avant publication",
-      "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
-    },
-    {
       "title": "Narbonnais, notez la date : un nouveau McDonald’s ouvre ses portes ce mardi 20 octobre, voici où - L’Express Franchise",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9GcGNnTWQ4TElZSUJ5VmtBcFROZGVIaDVXOXBEYllENExBb3kxWkxTT2RYQVFXVTgzZGU3TlZOUVJsWUVsb3A0NXZDc0hrTVUtdDVMU0VsdXB3eTZ1ZXlmZHcxcE5XTXlERUx1Y2FVN2VnQ3M5cUZkLUFWbw",
       "source": "L’Express Franchise",
       "date": "2026-10-14T12:53:02+00:00",
-      "section": "France",
-      "score": 58,
-      "reason": "Actualité McDo directement exploitable pour la veille",
-      "angle": "À creuser : quel impact sur l'image de McDo ?"
-    },
-    {
-      "title": "McDonald’s France confie trois de ses restaurants parisiens, Victor Hugo, Passy et Austerlitz, à des franchisés - L’Express Franchise",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcVdRR2FNbFZFMmdJZ251cnI2d2lVSTZ5bVRqRXQxTUNOQTZsaTRFUHkyandXaFRCVFJ1b2J5Wkt3RjdCOWF4dGk2a2tFVDVIUEVQbjdfX2x1ZldKSzhlQmo2a1AyVk8zQk94TEdUTVNBSmRlWk1VdUNjWmIxRVRieUJvVzhzcTl5WWxSM0x1VHdiRG8?oc=5",
-      "source": "L’Express Franchise",
-      "date": "2026-10-13T19:24:12+00:00",
       "section": "France",
       "score": 58,
       "reason": "Actualité McDo directement exploitable pour la veille",
@@ -103,6 +83,26 @@
       "score": 57,
       "reason": "Idée de campagne ou dispositif créatif à explorer",
       "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
+    },
+    {
+      "title": "Ce film viral imagine le quotidien des Australiens sans travailleurs migrants",
+      "url": "https://creapills.com/campagne-travailleurs-migrants-australie-20261014",
+      "source": "Creapills",
+      "date": "2026-10-14T15:31:36+00:00",
+      "section": "Campagnes créatives",
+      "score": 57,
+      "reason": "Idée de campagne ou dispositif créatif à explorer",
+      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
+    },
+    {
+      "title": "Ce que les DRH auraient à gagner à mieux exploiter leurs données",
+      "url": "https://www.helloworkplace.fr/donnees-rh-drh-etude-skillup-ifop/",
+      "source": "HelloWorkplace / HelloWork",
+      "date": "2026-10-15T05:29:12+00:00",
+      "section": "Inspiration RH",
+      "score": 56,
+      "reason": "Chiffres ou étude RH à vérifier avant publication",
+      "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
     }
   ]
 }
