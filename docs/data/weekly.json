@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-10-23T07:54:34.480795+00:00",
+  "updated_at": "2026-10-24T07:45:29.278956+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
   "items": [
+    {
+      "title": "McDonald’s ouvrira à Val-des-Sources le 27 novembre et recrute 50 employés - L’Express Franchise",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcUNfTkZVQzI0ZVR4RGIwbEFwSlRtc0JuT0prZUhpbnZoUkVPWXY1clpqRG93MjFaeExUYmRJRnVULWhsT1VWall1dGJJOGxfamJkYTRjd3BHTFFBSWVQSGZwMmVxQ0ZJVDNHLURpcHE0YzJuTW0zZHJlWHpDOUxCcG1ubkZCVmhCTWhNTg",
+      "source": "L’Express Franchise",
+      "date": "2026-10-23T08:18:58+00:00",
+      "section": "Local",
+      "score": 80,
+      "reason": "Actualité McDo directement exploitable pour la veille",
+      "angle": "À creuser : quelle preuve d'expérience collaborateur en tirer ?"
+    },
     {
       "title": "Basic-Fit n’a plus aucun salarié la nuit dans 216 salles, et ça lui rapporte déjà 10 millions d’euros par an - L’Express Franchise",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQM0Rhd3haWFM3Tk5JR1V0NC03RXJtUGxJbTcxZXRjVEdqcnE0M2wwWFFERVdEQnQybEV2V0c2N3hEX21jWVp3OUVpdzA4dC1oVjgyOVV6YjA2YmtYdm4zM1l5YzgwRWVPc2dNdkVzNzFtT1FhTkxna3dnNnBCdUpPZld3NFhvX00",
@@ -15,20 +25,20 @@
       "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
     },
     {
+      "title": "Serviceplan Paris recrute Olivier Apers (ex-BETC) en tant que Chief Creative Officer",
+      "url": "https://www.danstapub.com/olivier-apers-serviceplan-paris-cco/",
+      "source": "Dans Ta Pub",
+      "date": "2026-10-23T10:22:37+00:00",
+      "section": "Campagnes créatives",
+      "score": 64,
+      "reason": "Idée de campagne ou dispositif créatif à explorer",
+      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
+    },
+    {
       "title": "McDonald’s s’agrandit dans l’Aude : un troisième restaurant vient d’ouvrir dans une zone stratégique à Narbonne - Actu.fr",
       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNSjU2akZ1QkVDMUZRREtGbkp0SGlhcWJhZzg5aE5HY1NLZnlWLXlzandhbFRMM2ZGZXNETXFBN3pQQ3NJVzBKSWdrYUhVU1laTlgyTmZBcXItM3lsUVhrd2ZSQjF1cXUzRGxBWXdfby1Tc2hnVVlQQUJXZ1JIRDdsUV9nX1M1cGFwdi1GZzAzYV9SYVRfT2cwS09vLXFLUng1cEY2SzZzQ0RlMkZ6UURDX21tMVZGY3VLTXZyaXNqNHQ1QWd6Q1JxSTdzelBzMEZ2Vkw1dkZTNUEtM0tKZ3lNRXJaZDY0aHVzdFNVdmZnY2E1S1R0TVdv",
       "source": "Actu.fr",
       "date": "2026-10-20T16:02:00+00:00",
-      "section": "Local",
-      "score": 64,
-      "reason": "Actualité McDo directement exploitable pour la veille",
-      "angle": "À creuser : quel impact sur l'image de McDo ?"
-    },
-    {
-      "title": "Une violente dispute éclate au McDonald's de la gare de Grenoble : un homme entre la vie et la mort - Actu.fr",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOMkRHTkZHeDVUM2sxSjBYcnJ0NFc1TzlEdnJiaUJLZWF4ZWJDZlZOU2JuWjhla3NuX1dhNi0xMThUOVRoYTRQcVZ3WnNWXzNnbFh2d2JtMGdJcGxwVlRuU0tRaXZTaGpaMkdFWmtjd1p5c3Nta2Vobm9mTkNCbEtFWDdTdFdqekFGcUtXd0RuTi1lZ0V5czVYNXZ5VEl0RDVpX3VjNnQzdVM3eTBHM2o4TUhFRHU5MERUT1dLUW9qUzh3NXE0bXk4dzAwcTVRZ1hxbWVScEZPYXR2dFZlWUNTeFFBMUdOdkZkUXdjRjQwcko3OVFLZ2c",
-      "source": "Actu.fr",
-      "date": "2026-10-20T07:56:21+00:00",
       "section": "Local",
       "score": 64,
       "reason": "Actualité McDo directement exploitable pour la veille",
@@ -45,12 +55,22 @@
       "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
     },
     {
-      "title": "Tesla présente une voiture qui vole, McDonald’s France répond « on est prêts » avec un drive sur le toit - L’Express Franchise",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LakduZTlNWi11ZHBHQ0dBOW9iUUQzZ1FlTU91N1hQVXRReDZiR3dLaFJlYzE4akQ3R1llWk9hYUV5UGx1cG5SWlRpa3BXMVk2VGQyUGFjRDJPVWpVWTZHVkNDR1ZDYjdEM0tNbWdoaUkwb05sd0w0LW15RmI2eWc",
-      "source": "L’Express Franchise",
-      "date": "2026-10-19T13:16:40+00:00",
+      "title": "Stage : Chargé de mission RH - Recrutement Emploi Jeunes et déploiement d'une enquête interne - welcometothejungle.com",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPYVJjNU1LNnRUcHAtdVBVNHdrTURGeE5qRWJTNXA4MVZoWElTT0dHZGotdE8xelpLeENCSmpIOWVWUDM1dWtXMEZiSjlrT3FHU0V1bHZkd0k1Um9vVFlUaEN4b1N1N2dreGZCTE5YckxLQW14MXctNFdoMm0wY0RtZzVyd2c1Sl9mWlhmU2YtLVpXNkpwN2JPdFNTRFViYTF1TWNSV2JSYWQyQlVtaUVnZ1VkV0dxWXRXWE9sd1lIcnlNX1BGU2hBU2ZqcmZsdl9SaEpYUFZtQTkydnlmYjJMMV9yOEw0SFViQmVkSjh1aDlEWGM",
+      "source": "welcometothejungle.com",
+      "date": "2026-10-23T15:34:40+00:00",
+      "section": "Inspiration RH",
+      "score": 57,
+      "reason": "Chiffres ou étude RH à vérifier avant publication",
+      "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
+    },
+    {
+      "title": "McDonald's s'installera à deux pas du Village des marques McArthurGlen - Actu.fr",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdWFaOGxsYWhpTlhBQ3JWNVZER1Roa0Znd2RVWEM2QWpqcFBqSWNkdnY1Z1dRYlplc1FCenhJaTJuV21xNUR4S29LcmRzclBmelZrNDVMRUNNcmNieWE5QzJGbnQ0NjVnM21NLXZHZi1Ud2RmRXFIYVZ1UEtfU1hsVE12MkMwU1RDMTRwa2N6MGFXMnBjbVRkSENreUpEc1FVWHBkRjJqS3pSdXEzQTY0SlQxNkR1YUF6dmx4NlQ3WQ",
+      "source": "Actu.fr",
+      "date": "2026-10-23T17:32:02+00:00",
       "section": "France",
-      "score": 58,
+      "score": 56,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quel impact sur l'image de McDo ?"
     },
@@ -83,26 +103,6 @@
       "score": 51,
       "reason": "Idée de campagne ou dispositif créatif à explorer",
       "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
-    },
-    {
-      "title": "McDonald’s fait équipe avec BTS : 16 figurines et peluches BT21 à collectionner en France - DL GAMING",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVk9XSVVnbXRGWGNfYm9DS01ncFRPUWZxaUZrWFFwc2tHNmwtNURucGF5bWRCWGxNZ1UxN3h5eGlGUmxsRmJLaHZHSzVuVWpjdGVUVGE3QVhzY2p6LWhSWXAzMktLbTB3ZjZ2RU1xUjc5NU93YXh3aDZyYnFVU2I2ZEZRRk51R3R1MlRPRE15eDZ5X1pFelRYaEtMZ2ZRLWNZMWQ4NFU3M2Q3RHBCNlg0cDJNWWRkQ3ZFTkRCNw",
-      "source": "DL GAMING",
-      "date": "2026-10-21T07:30:00+00:00",
-      "section": "France",
-      "score": 50,
-      "reason": "Actualité McDo directement exploitable pour la veille",
-      "angle": "À creuser : quel impact sur l'image de McDo ?"
-    },
-    {
-      "title": "La Tesla Roadster inspire le marketing de McDonald’s France - INFINITY AREA",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdXVUMU1lUUVOd1dNS2FaNmlwTV9jUXA4aU1YUG5Ha2xYWGEtVXpUbkdCMDk0bVd1YU13aDdfbnVadVowYnh2REE1LUU1TURvSkJ0X1NWRDU0ZW5fSFZURk1YWERKRU5FMmNiODhUVlNTRnR6OE9hUHNjbkwwV1RmbXFVU3pod3JkS05USlkybUJwZ2hoN2lweQ",
-      "source": "INFINITY AREA",
-      "date": "2026-10-16T17:42:00+00:00",
-      "section": "France",
-      "score": 50,
-      "reason": "Actualité McDo directement exploitable pour la veille",
-      "angle": "À creuser : quel impact sur l'image de McDo ?"
     }
   ]
 }
