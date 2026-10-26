@@ -1,66 +1,86 @@
 {
-  "updated_at": "2026-10-25T07:47:16.586945+00:00",
+  "updated_at": "2026-10-26T08:02:25.157386+00:00",
   "sections": {
-    "France": [
-      {
-        "title": "Après 32 ans, McDonald’s ne sponsorisera plus la Coupe du monde et raccroche les crampons - L’Express Franchise",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1nSzRKR1M2UkNIWnBvZU10ZUxCX09iX2hCbUh0dnZGUW5veGhNak00bGg1Mm1yNW9jbEhodWM1LXMwX1FqQVJmTXVzVXZQTmRsb2xLTE9mRlZIc1g4bDMzeEpJeUpfRjZPcnBKX2lyMVlMcU1VMlBhdw",
-        "source": "L’Express Franchise",
-        "date": "2026-10-24T13:14:34+00:00",
-        "section": "France",
-        "sections": [
-          "France",
-          "Local"
-        ],
-        "query": "McDonald's France actualité",
-        "channel": "Google Actualités",
-        "type": "article",
-        "editorial": {
-          "score": 58,
-          "tags": [
-            "impact"
-          ],
-          "source_tier": 3,
-          "reason": "Actualité McDo directement exploitable pour la veille",
-          "angle": "À creuser : quel impact sur l'image de McDo ?",
-          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-        }
-      }
-    ],
-    "Local": [
-      {
-        "title": "Après 32 ans, McDonald’s ne sponsorisera plus la Coupe du monde et raccroche les crampons - L’Express Franchise",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1nSzRKR1M2UkNIWnBvZU10ZUxCX09iX2hCbUh0dnZGUW5veGhNak00bGg1Mm1yNW9jbEhodWM1LXMwX1FqQVJmTXVzVXZQTmRsb2xLTE9mRlZIc1g4bDMzeEpJeUpfRjZPcnBKX2lyMVlMcU1VMlBhdw",
-        "source": "L’Express Franchise",
-        "date": "2026-10-24T13:14:34+00:00",
-        "section": "France",
-        "sections": [
-          "France",
-          "Local"
-        ],
-        "query": "McDonald's France actualité",
-        "channel": "Google Actualités",
-        "type": "article",
-        "editorial": {
-          "score": 58,
-          "tags": [
-            "impact"
-          ],
-          "source_tier": 3,
-          "reason": "Actualité McDo directement exploitable pour la veille",
-          "angle": "À creuser : quel impact sur l'image de McDo ?",
-          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-        }
-      }
-    ],
+    "France": [],
+    "Local": [],
     "RH McDo": [],
-    "Concurrence": [],
+    "Concurrence": [
+      {
+        "title": "\"Une madeleine de Proust\" : Quick va faire son retour aux portes de Montereau pour compléter le quatuor des fast-foods - Actu.fr",
+        "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPYlItZHJCVXVOc1FqS3B1cVRXYlA4VGZIbmZiX3VFNEV2U3NaSmxZaFVpeFFjc2dCQm1yWEtRR2E3R0pnckJ3al9PUXgwNWtyc0swTVFxR1pBSmhQb0huZ29lMW4zc01VZW04MGRvNXdFWHVGOE9PQ21DNXF4WUNOeng1TklLTUU4bUNuc3lXSTkzN2haMW5yRTFwY1ZlR3ZETU5nbndObkp6WjV3TXdzQjZHSU9YN25SS19iSzdxQWY2a3NuLVljZ21WWWtaZkpuWndUTDl5XzFHSy1XVEhkNVVINVZhNWtReXZMY2VGTkxTR3hHeE5mN2VsdmNabTI2QVkzUDd2Y3lVMHdMUWRzdmFGSFo",
+        "source": "Actu.fr",
+        "date": "2026-10-25T19:26:02+00:00",
+        "section": "Concurrence",
+        "sections": [
+          "Concurrence"
+        ],
+        "query": "site:actu.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
+        "channel": "Google Actualités",
+        "type": "article",
+        "editorial": {
+          "score": 48,
+          "tags": [
+            "impact"
+          ],
+          "source_tier": 1,
+          "reason": "Signal concurrentiel à comparer à McDo",
+          "angle": "À creuser : que fait différemment cette enseigne ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      }
+    ],
     "Inspiration RH": [
       {
-        "title": "Influenceurs RH : 5 voix qui comptent : la sélection myRHline, épisode 1",
-        "url": "https://myrhline.com/type-article/influenceurs-rh-selection-episode-1/",
+        "title": "Après 30 ans de défis RH, quel est le marque employeur challenge de 2026 ? - Monde des grandes écoles",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMTBvREpfQVA3U0JsZGN3ZUtXclpSOGdHcXpUeVF6LWZZV0R1SW4tTVdvWG1RTFA5aTlPSXQzLVlFcjF3QkVxWXlYdC1sS3p0MEgxQ3k3OHk5Q1hLcmNwbl9zdV81RHo5bUVqZm9JT0xLSC0tWnB4dW9BeTlaa0JZTWFkTk95bnpzamRlX2c0d3dPeXp1TkZLd3pzQUJOSHNuWlN3T3RqZjFsNW1NekE",
+        "source": "Monde des grandes écoles",
+        "date": "2026-10-26T07:35:00+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "baromètre emploi marque employeur jeunes 2026",
+        "channel": "Google Actualités",
+        "type": "article",
+        "editorial": {
+          "score": 41,
+          "tags": [
+            "impact"
+          ],
+          "source_tier": 3,
+          "reason": "Pratique RH ou marque employeur potentiellement transposable",
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
+        "title": "5 formations pour maîtriser Photoshop, InDesign et Illustrator",
+        "url": "https://www.blogdumoderateur.com/selection-formation-photoshop-indesign-illustrator-323/",
+        "source": "Blog du Modérateur",
+        "date": "2026-10-26T07:00:42+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "Flux Blog du Modérateur",
+        "channel": "RSS direct",
+        "type": "article",
+        "editorial": {
+          "score": 44,
+          "tags": [
+            "impact"
+          ],
+          "source_tier": 2,
+          "reason": "Pratique RH ou marque employeur potentiellement transposable",
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
+        "title": "Le manager est-il devenu le premier influenceur RH ?",
+        "url": "https://myrhline.com/type-article/manager-premier-influenceur-rh/",
         "source": "myRHline",
-        "date": "2026-10-24T17:03:07+00:00",
+        "date": "2026-10-26T06:57:58+00:00",
         "section": "Inspiration RH",
         "sections": [
           "Inspiration RH"
@@ -69,30 +89,99 @@
         "channel": "RSS direct",
         "type": "article",
         "editorial": {
-          "score": 37,
-          "tags": [],
+          "score": 44,
+          "tags": [
+            "impact"
+          ],
           "source_tier": 2,
+          "reason": "Pratique RH ou marque employeur potentiellement transposable",
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
+        "title": "Que dire à un collaborateur que vous ne pouvez pas augmenter ?",
+        "url": "https://www.helloworkplace.fr/refus-augmentation-salaire-collaborateur/",
+        "source": "HelloWorkplace / HelloWork",
+        "date": "2026-10-26T06:21:00+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "Flux HelloWorkplace / HelloWork",
+        "channel": "RSS direct",
+        "type": "article",
+        "editorial": {
+          "score": 40,
+          "tags": [],
+          "source_tier": 1,
           "reason": "Actualité sectorielle ou RH à qualifier",
           "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
           "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
         }
       },
       {
-        "title": "Faut-il encore laisser l’humain décider ? Ce que l’IA change à nos décisions RH",
-        "url": "https://myrhline.com/type-article/faut-il-encore-decider-hazan-sibony-rh/",
-        "source": "myRHline",
-        "date": "2026-10-24T12:02:24+00:00",
+        "title": "Pourquoi les enquêtes QVCT peinent à convaincre les salariés",
+        "url": "https://www.helloworkplace.fr/enquete-interne-qvct-etude/",
+        "source": "HelloWorkplace / HelloWork",
+        "date": "2026-10-26T06:19:00+00:00",
         "section": "Inspiration RH",
         "sections": [
           "Inspiration RH"
         ],
-        "query": "Flux myRHline",
+        "query": "Flux HelloWorkplace / HelloWork",
         "channel": "RSS direct",
         "type": "article",
         "editorial": {
-          "score": 37,
+          "score": 63,
+          "tags": [
+            "studies",
+            "impact",
+            "newsletter"
+          ],
+          "source_tier": 1,
+          "reason": "Chiffres ou étude RH à vérifier avant publication",
+          "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
+        "title": "Budget 2027 : les 4 mesures à anticiper pour les entreprises - Culture RH",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9RZHJuZEt1SUVUUzM5VmVJS3FROFYtckwwZ29NNlVEV2xia1lCaHNkWDk1TDlKLUlsdG9LZlduWkZST29OUFNiWGd5aFBBdDVVbHZ4V2MtUGN2TE85MU1lRWV6dWxIMmQ1MU9id0FzazRfVjQ",
+        "source": "Culture RH",
+        "date": "2026-10-26T05:44:44+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "site:culture-rh.com (recrutement OR marque employeur OR RH OR carrière)",
+        "channel": "Google Actualités",
+        "type": "article",
+        "editorial": {
+          "score": 40,
           "tags": [],
-          "source_tier": 2,
+          "source_tier": 1,
+          "reason": "Actualité sectorielle ou RH à qualifier",
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
+        "title": "Veille jurisprudentielle octobre 2026 - Culture RH",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1UHgzQ2w5RGVvSjhtMnN5VzRNcllUQnpRRFljS2JrRnJjaVZzRGlZLW9WRlI3TTBqMmZrRnA0Y2Z5bzhpc1VCckhjaVluNzBDQXk2bEZkZkF0eFRYb3lfUnl2dVdqVkFCQ2paaFJ3",
+        "source": "Culture RH",
+        "date": "2026-10-26T04:07:30+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "site:culture-rh.com (recrutement OR marque employeur OR RH OR carrière)",
+        "channel": "Google Actualités",
+        "type": "article",
+        "editorial": {
+          "score": 40,
+          "tags": [],
+          "source_tier": 1,
           "reason": "Actualité sectorielle ou RH à qualifier",
           "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
           "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."

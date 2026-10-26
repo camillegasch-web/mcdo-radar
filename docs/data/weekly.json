@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T07:47:16.586945+00:00",
+  "updated_at": "2026-10-26T08:02:25.157386+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -43,6 +43,16 @@
       "score": 64,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quel impact sur l'image de McDo ?"
+    },
+    {
+      "title": "Pourquoi les enquêtes QVCT peinent à convaincre les salariés",
+      "url": "https://www.helloworkplace.fr/enquete-interne-qvct-etude/",
+      "source": "HelloWorkplace / HelloWork",
+      "date": "2026-10-26T06:19:00+00:00",
+      "section": "Inspiration RH",
+      "score": 63,
+      "reason": "Chiffres ou étude RH à vérifier avant publication",
+      "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
     },
     {
       "title": "À Cholet, Burger King et Saatchi & Saatchi France arrivent pour concurrencer… Burger King. - Burger King - Saatchi & Saatchi France - agence Publicité / communication / 360 - La Réclame",
@@ -93,16 +103,6 @@
       "score": 53,
       "reason": "Chiffres ou étude RH à vérifier avant publication",
       "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
-    },
-    {
-      "title": "La publicité favorise la banalisation des paris sportifs chez les jeunes, selon une étude - Influencia",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTGhkOUkxMlp6UWEtcHRDRkUyOTQzb09ac2xoY0lsTVJzMWRHeUdFb082U19kX1o4dEZkSUVUbXlzelBwTFNSTU03aWgwZXl0UnJWb2t4WnFkUEVPdzV5VGhQLVE1LXdzbGRqdzY2bzZCYk1vV3RqSkd5c01wT05wTXpLU3dJMmJtMm1mT0RxbVFCMHl3OWVlbk43cjFxam9tWm5NWndjQnBaUVBSeUh0eGdHMG9LRFk",
-      "source": "Influencia",
-      "date": "2026-10-21T04:47:30+00:00",
-      "section": "Campagnes créatives",
-      "score": 51,
-      "reason": "Idée de campagne ou dispositif créatif à explorer",
-      "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
     }
   ]
 }
