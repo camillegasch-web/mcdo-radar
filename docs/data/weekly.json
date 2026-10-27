@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T08:02:25.157386+00:00",
+  "updated_at": "2026-10-27T07:57:15.803557+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -23,6 +23,16 @@
       "score": 65,
       "reason": "Chiffres ou étude RH à vérifier avant publication",
       "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
+    },
+    {
+      "title": "Près de Lyon : ces habitants se dressent contre l'arrivée de McDonald's dans leur petite commune - Actu.fr",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPaERIUkFPRVpEUXFWaVNZWEg1d04xRjdBQTJuZm44MXE1OUt4bF8xVDRGWTd0N2ZpM09NdllVRjBzcG1PLXlfMk15Wjdnd05ReUlvbk9QUUZ4RGZFckRjTUh1S0VoY0p1UFNQbGI3bHk3WVR5S3hJLXI4d1JxZkRrd3VldFhRNVBhS1ZUWlkyNDgyOUM3TzNRcEpJZ0g1c09GZThHVjN3YndkRGlZc3RnQ2lTWWxXNzR5anFvdHVKRVY4SXc1bVVnX0piaWlOS2V0STNYaEtsdUg3ZlhreVJYUjk5WExNSWttQ3BMbnpSamU",
+      "source": "Actu.fr",
+      "date": "2026-10-26T14:52:01+00:00",
+      "section": "France",
+      "score": 64,
+      "reason": "Actualité McDo directement exploitable pour la veille",
+      "angle": "À creuser : quel impact sur l'image de McDo ?"
     },
     {
       "title": "Serviceplan Paris recrute Olivier Apers (ex-BETC) en tant que Chief Creative Officer",
@@ -75,16 +85,6 @@
       "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
     },
     {
-      "title": "McDonald's s'installera à deux pas du Village des marques McArthurGlen - Actu.fr",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdWFaOGxsYWhpTlhBQ3JWNVZER1Roa0Znd2RVWEM2QWpqcFBqSWNkdnY1Z1dRYlplc1FCenhJaTJuV21xNUR4S29LcmRzclBmelZrNDVMRUNNcmNieWE5QzJGbnQ0NjVnM21NLXZHZi1Ud2RmRXFIYVZ1UEtfU1hsVE12MkMwU1RDMTRwa2N6MGFXMnBjbVRkSENreUpEc1FVWHBkRjJqS3pSdXEzQTY0SlQxNkR1YUF6dmx4NlQ3WQ",
-      "source": "Actu.fr",
-      "date": "2026-10-23T17:32:02+00:00",
-      "section": "France",
-      "score": 56,
-      "reason": "Actualité McDo directement exploitable pour la veille",
-      "angle": "À creuser : quel impact sur l'image de McDo ?"
-    },
-    {
       "title": "Les Melle Pitch Awards reviennent : quand les jeunes talents mettent leur créativité au service de causes, ça remue (diaporama) - Influencia",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNSmRUZFIwVFBQS2QwZTV5Q2hQREhSWFRsbHNQSk5pNVltakJpOWxlVFFzWkRPNm9pNkJCMnl0S0Y1eml5cWVobWZrSFFyMXBJQi1xUG5LaVZpUS1nSDRnNjBqbjB1SDlmUWlMalhVVDE2ZzdPQjhBblRpUVRaaTRpTEVWV2RYWVloWnJ4ekg4N1JueGJ3VXEwZ1VsVDlpRzBqdnM4QlpLcWluVXQ3UXhfTnRtemVYSzBvbVNwMjVBWWVwWU5yOVVxOXR4WWNNV3Q2Nkh4a3R6T1dMRGFVbXE1c0lob1YtbnhUbFdTaXl2SQ",
       "source": "Influencia",
@@ -95,14 +95,14 @@
       "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
     },
     {
-      "title": "Participez au Baromètre 2027 des décisions Talent",
-      "url": "https://myrhline.com/etudes-rh/barometre-decisions-talent-2027-participer/",
-      "source": "myRHline",
-      "date": "2026-10-22T16:21:09+00:00",
-      "section": "Inspiration RH",
+      "title": "McDonald's France et TBWA\\Paris lancent « Croquez la France », une gamme aux ingrédients régionaux - INfluencia",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EdXN6THJwQU44Y1g1NW9OZFpBOU02WWhfN2VqSzUxVDFRVXY1ZjNsN1laYzljQXV2RXdGcWFMVGdqMmVwdWZBalQtdHE5LXY5SG12UTVTTTJyMHFsWXI2TGZRbVBnWjlTZjhzS1N4cnpINU9PcnlJSU5vSDRNM2M",
+      "source": "INfluencia",
+      "date": "2026-10-26T13:58:33+00:00",
+      "section": "France",
       "score": 53,
-      "reason": "Chiffres ou étude RH à vérifier avant publication",
-      "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
+      "reason": "Actualité McDo directement exploitable pour la veille",
+      "angle": "À creuser : quel impact sur l'image de McDo ?"
     }
   ]
 }
