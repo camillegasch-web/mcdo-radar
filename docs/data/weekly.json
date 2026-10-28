@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T07:57:15.803557+00:00",
+  "updated_at": "2026-10-28T08:09:48.938097+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -45,16 +45,6 @@
       "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
     },
     {
-      "title": "McDonald’s s’agrandit dans l’Aude : un troisième restaurant vient d’ouvrir dans une zone stratégique à Narbonne - Actu.fr",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNSjU2akZ1QkVDMUZRREtGbkp0SGlhcWJhZzg5aE5HY1NLZnlWLXlzandhbFRMM2ZGZXNETXFBN3pQQ3NJVzBKSWdrYUhVU1laTlgyTmZBcXItM3lsUVhrd2ZSQjF1cXUzRGxBWXdfby1Tc2hnVVlQQUJXZ1JIRDdsUV9nX1M1cGFwdi1GZzAzYV9SYVRfT2cwS09vLXFLUng1cEY2SzZzQ0RlMkZ6UURDX21tMVZGY3VLTXZyaXNqNHQ1QWd6Q1JxSTdzelBzMEZ2Vkw1dkZTNUEtM0tKZ3lNRXJaZDY0aHVzdFNVdmZnY2E1S1R0TVdv",
-      "source": "Actu.fr",
-      "date": "2026-10-20T16:02:00+00:00",
-      "section": "Local",
-      "score": 64,
-      "reason": "Actualité McDo directement exploitable pour la veille",
-      "angle": "À creuser : quel impact sur l'image de McDo ?"
-    },
-    {
       "title": "Pourquoi les enquêtes QVCT peinent à convaincre les salariés",
       "url": "https://www.helloworkplace.fr/enquete-interne-qvct-etude/",
       "source": "HelloWorkplace / HelloWork",
@@ -75,6 +65,16 @@
       "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
     },
     {
+      "title": "McDonald’s : alerte sur les acquis dans quatre restaurants franciliens bientôt sous franchise - Force Ouvrière",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVjFJaTVLeDdrUnF2czdwOFd4bVhtQjBZZHB0R0VVdWZPWld3OU1DUHRoMG91UGx1ZjBMSVI4Q2U0dW5jb04xa2VESjFGZTdwMEdSSng3dlpwNDJlS2RycVllb0dBSl9QQlZWMVVTczdKb3pUNzRFZkNZUXQxRVZTbkY5cHlwQkI4ZHFzUXFqaw",
+      "source": "Force Ouvrière",
+      "date": "2026-10-27T13:00:00+00:00",
+      "section": "Local",
+      "score": 58,
+      "reason": "Actualité McDo directement exploitable pour la veille",
+      "angle": "À creuser : quel impact sur l'image de McDo ?"
+    },
+    {
       "title": "Stage : Chargé de mission RH - Recrutement Emploi Jeunes et déploiement d'une enquête interne - welcometothejungle.com",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPYVJjNU1LNnRUcHAtdVBVNHdrTURGeE5qRWJTNXA4MVZoWElTT0dHZGotdE8xelpLeENCSmpIOWVWUDM1dWtXMEZiSjlrT3FHU0V1bHZkd0k1Um9vVFlUaEN4b1N1N2dreGZCTE5YckxLQW14MXctNFdoMm0wY0RtZzVyd2c1Sl9mWlhmU2YtLVpXNkpwN2JPdFNTRFViYTF1TWNSV2JSYWQyQlVtaUVnZ1VkV0dxWXRXWE9sd1lIcnlNX1BGU2hBU2ZqcmZsdl9SaEpYUFZtQTkydnlmYjJMMV9yOEw0SFViQmVkSjh1aDlEWGM",
       "source": "welcometothejungle.com",
@@ -85,22 +85,22 @@
       "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
     },
     {
-      "title": "Les Melle Pitch Awards reviennent : quand les jeunes talents mettent leur créativité au service de causes, ça remue (diaporama) - Influencia",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNSmRUZFIwVFBQS2QwZTV5Q2hQREhSWFRsbHNQSk5pNVltakJpOWxlVFFzWkRPNm9pNkJCMnl0S0Y1eml5cWVobWZrSFFyMXBJQi1xUG5LaVZpUS1nSDRnNjBqbjB1SDlmUWlMalhVVDE2ZzdPQjhBblRpUVRaaTRpTEVWV2RYWVloWnJ4ekg4N1JueGJ3VXEwZ1VsVDlpRzBqdnM4QlpLcWluVXQ3UXhfTnRtemVYSzBvbVNwMjVBWWVwWU5yOVVxOXR4WWNNV3Q2Nkh4a3R6T1dMRGFVbXE1c0lob1YtbnhUbFdTaXl2SQ",
-      "source": "Influencia",
-      "date": "2026-10-21T18:47:41+00:00",
-      "section": "Campagnes créatives",
-      "score": 54,
-      "reason": "Idée de campagne ou dispositif créatif à explorer",
-      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
+      "title": "Les BT21 atterrissent chez McDonald’s - McDonald's France",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE01MG5iNzhFNUYtM3E1cy01M2R3cW05dUFlVFVINjZhT2Q1LTBBeGlTS1NXS3VPLVE2Z3FoMDFNa0pMRWpINkw1U3g4QlJ4NU85RlE",
+      "source": "McDonald's France",
+      "date": "2026-10-27T09:51:16+00:00",
+      "section": "France",
+      "score": 56,
+      "reason": "Actualité McDo directement exploitable pour la veille",
+      "angle": "À creuser : quel impact sur l'image de McDo ?"
     },
     {
-      "title": "McDonald's France et TBWA\\Paris lancent « Croquez la France », une gamme aux ingrédients régionaux - INfluencia",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EdXN6THJwQU44Y1g1NW9OZFpBOU02WWhfN2VqSzUxVDFRVXY1ZjNsN1laYzljQXV2RXdGcWFMVGdqMmVwdWZBalQtdHE5LXY5SG12UTVTTTJyMHFsWXI2TGZRbVBnWjlTZjhzS1N4cnpINU9PcnlJSU5vSDRNM2M",
-      "source": "INfluencia",
-      "date": "2026-10-26T13:58:33+00:00",
+      "title": "McDonald’s promet aux Français de voir du pays avec « Croquez la France »",
+      "url": "https://www.danstapub.com/mcdonalds-croquez-la-france-tbwa-paris/",
+      "source": "Dans Ta Pub",
+      "date": "2026-10-27T08:34:51+00:00",
       "section": "France",
-      "score": 53,
+      "score": 56,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quel impact sur l'image de McDo ?"
     }
