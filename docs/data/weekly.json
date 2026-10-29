@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T08:09:48.938097+00:00",
+  "updated_at": "2026-10-29T08:12:56.833797+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -13,6 +13,16 @@
       "score": 80,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quelle preuve d'expérience collaborateur en tirer ?"
+    },
+    {
+      "title": "McDonald’s France valorise les ingrédients régionaux dans sa nouvelle campagne - Stratégies",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOS3MyaU1PeXdvdDJXbzRZQzZoLUtEeWIwX0hEMWdlUDlMY1ZBSFNrSnp1R0lDVHNJYjh1eVZ2RWYzbHdhdHdVal9zZi01VFhKaWtfeXJDS1dQbkxtWVZUNW1CLU9OblhROXZMMFdHZFhFNGZfZ0JNbjJ5VWx3emFsVW5xN01BOTF5MDNlNFdSZWhPaTNFU2JCOWdsdkVxYlRXYU85OGRRWGRUNEpSRnFVVDZCR0NBSlhpbTdhcHhpcEJWMnJhOWswRllCRkRQdUNjRmVkXw",
+      "source": "Stratégies",
+      "date": "2026-10-29T04:30:01+00:00",
+      "section": "Campagnes créatives",
+      "score": 73,
+      "reason": "Actualité McDo directement exploitable pour la veille",
+      "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
     },
     {
       "title": "Basic-Fit n’a plus aucun salarié la nuit dans 216 salles, et ça lui rapporte déjà 10 millions d’euros par an - L’Express Franchise",
@@ -55,14 +65,14 @@
       "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
     },
     {
-      "title": "À Cholet, Burger King et Saatchi & Saatchi France arrivent pour concurrencer… Burger King. - Burger King - Saatchi & Saatchi France - agence Publicité / communication / 360 - La Réclame",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUzZUck5LWUVGSUpGQTBCRDFDaU1pWFlTNURfODkteTZ6WVFvdWZveTUxdmlhZlpsWWlMTU9ablRacjFuNzZhNTRJSGVfd1RId0Z6ZjZtNDhNbk1NMW1wUW9jZ3RmMXZUN3BHd1VLcG9PeTNZWVJodDF1ZUx5XzZuTURLOF9seFpCaWxfM1pXVWFjd3QxUU5EZEZaM2xqNUtodHZBNTdUT2xOU2M1MEVaVHA0WEdqalpKNkhsNE5vZWtvb2tUenYzWkU1UV90WWM",
+      "title": "Présidentielle 2027 : les Restos du Cœur remettent la solidarité au cœur du débat en interpellant les candidats sur la précarité. - Les Restos du Cœur - CHANGE - agence Publicité / communication / 360 - La Réclame",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQLWRrUlZMZE9JaFNWV194S2dYUUdJWXZZVVJsb0tHbUFTaHhaZWtaLW1LNzVvRlVWVUZRT2FFc2psd1hRa2NZcVhWa2s4WUpfWWE0RUpEMVNjOXVqX1I5RlZoT1VYc0xLaUNhdmhtV1d2RnBqM0YxVWcxVFJ3bnNnN2tMWTJXNzlaUjdlTmtHVjJrVkM3M0ZEMHZhV0xLVTdFbmZSX2ZncmtWckNJN1pEUmRhN2NSeGhKQll0Y0JENzJRbWEtd0JteTU3dm9qTmNVZ3F4QU1tYThGb29neVg1YzNBU19QQmZNTUhTRW8teGdDZ1ltSmZINTM5elI4dw",
       "source": "La Réclame",
-      "date": "2026-10-21T11:27:40+00:00",
+      "date": "2026-10-22T11:26:28+00:00",
       "section": "Campagnes créatives",
-      "score": 62,
-      "reason": "Signal concurrentiel à comparer à McDo",
-      "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
+      "score": 61,
+      "reason": "Idée de campagne ou dispositif créatif à explorer",
+      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
     },
     {
       "title": "McDonald’s : alerte sur les acquis dans quatre restaurants franciliens bientôt sous franchise - Force Ouvrière",
@@ -89,16 +99,6 @@
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE01MG5iNzhFNUYtM3E1cy01M2R3cW05dUFlVFVINjZhT2Q1LTBBeGlTS1NXS3VPLVE2Z3FoMDFNa0pMRWpINkw1U3g4QlJ4NU85RlE",
       "source": "McDonald's France",
       "date": "2026-10-27T09:51:16+00:00",
-      "section": "France",
-      "score": 56,
-      "reason": "Actualité McDo directement exploitable pour la veille",
-      "angle": "À creuser : quel impact sur l'image de McDo ?"
-    },
-    {
-      "title": "McDonald’s promet aux Français de voir du pays avec « Croquez la France »",
-      "url": "https://www.danstapub.com/mcdonalds-croquez-la-france-tbwa-paris/",
-      "source": "Dans Ta Pub",
-      "date": "2026-10-27T08:34:51+00:00",
       "section": "France",
       "score": 56,
       "reason": "Actualité McDo directement exploitable pour la veille",
