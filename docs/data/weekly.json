@@ -1,19 +1,9 @@
 {
-  "updated_at": "2026-10-30T08:12:41.573848+00:00",
+  "updated_at": "2026-10-31T07:59:36.840979+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
   "items": [
-    {
-      "title": "McDonald’s ouvrira à Val-des-Sources le 27 novembre et recrute 50 employés - L’Express Franchise",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcUNfTkZVQzI0ZVR4RGIwbEFwSlRtc0JuT0prZUhpbnZoUkVPWXY1clpqRG93MjFaeExUYmRJRnVULWhsT1VWall1dGJJOGxfamJkYTRjd3BHTFFBSWVQSGZwMmVxQ0ZJVDNHLURpcHE0YzJuTW0zZHJlWHpDOUxCcG1ubkZCVmhCTWhNTg",
-      "source": "L’Express Franchise",
-      "date": "2026-10-23T08:18:58+00:00",
-      "section": "Local",
-      "score": 80,
-      "reason": "Actualité McDo directement exploitable pour la veille",
-      "angle": "À creuser : quelle preuve d'expérience collaborateur en tirer ?"
-    },
     {
       "title": "McDonald’s France valorise les ingrédients régionaux dans sa nouvelle campagne - Stratégies",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOS3MyaU1PeXdvdDJXbzRZQzZoLUtEeWIwX0hEMWdlUDlMY1ZBSFNrSnp1R0lDVHNJYjh1eVZ2RWYzbHdhdHdVal9zZi01VFhKaWtfeXJDS1dQbkxtWVZUNW1CLU9OblhROXZMMFdHZFhFNGZfZ0JNbjJ5VWx3emFsVW5xN01BOTF5MDNlNFdSZWhPaTNFU2JCOWdsdkVxYlRXYU85OGRRWGRUNEpSRnFVVDZCR0NBSlhpbTdhcHhpcEJWMnJhOWswRllCRkRQdUNjRmVkXw",
@@ -23,6 +13,16 @@
       "score": 73,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
+    },
+    {
+      "title": "McDonald’s ou quand la restauration rapide devient un tremplin pour l’emploi - Le Monde.fr",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNUExqRkJrMmRqWFZ5aWU0MnhEMnJweVlBc2lfTEdjZGl6ZDJtQ0R3R2ZPU1lHTFZKMVJPWFRyNXJBTmNMV2o5ZWZUMlFIeUFlcHdBQ3Fjay1WWTdXWEY4V3BURlM0dVJxV0hkR1JQd3M3SjUwZXV0UnZIQVltRzhqUlZxNnBocnl1Z3hTWk9UX2FRWmlVSmEzR1ZrT2FuYWlDTHE2M0lHNFl4QXA1Q0lleE4wdWg1SHRVYkcydXNjY003NElnLTF0cDc5cGZ3eUxZakVmWEFJNXg4ckl4UzhqdlItTGtRSHBCZVAwckJSUHJiQXc1TDJGckdaaw",
+      "source": "Le Monde.fr",
+      "date": "2026-10-30T10:57:32+00:00",
+      "section": "France",
+      "score": 72,
+      "reason": "Actualité McDo directement exploitable pour la veille",
+      "angle": "À creuser : quelle preuve d'expérience collaborateur en tirer ?"
     },
     {
       "title": "Burger King transforme ses gobelets en bains glacés pour les coureurs du marathon de Dublin",
@@ -45,16 +45,6 @@
       "angle": "À creuser : quel impact sur l'image de McDo ?"
     },
     {
-      "title": "Serviceplan Paris recrute Olivier Apers (ex-BETC) en tant que Chief Creative Officer",
-      "url": "https://www.danstapub.com/olivier-apers-serviceplan-paris-cco/",
-      "source": "Dans Ta Pub",
-      "date": "2026-10-23T10:22:37+00:00",
-      "section": "Campagnes créatives",
-      "score": 64,
-      "reason": "Idée de campagne ou dispositif créatif à explorer",
-      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
-    },
-    {
       "title": "« Est-ce que j’aurai toujours mon emploi à Noël ? » : les salariés des GiFi des Yvelines entre attente et inquiétude - Actu.fr",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPYUhmeTJONC1GR2NLYXExcS1PU3h0cm9YdERCcEQ2Z3dmNWd0ZGlvaXVFZGNYcDNKWGpNdThCbm9Ua2lGNnVDOTNmd2lEZndGVU9DTHVhdmZINGoxeEZZRHV0ZGNqZ2FFa3ZUeENmNVh1MjdfWlRFc2JTemY1MVJVUS1uSkw5dkEyd3BHMWlnWTd0UjBiUWZuMWd0bWxVSXpPVUVEZmhEaHVpRUpiV0EwWkMyZmpUMHl4YmsyNFFmUHhwLTh5eUEyR3ByYXZuNnhIeWU5dDEtY2h1T054M0dv",
       "source": "Actu.fr",
@@ -75,10 +65,20 @@
       "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
     },
     {
-      "title": "Les BTS s’invitent chez McDonald’s, et les fans ont jusqu’au 16 novembre pour avoir toutes leurs peluches BT21 - L’Express Franchise",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNTlWNlZ0NWFrSTRJMTdFVkdUczEwQjZjS0xVT3JjOWdSMC1HM1BseWplcVhCN25wczhJQnlvd0lVRjVIZ3lZSU5mSkdpNkliQWVtc3o5S0d6d3ZVVEVmaFRzaUtROWw0R2Y4aG1BOXRGZUpoUm13cGtQUERaZjVTaQ",
+      "title": "De groupe Casino à Plesio : Babel accompagne la transformation d’un groupe historique. - Plesio - Babel - agence Publicité / communication / 360 - La Réclame",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYUZPU0ZSVE5MZWRPcEF3blVJVFpOU2tOcUl0QWFQZWdMeFFFc0NuOXhEX0IzcHpVb1VEOVZ3WVRZb1JqWkN0SWtxTHZKam9idUdURzBEbW43QkNqeUMtSGlpWGJLRkNfb29iTXp3dzlCeDQ4NEozOHduUDZBMXdXLTd5U0xoQk8xaTkzblJLaUVZdy1HS0szdWdhOGpxRHBEa1VLUk5GZHUzU3ZFamF5c21KQnBsRDhiU04yQ2duUQ",
+      "source": "La Réclame",
+      "date": "2026-10-30T14:37:24+00:00",
+      "section": "Campagnes créatives",
+      "score": 61,
+      "reason": "Idée de campagne ou dispositif créatif à explorer",
+      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
+    },
+    {
+      "title": "Tartiflette et raclette chez McDonald’s : « Croquez la France » met le Reblochon et le Beaufort au menu, mais seulement jusqu’au 30 novembre 2026 - L’Express Franchise",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbEpaSFlkX0FLM3ZhczdxbmpSQzhIbEwtak1HY3JJZlU3VkVPcW9RR2loUGNCcmNFbE1NMjNuZ20wTFRHcjdySUw2SDNaNVYzb0YwVTNIN3RHNFlCMVlzTWJZSXUyWVQtV0Jib0pMbTU2NnlFX0ZDaElpcHZwVWVEdQ",
       "source": "L’Express Franchise",
-      "date": "2026-10-28T10:13:03+00:00",
+      "date": "2026-10-28T13:42:30+00:00",
       "section": "France",
       "score": 58,
       "reason": "Actualité McDo directement exploitable pour la veille",
