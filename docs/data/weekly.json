@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T07:59:36.840979+00:00",
+  "updated_at": "2026-11-01T08:08:13.358522+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -23,6 +23,16 @@
       "score": 72,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quelle preuve d'expérience collaborateur en tirer ?"
+    },
+    {
+      "title": "McDonald’s relance la chasse aux Pokémon dans ses Happy Meal - La Réclame",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBTalVpMXJlODJoRXljOVlES0VISmdpY05xTWJCb3A5ZmRDZ2Z5aGVrNTJqUm1oWm9sd3Y5Y1lPOE1lVTdMRFNPb3FlZGhHOGNYYkF2ZTVtd3Y",
+      "source": "La Réclame",
+      "date": "2026-10-30T21:18:40+00:00",
+      "section": "Campagnes créatives",
+      "score": 70,
+      "reason": "Actualité McDo directement exploitable pour la veille",
+      "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
     },
     {
       "title": "Burger King transforme ses gobelets en bains glacés pour les coureurs du marathon de Dublin",
@@ -93,16 +103,6 @@
       "score": 58,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quel impact sur l'image de McDo ?"
-    },
-    {
-      "title": "Notre campagne Amour-propre.net fait encore parler d'elle 💬 Trois ans après sa première édition, cette opération de recrutement au ton décalé est mise à l'honneur dans l’émission « Striptease, Les dessous du marketing » de Céline VAILHEN. Imaginée pour - LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMXh1TnBVMHVENWVWZ25KVWplOC1vUHpQa2JicVN5dnNybHM2cjVJc0stMXIzcVFyeGZvcWJZQXBsdFgtdzhlTmtDdlYyY1FvX2s2MXNubG9ENU1QbTMzeDlWbDgzUEhqdzJWc0g2R2xWaFhlMlpZMlI2WU9Nd3NyZFdSTHNuSmoxRDhaNzd1d0x5UnRETjctRFVYaVpjamprWk9OTmVidklyX24yTzNvaTV6R2d6MVZoVVJ6YWdoaWM5QUo0b0E",
-      "source": "LinkedIn",
-      "date": "2026-10-27T10:30:23+00:00",
-      "section": "Inspiration RH",
-      "score": 58,
-      "reason": "Idée de campagne ou dispositif créatif à explorer",
-      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
     }
   ]
 }
