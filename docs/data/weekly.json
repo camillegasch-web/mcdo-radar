@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T08:31:03.388704+00:00",
+  "updated_at": "2026-11-03T08:25:40.454693+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -65,14 +65,14 @@
       "angle": "À creuser : quel impact sur l'image de McDo ?"
     },
     {
-      "title": "Près de Lyon : ces habitants se dressent contre l'arrivée de McDonald's dans leur petite commune - Actu.fr",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPaERIUkFPRVpEUXFWaVNZWEg1d04xRjdBQTJuZm44MXE1OUt4bF8xVDRGWTd0N2ZpM09NdllVRjBzcG1PLXlfMk15Wjdnd05ReUlvbk9QUUZ4RGZFckRjTUh1S0VoY0p1UFNQbGI3bHk3WVR5S3hJLXI4d1JxZkRrd3VldFhRNVBhS1ZUWlkyNDgyOUM3TzNRcEpJZ0g1c09GZThHVjN3YndkRGlZc3RnQ2lTWWxXNzR5anFvdHVKRVY4SXc1bVVnX0piaWlOS2V0STNYaEtsdUg3ZlhreVJYUjk5WExNSWttQ3BMbnpSamU",
+      "title": "« Est-ce que j’aurai toujours mon emploi à Noël ? » : les salariés des GiFi des Yvelines entre attente et inquiétude - Actu.fr",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPYUhmeTJONC1GR2NLYXExcS1PU3h0cm9YdERCcEQ2Z3dmNWd0ZGlvaXVFZGNYcDNKWGpNdThCbm9Ua2lGNnVDOTNmd2lEZndGVU9DTHVhdmZINGoxeEZZRHV0ZGNqZ2FFa3ZUeENmNVh1MjdfWlRFc2JTemY1MVJVUS1uSkw5dkEyd3BHMWlnWTd0UjBiUWZuMWd0bWxVSXpPVUVEZmhEaHVpRUpiV0EwWkMyZmpUMHl4YmsyNFFmUHhwLTh5eUEyR3ByYXZuNnhIeWU5dDEtY2h1T054M0dv",
       "source": "Actu.fr",
-      "date": "2026-10-26T14:52:01+00:00",
-      "section": "France",
-      "score": 64,
-      "reason": "Actualité McDo directement exploitable pour la veille",
-      "angle": "À creuser : quel impact sur l'image de McDo ?"
+      "date": "2026-10-30T05:16:02+00:00",
+      "section": "Inspiration RH",
+      "score": 63,
+      "reason": "Chiffres ou étude RH à vérifier avant publication",
+      "angle": "À analyser : quels faits sont confirmés et quel est le contexte ?"
     },
     {
       "title": "De groupe Casino à Plesio : Babel accompagne la transformation d’un groupe historique. - Plesio - Babel - agence Publicité / communication / 360 - La Réclame",
@@ -95,11 +95,11 @@
       "angle": "À creuser : quel impact sur l'image de McDo ?"
     },
     {
-      "title": "McDonald’s : alerte sur les acquis dans quatre restaurants franciliens bientôt sous franchise - Force Ouvrière",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVjFJaTVLeDdrUnF2czdwOFd4bVhtQjBZZHB0R0VVdWZPWld3OU1DUHRoMG91UGx1ZjBMSVI4Q2U0dW5jb04xa2VESjFGZTdwMEdSSng3dlpwNDJlS2RycVllb0dBSl9QQlZWMVVTczdKb3pUNzRFZkNZUXQxRVZTbkY5cHlwQkI4ZHFzUXFqaw",
-      "source": "Force Ouvrière",
-      "date": "2026-10-27T13:00:00+00:00",
-      "section": "Local",
+      "title": "Tartiflette et raclette chez McDonald’s : « Croquez la France » met le Reblochon et le Beaufort au menu, mais seulement jusqu’au 30 novembre 2026 - L’Express Franchise",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbEpaSFlkX0FLM3ZhczdxbmpSQzhIbEwtak1HY3JJZlU3VkVPcW9RR2loUGNCcmNFbE1NMjNuZ20wTFRHcjdySUw2SDNaNVYzb0YwVTNIN3RHNFlCMVlzTWJZSXUyWVQtV0Jib0pMbTU2NnlFX0ZDaElpcHZwVWVEdQ",
+      "source": "L’Express Franchise",
+      "date": "2026-10-28T13:42:30+00:00",
+      "section": "France",
       "score": 58,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quel impact sur l'image de McDo ?"
