@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T08:25:40.454693+00:00",
+  "updated_at": "2026-11-04T08:25:25.227967+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -13,6 +13,16 @@
       "score": 82,
       "reason": "Signal sensible relatif à l'enseigne : vérification indispensable",
       "angle": "À analyser : quels faits sont confirmés et quel est le contexte ?"
+    },
+    {
+      "title": "Malgré les protestations, McDonald’s poursuit son implantation à la campagne - Le Figaro",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMDE3ckFHamtUNjJRcnREa1VoU1NSaWtodGcwSUlYMWkxUzVTNkNhTzFCU1F2OGNBZ0dhcktqTjRUUi0tSUNEdm9fUmMzZVJES3VSNDRQVTR5RXh1UEZOUnZjcFpiQW1IODJlNFBqZ3gyNTZEblRFOUJ2TkxFOUlRS0d0RldzeWRjRUtkQVlIZnNrYklDRGNDc3NwbUpaT2tmZG51dW5qRzRlbUp5N2M2LVhCa0RyX3dIOFFWNmlIbThhalE",
+      "source": "Le Figaro",
+      "date": "2026-11-03T09:05:48+00:00",
+      "section": "France",
+      "score": 75,
+      "reason": "Actualité McDo directement exploitable pour la veille",
+      "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
     },
     {
       "title": "McDonald’s France valorise les ingrédients régionaux dans sa nouvelle campagne - Stratégies",
@@ -55,14 +65,24 @@
       "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
     },
     {
-      "title": "En Seine-et-Marne, McDonald's ouvre un nouveau restaurant près de la RD1004 - Actu.fr",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOalFCbFFxTy1HRDVMWVdNaTJrQTZ5SHhkZmE2dE9KWktnWlBDQ3IwWV9maVVJdnRrUFFBTDhrX0hOY2pTTEVVUWNJQ1U3OEM2aTJnaUJHZ19VdjJMWVhhQlN4MTlaY09neERENjZuS1pxbDB4bHZiY3VVOHNpQ0NmM0JmdzU5a1ZhUHBSelZCem5FZUhrcy0tc3h6UU00WXAxX1RhcUwwWEF4b1NGeWp0WHgtN21USTBKUGJwSWRrSUhCdkNaN3hkanlVY0thcjV5V2tfUjVwWFE",
+      "title": "Ce sera son cinquième restaurant, elle ouvre un nouveau McDonald’s à l’entrée de cette ville des Côtes-d’Armor - Actu.fr",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPSktfWUFoeDdFdEY2SXlBMkI4OUsxYXVLX3gxV3J6M3V3SEtxUDY2bkp4eFoteEI3a2RDbkxmbEhWblFNS2lCU0hCS3dmSkV6akhXcnc3YW16bC1iU3RidXU4Qkg0azJxNDBFLUVqU1lQd1pyWU15dGFOWDBIUXV2dE0yMGltSi1xZkpqS2lBT3ZrNlJ0R0szdmRFUlZaTHA5bnFJd2NjNEdvWDdDQ3lXVXZVVHI2cWZMWE53a0QwbjB6cWhhU3hWX3NXMlRZZ0ZIOHZPZlRLRkNzS2paclB0TzZJaTNpTV9sQ2psUWhR",
       "source": "Actu.fr",
-      "date": "2026-11-02T05:00:03+00:00",
-      "section": "Local",
+      "date": "2026-11-03T10:02:38+00:00",
+      "section": "France",
       "score": 64,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quel impact sur l'image de McDo ?"
+    },
+    {
+      "title": "«Journal de campagne numérique #1: comment les candidats parlent aux IA», Ronan Le Goff (La Netscouade) - Stratégies",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOLTBHUmlvN0dYV3FBTDE2RWZmaC1VSlp6Z0pBV0ZqZXVYZ05hT1REdC1PUTB2OW40cnZUVEhoUUR3aWZmSVdrWXcyYV9POUtpZC1nVHhtWFR3ZEV0VTF1SXFMeF8zUjBoWFBpZ005M1pOLTNveXpUX2VYWFNSQ1NfZUl0R0lKcnhseXFWeC13dUw2bG1acXBLdnJNVmxJSFlZcDBiZ0lfeTBfcXI1ZDVuMDRta1M1V2V3NEdsQUZBRmtNQVdKdXF6a3NrS3pFeXhVbEFWZHlwR2FSNTZ6UWNkaDRmMU1SVnV4MXdYemxhcw",
+      "source": "Stratégies",
+      "date": "2026-11-02T15:43:50+00:00",
+      "section": "Campagnes créatives",
+      "score": 64,
+      "reason": "Idée de campagne ou dispositif créatif à explorer",
+      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
     },
     {
       "title": "« Est-ce que j’aurai toujours mon emploi à Noël ? » : les salariés des GiFi des Yvelines entre attente et inquiétude - Actu.fr",
@@ -75,34 +95,14 @@
       "angle": "À analyser : quels faits sont confirmés et quel est le contexte ?"
     },
     {
-      "title": "De groupe Casino à Plesio : Babel accompagne la transformation d’un groupe historique. - Plesio - Babel - agence Publicité / communication / 360 - La Réclame",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYUZPU0ZSVE5MZWRPcEF3blVJVFpOU2tOcUl0QWFQZWdMeFFFc0NuOXhEX0IzcHpVb1VEOVZ3WVRZb1JqWkN0SWtxTHZKam9idUdURzBEbW43QkNqeUMtSGlpWGJLRkNfb29iTXp3dzlCeDQ4NEozOHduUDZBMXdXLTd5U0xoQk8xaTkzblJLaUVZdy1HS0szdWdhOGpxRHBEa1VLUk5GZHUzU3ZFamF5c21KQnBsRDhiU04yQ2duUQ",
-      "source": "La Réclame",
-      "date": "2026-10-30T14:37:24+00:00",
-      "section": "Campagnes créatives",
-      "score": 61,
-      "reason": "Idée de campagne ou dispositif créatif à explorer",
-      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
-    },
-    {
-      "title": "Pourquoi McDonald’s a choisi d’implanter un deuxième restaurant près de Dinan ? - Ouest-France",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNSFNsdGoxYVN0M05kQlZRa2EwTTZCTmpRUDVjanQ2ZFhTd3JZRTBmclNwY2owMGtwRGM5RmZZT21ZU3AwWDQ1YklrckswdVdSTWMtOGo0S0hMemwtQ3J0bjNzSTQ1MEJIdksyVUxXZmVQWkJldXBsWHFuUTJsb3I2OGY0M0ZIZ0xfdUhCLTJNeXMyQWFEb0Q2UXFtZGl5aVVfWGNGUGl5WDVldzdYVnJYY3lWUUhfS0tSdi1Ga3lsVGNqR2dUSndhU25rMHVDR1pKM25HOVJ6aXdRa0RoNm1oTHhiQXZ5dTFTSnFYT1E4NFdpOVk",
-      "source": "Ouest-France",
-      "date": "2026-11-02T06:14:06+00:00",
-      "section": "France",
-      "score": 58,
-      "reason": "Actualité McDo directement exploitable pour la veille",
-      "angle": "À creuser : quel impact sur l'image de McDo ?"
-    },
-    {
-      "title": "Tartiflette et raclette chez McDonald’s : « Croquez la France » met le Reblochon et le Beaufort au menu, mais seulement jusqu’au 30 novembre 2026 - L’Express Franchise",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbEpaSFlkX0FLM3ZhczdxbmpSQzhIbEwtak1HY3JJZlU3VkVPcW9RR2loUGNCcmNFbE1NMjNuZ20wTFRHcjdySUw2SDNaNVYzb0YwVTNIN3RHNFlCMVlzTWJZSXUyWVQtV0Jib0pMbTU2NnlFX0ZDaElpcHZwVWVEdQ",
-      "source": "L’Express Franchise",
-      "date": "2026-10-28T13:42:30+00:00",
-      "section": "France",
-      "score": 58,
-      "reason": "Actualité McDo directement exploitable pour la veille",
-      "angle": "À creuser : quel impact sur l'image de McDo ?"
+      "title": "Stage - Chargé(e) de recrutement - H/F - Burger King France - Stage à Clichy - welcometothejungle.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNazNZRVVWeWhOZnVtVG9YdGZzeFdKejNUVXJFQ1NTaklUTGRxTDl1VEpOTmxsa19qNzNpb1VxNmYwdm1qN1JaUlMxa0lBdXhfY1JNcFREOEl5ZWRVcUl5LXktS1ZTVmp4c0RNUmtRWmt0NHJxZDBRblB2cFlxTFhLbkppV3V6dVJ1ZzVsWjB4dVRLaVdHazZ3MWlDOUR2WFItemtMaEg3ZkdFZFRmZHI2V1hyOGZqQ1Vh",
+      "source": "welcometothejungle.com",
+      "date": "2026-10-29T23:01:23+00:00",
+      "section": "Concurrence",
+      "score": 57,
+      "reason": "Signal concurrentiel à comparer à McDo",
+      "angle": "À creuser : que fait différemment cette enseigne ?"
     }
   ]
 }
