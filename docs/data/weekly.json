@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T08:23:25.931203+00:00",
+  "updated_at": "2026-11-07T08:12:15.725076+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -33,26 +33,6 @@
       "score": 72,
       "reason": "Signal sensible relatif à l'enseigne : vérification indispensable",
       "angle": "À analyser : quels faits sont confirmés et quel est le contexte ?"
-    },
-    {
-      "title": "McDonald’s ou quand la restauration rapide devient un tremplin pour l’emploi - Le Monde.fr",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNUExqRkJrMmRqWFZ5aWU0MnhEMnJweVlBc2lfTEdjZGl6ZDJtQ0R3R2ZPU1lHTFZKMVJPWFRyNXJBTmNMV2o5ZWZUMlFIeUFlcHdBQ3Fjay1WWTdXWEY4V3BURlM0dVJxV0hkR1JQd3M3SjUwZXV0UnZIQVltRzhqUlZxNnBocnl1Z3hTWk9UX2FRWmlVSmEzR1ZrT2FuYWlDTHE2M0lHNFl4QXA1Q0lleE4wdWg1SHRVYkcydXNjY003NElnLTF0cDc5cGZ3eUxZakVmWEFJNXg4ckl4UzhqdlItTGtRSHBCZVAwckJSUHJiQXc1TDJGckdaaw",
-      "source": "Le Monde.fr",
-      "date": "2026-10-30T10:57:32+00:00",
-      "section": "France",
-      "score": 72,
-      "reason": "Actualité McDo directement exploitable pour la veille",
-      "angle": "À creuser : quelle preuve d'expérience collaborateur en tirer ?"
-    },
-    {
-      "title": "McDonald’s relance la chasse aux Pokémon dans ses Happy Meal - La Réclame",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBTalVpMXJlODJoRXljOVlES0VISmdpY05xTWJCb3A5ZmRDZ2Z5aGVrNTJqUm1oWm9sd3Y5Y1lPOE1lVTdMRFNPb3FlZGhHOGNYYkF2ZTVtd3Y",
-      "source": "La Réclame",
-      "date": "2026-10-30T21:18:40+00:00",
-      "section": "Campagnes créatives",
-      "score": 70,
-      "reason": "Actualité McDo directement exploitable pour la veille",
-      "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
     },
     {
       "title": "Un camion s'écrase près d'un McDonald's dans la Loire, la RN 88 coupée toute la nuit : ce qu'il s'est passé - Actu.fr",
@@ -95,6 +75,16 @@
       "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
     },
     {
+      "title": "LA BOX QUI VA AFFOLER REEF EST CHEZ BURGER KING®. - BURGER KING® BELGIQUE - BUZZMAN - agence Publicité / communication / 360 - La Réclame",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMHljb0NUYkh2NzFaNFRrcGRERXFrclJWT2N1WEVJRVRrbDFvT0c0RFVJenUzV2FjcWtLbmJWbzBWYUVqWUo0Q2NtaHc5SnNwTEF5LVFVSXB1Um9ianNqQzYwWDRZYnUxdUlEamVnMnpOSEdSaW55NU9Fd1RrQVdjbWg4MGlXMjZPdUhxeThkRmpwTkE",
+      "source": "La Réclame",
+      "date": "2026-11-03T16:03:45+00:00",
+      "section": "Campagnes créatives",
+      "score": 62,
+      "reason": "Signal concurrentiel à comparer à McDo",
+      "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
+    },
+    {
       "title": "Franchise McDonald’s Espagne : combien ça coûte et comment ça marche - Le Courrier d'Espagne -",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNkE3YklJaVB0SjZfbnlnMXl6MlFORGIxNkVZQnVPM24xWThHdE9JMk1IZGVKUDBKUXg4OHJaeHhHeUJfeG1TblJKQmh1Z2ZyZ3BhaWV0Z3B4OXVFV19wUVNXUzBXZG9ZVGI3WWpLWk5qOWh2MDFmcU9qZG5ZOFN2NkJMNGh4dkNJdTdsRHo5dUFJdw",
       "source": "Le Courrier d'Espagne -",
@@ -103,6 +93,16 @@
       "score": 58,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quel impact sur l'image de McDo ?"
+    },
+    {
+      "title": "Notre première campagne marque employeur ne promet ni confort ni sécurité. Elle promet de l’exigence. Et c’est assumé. On a commencé il y a quinze jours sur notre page LinkedIn, en publiant une vidéo de collaborateur NEPSEN chaque semaine. J’avoue - LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdE5uLWNXcmVCTTlVOWVSMnl2ZGxYaHpnRVBadFQ2RnBmVE9pdTdMVTRVZmN1cXhLMkxNRkZHREJTd0Z4b0hnSzlVdFRtb0tkTkh4QUw0NW4taGVnTzV3bzB6U2UycXhOSV9JY0I3YVZuRUUxb0ZqLXAxX2p1eF8xcW45TlpFckI5S185UXpuUjU4NDE2ZjFMbUU2cC1nQ3FGS1JrUW9xX3pxdThnLVRoSXJJMGtfa0g3M3Vvb2NrbGl4Y0R3TFE",
+      "source": "LinkedIn",
+      "date": "2026-11-02T16:54:34+00:00",
+      "section": "Inspiration RH",
+      "score": 58,
+      "reason": "Idée de campagne ou dispositif créatif à explorer",
+      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
     }
   ]
 }
