@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T08:12:15.725076+00:00",
+  "updated_at": "2026-11-08T08:12:39.238673+00:00",
   "sources_ok": 115,
   "sources_total": 116,
   "source_names": [
@@ -91,7 +91,6 @@
     "Le Monde.fr",
     "Le Moniteur des pharmacies",
     "Le Parisien",
-    "Le Populaire du Centre",
     "Le Progrès",
     "Le Soir",
     "Le Super Daily",
@@ -111,6 +110,8 @@
     "McDonald's France",
     "Metricool",
     "Midi Libre",
+    "Ministère de l'Intérieur",
+    "Ministère de l'Éducation nationale",
     "Ministère du Travail et des Solidarités",
     "Monde des grandes écoles",
     "Naudrh.com",
@@ -146,6 +147,7 @@
     "The Media Leader",
     "Top Santé",
     "Uber",
+    "Valeurs actuelles",
     "Welcome to the Jungle : Solution",
     "Zepros Restauration",
     "blogdumoderateur.com",
@@ -167,9 +169,9 @@
     "www.republikgroup.com",
     "Éditions Tissot"
   ],
-  "source_count": 163,
+  "source_count": 165,
   "source_priority_policy": "Sélection éditoriale indicative : score déterminé par titre, source, rubrique et date. Aucun contenu intégral analysé.",
-  "new_count": 19,
+  "new_count": 13,
   "source_errors": [
     {
       "source": "La Réclame",
@@ -177,6 +179,163 @@
     }
   ],
   "articles": [
+    {
+      "title": "Influenceurs RH : 5 nouvelles voix qui comptent, épisode 3",
+      "url": "https://myrhline.com/type-article/influenceurs-rh-selection-redaction-episode-3/",
+      "source": "myRHline",
+      "date": "2026-11-08T07:06:45+00:00",
+      "section": "Inspiration RH",
+      "sections": [
+        "Inspiration RH"
+      ],
+      "query": "Flux myRHline",
+      "channel": "RSS direct",
+      "type": "article",
+      "editorial": {
+        "score": 37,
+        "tags": [],
+        "source_tier": 2,
+        "reason": "Actualité sectorielle ou RH à qualifier",
+        "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
+    },
+    {
+      "title": "Groupe Zouari et Stokomani/Maxi Bazar, Shein et centre logistique XXL, Quick en France... Les cinq infos à retenir dans la grande conso’ cette semaine - LSA conso",
+      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQNTRFSFRBVVlIN1BLdlZWNDZhSWRCZXZGSGJPTHh3RkN5aUZDd0NnQk5ZazNZdUJTQVoxQkZKa3NoZnU2M2hIN0NFUWl1SkJiVDFobERRT29pWXUtRXpLMGduRF9FeWFUclZoRXhESUtvMWcweXZNS1JaWHFOVzJyQmZkX3lNZE0tSm1qVmp3cjNyZUtuWXVXWHhNV1c0djVFaElrVE5GWm5ocEFJRUtoeHQyY2EwNHRHX2MwbWZKOHdyZ2d4OGo2OHpQMXdVZUF6RTY1WDBMaUJMOGFRZzZfUHduTmpmRTZ4dkRLWVRTU05YYl9pT0FpcThEUndFai1OZHgzWE02VUFEVTg2OVM1cjJjenQzMHlwM01oZ1RmTjRYLXMzZjVWemg0dVh0cEdCaXd1RG81QWVfLXdQLW1V",
+      "source": "LSA conso",
+      "date": "2026-11-08T06:00:00+00:00",
+      "section": "Concurrence",
+      "sections": [
+        "Concurrence"
+      ],
+      "query": "site:lsa-conso.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
+      "channel": "Google Actualités",
+      "type": "article",
+      "editorial": {
+        "score": 45,
+        "tags": [
+          "impact"
+        ],
+        "source_tier": 2,
+        "reason": "Signal concurrentiel à comparer à McDo",
+        "angle": "À creuser : que fait différemment cette enseigne ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
+    },
+    {
+      "title": "« On veut du bio, pas du McDo » : la France contre les fast-food ? - Valeurs actuelles",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQME5BdzdBcDVaVG82T0h6eGJvVDdLTFp0QV84SURUVXU0S2s2U0VvNy1JcjFWd19rUnNVUTlXMXFrU2FKTzQtaExyV214NXNDZVhzbFBkV2dIWkFNUVhRMjJfUHJUX29CaWZTNWdKLUZsS3oyNnVoRm01Tm9Tdjh4bENwSGVQVnJzbmZHUTFzR2Z6ejdXWFdVdVRWMEZuRGc",
+      "source": "Valeurs actuelles",
+      "date": "2026-11-07T16:01:20+00:00",
+      "section": "France",
+      "sections": [
+        "France"
+      ],
+      "query": "McDonald's France actualité",
+      "channel": "Google Actualités",
+      "type": "article",
+      "editorial": {
+        "score": 50,
+        "tags": [
+          "impact"
+        ],
+        "source_tier": 3,
+        "reason": "Actualité McDo directement exploitable pour la veille",
+        "angle": "À creuser : quel impact sur l'image de McDo ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
+    },
+    {
+      "title": "British Airways transforme les flaques londoniennes en fenêtres ouvertes sur le soleil - La Réclame",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9TTGRIUWY0NmxmMWsyWkhTbHZ3SUJiQVdhQWsxazRWc2pOYzRISm5KZ2tvcEY0NVdZWno5QUN0S2haR1U3Q3VNZ2w0VWZzcENWVXNsSVBwN28waGYxRkVISnowQzlRMFFsdVZWbUtPcFZ5eDBGY2Fz",
+      "source": "La Réclame",
+      "date": "2026-11-07T14:33:46+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:lareclame.fr (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités",
+      "type": "article",
+      "editorial": {
+        "score": 46,
+        "tags": [
+          "campaign"
+        ],
+        "source_tier": 2,
+        "reason": "Idée de campagne ou dispositif créatif à explorer",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
+    },
+    {
+      "title": "Pourquoi les marques doivent revoir leur façon de travailler avec les créateurs - La Réclame",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB6SElJeHVRdEdBRXFmUkQ3ejJKR2h1aWVFOGRsTFcwZUx5c1NIcVVqUHl4NHh6em5TZHRtUGhKS1VnVWVieF9IeUNLWlNRdGdZWkE5by1HR01UUm1iUnc",
+      "source": "La Réclame",
+      "date": "2026-11-07T14:22:24+00:00",
+      "section": "Inspiration RH",
+      "sections": [
+        "Inspiration RH"
+      ],
+      "query": "site:lareclame.fr (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités",
+      "type": "article",
+      "editorial": {
+        "score": 37,
+        "tags": [],
+        "source_tier": 2,
+        "reason": "Actualité sectorielle ou RH à qualifier",
+        "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
+    },
+    {
+      "title": "TF1+ muscle son offre publicitaire pour 2027 - La Réclame",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SNkpxZ0JReE14YmE4MDVMYUpSRWFvOEVRSzNTalJzN0Jxa2dkYWlaaVRKSi15cEZQdmpveVh0RG5Gbjl4TU5IMVMwLU5oR1dkSzdWeVJyUQ",
+      "source": "La Réclame",
+      "date": "2026-11-07T14:17:10+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:lareclame.fr (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités",
+      "type": "article",
+      "editorial": {
+        "score": 46,
+        "tags": [
+          "campaign"
+        ],
+        "source_tier": 2,
+        "reason": "Idée de campagne ou dispositif créatif à explorer",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
+    },
+    {
+      "title": "« Les 25 heures qui courent » : Clem Qui Court transforme Twitch en trail géant - La Réclame",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Gd3htcC1hT2UxZWxfZXBVVHBmREpsS2NGR29UMmIwMV9yTnMyR05EN2dLQWR4RWRoM2tsZ0diMFM2NWpfd0pUc1JrQ2ZyalAxWHc2MjgycmFoTElTRXdiUTFXUWZrcWFYa2JkeHA3X0ZsZw",
+      "source": "La Réclame",
+      "date": "2026-11-07T10:49:41+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:lareclame.fr (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités",
+      "type": "article",
+      "editorial": {
+        "score": 46,
+        "tags": [
+          "campaign"
+        ],
+        "source_tier": 2,
+        "reason": "Idée de campagne ou dispositif créatif à explorer",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
+    },
     {
       "title": "Quelle est la musique de la pub McDonald’s « Croquez la France » 2026 ? - La Réclame",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xMzhKWlBobVJ0c0ROek1PaUZEaTljOXFfa3N6OTU2eWlmZkhjdE11X3hyLUJMLUk0ekU2b3U0S1FQb3l0Nm9GOFFabDhwZ1B6MlRsNy1KcFFpeFAwTjlzbUJlekJLa1BQdURv",
@@ -795,6 +954,29 @@
           "campaign"
         ],
         "source_tier": 2,
+        "reason": "Idée de campagne ou dispositif créatif à explorer",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
+    },
+    {
+      "title": "Les campagnes de sensibilisation - Ministère de l'Éducation nationale",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdjhKdkdMS042V243SEhER0dFRF8yT0c5N0I3bTlRVkkzZnZLYlFRX0lVRG12SHhZbXRQTTJZeFFWQlp5MDZOYVdHMEZvS1I2ZGl4WkQ1NjhkWDJPTmplbWxGQ2RQb0FTazFxSGVCdkkxbUpoMVQtU1UwUE5lQnBDZVF4UkkxV2RXVTJmRFBscG5NUQ",
+      "source": "Ministère de l'Éducation nationale",
+      "date": "2026-11-05T09:55:07+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "meilleures campagnes de publicité 2026 France",
+      "channel": "Google Actualités",
+      "type": "article",
+      "editorial": {
+        "score": 43,
+        "tags": [
+          "campaign"
+        ],
+        "source_tier": 3,
         "reason": "Idée de campagne ou dispositif créatif à explorer",
         "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
@@ -2477,6 +2659,29 @@
       }
     },
     {
+      "title": "Uncommon transforme les emails non lus en zombies à dégommer - La Réclame",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1NHVOUmRRNnF0UFhyQTNjRG53bWdpM2ZYelFnanI2azRCSDNKMW1mZXlaZDUyd1hXcldSNXVnZXI4U0dYMlVlR0Y5bHFYNzVpMDhwY1BnQVNDYmc5UHFYOQ",
+      "source": "La Réclame",
+      "date": "2026-11-03T04:35:27+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:lareclame.fr (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités",
+      "type": "article",
+      "editorial": {
+        "score": 46,
+        "tags": [
+          "campaign"
+        ],
+        "source_tier": 2,
+        "reason": "Idée de campagne ou dispositif créatif à explorer",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
+    },
+    {
       "title": "Chargée / Chargé de recrutement - AÉSIO mutuelle - CDD / Temporaire à Saint-Etienne - welcometothejungle.com",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRzBQV210T2pBQ1gzN0w3ZWdhYVNZdmlBekdmQ1RmSDJjU0w1aWlQRGJDX0tuWVJncWY4UG9NTVBocEsyOWZUd1lmcGpsakpHNU5HV0xfcVVfUVF3VnhONlk4VEY2XzNVYXQwOEtLQ2cyMHdFZXJQUG50Ykh1Q0NTN25uUXM4OENPZFBCYW9TRVRhOWJBc1dSUUozMURjajFHVUZ2blNLMXpGX0Z0eHBJRQ",
       "source": "welcometothejungle.com",
@@ -3543,7 +3748,7 @@
       "channel": "RSS direct",
       "type": "article",
       "editorial": {
-        "score": 37,
+        "score": 33,
         "tags": [],
         "source_tier": 2,
         "reason": "Actualité sectorielle ou RH à qualifier",
@@ -3564,7 +3769,7 @@
       "channel": "Google Actualités",
       "type": "article",
       "editorial": {
-        "score": 49,
+        "score": 45,
         "tags": [
           "campaign"
         ],
@@ -11629,7 +11834,7 @@
       "channel": "Google Actualités",
       "type": "article",
       "editorial": {
-        "score": 36,
+        "score": 32,
         "tags": [],
         "source_tier": 1,
         "reason": "Actualité sectorielle ou RH à qualifier",
@@ -11651,7 +11856,7 @@
       "channel": "Google Actualités",
       "type": "article",
       "editorial": {
-        "score": 60,
+        "score": 56,
         "tags": [
           "impact"
         ],
@@ -11675,7 +11880,7 @@
       "channel": "Google Actualités",
       "type": "article",
       "editorial": {
-        "score": 57,
+        "score": 53,
         "tags": [
           "impact"
         ],
@@ -11698,7 +11903,7 @@
       "channel": "Google Actualités",
       "type": "article",
       "editorial": {
-        "score": 42,
+        "score": 38,
         "tags": [
           "campaign"
         ],
@@ -11721,7 +11926,7 @@
       "channel": "Google Actualités",
       "type": "article",
       "editorial": {
-        "score": 42,
+        "score": 38,
         "tags": [
           "campaign"
         ],
@@ -20539,7 +20744,7 @@
       "channel": "Google Actualités",
       "type": "article",
       "editorial": {
-        "score": 35,
+        "score": 31,
         "tags": [
           "campaign"
         ],
@@ -20560,7 +20765,7 @@
         "France"
       ],
       "editorial": {
-        "score": 42,
+        "score": 38,
         "tags": [
           "impact"
         ],
@@ -20583,7 +20788,7 @@
       "query": "transparence salaire formation évolution carrière employeur",
       "channel": "Google Actualités",
       "editorial": {
-        "score": 33,
+        "score": 29,
         "tags": [
           "impact"
         ],
@@ -20606,7 +20811,7 @@
       "query": "site:helloworkplace.fr (recrutement OR marque employeur OR RH OR carrière)",
       "channel": "Google Actualités",
       "editorial": {
-        "score": 32,
+        "score": 28,
         "tags": [],
         "source_tier": 1,
         "reason": "Actualité sectorielle ou RH à qualifier",
@@ -20628,7 +20833,7 @@
       "channel": "Google Actualités",
       "type": "article",
       "editorial": {
-        "score": 33,
+        "score": 29,
         "tags": [
           "impact"
         ],
@@ -20650,7 +20855,7 @@
       "query": "site:cbnews.fr (campagne OR publicité OR marketing OR créativité)",
       "channel": "Google Actualités",
       "editorial": {
-        "score": 41,
+        "score": 37,
         "tags": [
           "campaign"
         ],
@@ -20673,7 +20878,7 @@
       "query": "site:snacking.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
       "channel": "Google Actualités",
       "editorial": {
-        "score": 49,
+        "score": 45,
         "tags": [
           "campaign"
         ],
@@ -20697,7 +20902,7 @@
       "channel": "Google Actualités",
       "type": "article",
       "editorial": {
-        "score": 49,
+        "score": 45,
         "tags": [
           "campaign"
         ],
@@ -20720,7 +20925,7 @@
       "channel": "Google Actualités",
       "type": "article",
       "editorial": {
-        "score": 49,
+        "score": 45,
         "tags": [
           "campaign"
         ],
@@ -20743,7 +20948,7 @@
       "channel": "Google Actualités",
       "type": "article",
       "editorial": {
-        "score": 49,
+        "score": 45,
         "tags": [
           "campaign"
         ],
@@ -20766,7 +20971,7 @@
       "channel": "Google Actualités",
       "type": "article",
       "editorial": {
-        "score": 36,
+        "score": 32,
         "tags": [
           "impact"
         ],
@@ -21434,6 +21639,29 @@
         "source_tier": 1,
         "reason": "Chiffres ou étude RH à vérifier avant publication",
         "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
+    },
+    {
+      "title": "Bayard Jeunesse lance sa première campagne pour ses 60 ans - Stratégies",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcXdQUG9mZlFNNVFkbmV1UjVJeDF5dWYwZmJkMnduQ0RqVXBGN2YyWExIVGJwc3hEc0JrVnB1WHdzSm9tbXIwd0xzeXBhanVrMnFNX2F6Q0pLZnJoZ29ycjhvZWVvQkdqT0toV1RnbE42QnhTR3hsTzE5enRMaGNGNU41RWlSSzVhU2hmSUppSmk0eE9zTkVSdlZxU0o3OGUzNlhxRU9KaE9lR0JidUxHNE9qNzJ2Wk9VV1E",
+      "source": "Stratégies",
+      "date": "2026-09-21T07:00:00+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "site:strategies.fr (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités",
+      "type": "article",
+      "editorial": {
+        "score": 37,
+        "tags": [
+          "campaign"
+        ],
+        "source_tier": 1,
+        "reason": "Idée de campagne ou dispositif créatif à explorer",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
       }
     },
@@ -24573,6 +24801,29 @@
       }
     },
     {
+      "title": "Une entreprise peut perdre un candidat bien avant son premier jour. Parfois même avant le premier entretien. Dans le troisième épisode de notre série consacrée aux mutations des ressources humaines, Virginie Dal, head of people development chez Recrut - LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY0g2Vm14Y090R1VNcUdXVm5FZkhwSlMtRmtKMlJKNXowV1gyWDE0THVaOHZJWlA1ektzQmJiTGY2bmplSmxBZjV4dWo1NGQxY3NGMnNJQjE4SHA5eUljMWJ2d0xvYW5Lc2dJdEt5aG0zWTlvR0dySXFNbFZwLXFoWWhINEQ3ZEp6UmoybC0zZDNpQmFOeUZRaXpxaDZPQU5RZ1dFemlDWVRoS1R0Wk1FTg",
+      "source": "LinkedIn",
+      "date": "2026-07-22T07:00:00+00:00",
+      "section": "Inspiration RH",
+      "sections": [
+        "Inspiration RH"
+      ],
+      "query": "site:linkedin.com/posts communication RH expérience candidat",
+      "channel": "Google Actualités",
+      "type": "article",
+      "editorial": {
+        "score": 29,
+        "tags": [
+          "impact"
+        ],
+        "source_tier": 3,
+        "reason": "Pratique RH ou marque employeur potentiellement transposable",
+        "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
+    },
+    {
       "title": "« Pas de McDo ici ! » : une pétition lancée contre l’arrivée du géant du fast-food près de Dijon - Actu.fr",
       "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOdVdJUHg5T1BnUk9JdVRGLWtJblFOU1ZwQi1TN3d6RjhrdjFwb0N1UUEwY1RrcVhNeE1xTG5RYlFnME1xNkdlendfN2FkQzZwZkpEank2cTZsOTBQMkh0SGtMSlpsVzdvZ21tbzhIWFZuSS1MbllwMERGbHZiVkNYY1FQSVU5ZGpTdWVXUlNOMmxiTFJITzUtTXVtdndmVUFJalB2OFpEOGFiNjBjWkg0bzd6TmFqT1Z3R09VX19JWEZvb1B2TldGYk1wbGIyRkloR2o3RmY1UXRfajVoSjNCSG85UGFGSzNBMkJoT2tyOHViN1FDa2M5QkpTWHU?oc=5",
       "source": "Actu.fr",
@@ -26742,6 +26993,30 @@
       }
     },
     {
+      "title": "FreeWheel et FranceTV Publicité renouvellent leur collaboration - CB News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOX21YYlluQWxHZkEwTTNUSjZ0bHRnbGNJLWlUTUNMOVIxb2ZBS1dDRUJGaWhZVHQ1eXVUOThXb21JdEhSb2xfQ1dFVXJPamRxNjRUYlUwLWFZbWVIajRNOW0xYVAtbFcza2ZHMEVRMXY3Q0JINFV5QjNKLU1aTEd6a09UbEN2M0gxc3hmd1VkRVEzX28",
+      "source": "CB News",
+      "date": "2026-06-16T07:00:00+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Inspiration RH",
+        "Campagnes créatives"
+      ],
+      "query": "site:cbnews.fr (campagne OR publicité OR marketing OR créativité)",
+      "channel": "Google Actualités",
+      "type": "article",
+      "editorial": {
+        "score": 45,
+        "tags": [
+          "campaign"
+        ],
+        "source_tier": 1,
+        "reason": "Idée de campagne ou dispositif créatif à explorer",
+        "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
+    },
+    {
       "title": "Distribution alimentaire : Coopérative U débauche le directeur marketing de McDonald's France [exclusivité LSA] - LSA conso",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaFo4Uk8tSlBQa28zOWRnTXJjd3ZkMDA1dDBKMHF2b2d2YURDNUJLdHBma3RNV1l5cjJVLXBRZGk1Und6emYxZmlqWjlHak80dTJGNFZBcGtnUjI3TkFDNWNFSk1MTFpwdzhOMHBZS2swNWJ1SWJpMC0taXRlTFJreW9Kcml0VHNQdFdmbFVSb0JHaFVOZkZjc0l5alZrdk9jRjZHQW40d0E2VHcyYzBobTFiY0VHZ2R1VVZuVHdPV1dhWERrWUF5M0JaMnVfUjZHQlRzWHpadw",
       "source": "LSA conso",
@@ -27254,6 +27529,29 @@
         ],
         "source_tier": 1,
         "reason": "Signal concurrentiel à comparer à McDo",
+        "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
+        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+      }
+    },
+    {
+      "title": "Lancement de la campagne de prévention des feux de forêt et de végétation 2026 - Ministère de l'Intérieur",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQU1VkRHpQSUdqQ1prMzdYM1hIS2o5LWNnMnc3QWpoaUlOV0hTZ3I2anhROFB5OW5jN1pyZ01odmJMLWlqTDJGSjVoWXRLcVpTbHVxa212LW9ZLTBQOHpxdTlPb0JGVUxCMzgzYV91ZC1VY2JZYTRac29nX1ZOMW1vZVZ2SkgzaHFzU1lFVVR3ZU0tMXM0b1JMRkhLaUxwcFMxaXpiV0Y5bTJWaDhXMVZDM0lvQnh6WGRWVWEycUo2N3VETXJiYXdtSzhfeDl6Z2hK",
+      "source": "Ministère de l'Intérieur",
+      "date": "2026-06-09T07:00:00+00:00",
+      "section": "Campagnes créatives",
+      "sections": [
+        "Campagnes créatives"
+      ],
+      "query": "meilleures campagnes de publicité 2026 France",
+      "channel": "Google Actualités",
+      "type": "article",
+      "editorial": {
+        "score": 31,
+        "tags": [
+          "campaign"
+        ],
+        "source_tier": 3,
+        "reason": "Idée de campagne ou dispositif créatif à explorer",
         "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
       }
@@ -28818,77 +29116,6 @@
         "source_tier": 1,
         "reason": "Actualité sectorielle ou RH à qualifier",
         "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
-        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-      },
-      "type": "article"
-    },
-    {
-      "title": "Le McDonald's de Bellac a ouvert ses portes - Le Populaire du Centre",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTFZIVWRFUlYtekFPRHhRcXdxTW5IMjVTNDZ1QjV5T29BRHJEUHA5RzNYZnFfNmhSdjJqVWgzU3FXQkFobVF6cjJ6NDlDbWxsYk1wVHVNUmx0QWhvSG1XWGpERG12Ql9MbVZvWV9zbWN5RmowVTV1OGt6cThrZl9jM2VVUmQ3OGY3YUpZS0x3Z1BaMl84ZWNYalVTU2F2MHg5ZlNMYg",
-      "source": "Le Populaire du Centre",
-      "date": "2026-05-12T07:00:00+00:00",
-      "section": "Local",
-      "sections": [
-        "France",
-        "Local"
-      ],
-      "query": "McDonald's recrutement restaurant ville France",
-      "channel": "Google Actualités",
-      "editorial": {
-        "score": 46,
-        "tags": [
-          "impact"
-        ],
-        "source_tier": 3,
-        "reason": "Actualité McDo directement exploitable pour la veille",
-        "angle": "À creuser : quel impact sur l'image de McDo ?",
-        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-      },
-      "type": "article"
-    },
-    {
-      "title": "BMO 2026 : les besoins de recrutement restent importants en Nouvelle-Aquitaine - France Travail.org",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNckF2ZmpBQko1NGlla252Z3BLZl9lSVBBSUpFMkVRV0dJUkhDbXVmc0djM1M4RU5ZajlrRFhHOTRyajNWLUpySFg2Zll4a1E3ZHlTbVVYazBnYk1aWDduZFB0UGt3aUtzUjdwWHNJSjU5aDdKSzhmNzE4NlNOUmhSZURQTzhfNER2eEhiMWVldjhxWHkzazltSHdUNVVtV0JQQnZ5cTVFSWJTNThnWjQ0Q0RhYnMyLWFLajI1NWJnazB1VTFCdnJfWk5hdWxyVnpyWWEwQnRuTklSbGxOQ0hXc18xd2VhWXZUMzVWUWZFaFpJTHZReGNWTXFGNA",
-      "source": "France Travail.org",
-      "date": "2026-05-12T07:00:00+00:00",
-      "section": "Inspiration RH",
-      "sections": [
-        "Inspiration RH"
-      ],
-      "query": "France Travail intentions embauche restauration 2026",
-      "channel": "Google Actualités",
-      "editorial": {
-        "score": 35,
-        "tags": [
-          "impact"
-        ],
-        "source_tier": 1,
-        "reason": "Pratique RH ou marque employeur potentiellement transposable",
-        "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
-        "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-      },
-      "type": "article"
-    },
-    {
-      "title": "Hausse spectaculaire des intentions d'embauche dans le Cher pour 2026 : ce que cachent vraiment ces chiffres - Le Berry Républicain",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQN3F3NWIzRnY3Q2FjR3ZGZVduaVE5Nm14XzRPVFhxOGZXU1A0NUdLblVJZFVwcUs4cUZBVkI0RTZhMkRDaXVpZDhocVlCaUY1R2dTTWRLNmhXUlZ6cUZTbUViTzF2VGhzeHlHOHRoSk0yTFliekhkR0xJUU82UlFFWFBLWmVsNnlENHNwaDdVaERIeUdBQjg1Q3ZLWG5tRndJRUdrek1JSGJNSHdiNDc1QzFtSDhxQXRQQWhLRV9GSmV4dkdNck40SE9tZE9SSjZHNWFyOTVHSG5ybUt0cldJMnA2YnBSRVFwUWk2ekJFcVRCU09a",
-      "source": "Le Berry Républicain",
-      "date": "2026-05-12T07:00:00+00:00",
-      "section": "Inspiration RH",
-      "sections": [
-        "Inspiration RH"
-      ],
-      "query": "France Travail intentions embauche restauration 2026",
-      "channel": "Google Actualités",
-      "editorial": {
-        "score": 45,
-        "tags": [
-          "studies",
-          "impact"
-        ],
-        "source_tier": 3,
-        "reason": "Chiffres ou étude RH à vérifier avant publication",
-        "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?",
         "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
       },
       "type": "article"

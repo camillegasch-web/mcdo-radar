@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-11-07T08:12:15.725076+00:00",
+  "updated_at": "2026-11-08T08:12:39.238673+00:00",
   "sections": {
     "France": [
       {
-        "title": "Quelle est la musique de la pub McDonald’s « Croquez la France » 2026 ? - La Réclame",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xMzhKWlBobVJ0c0ROek1PaUZEaTljOXFfa3N6OTU2eWlmZkhjdE11X3hyLUJMLUk0ekU2b3U0S1FQb3l0Nm9GOFFabDhwZ1B6MlRsNy1KcFFpeFAwTjlzbUJlekJLa1BQdURv",
-        "source": "La Réclame",
-        "date": "2026-11-06T18:00:53+00:00",
+        "title": "« On veut du bio, pas du McDo » : la France contre les fast-food ? - Valeurs actuelles",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQME5BdzdBcDVaVG82T0h6eGJvVDdLTFp0QV84SURUVXU0S2s2U0VvNy1JcjFWd19rUnNVUTlXMXFrU2FKTzQtaExyV214NXNDZVhzbFBkV2dIWkFNUVhRMjJfUHJUX29CaWZTNWdKLUZsS3oyNnVoRm01Tm9Tdjh4bENwSGVQVnJzbmZHUTFzR2Z6ejdXWFdVdVRWMEZuRGc",
+        "source": "Valeurs actuelles",
+        "date": "2026-11-07T16:01:20+00:00",
         "section": "France",
         "sections": [
           "France"
         ],
-        "query": "site:lareclame.fr (campagne OR publicité OR marketing OR créativité)",
+        "query": "McDonald's France actualité",
         "channel": "Google Actualités",
         "type": "article",
         "editorial": {
-          "score": 53,
+          "score": 50,
           "tags": [
             "impact"
           ],
-          "source_tier": 2,
+          "source_tier": 3,
           "reason": "Actualité McDo directement exploitable pour la veille",
           "angle": "À creuser : quel impact sur l'image de McDo ?",
           "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
@@ -30,23 +30,23 @@
     "RH McDo": [],
     "Concurrence": [
       {
-        "title": "Burger King imprime des témoignages d’enfants harcelés sur l’emballage du Whopper",
-        "url": "https://www.danstapub.com/burger-king-hunger-whopper-harcelement/",
-        "source": "Dans Ta Pub",
-        "date": "2026-11-06T09:03:54+00:00",
+        "title": "Groupe Zouari et Stokomani/Maxi Bazar, Shein et centre logistique XXL, Quick en France... Les cinq infos à retenir dans la grande conso’ cette semaine - LSA conso",
+        "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQNTRFSFRBVVlIN1BLdlZWNDZhSWRCZXZGSGJPTHh3RkN5aUZDd0NnQk5ZazNZdUJTQVoxQkZKa3NoZnU2M2hIN0NFUWl1SkJiVDFobERRT29pWXUtRXpLMGduRF9FeWFUclZoRXhESUtvMWcweXZNS1JaWHFOVzJyQmZkX3lNZE0tSm1qVmp3cjNyZUtuWXVXWHhNV1c0djVFaElrVE5GWm5ocEFJRUtoeHQyY2EwNHRHX2MwbWZKOHdyZ2d4OGo2OHpQMXdVZUF6RTY1WDBMaUJMOGFRZzZfUHduTmpmRTZ4dkRLWVRTU05YYl9pT0FpcThEUndFai1OZHgzWE02VUFEVTg2OVM1cjJjenQzMHlwM01oZ1RmTjRYLXMzZjVWemg0dVh0cEdCaXd1RG81QWVfLXdQLW1V",
+        "source": "LSA conso",
+        "date": "2026-11-08T06:00:00+00:00",
         "section": "Concurrence",
         "sections": [
           "Concurrence"
         ],
-        "query": "Flux Dans Ta Pub",
-        "channel": "RSS direct",
+        "query": "site:lsa-conso.fr (McDonald's OR recrutement OR franchise OR restauration OR emploi OR restaurant)",
+        "channel": "Google Actualités",
         "type": "article",
         "editorial": {
-          "score": 48,
+          "score": 45,
           "tags": [
             "impact"
           ],
-          "source_tier": 1,
+          "source_tier": 2,
           "reason": "Signal concurrentiel à comparer à McDo",
           "angle": "À creuser : que fait différemment cette enseigne ?",
           "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
@@ -55,111 +55,42 @@
     ],
     "Inspiration RH": [
       {
-        "title": "Courir : comment une enseigne de 3 300 collaborateurs repense son pilotage des talents",
-        "url": "https://culture-rh.com/webinaire-pilotage-talents/",
-        "source": "Culture RH",
-        "date": "2026-11-06T13:00:00+00:00",
+        "title": "Influenceurs RH : 5 nouvelles voix qui comptent, épisode 3",
+        "url": "https://myrhline.com/type-article/influenceurs-rh-selection-redaction-episode-3/",
+        "source": "myRHline",
+        "date": "2026-11-08T07:06:45+00:00",
         "section": "Inspiration RH",
         "sections": [
           "Inspiration RH"
         ],
-        "query": "Flux Culture RH",
+        "query": "Flux myRHline",
         "channel": "RSS direct",
         "type": "article",
         "editorial": {
-          "score": 40,
+          "score": 37,
           "tags": [],
-          "source_tier": 1,
+          "source_tier": 2,
           "reason": "Actualité sectorielle ou RH à qualifier",
           "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
           "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
         }
       },
       {
-        "title": "Avantages salariés : 2027 sera l’année où les PME devront montrer ce qu’elles donnent",
-        "url": "https://myrhline.com/type-article/avantages-salaries-pme-2027/",
-        "source": "myRHline",
-        "date": "2026-11-06T12:50:54+00:00",
+        "title": "Pourquoi les marques doivent revoir leur façon de travailler avec les créateurs - La Réclame",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB6SElJeHVRdEdBRXFmUkQ3ejJKR2h1aWVFOGRsTFcwZUx5c1NIcVVqUHl4NHh6em5TZHRtUGhKS1VnVWVieF9IeUNLWlNRdGdZWkE5by1HR01UUm1iUnc",
+        "source": "La Réclame",
+        "date": "2026-11-07T14:22:24+00:00",
         "section": "Inspiration RH",
         "sections": [
           "Inspiration RH"
         ],
-        "query": "Flux myRHline",
-        "channel": "RSS direct",
-        "type": "article",
-        "editorial": {
-          "score": 44,
-          "tags": [
-            "impact"
-          ],
-          "source_tier": 2,
-          "reason": "Pratique RH ou marque employeur potentiellement transposable",
-          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
-          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-        }
-      },
-      {
-        "title": "Le « salaire vital » : payer de quoi vivre dignement",
-        "url": "https://www.helloworkplace.fr/salaire-vital-mot-rh/",
-        "source": "HelloWorkplace / HelloWork",
-        "date": "2026-11-06T06:58:34+00:00",
-        "section": "Inspiration RH",
-        "sections": [
-          "Inspiration RH"
-        ],
-        "query": "Flux HelloWorkplace / HelloWork",
-        "channel": "RSS direct",
-        "type": "article",
-        "editorial": {
-          "score": 47,
-          "tags": [
-            "impact"
-          ],
-          "source_tier": 1,
-          "reason": "Pratique RH ou marque employeur potentiellement transposable",
-          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
-          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-        }
-      },
-      {
-        "title": "Management de la performance durable : la fin du manager héros",
-        "url": "https://myrhline.com/type-article/management-performance-durable-manager-heros/",
-        "source": "myRHline",
-        "date": "2026-11-06T05:58:44+00:00",
-        "section": "Inspiration RH",
-        "sections": [
-          "Inspiration RH"
-        ],
-        "query": "Flux myRHline",
-        "channel": "RSS direct",
-        "type": "article",
-        "editorial": {
-          "score": 44,
-          "tags": [
-            "impact"
-          ],
-          "source_tier": 2,
-          "reason": "Pratique RH ou marque employeur potentiellement transposable",
-          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
-          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-        }
-      },
-      {
-        "title": "Carte cadeau : un levier de reconnaissance en entreprise - Culture RH",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvWmNjdnlPZjQtbVYwS1IzUkxPSzMtQlc1VGRkZjVhM0I5cENYYnptQkEyaHBlOXdwR0Q4RVNlc2dQNDczaWpJc0VxTk0tMl8wV2pFSFFHbG9WTG8",
-        "source": "Culture RH",
-        "date": "2026-11-06T05:07:04+00:00",
-        "section": "Inspiration RH",
-        "sections": [
-          "Inspiration RH"
-        ],
-        "query": "site:culture-rh.com (recrutement OR marque employeur OR RH OR carrière)",
+        "query": "site:lareclame.fr (campagne OR publicité OR marketing OR créativité)",
         "channel": "Google Actualités",
         "type": "article",
         "editorial": {
-          "score": 40,
+          "score": 37,
           "tags": [],
-          "source_tier": 1,
+          "source_tier": 2,
           "reason": "Actualité sectorielle ou RH à qualifier",
           "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
           "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
@@ -168,79 +99,10 @@
     ],
     "Campagnes créatives": [
       {
-        "title": "Raid organisé, blocage des adversaires : la campagne présidentielle aura-t-elle des allures de jeux vidéos ?",
-        "url": "https://www.ladn.eu/nouveaux-usages/raid-organise-blocage-des-adversaires-la-campagne-presidentielle-aura-t-elle-des-allures-de-jeux-videos/?utm_source=rss&utm_medium=rss&utm_campaign=raid-organise-blocage-des-adversaires-la-campagne-presidentielle-aura-t-elle-des-allures-de-jeux-videos",
-        "source": "L'ADN",
-        "date": "2026-11-06T16:19:29+00:00",
-        "section": "Campagnes créatives",
-        "sections": [
-          "Campagnes créatives"
-        ],
-        "query": "Flux L'ADN",
-        "channel": "RSS direct",
-        "type": "article",
-        "editorial": {
-          "score": 49,
-          "tags": [
-            "campaign"
-          ],
-          "source_tier": 1,
-          "reason": "Idée de campagne ou dispositif créatif à explorer",
-          "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
-          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-        }
-      },
-      {
-        "title": "Cervelle crue ou animaux sauvages ramassés morts… ils sont prêts à tout manger pour échapper aux aliments ultra-transformés",
-        "url": "https://www.ladn.eu/nouveaux-usages/cervelle-crue-ou-animaux-sauvages-ramasses-morts-ils-sont-prets-a-tout-manger-pour-echapper-aux-aliments-ultra-transformes/?utm_source=rss&utm_medium=rss&utm_campaign=cervelle-crue-ou-animaux-sauvages-ramasses-morts-ils-sont-prets-a-tout-manger-pour-echapper-aux-aliments-ultra-transformes",
-        "source": "L'ADN",
-        "date": "2026-11-06T15:35:23+00:00",
-        "section": "Campagnes créatives",
-        "sections": [
-          "Campagnes créatives"
-        ],
-        "query": "Flux L'ADN",
-        "channel": "RSS direct",
-        "type": "article",
-        "editorial": {
-          "score": 49,
-          "tags": [
-            "campaign"
-          ],
-          "source_tier": 1,
-          "reason": "Idée de campagne ou dispositif créatif à explorer",
-          "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
-          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-        }
-      },
-      {
-        "title": "Levi’s célèbre les fêtes de fin d’année avec sa campagne « Let’s Get Fuzzy » - J'ai un pote dans la com",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZTViSnNnR0VyZThuWkF1bWVia1JkeVRnZUsyNjZoMWI1V3RTNG9uVDNWMll0VzBJd25qb0VoVUpjNUxxSFdMZEthZWI4TnBtU2F3eUUtM2FNenRDaktvdHNyNkpRdGgtT3dRT0JEV25GXzg0SFVUN0ZBM2tGN0JIYk5GTFhMLW55cXAtUTdSOA",
-        "source": "J'ai un pote dans la com",
-        "date": "2026-11-06T15:31:35+00:00",
-        "section": "Campagnes créatives",
-        "sections": [
-          "Campagnes créatives"
-        ],
-        "query": "site:jai-un-pote-dans-la.com (campagne OR publicité OR marketing OR créativité)",
-        "channel": "Google Actualités",
-        "type": "article",
-        "editorial": {
-          "score": 46,
-          "tags": [
-            "campaign"
-          ],
-          "source_tier": 2,
-          "reason": "Idée de campagne ou dispositif créatif à explorer",
-          "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
-          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-        }
-      },
-      {
-        "title": "La publicité a-t-elle perdu son sens de l’humour ? Vincent Lobelle répond - La Réclame",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FNGh5S2wtOWtfVmhVcE0yRk9EVEo3VDcwaTZTNFRSQlZlTmY3V29iTTM4MzJsSjFDZGx6VDRlYjdteVp2YzRoOTVRU1FfMDJablFSTWstalAtRlA5Uy1xRW5tZi01TUNzT2FUaQ",
+        "title": "British Airways transforme les flaques londoniennes en fenêtres ouvertes sur le soleil - La Réclame",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9TTGRIUWY0NmxmMWsyWkhTbHZ3SUJiQVdhQWsxazRWc2pOYzRISm5KZ2tvcEY0NVdZWno5QUN0S2haR1U3Q3VNZ2w0VWZzcENWVXNsSVBwN28waGYxRkVISnowQzlRMFFsdVZWbUtPcFZ5eDBGY2Fz",
         "source": "La Réclame",
-        "date": "2026-11-06T11:29:35+00:00",
+        "date": "2026-11-07T14:33:46+00:00",
         "section": "Campagnes créatives",
         "sections": [
           "Campagnes créatives"
@@ -260,15 +122,15 @@
         }
       },
       {
-        "title": "Le S.E.L.L. et Biborg lancent une campagne pour rapprocher parents et enfants autour du jeu vidéo - J'ai un pote dans la com",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPazhKcGE0ZzQya19LanBsNTdudFZaQ0M0ZWswT1dwOEZrclM5bGxZM1QzVFh3RDBVWm1Dcl94dXNvRk5tdjRSYmoxcXhIUmJJYUJsLUI0WDRwQ0tLUHhIamhqa3RJQk1PdTU5dHNTMGVGQWdKaUFYcEJCcnhqZjAzM1BBTUFkTkxlRUc1NE50WldQZGJnenlVOGs0all2R2N6Mmc",
-        "source": "J'ai un pote dans la com",
-        "date": "2026-11-06T11:25:55+00:00",
+        "title": "TF1+ muscle son offre publicitaire pour 2027 - La Réclame",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SNkpxZ0JReE14YmE4MDVMYUpSRWFvOEVRSzNTalJzN0Jxa2dkYWlaaVRKSi15cEZQdmpveVh0RG5Gbjl4TU5IMVMwLU5oR1dkSzdWeVJyUQ",
+        "source": "La Réclame",
+        "date": "2026-11-07T14:17:10+00:00",
         "section": "Campagnes créatives",
         "sections": [
           "Campagnes créatives"
         ],
-        "query": "site:jai-un-pote-dans-la.com (campagne OR publicité OR marketing OR créativité)",
+        "query": "site:lareclame.fr (campagne OR publicité OR marketing OR créativité)",
         "channel": "Google Actualités",
         "type": "article",
         "editorial": {
@@ -283,33 +145,10 @@
         }
       },
       {
-        "title": "Stabilo et Kiko Milano transforment le célèbre surligneur en feutre à lèvres",
-        "url": "https://creapills.com/stabilo-kiko-milano-feutre-levreas-20261106",
-        "source": "Creapills",
-        "date": "2026-11-06T08:24:50+00:00",
-        "section": "Campagnes créatives",
-        "sections": [
-          "Campagnes créatives"
-        ],
-        "query": "Flux Creapills",
-        "channel": "RSS direct",
-        "type": "article",
-        "editorial": {
-          "score": 49,
-          "tags": [
-            "campaign"
-          ],
-          "source_tier": 1,
-          "reason": "Idée de campagne ou dispositif créatif à explorer",
-          "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
-          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-        }
-      },
-      {
-        "title": "Ce supermarché transforme les commentaires TikTok en bons d’achat (par Focalys) - La Réclame",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54dENuMi0zNDFmTUtpRllSS0xCaGVZU2laM0N2MS1BX2xSUktOSTNfU3VWd2w2X2tFekFJcGJWUnlWNDlSNjdab0lHUUNfbnJPY2pwaUx0Qy1XbmxFdlNmaUFpVE01LVk",
+        "title": "« Les 25 heures qui courent » : Clem Qui Court transforme Twitch en trail géant - La Réclame",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Gd3htcC1hT2UxZWxfZXBVVHBmREpsS2NGR29UMmIwMV9yTnMyR05EN2dLQWR4RWRoM2tsZ0diMFM2NWpfd0pUc1JrQ2ZyalAxWHc2MjgycmFoTElTRXdiUTFXUWZrcWFYa2JkeHA3X0ZsZw",
         "source": "La Réclame",
-        "date": "2026-11-06T05:39:57+00:00",
+        "date": "2026-11-07T10:49:41+00:00",
         "section": "Campagnes créatives",
         "sections": [
           "Campagnes créatives"
