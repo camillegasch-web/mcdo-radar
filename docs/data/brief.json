@@ -1,31 +1,7 @@
 {
-  "updated_at": "2026-11-08T08:12:39.238673+00:00",
+  "updated_at": "2026-11-09T08:37:07.643139+00:00",
   "sections": {
-    "France": [
-      {
-        "title": "« On veut du bio, pas du McDo » : la France contre les fast-food ? - Valeurs actuelles",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQME5BdzdBcDVaVG82T0h6eGJvVDdLTFp0QV84SURUVXU0S2s2U0VvNy1JcjFWd19rUnNVUTlXMXFrU2FKTzQtaExyV214NXNDZVhzbFBkV2dIWkFNUVhRMjJfUHJUX29CaWZTNWdKLUZsS3oyNnVoRm01Tm9Tdjh4bENwSGVQVnJzbmZHUTFzR2Z6ejdXWFdVdVRWMEZuRGc",
-        "source": "Valeurs actuelles",
-        "date": "2026-11-07T16:01:20+00:00",
-        "section": "France",
-        "sections": [
-          "France"
-        ],
-        "query": "McDonald's France actualité",
-        "channel": "Google Actualités",
-        "type": "article",
-        "editorial": {
-          "score": 50,
-          "tags": [
-            "impact"
-          ],
-          "source_tier": 3,
-          "reason": "Actualité McDo directement exploitable pour la veille",
-          "angle": "À creuser : quel impact sur l'image de McDo ?",
-          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-        }
-      }
-    ],
+    "France": [],
     "Local": [],
     "RH McDo": [],
     "Concurrence": [
@@ -55,6 +31,119 @@
     ],
     "Inspiration RH": [
       {
+        "title": "Violences conjugales en entreprise : Audrey Richard appelle les RH à agir",
+        "url": "https://myrhline.com/type-article/violences-conjugales-entreprise-role-rh/",
+        "source": "myRHline",
+        "date": "2026-11-09T07:03:55+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "Flux myRHline",
+        "channel": "RSS direct",
+        "type": "article",
+        "editorial": {
+          "score": 37,
+          "tags": [],
+          "source_tier": 2,
+          "reason": "Actualité sectorielle ou RH à qualifier",
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
+        "title": "5 formations pour maîtriser les outils de CRM et d’email marketing - BDM",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9JcnZYLTVYV3dCd1AwM1NjSW1lOXdHR2tzSmlOQm1vZ2h2T0FVVmlNZVNOMnRrMEROdFRfbU5JVVMtN0JKRHRickp2WTVOTVFoXzFkb3RpRXY4Y0FJMUFuclhmR0Q0ZXEzdzMyY0V3",
+        "source": "BDM",
+        "date": "2026-11-09T07:00:12+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "site:blogdumoderateur.com (campagne OR publicité OR marketing OR créativité)",
+        "channel": "Google Actualités",
+        "type": "article",
+        "editorial": {
+          "score": 41,
+          "tags": [
+            "impact"
+          ],
+          "source_tier": 3,
+          "reason": "Pratique RH ou marque employeur potentiellement transposable",
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
+        "title": "IA au travail : où en est la France par rapport au reste de l’UE ?",
+        "url": "https://www.helloworkplace.fr/ia-travail-france-union-europenne/",
+        "source": "HelloWorkplace / HelloWork",
+        "date": "2026-11-09T06:02:02+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "Flux HelloWorkplace / HelloWork",
+        "channel": "RSS direct",
+        "type": "article",
+        "editorial": {
+          "score": 56,
+          "tags": [
+            "studies"
+          ],
+          "source_tier": 1,
+          "reason": "Chiffres ou étude RH à vérifier avant publication",
+          "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
+        "title": "IA en entreprise : comment informer et former les salariés de terrain ?",
+        "url": "https://www.blogdumoderateur.com/ia-entreprise-informer-former-salaries-terrain/",
+        "source": "Blog du Modérateur",
+        "date": "2026-11-09T06:00:50+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "Flux Blog du Modérateur",
+        "channel": "RSS direct",
+        "type": "article",
+        "editorial": {
+          "score": 44,
+          "tags": [
+            "impact"
+          ],
+          "source_tier": 2,
+          "reason": "Pratique RH ou marque employeur potentiellement transposable",
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
+        "title": "Offre de contrat ou promesse d’embauche : ce que tout RH doit savoir",
+        "url": "https://culture-rh.com/offre-contrat-promesse-embauche/",
+        "source": "Culture RH",
+        "date": "2026-11-09T04:00:00+00:00",
+        "section": "Inspiration RH",
+        "sections": [
+          "Inspiration RH"
+        ],
+        "query": "Flux Culture RH",
+        "channel": "RSS direct",
+        "type": "article",
+        "editorial": {
+          "score": 47,
+          "tags": [
+            "impact"
+          ],
+          "source_tier": 1,
+          "reason": "Pratique RH ou marque employeur potentiellement transposable",
+          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
+          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
+        }
+      },
+      {
         "title": "Influenceurs RH : 5 nouvelles voix qui comptent, épisode 3",
         "url": "https://myrhline.com/type-article/influenceurs-rh-selection-redaction-episode-3/",
         "source": "myRHline",
@@ -74,94 +163,50 @@
           "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
           "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
         }
-      },
-      {
-        "title": "Pourquoi les marques doivent revoir leur façon de travailler avec les créateurs - La Réclame",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB6SElJeHVRdEdBRXFmUkQ3ejJKR2h1aWVFOGRsTFcwZUx5c1NIcVVqUHl4NHh6em5TZHRtUGhKS1VnVWVieF9IeUNLWlNRdGdZWkE5by1HR01UUm1iUnc",
-        "source": "La Réclame",
-        "date": "2026-11-07T14:22:24+00:00",
-        "section": "Inspiration RH",
-        "sections": [
-          "Inspiration RH"
-        ],
-        "query": "site:lareclame.fr (campagne OR publicité OR marketing OR créativité)",
-        "channel": "Google Actualités",
-        "type": "article",
-        "editorial": {
-          "score": 37,
-          "tags": [],
-          "source_tier": 2,
-          "reason": "Actualité sectorielle ou RH à qualifier",
-          "angle": "À creuser : en quoi cette pratique est-elle utile aux managers ?",
-          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-        }
       }
     ],
     "Campagnes créatives": [
       {
-        "title": "British Airways transforme les flaques londoniennes en fenêtres ouvertes sur le soleil - La Réclame",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9TTGRIUWY0NmxmMWsyWkhTbHZ3SUJiQVdhQWsxazRWc2pOYzRISm5KZ2tvcEY0NVdZWno5QUN0S2haR1U3Q3VNZ2w0VWZzcENWVXNsSVBwN28waGYxRkVISnowQzlRMFFsdVZWbUtPcFZ5eDBGY2Fz",
-        "source": "La Réclame",
-        "date": "2026-11-07T14:33:46+00:00",
+        "title": "Le gouvernement veut desserrer le décret de 1992 sur la publicité - Stratégies",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOODMySWRvOHhQYlh2dlBTN0hvRmh4ckhzMnRQQ0oyYXZsUUNZaWNDSWJBT2t3VlBrVGxGRmNoZFFCTHU3YVN2RFhLanNITHVrNEVOUGx5Q1RqU3JxbUU0VV8wVzZnem9Wc0Ftc0JfOFVHLTNMTkJWSEZFbXQ4TktQN29kZ3RwaEdLem9CdXBIZ0ptMnpndl9EMTNYd3VvZEVlbkgtRDNNUUo2Umd5WDcza2tZZ0RINGc3WWxsRHpjWVNXazQ",
+        "source": "Stratégies",
+        "date": "2026-11-09T04:30:00+00:00",
         "section": "Campagnes créatives",
         "sections": [
           "Campagnes créatives"
         ],
-        "query": "site:lareclame.fr (campagne OR publicité OR marketing OR créativité)",
+        "query": "site:strategies.fr (campagne OR publicité OR marketing OR créativité)",
         "channel": "Google Actualités",
         "type": "article",
         "editorial": {
-          "score": 46,
+          "score": 49,
           "tags": [
             "campaign"
           ],
-          "source_tier": 2,
+          "source_tier": 1,
           "reason": "Idée de campagne ou dispositif créatif à explorer",
           "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
           "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
         }
       },
       {
-        "title": "TF1+ muscle son offre publicitaire pour 2027 - La Réclame",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SNkpxZ0JReE14YmE4MDVMYUpSRWFvOEVRSzNTalJzN0Jxa2dkYWlaaVRKSi15cEZQdmpveVh0RG5Gbjl4TU5IMVMwLU5oR1dkSzdWeVJyUQ",
-        "source": "La Réclame",
-        "date": "2026-11-07T14:17:10+00:00",
+        "title": "Liverpool FC remercie ses supporters avec une campagne de Noël mondiale - CB News",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOUJhaDVsQld1US1ydkstbG9qeWhzTGpXWncyVXV1X0pUX3ZZakhmQzZKMVVDVWpVLVBTREdoMXBQU29RU0g2aURYSHJhZ0dxQXA2T1lqdHpwNFlKV3lWLVlEM0JzajlPekQxTmZWOHJQWEgzM29nSkNvZjBzdEJ6M29KV3BRZXdLYmhvQTdsWHh3MmVNNXplRkVn",
+        "source": "CB News",
+        "date": "2026-11-09T04:28:03+00:00",
         "section": "Campagnes créatives",
         "sections": [
           "Campagnes créatives"
         ],
-        "query": "site:lareclame.fr (campagne OR publicité OR marketing OR créativité)",
+        "query": "site:cbnews.fr (campagne OR publicité OR marketing OR créativité)",
         "channel": "Google Actualités",
         "type": "article",
         "editorial": {
-          "score": 46,
+          "score": 49,
           "tags": [
             "campaign"
           ],
-          "source_tier": 2,
-          "reason": "Idée de campagne ou dispositif créatif à explorer",
-          "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
-          "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."
-        }
-      },
-      {
-        "title": "« Les 25 heures qui courent » : Clem Qui Court transforme Twitch en trail géant - La Réclame",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Gd3htcC1hT2UxZWxfZXBVVHBmREpsS2NGR29UMmIwMV9yTnMyR05EN2dLQWR4RWRoM2tsZ0diMFM2NWpfd0pUc1JrQ2ZyalAxWHc2MjgycmFoTElTRXdiUTFXUWZrcWFYa2JkeHA3X0ZsZw",
-        "source": "La Réclame",
-        "date": "2026-11-07T10:49:41+00:00",
-        "section": "Campagnes créatives",
-        "sections": [
-          "Campagnes créatives"
-        ],
-        "query": "site:lareclame.fr (campagne OR publicité OR marketing OR créativité)",
-        "channel": "Google Actualités",
-        "type": "article",
-        "editorial": {
-          "score": 46,
-          "tags": [
-            "campaign"
-          ],
-          "source_tier": 2,
+          "source_tier": 1,
           "reason": "Idée de campagne ou dispositif créatif à explorer",
           "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?",
           "method": "Score automatique : titre, rubrique, date et source, sans lecture de l'article."

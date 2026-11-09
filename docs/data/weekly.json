@@ -1,19 +1,9 @@
 {
-  "updated_at": "2026-11-08T08:12:39.238673+00:00",
+  "updated_at": "2026-11-09T08:37:07.643139+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
   "items": [
-    {
-      "title": "« L’équipe n’en peut plus » : pourquoi cinq salariés du McDonald’s de Bar-sur-Aube ont fait grève samedi soir - L'Est éclair",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQY0ViN1RCSDhMQ0l2T3JuTkdGamRoTko4elZfNUZKN3ZUam9kUmNnZ3l1eTdUWk1PS05mM3MxcEIzNGdOZFRnN1RTaU0weklzd1d0NExCODBxZURGWWpvUG45QWtvTEpGZElMZ3g1dW9Va3NfU3dQSXRmODhoZlFwNHJjXzdwbjdPTHlIRlFmZF85bUlCVE1PNWNFSEw5d081bjl3SnNxb0pyRThsN2N3VzlMeFdZLTJJS3ZiaUVmdjd2NjFEVHZEdWs4RDQ",
-      "source": "L'Est éclair",
-      "date": "2026-11-01T10:55:36+00:00",
-      "section": "Signaux sensibles",
-      "score": 82,
-      "reason": "Signal sensible relatif à l'enseigne : vérification indispensable",
-      "angle": "À analyser : quels faits sont confirmés et quel est le contexte ?"
-    },
     {
       "title": "Malgré les protestations, McDonald’s poursuit son implantation à la campagne - Le Figaro",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMDE3ckFHamtUNjJRcnREa1VoU1NSaWtodGcwSUlYMWkxUzVTNkNhTzFCU1F2OGNBZ0dhcktqTjRUUi0tSUNEdm9fUmMzZVJES3VSNDRQVTR5RXh1UEZOUnZjcFpiQW1IODJlNFBqZ3gyNTZEblRFOUJ2TkxFOUlRS0d0RldzeWRjRUtkQVlIZnNrYklDRGNDc3NwbUpaT2tmZG51dW5qRzRlbUp5N2M2LVhCa0RyX3dIOFFWNmlIbThhalE",
@@ -90,6 +80,16 @@
       "source": "Le Courrier d'Espagne -",
       "date": "2026-11-05T15:20:30+00:00",
       "section": "Local",
+      "score": 58,
+      "reason": "Actualité McDo directement exploitable pour la veille",
+      "angle": "À creuser : quel impact sur l'image de McDo ?"
+    },
+    {
+      "title": "« Plus qu’un mois » : un restaurant McDonald’s ouvrira dans cette commune de moins de 4 000 habitants en Maine-et-Loire - maville.com",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPV2s5OUV1Vmh2WWI1WTZKMnlTazlJdGxnYUtWUzItVzhNc0VCSHlIWGFLN1hXbEhiNmI5S05hVmZHZVNuUzQ5N3pVNXQxNVo2VzB3M0hNV2U3QWZ1RlgtelhlSl9pTHotNlVBOFJ1ekdYc2JTNW9BU3Uzd3VBdkNyblE4N3NWUnZKY3YzdVlZczRMTUN6LXgxX2xneDZrMkJYalAzT1dwYXdHLXV3MzRkUHZzcWpNaUtSQm85ekhORHIyYXh5TnM2YTU4Y1lZdTNfNEJkXzloZ0VmeGNoVkF1S1JCcUFqdjJUWVFQZE51T3lPb0JFVkJ6NmxUbFNNTWx1ZHc",
+      "source": "maville.com",
+      "date": "2026-11-05T11:27:00+00:00",
+      "section": "France",
       "score": 58,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quel impact sur l'image de McDo ?"
