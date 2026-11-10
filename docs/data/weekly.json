@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T08:37:07.643139+00:00",
+  "updated_at": "2026-11-10T08:25:21.701325+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -45,16 +45,6 @@
       "angle": "À creuser : quel impact sur l'image de McDo ?"
     },
     {
-      "title": "«Journal de campagne numérique #1: comment les candidats parlent aux IA», Ronan Le Goff (La Netscouade) - Stratégies",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOLTBHUmlvN0dYV3FBTDE2RWZmaC1VSlp6Z0pBV0ZqZXVYZ05hT1REdC1PUTB2OW40cnZUVEhoUUR3aWZmSVdrWXcyYV9POUtpZC1nVHhtWFR3ZEV0VTF1SXFMeF8zUjBoWFBpZ005M1pOLTNveXpUX2VYWFNSQ1NfZUl0R0lKcnhseXFWeC13dUw2bG1acXBLdnJNVmxJSFlZcDBiZ0lfeTBfcXI1ZDVuMDRta1M1V2V3NEdsQUZBRmtNQVdKdXF6a3NrS3pFeXhVbEFWZHlwR2FSNTZ6UWNkaDRmMU1SVnV4MXdYemxhcw",
-      "source": "Stratégies",
-      "date": "2026-11-02T15:43:50+00:00",
-      "section": "Campagnes créatives",
-      "score": 64,
-      "reason": "Idée de campagne ou dispositif créatif à explorer",
-      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
-    },
-    {
       "title": "Découvrez la dernière étude sur les salaires des cadres - Apec",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVVJtYkpHU25YT3B3c214OEdQeFkzNndMdjFTSjNfU1hkcFhQeDhIMjRObHpaUHA4ZkdNRFVxbjNyMGpBTXA1dDA3X3FXaUNfdFZRUHpIZnFkMkt1TTN6NlpKV3RMbERYeVZCMm1YQUx3SDYwQ1QzenJEdzVKRkN4UFNPck1QNnFwRnJEV3RUM25ibmg0OThvVV9WMW1jMmI0bERlS01TdnI",
       "source": "Apec",
@@ -75,12 +65,22 @@
       "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
     },
     {
-      "title": "Franchise McDonald’s Espagne : combien ça coûte et comment ça marche - Le Courrier d'Espagne -",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNkE3YklJaVB0SjZfbnlnMXl6MlFORGIxNkVZQnVPM24xWThHdE9JMk1IZGVKUDBKUXg4OHJaeHhHeUJfeG1TblJKQmh1Z2ZyZ3BhaWV0Z3B4OXVFV19wUVNXUzBXZG9ZVGI3WWpLWk5qOWh2MDFmcU9qZG5ZOFN2NkJMNGh4dkNJdTdsRHo5dUFJdw",
-      "source": "Le Courrier d'Espagne -",
-      "date": "2026-11-05T15:20:30+00:00",
+      "title": "Teddy Riner candidat à la présidentielle : vraie campagne vs parodie de marque - INfluencia",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONnZPV1dRc1RNbHpVTUw1eHYyaloya0hqLWZUV0RxRFNEaHkzN0JzcWdLLVhlVnlOT3VsYlZkR1F1dkxqVVJ6TDlGRjNVbXJobmEyemxxRS16SXItalY0dWRwX3dzOVFPYXdMbHJtdUNkQUR1UU5EUlkwdGNfc0N1T3ViQ3k1LURYZ3Zzc1JZZWd6MHZ0UHgzYlJzbk1mejNIT1NiLWQxTXNPOTM2RU9Zejhn",
+      "source": "INfluencia",
+      "date": "2026-11-09T15:38:46+00:00",
+      "section": "Campagnes créatives",
+      "score": 61,
+      "reason": "Idée de campagne ou dispositif créatif à explorer",
+      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
+    },
+    {
+      "title": "Entre tradition et fast-food, le nouveau burger au Beaufort de McDonald's divise en Savoie - ici.fr",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONV9JTFhQVFpOTWtrZlpseE9Sc0ZIZGdUaHI0TndyR2ZvYVR0ZXpFRlhjV00wbktqRm1lMENWU3B2S1JDWFRkNXZTWlZ1NDR6bTUtRXgtTzByZWM0VU5OQzBOQ25jQ3JHZGg2VWZIVjAyaE84cURDQ05VZkxwQ2NpZXNYZDQtdWprTEtkVVVSdnhzMWN2c2JDVUViWFVUWWtDZENrMFRfbm9tVU1VSHpXblA2R2hEZ2pCc3V6NnJyQkVUb3M3YWpTNWxjRWxmVWktcVZHdW9GMnFNWFowbnZJUEs0MmNtVE9tdE1UUVlidUc0UQ",
+      "source": "ici.fr",
+      "date": "2026-11-09T05:32:30+00:00",
       "section": "Local",
-      "score": 58,
+      "score": 61,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quel impact sur l'image de McDo ?"
     },
@@ -95,12 +95,12 @@
       "angle": "À creuser : quel impact sur l'image de McDo ?"
     },
     {
-      "title": "Notre première campagne marque employeur ne promet ni confort ni sécurité. Elle promet de l’exigence. Et c’est assumé. On a commencé il y a quinze jours sur notre page LinkedIn, en publiant une vidéo de collaborateur NEPSEN chaque semaine. J’avoue - LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdE5uLWNXcmVCTTlVOWVSMnl2ZGxYaHpnRVBadFQ2RnBmVE9pdTdMVTRVZmN1cXhLMkxNRkZHREJTd0Z4b0hnSzlVdFRtb0tkTkh4QUw0NW4taGVnTzV3bzB6U2UycXhOSV9JY0I3YVZuRUUxb0ZqLXAxX2p1eF8xcW45TlpFckI5S185UXpuUjU4NDE2ZjFMbUU2cC1nQ3FGS1JrUW9xX3pxdThnLVRoSXJJMGtfa0g3M3Vvb2NrbGl4Y0R3TFE",
-      "source": "LinkedIn",
-      "date": "2026-11-02T16:54:34+00:00",
-      "section": "Inspiration RH",
-      "score": 58,
+      "title": "Le pilote de F1 Isack Hadjar prolonge sa collaboration avec Devialet - CB News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaExQYTUyVlQ1Ynl2STRLc2JIZG1LTWVWVVBTRkQ2OVpqWllRQXQtaXRJUUd0b2oxeFJqcG5zRXN3aU95LWFaSnRWcHI1X1VfS0ZoNnp5OXY2d0twRXBTS19GcjNpOUZtanBuMEMtVVRmZEZlREZleXJGSVVnTlJWaU8zM2wwZ25Qa0Vwa0g0TW4zZ1lWNVl3",
+      "source": "CB News",
+      "date": "2026-11-04T18:44:58+00:00",
+      "section": "Campagnes créatives",
+      "score": 57,
       "reason": "Idée de campagne ou dispositif créatif à explorer",
       "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
     }
