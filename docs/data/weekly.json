@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T08:25:40.333699+00:00",
+  "updated_at": "2026-11-14T14:10:52.916472+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -85,6 +85,16 @@
       "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
     },
     {
+      "title": "McDonald’s distribue le jus de ses cornichons aux coureurs contre les crampes",
+      "url": "https://www.danstapub.com/mcdonalds-pickle-boost-coureurs-cornichon/",
+      "source": "Dans Ta Pub",
+      "date": "2026-11-13T09:23:32+00:00",
+      "section": "France",
+      "score": 56,
+      "reason": "Actualité McDo directement exploitable pour la veille",
+      "angle": "À creuser : quel impact sur l'image de McDo ?"
+    },
+    {
       "title": "IA au travail : où en est la France par rapport au reste de l’UE ?",
       "url": "https://www.helloworkplace.fr/ia-travail-france-union-europenne/",
       "source": "HelloWorkplace / HelloWork",
@@ -93,16 +103,6 @@
       "score": 56,
       "reason": "Chiffres ou étude RH à vérifier avant publication",
       "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
-    },
-    {
-      "title": "Quelle est la musique de la pub McDonald’s « Croquez la France » 2026 ? - La Réclame",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xMzhKWlBobVJ0c0ROek1PaUZEaTljOXFfa3N6OTU2eWlmZkhjdE11X3hyLUJMLUk0ekU2b3U0S1FQb3l0Nm9GOFFabDhwZ1B6MlRsNy1KcFFpeFAwTjlzbUJlekJLa1BQdURv",
-      "source": "La Réclame",
-      "date": "2026-11-06T18:00:53+00:00",
-      "section": "France",
-      "score": 53,
-      "reason": "Actualité McDo directement exploitable pour la veille",
-      "angle": "À creuser : quel impact sur l'image de McDo ?"
     }
   ]
 }
