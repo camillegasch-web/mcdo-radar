@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T14:46:44.641881+00:00",
+  "updated_at": "2026-11-16T17:03:56.205677+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -25,24 +25,14 @@
       "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
     },
     {
-      "title": "Teddy Riner candidat à la présidentielle : vraie campagne vs parodie de marque - INfluencia",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONnZPV1dRc1RNbHpVTUw1eHYyaloya0hqLWZUV0RxRFNEaHkzN0JzcWdLLVhlVnlOT3VsYlZkR1F1dkxqVVJ6TDlGRjNVbXJobmEyemxxRS16SXItalY0dWRwX3dzOVFPYXdMbHJtdUNkQUR1UU5EUlkwdGNfc0N1T3ViQ3k1LURYZ3Zzc1JZZWd6MHZ0UHgzYlJzbk1mejNIT1NiLWQxTXNPOTM2RU9Zejhn",
-      "source": "INfluencia",
-      "date": "2026-11-09T15:38:46+00:00",
-      "section": "Campagnes créatives",
-      "score": 61,
-      "reason": "Idée de campagne ou dispositif créatif à explorer",
-      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
-    },
-    {
-      "title": "Entre tradition et fast-food, le nouveau burger au Beaufort de McDonald's divise en Savoie - ici.fr",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONV9JTFhQVFpOTWtrZlpseE9Sc0ZIZGdUaHI0TndyR2ZvYVR0ZXpFRlhjV00wbktqRm1lMENWU3B2S1JDWFRkNXZTWlZ1NDR6bTUtRXgtTzByZWM0VU5OQzBOQ25jQ3JHZGg2VWZIVjAyaE84cURDQ05VZkxwQ2NpZXNYZDQtdWprTEtkVVVSdnhzMWN2c2JDVUViWFVUWWtDZENrMFRfbm9tVU1VSHpXblA2R2hEZ2pCc3V6NnJyQkVUb3M3YWpTNWxjRWxmVWktcVZHdW9GMnFNWFowbnZJUEs0MmNtVE9tdE1UUVlidUc0UQ",
-      "source": "ici.fr",
-      "date": "2026-11-09T05:32:30+00:00",
-      "section": "Local",
-      "score": 61,
-      "reason": "Actualité McDo directement exploitable pour la veille",
-      "angle": "À creuser : quel impact sur l'image de McDo ?"
+      "title": "L'IA nous fait-elle vraiment gagner du temps ? Les résultats d'une étude sur 9 000 salariés surprennent - Siècle Digital",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOaFlBUFZPcVZkclBrbklid3BMWmZXT2Ztd1JZWWdkZ25fTGpYTFRIWkJtLXR0emh2ZDhVd2VRUmpDLUtmeFFKZTF3X3V2VVVZSk5kUXRpR0Q3WV9HczVSZnVKRF9zMi1ZVm05YjItc2FIM3ZQTEcwTEZsRjVUMFRGVDJlbUJkV2E4cHVhLXlUcERlalRSaXRjUjZaSzhMX0NTMkFIMDF4clBpZkZnSjNVaHBNLUJiQlZvOUNvSmFvU25VbFhJQThYUWJWbm9QdE9qSnc",
+      "source": "Siècle Digital",
+      "date": "2026-11-16T15:22:15+00:00",
+      "section": "Inspiration RH",
+      "score": 60,
+      "reason": "Chiffres ou étude RH à vérifier avant publication",
+      "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
     },
     {
       "title": "Présidentielle 2027 : ces 5 sujets que les DRH veulent imposer pendant la campagne",
@@ -95,14 +85,24 @@
       "angle": "À creuser : quel impact sur l'image de McDo ?"
     },
     {
-      "title": "IA au travail : où en est la France par rapport au reste de l’UE ?",
-      "url": "https://www.helloworkplace.fr/ia-travail-france-union-europenne/",
-      "source": "HelloWorkplace / HelloWork",
-      "date": "2026-11-09T06:02:02+00:00",
-      "section": "Inspiration RH",
-      "score": 56,
-      "reason": "Chiffres ou étude RH à vérifier avant publication",
-      "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
+      "title": "Le Kiosque à Pizzas récompensé pour sa créativité à Halloween 2026 - Toute la Franchise",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdW91aTBvcnkteGkzc0o1YmNaTGpLTFllWkpDRWc0M25helBXTFFHcE1LQzhGZDZPcnUxdkQxdkNNX3JrdHZ5Ql9RMFVkOE0xZGh6b1otVlE4YklpdEV2a0N2ZXA1T0VZZWQwOG0wUXhJWXpBSlBOTTRUNkhKQ0pWal9YQXRjOFAyR2J1M09ibDNzc2hBQXc",
+      "source": "Toute la Franchise",
+      "date": "2026-11-13T17:30:43+00:00",
+      "section": "Campagnes créatives",
+      "score": 51,
+      "reason": "Idée de campagne ou dispositif créatif à explorer",
+      "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
+    },
+    {
+      "title": "Le franchisé Julien Evora ouvre un Quick à Épinal et crée 60 emplois - La Gazette France",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVUJtSi03YUhZdWV6aERZYU43cENPdjJUazd2RDhZZ3FId1JfRlc2NmVSNloya2tab0JVbVllWnZINjJZdnZTQmkyY3MtcmM0YnFZS05faHc0VjVWb1ltZHdydWtzX3ptdkdtUkxobkxoVG5nNmY3cHdnQXpIeTJjWDJOVkZxN0MyQU9WS3RhTDd5Ri1UeEpLSjR1OVpzR0lPQ0FMWnRUUkFGclU",
+      "source": "La Gazette France",
+      "date": "2026-11-12T08:00:00+00:00",
+      "section": "Concurrence",
+      "score": 50,
+      "reason": "Signal concurrentiel à comparer à McDo",
+      "angle": "À creuser : que fait différemment cette enseigne ?"
     }
   ]
 }
