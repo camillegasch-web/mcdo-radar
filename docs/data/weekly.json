@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-11-17T16:54:54.474277+00:00",
+  "updated_at": "2026-11-18T16:28:43.567043+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
   "items": [
+    {
+      "title": "Les Glorieuses affichent l’inégalité salariale dans le métro parisien - Stratégies",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRnlwOXF4S3d2UkhEUHM1VVhvQ29WVElFWEdrZ2JFQnZULTdLRGZVTTJXaGl1aHF6OXhxTll2Wk1XdkZFa1VOci1oNU4yTldNa0NKaEZNVnlqbEpvVzBNYlpDVTl0Yi1CUkN5aFQ0LUpkTS02VGtPdW1pOElQZ0NmMGJQOHRVYmN6ZnlXN2ZvYk5xVUNJWlZiZzB6My1WLWZPSlpQWU85bXg3WFBZTGFyQm5ab3JvRzdRTVJ0WVh1Z1dpNkNuSWpJ",
+      "source": "Stratégies",
+      "date": "2026-11-17T11:15:57+00:00",
+      "section": "Campagnes créatives",
+      "score": 64,
+      "reason": "Idée de campagne ou dispositif créatif à explorer",
+      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
+    },
     {
       "title": "Arte retrace la carrière de Jean-Paul Goude , icône de la publicité - CB News",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRGpOT2duXzdLZUFHT2tkS3g5aDdjYVB4V2VkMGxxRG01YlM3NEdZSkZsdU1WSmFva0VDUlRvT0lGSTZqdnNGNU1ENE5EQkdKSkpOVVFndElKakswQks4UVRTYUFmMjRjSG9PaXVieFBNR3cwV2FlYXBjbEFHQjBrWGZjbERKQjNwalNJ",
@@ -45,6 +55,16 @@
       "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
     },
     {
+      "title": "EDP prévoit 1 GWh solaire par an pour 27 restaurants McDonald's au Portugal - Idéal Investisseur",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSl9lcUFSRl9qNTdVNDN5N09PNGVESXRjMm5XOXBSVkJtUExRS1pxM1lCY3N1RzE2anVfd09OMXkwOGhJbTM1OTlsdTRaQl84REdDb2xxSFpteVA2YUo1MDM5dVV5d282bmhuVTN6cHZjaVVISElLT1VPckM5Nkp2clFHNExxcENtMG55ZGVPUXExR0RVRGhZdkVkbW5TSFJYbTN5OTZTVVJCS0pBU05RcVpiSHJzd3hzcjFGRXpnQUxiWW9DUzZseg",
+      "source": "Idéal Investisseur",
+      "date": "2026-11-18T07:32:00+00:00",
+      "section": "Local",
+      "score": 58,
+      "reason": "Actualité McDo directement exploitable pour la veille",
+      "angle": "À creuser : quel impact sur l'image de McDo ?"
+    },
+    {
       "title": "Campagne de recrutement Air France - LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaXhpN0toVFZZRHVGdUtILU93TlBzVjVHR3NYNVBtOGliRDJ3UjR1ZUVhVmE3Ny1zRUZuSlAtWE9NQWhQRC1LVVNEUTFSWGNDb2ROanFwUTNhaWhRYVY1d2p3RVFxOUlZYkpWSzdnalNCTzVvRVRBQW0xQzI2NlZwdFl2eTJIME1XNDA5a2dVc1hPRjByeG5UU2dVSF9MNURWd2QxQ1NJRFlTWTFFeEE",
       "source": "LinkedIn",
@@ -75,32 +95,12 @@
       "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
     },
     {
-      "title": "GTA 6 : Heroiks déploie la campagne média nationale pour le retour de la franchise culte - Stratégies",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQalhaelh5M1IxSjU4MkFGTzZTd2FCX0I2SmhZWVU3VDdzc29aZjA2YzAxMGx3X1pBZFlsME5tSDBnUWRZU3VvX0Y3M0ZDcDJuOElCNmY5ZGl4QV9zUXJMd3pJeU01OU5uRGlOaDFJcGZNdEpZaDhoRGpnZXdzNUNjWWVCeDNXc0RNLWxoMEhzRjhmQklnX0JnQWM3TWxQZVRYWmNLWTBxV0haUmdxRFpyeFkwaUQ0amZmeFdOSmdsLTZuZUtacVEzWnU0OVotdUtEVURDTWk2Z2NXS2tiTWVBYg",
-      "source": "Stratégies",
-      "date": "2026-11-12T04:30:01+00:00",
-      "section": "Campagnes créatives",
-      "score": 57,
-      "reason": "Idée de campagne ou dispositif créatif à explorer",
-      "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
-    },
-    {
-      "title": "McDonald’s distribue le jus de ses cornichons aux coureurs contre les crampes",
-      "url": "https://www.danstapub.com/mcdonalds-pickle-boost-coureurs-cornichon/",
+      "title": "McDonald’s ressuscite « Maman, j’ai raté l’avion » dans un de ses restos pour Noël",
+      "url": "https://www.danstapub.com/mcdonalds-pub-noel-2026-maman-jai-rate-lavion/",
       "source": "Dans Ta Pub",
-      "date": "2026-11-13T09:23:32+00:00",
+      "date": "2026-11-18T13:58:57+00:00",
       "section": "France",
       "score": 56,
-      "reason": "Actualité McDo directement exploitable pour la veille",
-      "angle": "À creuser : quel impact sur l'image de McDo ?"
-    },
-    {
-      "title": "McDonald’s ressort ses mini radios des années 2000 avec Britney Spears, Avril Lavigne et Justin Bieber - La Réclame",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tUDk5SHR6ZnpSNFdQYmxBYjQ1V0JGZnd6eURZeFI3Y2ItVzE2WG9kSHZBaHAtUUo0bWd2Ri1CVXZlU0YxMENqNF9jdlJpMmpnWWZpVEM2d1EyaEtqX3E4MnBKX1VQbWtMdDlNUUkxcw",
-      "source": "La Réclame",
-      "date": "2026-11-16T17:32:05+00:00",
-      "section": "France",
-      "score": 53,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quel impact sur l'image de McDo ?"
     }
