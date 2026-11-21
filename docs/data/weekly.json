@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T16:10:41.500873+00:00",
+  "updated_at": "2026-11-21T15:23:52.827407+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -65,6 +65,16 @@
       "angle": "À creuser : quel impact sur l'image de McDo ?"
     },
     {
+      "title": "Burger King recrute Didier Deschamps comme sélectionneur… de ses burgers de Noël",
+      "url": "https://creapills.com/didier-deschamps-burger-king-noel-20261121",
+      "source": "Creapills",
+      "date": "2026-11-21T15:17:13+00:00",
+      "section": "Concurrence",
+      "score": 63,
+      "reason": "Signal concurrentiel à comparer à McDo",
+      "angle": "À creuser : que fait différemment cette enseigne ?"
+    },
+    {
       "title": "Chez Meta, Muse inquiète les salariés après des incidents impliquant des données confidentielles - Siècle Digital",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdDFFYVlwZ0ZkckczNUpKZzFTT2JZd3FuZENmbDk4ZHp2cnhrZWFUeDFJcW9VVnRicm9tbkVUNW9Ec0w1RGJTeUl6dVgyRTE3RU1tZmRJRWtqTkJ1MFNNUjJkQkUxVElhQ0xsci0tU1lCaVdfN3lWMnQ0ZmlRQ0tldFdnV3ktR3I0V2pTNnBsSkVKT2FJTzAwc0lCNjB2eGQ5MTh0bUNCd1BxY3BhaXJySFpTdmtFVlY0OGVaeUd5Y3pUZWEwNlc3eTBHMnI",
       "source": "Siècle Digital",
@@ -85,22 +95,12 @@
       "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
     },
     {
-      "title": "Campagne de recrutement Air France - LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaXhpN0toVFZZRHVGdUtILU93TlBzVjVHR3NYNVBtOGliRDJ3UjR1ZUVhVmE3Ny1zRUZuSlAtWE9NQWhQRC1LVVNEUTFSWGNDb2ROanFwUTNhaWhRYVY1d2p3RVFxOUlZYkpWSzdnalNCTzVvRVRBQW0xQzI2NlZwdFl2eTJIME1XNDA5a2dVc1hPRjByeG5UU2dVSF9MNURWd2QxQ1NJRFlTWTFFeEE",
+      "title": "Comment communiquer différemment sur le recrutement et dépasser les clichés sur l'usage de l'IA ? C'est tout le défi de notre campagne de rentrée pour recruter 600 talents IA ready chez Onepoint qui a retenu l'attention de Valentin Richardot pour J'ai un pot - LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWFJtZlVLaGtCR0JCX1JabVZ0QWpFNUJkdWVKUHV0SVlCekJQVzhkekNjazE2M1Z0eXpUcWpYMVJRYjQ0Z3lyYkxjTElQWnl6SC1EaUltZ2c0MHpXdU12amYwem1ic2JvUWtMWHJhWUNfbDlocm9rQ09NMXEwd1JURW9FY2lGQk9lcmtYdHJEa1ZmaTdxYlpwa1RockRSQXhrTm5KWVE3M0E5WkgtWnUzT0ZwZC1veXBxcWFSeU56X2xkZndxTjZNejFVM08",
       "source": "LinkedIn",
-      "date": "2026-11-16T14:04:14+00:00",
+      "date": "2026-11-18T07:38:09+00:00",
       "section": "Inspiration RH",
       "score": 58,
-      "reason": "Idée de campagne ou dispositif créatif à explorer",
-      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
-    },
-    {
-      "title": "COMMENT CREATORFEED™ TRANSFORME LE TALENT DES CRÉATEURS EN CONTENUS PERFORMANTS - Stratégies",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSmUtNXRITVZVOUNEeHhSeW8yY3Nyb2FSMGg2Y1RoZzVzNzIxX1R1LWpqclpPOXpKUGtRMGpoZURJTkVqVl9FT1I0ZWRoWlNnRTVENGFaT1ItTVdJRkxNenFtel93akExUHBUT2xtUmx3Zzhzckh6eWduMnRuRjVRS0tWX0hrWmNUdzN3MXozNmRwa2hyMUV3R081ektNb3dhLWdDUzlFUVA5UHJPT1Y5QXFOUFI3YW9p",
-      "source": "Stratégies",
-      "date": "2026-11-19T11:32:42+00:00",
-      "section": "Campagnes créatives",
-      "score": 57,
       "reason": "Idée de campagne ou dispositif créatif à explorer",
       "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
     }
