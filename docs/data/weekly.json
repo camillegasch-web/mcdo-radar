@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T19:15:37.815690+00:00",
+  "updated_at": "2026-11-24T18:54:43.312440+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -13,6 +13,16 @@
       "score": 86,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quelle preuve d'expérience collaborateur en tirer ?"
+    },
+    {
+      "title": "Burger King recrute Didier Deschamps pour sa campagne de Noël - Stratégies",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdWRiZ2lrZ2VObXFkTjg5dVZvaTZNMlJGc2ZOQXdyNVJPbHdQQXM3bDEwYmkyUUpzWVlGYVdVR01HOU5EOG1iUUxqVDZndFpJU3VkMDRBS1VnYzUweE5fNTVuWlVnSzU0dTNHWk9fN0l0SVM1eGRfb1B4WGxRTWFYdUZiclB2QnF2Y3h4Y1JXVFVWdzRkckc0YkJmd1FqWF8yUFI0MFBGNHU4WjA2Vkx4Vkl1c2FYMlJ2RjJVYmxxUQ",
+      "source": "Stratégies",
+      "date": "2026-11-24T10:00:01+00:00",
+      "section": "Campagnes créatives",
+      "score": 80,
+      "reason": "Signal concurrentiel à comparer à McDo",
+      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
     },
     {
       "title": "« Nous avons tous commencé par cuire des frites », entré équipier à 18 ans, Julien Canal ouvre le mardi 24 novembre son premier McDonald's près du Mans - L’Express Franchise",
@@ -35,30 +45,20 @@
       "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
     },
     {
-      "title": "Les Glorieuses affichent l’inégalité salariale dans le métro parisien - Stratégies",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRnlwOXF4S3d2UkhEUHM1VVhvQ29WVElFWEdrZ2JFQnZULTdLRGZVTTJXaGl1aHF6OXhxTll2Wk1XdkZFa1VOci1oNU4yTldNa0NKaEZNVnlqbEpvVzBNYlpDVTl0Yi1CUkN5aFQ0LUpkTS02VGtPdW1pOElQZ0NmMGJQOHRVYmN6ZnlXN2ZvYk5xVUNJWlZiZzB6My1WLWZPSlpQWU85bXg3WFBZTGFyQm5ab3JvRzdRTVJ0WVh1Z1dpNkNuSWpJ",
-      "source": "Stratégies",
-      "date": "2026-11-17T11:15:57+00:00",
-      "section": "Campagnes créatives",
-      "score": 64,
-      "reason": "Idée de campagne ou dispositif créatif à explorer",
-      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
+      "title": "McDonald’s France et CCI France renforcent leur partenariat en faveur de la formation, de l’emploi et des compétences dans les territoires - Chambre de commerce et d'industrie",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxORGxaRXJ2bmZVaUJCMk0xam9IOFREcHU1Uk94OHJybUxZaVJlZUlpZmw3SDU2djFRM1dfcEc5X3JFaEtMYTJoOW83ZnhHSDhTcThFU0lNRDIzdDVmOV9MWlZEN3pwWUZaQVJjd2FzemZxTEJOMXZNclNSbU9tVm00MTl0OWpiLVRJd2dSLWc0ZFhndDFQam1rN190OTR1a1FiVl9YdVRKV2xVeWgtQnNPUHFzM1QxaWFSN01fY1czR25GM1lmVVFCU0pseEpEcjhhcGt4SEhRVktIa1lsN3ZCSW9mUnhubDlqekhIRE5qS1VnUTFkem9PVA",
+      "source": "Chambre de commerce et d'industrie",
+      "date": "2026-11-24T17:19:10+00:00",
+      "section": "France",
+      "score": 72,
+      "reason": "Actualité McDo directement exploitable pour la veille",
+      "angle": "À creuser : quelle preuve d'expérience collaborateur en tirer ?"
     },
     {
       "title": "Burger King et Buzzman recrutent Didier Deschamps - CB News",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNci11eTFjTzNwM21QYVhvTktPRmgySE9idHMzZGNVOTVWS0w1MGpoSFRwT0JFV0pXOHFmV1NfWjc1R0Jkd3M3bDJSMkVjeFlGeW1uYktkRTBYR3pRblQyRWZkUlJkQjNoX2dPeERDTFhvSG1kTkJFNXh3WmRxbUk3R0xTNA",
       "source": "CB News",
       "date": "2026-11-22T11:50:10+00:00",
-      "section": "Concurrence",
-      "score": 63,
-      "reason": "Signal concurrentiel à comparer à McDo",
-      "angle": "À creuser : que fait différemment cette enseigne ?"
-    },
-    {
-      "title": "Burger King recrute Didier Deschamps comme sélectionneur… de ses burgers de Noël",
-      "url": "https://creapills.com/didier-deschamps-burger-king-noel-20261121",
-      "source": "Creapills",
-      "date": "2026-11-21T15:17:13+00:00",
       "section": "Concurrence",
       "score": 63,
       "reason": "Signal concurrentiel à comparer à McDo",
@@ -85,6 +85,16 @@
       "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
     },
     {
+      "title": "Un nouveau McDonald’s ouvre à Connerré… le prochain en Sarthe s’annonce déjà en 2027 - Ouest-France",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPc3JpbVBxWVFma2JyWDlXV3RaSUlESGs2Z1lCWjZ1akx6QksyR3ZVNmxtTzdET3hZUm5WSURxa1pDU1VMMktaU0hSTVJONW9YWG1DMHIzamptTEdRVldsNmR6dFFfXzBLa3FYU3RRYjVNMUh1WU5SR29IR2x2QXpDX3hzb2dMN2t5Y0hMVkpOeGluMzA5LXBWR0JUTVZPVWJQOFBveEZPa2JvanV0RDAxVEJkNEF3OUVIc1pucFRDNk44Q3lSbXlZYmhwOTh6bXJSeDFfYUxDdzFweVNUNXAyZlF3cmlMTS1DX3ctNFlrV0ZzcUM3SHJnSW10eDR4WTB0aFk2MTJFa2phZw",
+      "source": "Ouest-France",
+      "date": "2026-11-24T18:04:03+00:00",
+      "section": "France",
+      "score": 58,
+      "reason": "Actualité McDo directement exploitable pour la veille",
+      "angle": "À creuser : quel impact sur l'image de McDo ?"
+    },
+    {
       "title": "Comment communiquer différemment sur le recrutement et dépasser les clichés sur l'usage de l'IA ? C'est tout le défi de notre campagne de rentrée pour recruter 600 talents IA ready chez Onepoint qui a retenu l'attention de Valentin Richardot pour J'ai un pot - LinkedIn",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWFJtZlVLaGtCR0JCX1JabVZ0QWpFNUJkdWVKUHV0SVlCekJQVzhkekNjazE2M1Z0eXpUcWpYMVJRYjQ0Z3lyYkxjTElQWnl6SC1EaUltZ2c0MHpXdU12amYwem1ic2JvUWtMWHJhWUNfbDlocm9rQ09NMXEwd1JURW9FY2lGQk9lcmtYdHJEa1ZmaTdxYlpwa1RockRSQXhrTm5KWVE3M0E5WkgtWnUzT0ZwZC1veXBxcWFSeU56X2xkZndxTjZNejFVM08",
       "source": "LinkedIn",
@@ -93,16 +103,6 @@
       "score": 58,
       "reason": "Idée de campagne ou dispositif créatif à explorer",
       "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
-    },
-    {
-      "title": "EDP prévoit 1 GWh solaire par an pour 27 restaurants McDonald's au Portugal - Idéal Investisseur",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSl9lcUFSRl9qNTdVNDN5N09PNGVESXRjMm5XOXBSVkJtUExRS1pxM1lCY3N1RzE2anVfd09OMXkwOGhJbTM1OTlsdTRaQl84REdDb2xxSFpteVA2YUo1MDM5dVV5d282bmhuVTN6cHZjaVVISElLT1VPckM5Nkp2clFHNExxcENtMG55ZGVPUXExR0RVRGhZdkVkbW5TSFJYbTN5OTZTVVJCS0pBU05RcVpiSHJzd3hzcjFGRXpnQUxiWW9DUzZseg",
-      "source": "Idéal Investisseur",
-      "date": "2026-11-18T07:32:00+00:00",
-      "section": "Local",
-      "score": 58,
-      "reason": "Actualité McDo directement exploitable pour la veille",
-      "angle": "À creuser : quel impact sur l'image de McDo ?"
     }
   ]
 }
