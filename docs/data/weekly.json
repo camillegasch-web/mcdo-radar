@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T17:44:25.711567+00:00",
+  "updated_at": "2026-11-27T17:28:42.205732+00:00",
   "period_days": 7,
   "count": 10,
   "method": "Top 10 de suggestions automatiques, fondées sur les titres, rubriques, sources et dates. À valider.",
@@ -25,16 +25,6 @@
       "angle": "À creuser : quelle preuve d'expérience collaborateur en tirer ?"
     },
     {
-      "title": "McDonald’s transforme son sac à emporter… en bavoir",
-      "url": "https://creapills.com/mcdonalds-sac-bavoir-mcrib-bib-20261120",
-      "source": "Creapills",
-      "date": "2026-11-20T11:05:30+00:00",
-      "section": "Campagnes créatives",
-      "score": 73,
-      "reason": "Actualité McDo directement exploitable pour la veille",
-      "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
-    },
-    {
       "title": "McDonald’s France et CCI France renforcent leur partenariat en faveur de la formation, de l’emploi et des compétences dans les territoires - Chambre de commerce et d'industrie",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxORGxaRXJ2bmZVaUJCMk0xam9IOFREcHU1Uk94OHJybUxZaVJlZUlpZmw3SDU2djFRM1dfcEc5X3JFaEtMYTJoOW83ZnhHSDhTcThFU0lNRDIzdDVmOV9MWlZEN3pwWUZaQVJjd2FzemZxTEJOMXZNclNSbU9tVm00MTl0OWpiLVRJd2dSLWc0ZFhndDFQam1rN190OTR1a1FiVl9YdVRKV2xVeWgtQnNPUHFzM1QxaWFSN01fY1czR25GM1lmVVFCU0pseEpEcjhhcGt4SEhRVktIa1lsN3ZCSW9mUnhubDlqekhIRE5qS1VnUTFkem9PVA",
       "source": "Chambre de commerce et d'industrie",
@@ -43,6 +33,16 @@
       "score": 72,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quelle preuve d'expérience collaborateur en tirer ?"
+    },
+    {
+      "title": "Le badge « Open to Work » de LinkedIn détourné en demande d’égalité salariale",
+      "url": "https://creapills.com/opentoequalpay-badge-linkedin-egalite-salariale-20261127",
+      "source": "Creapills",
+      "date": "2026-11-27T09:01:48+00:00",
+      "section": "Campagnes créatives",
+      "score": 64,
+      "reason": "Idée de campagne ou dispositif créatif à explorer",
+      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
     },
     {
       "title": "Actualités McDonald's : Info en direct - Vidéos et images , page 9 - Actu.fr",
@@ -85,16 +85,6 @@
       "angle": "À creuser : quel format ou dispositif inspirant pour McDo ?"
     },
     {
-      "title": "Chez Meta, Muse inquiète les salariés après des incidents impliquant des données confidentielles - Siècle Digital",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdDFFYVlwZ0ZkckczNUpKZzFTT2JZd3FuZENmbDk4ZHp2cnhrZWFUeDFJcW9VVnRicm9tbkVUNW9Ec0w1RGJTeUl6dVgyRTE3RU1tZmRJRWtqTkJ1MFNNUjJkQkUxVElhQ0xsci0tU1lCaVdfN3lWMnQ0ZmlRQ0tldFdnV3ktR3I0V2pTNnBsSkVKT2FJTzAwc0lCNjB2eGQ5MTh0bUNCd1BxY3BhaXJySFpTdmtFVlY0OGVaeUd5Y3pUZWEwNlc3eTBHMnI",
-      "source": "Siècle Digital",
-      "date": "2026-11-20T11:12:38+00:00",
-      "section": "Inspiration RH",
-      "score": 60,
-      "reason": "Chiffres ou étude RH à vérifier avant publication",
-      "angle": "À creuser : que révèle cette étude pour l'attractivité des métiers ?"
-    },
-    {
       "title": "Un nouveau McDonald’s ouvre à Connerré… le prochain en Sarthe s’annonce déjà en 2027 - Ouest-France",
       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPc3JpbVBxWVFma2JyWDlXV3RaSUlESGs2Z1lCWjZ1akx6QksyR3ZVNmxtTzdET3hZUm5WSURxa1pDU1VMMktaU0hSTVJONW9YWG1DMHIzamptTEdRVldsNmR6dFFfXzBLa3FYU3RRYjVNMUh1WU5SR29IR2x2QXpDX3hzb2dMN2t5Y0hMVkpOeGluMzA5LXBWR0JUTVZPVWJQOFBveEZPa2JvanV0RDAxVEJkNEF3OUVIc1pucFRDNk44Q3lSbXlZYmhwOTh6bXJSeDFfYUxDdzFweVNUNXAyZlF3cmlMTS1DX3ctNFlrV0ZzcUM3SHJnSW10eDR4WTB0aFk2MTJFa2phZw",
       "source": "Ouest-France",
@@ -103,6 +93,16 @@
       "score": 58,
       "reason": "Actualité McDo directement exploitable pour la veille",
       "angle": "À creuser : quel impact sur l'image de McDo ?"
+    },
+    {
+      "title": "Payfit transforme une gestionnaire RH en star de film d’action avec Steve",
+      "url": "https://www.danstapub.com/payfit-steve-campagne-florence-rh-film-action/",
+      "source": "Dans Ta Pub",
+      "date": "2026-11-26T14:38:27+00:00",
+      "section": "Campagnes créatives",
+      "score": 57,
+      "reason": "Idée de campagne ou dispositif créatif à explorer",
+      "angle": "À creuser : quelle mécanique créative appliquer à un recrutement McDo ?"
     }
   ]
 }
